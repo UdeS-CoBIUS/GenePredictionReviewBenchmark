@@ -1,4 +1,4 @@
-# An Overview of Computational Methods for Gene Prediction in Eukaryotes: Strengths, Limitations, and Future Directions. 
+# An Overview of Computational Methods for Gene Prediction in Eukaryotes
 
 
 <!-- OVERVIEW -->
@@ -37,21 +37,21 @@ The benchmarck program was both developed and tested on a system operating Ubunt
 <!-- Getting started -->
 <h2 id="getting-started"> :rocket: Getting Started with the benchmark</h2>
 
-* Step 1: Clone the repository with GitHub CLI. or using the command 
+* Step 1: Clone the repository with GitHub CLI or using the command 
 <pre><code> git clone https://github.com/UdeS-CoBIUS/GenePredictionReviewBenchmark.git</code></pre>
 
 * Step 2: Install the prerequisites tools with the command <pre><code> ... </code></pre>
 
-* Step 3: Retrieve data from and source codes from repository. You don't have to follow the instructions in this step 3 if you have already cloned the repository in the step 1. 
+* Step 3: Retrieve data and source codes from external repositories. You don't have to follow the instructions in this step 3 if you have already cloned the repository in step 1. 
 
-    * Access and Download the gitlab project of Nicolas Scalzitti and al <a href="https://forge.icube.unistra.fr/n.scalzitti/g3po"> here </a> or clone the repository with the command 
+    * Access and Download the gitlab project of `Nicolas Scalzitti and al` <a href="https://forge.icube.unistra.fr/n.scalzitti/g3po"> here </a> or clone the repository with the command 
 
     <pre><code> git clone https://icube-forge.unistra.fr/n.scalzitti/g3po.git </code></pre>
 
     * Extract the repository `g3po-main.tar.gz`and replace some files that have been updated by using the following commands:
 
     <pre><code> 
-    #description
+    #[description/changes to add here]
     mv utils/launch_prediction2.py g3po-main/src/. </code></pre>
 
 
