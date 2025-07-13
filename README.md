@@ -96,7 +96,7 @@ To make sure your environment is set up correctly and that the tools (Augustus a
 
 The console should run without any errors. If you do see any, please revisit the <a href="#getting-started">relevant section</a> and double-check that all the steps were completed correctly.
 
-<pre><img src="assets/images/output_main_test.png"  style="width:900px, height:600px"/></pre>
+<pre><img src="assets/images/output_main_test.png"  style="width:900px, height:800px"/></pre>
 
 <!-- Main benchmark -->
 <h3 id="main"> :computer: Benchmark</h3>
@@ -109,7 +109,7 @@ To compute the metrics for comparison of the tools (mainly augustus and Helixer)
 
 <h4> Output expected </h4>
 
-<pre><img src="assets/images/output_main.png" style="width:900px, height:600px"/></pre>
+<pre><img src="assets/images/output_main.png" style="width:900px, height:800px"/></pre>
 
 
 <h4> Data inputs </h4>
