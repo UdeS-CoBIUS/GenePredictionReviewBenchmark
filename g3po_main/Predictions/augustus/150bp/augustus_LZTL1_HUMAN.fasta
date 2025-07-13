@@ -1,0 +1,72 @@
+# This output was generated with AUGUSTUS (version 3.5.0).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth, Katharina Hoff, Henry Mehlan and Daniel Honsel.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /home/local/USHERBROOKE/ouew2201/Documents/GenePredictionReviewBenchmark/g3po_main/References/Fasta_confirmed/150bp/LZTL1_HUMAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 93027, name = LZTL1_HUMAN|ENSG00000163818|Q9NQ48) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	gene	13862	21259	1	-	.	g1
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	transcript	13862	21259	.	-	.	g1.t1
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	stop_codon	13862	13864	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	13862	14061	.	-	2	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	14444	15383	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	21239	21259	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	start_codon	21257	21259	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MTPTDFTSPIPNMADDYGSESTSSMEDYVNFNFTDFYCEKNNVRQFASHFLPPLYWLVFIVGALGNSLVILVYWYCTR
+# VKTMTDMFLLNLAIADLLFLVTLPFWAIAAADQWKFQTFMCKVVNSMYKMNFYSCVLLIMCISVDRYIAIAQAMRAHTWREKRLLYSKMVCFTIWVLA
+# AALCIPEILYSQIKEESGIAICTMVYPSDESTKLKSAVLTLKVILGFFLPFVVMACCYTIIIHTLIQAKKSSKHKALKVTITVLTVFVLSQFPYNCIL
+# LVQTIDAYAMFISNCAVSTNIDICFQVTQTIAFFHSCLNPVLYVFVGGLRTGTVEHPGFATRRSINAAASGGALGFSPCTVNFCGFSSHAASSKRGHR
+# STGCCYRPQKQKVS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 10
+#     RM:  10 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	gene	74202	89879	1	+	.	g2
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	transcript	74202	89879	.	+	.	g2.t1
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	start_codon	74202	74204	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	74202	74204	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	78142	78266	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	80409	80603	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	81895	81955	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	83072	83143	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	85055	85120	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	85203	85280	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	87578	87754	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	88731	88837	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	CDS	89861	89879	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+LZTL1_HUMAN|ENSG00000163818|Q9NQ48	AUGUSTUS	stop_codon	89877	89879	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAELGLNEHHQNEVINYMRFARSKRGLRLKTVDSCFQDLKESRLVEDTFTIDEVSEVLNGLQAVVHSEVESELINTAY
+# TNVLLLRQLFAQAEKWYLKLQTDISELENRELLEQVAEFEKAEITSSNKKPILDVTKPKLAPLNEGGTAELLNKEILRLQEENEKLKSRLKTIEIQAT
+# NALDEKSKLEKALQDLQLDQGNQKDFIKAQDLSNLENTVAALKSEFQKTLNDKTENQKSLEENLATAKHDLLRVQEQLHMAEKQELEKKFQQTAAYRN
+# MKEILTKKNDQIKDLRKRLAQYEPED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 27
+#     RM:  27 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /home/local/USHERBROOKE/ouew2201/Documents/GenePredictionReviewBenchmark/g3po_main/References/Fasta_confirmed/150bp/LZTL1_HUMAN.fasta
