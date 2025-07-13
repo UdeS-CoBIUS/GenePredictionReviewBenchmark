@@ -62,22 +62,23 @@ The benchmarck program was both developed and tested on a system operating Ubunt
     * Extract the repository `g3po-main.tar.gz`and replace some files that have been updated by using the following commands:
 
     <pre><code> 
-    #[description/changes to add here]
-    mv utils/launch_prediction2.py g3po-main/src/. 
+
+    '''Changes are made in launch_prediction'''
+    mv utils/launch_prediction.py g3po-main/src/. 
     
-    #[description/changes to add here]
+    '''Sequences used in the benchmark'''
     mv utils/Fasta_confirmed g3po-main/References/.
 
-    #[description/changes to add here]
+    '''Changes are made in models.csv'''
     mv utils/models.csv g3po-main/Models/.
 
-    #[description/changes to add here]
+    '''Changes are made in convert2gar.py'''
     mv utils/convert2gar.py g3po-main/src/.
 
-    #[description/changes to add here]
+    '''Changes are made in compar_lvl_nuc.py'''
     mv utils/compar_lvl_nuc.py g3po-main/src/.
 
-    #[description/changes to add here]
+    '''Changes are made in compar_lvl_exon.py'''
     mv utils/compar_lvl_exon.py g3po-main/src/.
     
     </code></pre>  
@@ -101,6 +102,11 @@ The console should run without any errors. If you do see any, please revisit the
 To compute the metrics for comparison of the tools (mainly augustus and Helixer), for all the data, consider using the command below. Make sure you have <a href='https://docs.pytest.org/en/stable/getting-started.html'><code>pytest</code></a> installed in your environment, and that you are in the project's root directory.
 
 <pre><code> pytest -v src/main.py</code></pre>
+
+<h4> Output expected </h4>
+
+<pre><img src="assets/images/output_main.png"/></pre>
+
 
 <h4> Data inputs </h4>
 
@@ -143,3 +149,8 @@ All files in the g3po_main folder follow the guidelines described in <a href="ht
     * output : The file results.csv contains the mean of all results stored in the folders Calculs, Details and Boundaries.All those folder and results.csv are stored in ``g3po_main/Resultats/exon/helixer`` directory.
 
 <h4> All the outputs used in the benchmark </h4>
+
+
+
+
+
