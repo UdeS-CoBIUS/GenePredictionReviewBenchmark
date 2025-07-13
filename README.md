@@ -80,7 +80,7 @@ The benchmarck program was both developed and tested on a system operating Ubunt
 
     '''Changes are made in compar_lvl_exon.py'''
     mv utils/compar_lvl_exon.py g3po-main/src/.
-    
+
     </code></pre>  
 
 <!-- Test -->
@@ -88,7 +88,7 @@ The benchmarck program was both developed and tested on a system operating Ubunt
 
 To make sure your environment is set up correctly and that the tools (Augustus and Helixer) are working as expected, you can run the command below. Just make sure you have <a href="https://docs.pytest.org/en/stable/getting-started.html">``pytest``</a> installed in your environment as well, and that you are in the project's root directory.
 
-<pre><code> pytest -v src/main_test.py</code></pre>
+<pre><code> pytest -v main_test.py</code></pre>
 
 The console should run without any errors. If you do see any, please revisit the <a href="#getting-started">relevant section</a> and double-check that all the steps were completed correctly.
 
@@ -101,7 +101,7 @@ The console should run without any errors. If you do see any, please revisit the
 
 To compute the metrics for comparison of the tools (mainly augustus and Helixer), for all the data, consider using the command below. Make sure you have <a href='https://docs.pytest.org/en/stable/getting-started.html'><code>pytest</code></a> installed in your environment, and that you are in the project's root directory.
 
-<pre><code> pytest -v src/main.py</code></pre>
+<pre><code> pytest -v main.py</code></pre>
 
 <h4> Output expected </h4>
 
