@@ -42,6 +42,8 @@ The benchmarck program was both developed and tested on a system operating Ubunt
 <!-- Getting started -->
 <h2 id="getting-started"> :rocket: Getting Started with the benchmark</h2>
 
+We recommend creating a dedicated Python environment to avoid dependency conflicts and ensure reproducibility.
+
 * Step 1: Clone the repository with GitHub CLI or using the command 
 <pre><code> git clone https://github.com/UdeS-CoBIUS/GenePredictionReviewBenchmark.git</code></pre>
 
@@ -50,7 +52,7 @@ The benchmarck program was both developed and tested on a system operating Ubunt
     <pre><code> sudo apt install augustus augustus-data augustus-doc </code></pre>
 
     * <a href="https://github.com/weberlab-hhu/Helixer?tab=readme-ov-file">``Helixer``</a>.
-    Due to the deprecated of the module tensorflow-addons, please, consider the following command after installation of ``Helixer``.
+    Due to the deprecated of the module tensorflow-addons, please, consider the following command after installation of ``Helixer``. To ensure proper execution of the scripts, the Helixer folder must be accessible from the project's root directory.
     <pre><code> mv utils/HelixerModel.py Helixer/helixer/prediction/. </code></pre>
 
 * Step 3: Retrieve data and source codes from external repositories. You don't have to follow the instructions in this step 3 if you have already cloned the repository in step 1. 
@@ -118,19 +120,19 @@ All files in the g3po_main folder follow the guidelines described in <a href="ht
 
 <h4> Test descriptions and outputs </h4>
 
-* `test_prediction_augustus` operates by the file launch_prediction.py.
+* `test_prediction_augustus` operated by the file launch_prediction.py.
     * description : Predictions using augustus
     * output : The predictions are generated and stored in ``g3po_main/Predictions/augustus`` directory.
 
-* `test_prediction_helixer` operates by the file launch_prediction.py.
+* `test_prediction_helixer` operated by the file launch_prediction.py.
     * description : Generate predictions using helixer
     * output : The predictions are generated and stored in ``g3po_main/Predictions/helixer`` directory.
 
-* `test_conversion_predictions_augustus_to_gar` operates by the file convert2gar.py.
+* `test_conversion_predictions_augustus_to_gar` operated by the file convert2gar.py.
     * description : Convert the specific prediction format of augustus to the .gar format.
     * output : The new files are generated and stored in ``g3po_main/Predictions/Exon_maps/augustus`` directory.
 
-* `test_conversion_predictions_helixer_to_gar` operates by the file convert2gar.py.
+* `test_conversion_predictions_helixer_to_gar` operated by the file convert2gar.py.
     * description : Convert the specific prediction format of helixer to the .gar format.
     * output : The new files are generated and stored in ``g3po_main/Predictions/Exon_maps/helixer`` directory.
 
