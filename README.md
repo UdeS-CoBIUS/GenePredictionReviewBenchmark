@@ -83,6 +83,8 @@ The benchmarck program was both developed and tested on a system operating Ubunt
 
     </code></pre>  
 
+    * Rename the directory `g3po-main` to `g3po_main`.
+
 <!-- Test -->
 <h3 id="test"> :computer: Example for testing your environment</h3>
 
