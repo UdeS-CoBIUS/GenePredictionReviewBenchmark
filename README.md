@@ -87,6 +87,7 @@ We recommend creating a dedicated Python environment to avoid dependency conflic
     </code></pre>  
 
     * Rename the directory `g3po-main` to `g3po_main`.
+---
 
 <!-- Test -->
 <h3 id="test"> :computer: Example for testing your environment</h3>
@@ -100,6 +101,8 @@ The console should run without any errors. If you do see any, please revisit the
 <pre><img src="assets/images/output_main_test.png"  style="width:900px, height:800px"/></pre>
 
 The data outputs for this specific test are stored in `Test\`. We only use the fasta sequence `B3M138_DROAN.fasta` as input.
+
+---
 
 <!-- Main benchmark -->
 <h3 id="main"> :computer: Benchmark</h3>
@@ -154,6 +157,8 @@ All files in the g3po_main folder follow the guidelines described in <a href="ht
 * `test_comparison_exon_level_for_helixer` operated by the file compar_lvl_exon.py.
     * description : Calculate the sensitivity, specificity, missingExon, wrongExon, % of correct donor and acceptor sites for helixer predictions
     * output : The file results.csv contains the mean of all results stored in the folders Calculs, Details and Boundaries.All those folder and results.csv are stored in ``g3po_main/Resultats/exon/helixer`` directory.
+
+---
 
 <h3 id="data"> Data Results</h3>
 
