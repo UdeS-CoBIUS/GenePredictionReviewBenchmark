@@ -2,9 +2,8 @@
 
 
 <!-- OVERVIEW -->
-<h3 id="overview"> Overview </h3>
 
-[To complete. Can add an image if necessary]
+
 
 > :busts_in_silhouette: __Authors__* `Abigail Djossou and al.`, CoBIUS LAB, Department of Computer Science, Faculty of Science, Université de Sherbrooke, Sherbrooke, Canada*
 
@@ -12,10 +11,9 @@
 
 > :e-mail: `Contact: abigail.djossou@usherbrooke.ca`
 
-1. [➤ Overview](#overview)
-2. [➤ Operating System](#os)
-3. [➤ Requirements](#requirements)
-4. [➤ Getting Started](#getting-started)
+1. [➤ Operating System](#os)
+2. [➤ Requirements](#requirements)
+3. [➤ Getting Started](#getting-started)
     1. [➤ Example for testing your environment](#test)
     2. [➤ Benchmark](#main)
     2. [➤ Data Results](#data)
