@@ -24,7 +24,7 @@
 
 <!-- Operating System -->
 <h3 name="os">Operating System</h3>
-The benchmarck program was both developed and tested on a system operating Ubuntu version 24.04.6 LTS.
+The benchmarck program was both developed and tested on a system operating Ubuntu version 24.04 LTS.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
