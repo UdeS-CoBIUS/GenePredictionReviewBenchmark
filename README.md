@@ -117,14 +117,14 @@ To compute the metrics for comparison of the tools (mainly augustus and Helixer)
 
 <h4> Data inputs </h4>
 
-We used the dataset proposed in <a href="https://forge.icube.unistra.fr/n.scalzitti/g3po"> the project G3PO</a> that represents over 800 sequences from a wide range of species. The data are stored in the ``g3po_main/References/Fasta_confirmed`` directory.
+We used the dataset proposed in <a href="https://forge.icube.unistra.fr/n.scalzitti/g3po"> the G3PO project</a> that represents over 800 sequences from a wide range of species. The data are stored in the ``g3po_main/References/Fasta_confirmed`` directory.
 
-All files in the g3po_main folder follow the guidelines described in <a href="https://forge.icube.unistra.fr/n.scalzitti/g3po">the project G3PO </a>. For instance, you can retrieve the specific species list in ``g3po_main/Sequences_types`` directory.
+All files in the g3po_main folder follow the guidelines described in <a href="https://forge.icube.unistra.fr/n.scalzitti/g3po">the G3PO project</a>. For instance, you can retrieve the specific species list in ``g3po_main/Sequences_types`` directory.
 
 <h4> Test descriptions and outputs </h4>
 
 * `test_prediction_augustus` operated by the file launch_prediction.py.
-    * description : Predictions using augustus
+    * description : Generate predictions using augustus
     * output : The predictions are generated and stored in ``g3po_main/Predictions/augustus`` directory.
 
 * `test_prediction_helixer` operated by the file launch_prediction.py.
