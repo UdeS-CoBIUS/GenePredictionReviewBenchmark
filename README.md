@@ -16,8 +16,9 @@
 2. [➤ Operating System](#os)
 3. [➤ Requirements](#requirements)
 4. [➤ Getting Started](#getting-started)
-    1. [➤ Example for testing your environment](#main)
+    1. [➤ Example for testing your environment](#test)
     2. [➤ Benchmark](#main)
+    2. [➤ Data Results](#data)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -38,6 +39,8 @@ The benchmarck program was both developed and tested on a system operating Ubunt
 *   __`pandas`__
 *   __`tensorflow`__
 *   __`h5py`__
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- Getting started -->
 <h2 id="getting-started"> :rocket: Getting Started with the benchmark</h2>
@@ -152,9 +155,14 @@ All files in the g3po_main folder follow the guidelines described in <a href="ht
     * description : Calculate the sensitivity, specificity, missingExon, wrongExon, % of correct donor and acceptor sites for helixer predictions
     * output : The file results.csv contains the mean of all results stored in the folders Calculs, Details and Boundaries.All those folder and results.csv are stored in ``g3po_main/Resultats/exon/helixer`` directory.
 
-<h4> All the outputs used in the benchmark </h4>
+<h3 id="data"> Data Results</h3>
 
+We added the results of `Sensor-NN` to our benchmark that includes `Augustus`, `Helixer`, `GenSCan`, `GeneID`, `GlimmerHMM` and `SNAP`. We used the results already computed in <a href="https://forge.icube.unistra.fr/n.scalzitti/g3po"> `G3PO`</a> for the last four tools.
 
+You can install `Sensor-NN` by using the <a href="https://github.com/BioMolecularPhysicsGroup-UNCC/MachineLearning/tree/master/NN_gene_prediction"> link</a>.
 
+The outputs of the prediction for Helixer and Augustus are available in `/data_results/Predictions` directory. The results and images of our benchmark are stored in `data_results/Results`.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
