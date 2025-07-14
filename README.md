@@ -99,6 +99,8 @@ The console should run without any errors. If you do see any, please revisit the
 
 <pre><img src="assets/images/output_main_test.png"  style="width:900px, height:800px"/></pre>
 
+The data outputs for this specific test are stored in `Test\`. We only use the fasta sequence `B3M138_DROAN.fasta` as input.
+
 <!-- Main benchmark -->
 <h3 id="main"> :computer: Benchmark</h3>
 
