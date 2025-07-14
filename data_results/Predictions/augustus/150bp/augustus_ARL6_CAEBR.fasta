@@ -1,0 +1,54 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# caenorhabditis version. Using species specific transition matrix: /usr/share/augustus/config/species/caenorhabditis/caenorhabditis_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/ARL6_CAEBR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 1270, name = ARL6_CAEBR|WBGene00037478|Q60Z38) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	gene	66	1115	0.48	+	.	g1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	transcript	66	1115	0.48	+	.	g1.t1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tss	66	66	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	5'-UTR	66	156	0.51	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	start_codon	157	159	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	initial	157	246	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	295	424	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	470	615	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	780	855	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	terminal	898	1028	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	247	294	0.96	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	425	469	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	616	779	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	856	897	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	157	246	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	295	424	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	470	615	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	780	855	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	898	1028	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	stop_codon	1026	1028	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	3'-UTR	1029	1115	0.95	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tts	1115	1115	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGFLSSLSNLFGMGKKDVNIVVVGLDNSGKTTILNQLKTPETRSQQIVPTVGHVVTNFSTQNLSFHAFDMAGQMKYRS
+# TWESYFHSSQGVIFVLDSSDRVRMELLKDELWLVLDHKDVASRGIPVVILANKMDIPGAMTCADITAALGLNLHRSGTWSIHSTCALTGDGLDKAMQQ
+# LSSEIQKYLETRKS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=caenorhabditis --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/ARL6_CAEBR.fasta

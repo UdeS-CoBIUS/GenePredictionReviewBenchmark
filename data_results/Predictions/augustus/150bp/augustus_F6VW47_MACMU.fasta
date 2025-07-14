@@ -1,0 +1,53 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/F6VW47_MACMU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 128562, name = F6VW47_MACMU|ENSMMUG00000006076|F6VW47) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	gene	16206	128562	1	+	.	g1
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	transcript	16206	128562	.	+	.	g1.t1
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	start_codon	16206	16208	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	16206	16726	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	34880	34978	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	37695	37794	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	38047	38106	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	40120	40181	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	66473	66611	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	69277	69339	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	75844	75884	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	104308	104465	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	107327	107380	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	109836	109933	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	110712	110838	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6VW47_MACMU|ENSMMUG00000006076|F6VW47	AUGUSTUS	CDS	118152	118315	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MRNCQYFFPVIFSKAPDSLQLVFGIKLMEVDPVVHLYIFVTCLGLSYDGLLGDNQIMPKTGLLIILLAIAKEGDCAPE
+# EKIWEELSVLEVFEEREHSIFADPRKLLTQDFVQENYLEYWQVPGSDPACYEFLWGPRALVETSYVKVLCHMLKISGGPYFSYSPLHEWALRDGEESK
+# ISELTTEVNKLQKEIEMYNQENSVYLSYEKRGRESDRSFQNFCLFQTLIYKLSHLFRAGKGVYKLVDKLNTNTEMEEVMNDYNMLKAQNDRETQSMDV
+# IFTERQAKEKQMRSVEEEIEQEKQAADDIIKNMSLENQVKYLEMKATNEKLLQELDTLQQQLDSQNMKKESMEAVKDDNQEIASMERQTAYIYIAFMG
+# NSDTNPPLRNHKIEKFTNALTTLFLSNSDIGESFVKLGNLLRCEMNQKYKELKKREENMDTFIETFEETKNQELERKAQIEANIVSLLEHCSRNINRM
+# KQISSITNQELKMMQDDLNFKSTEVQKSQSTARNLTSDSQRLQLDLQKMELLESKMTEEQHSLKSKIKQMTTDLETYNDLPALKSSGEEKKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/13
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 177
+#     RM: 177 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/F6VW47_MACMU.fasta

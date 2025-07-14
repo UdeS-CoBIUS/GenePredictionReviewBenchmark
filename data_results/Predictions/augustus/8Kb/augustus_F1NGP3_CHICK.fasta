@@ -1,0 +1,94 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F1NGP3_CHICK.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 48151, name = F1NGP3_CHICK|ENSGALG00000001801|F1NGP3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	gene	1	7882	1	-	.	g1
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	transcript	1	7882	.	-	.	g1.t1
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	1	537	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	708	7733	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	538	707	.	-	1	transcript_id "g1.t1"; gene_id "g1";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	7734	7882	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	start_codon	7880	7882	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAGDGGVYRLRCSLLGHEQDVRGITRGLFPEGGFVSVSRDRTARLWTPDGDGIIRVFTKSLERTASAEEIQAFENELS
+# QASIDPKTGDLGDINADDLPGKEHLKDP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 16
+#     RM:  16 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	gene	8247	37332	1	+	.	g2
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	transcript	8247	37332	.	+	.	g2.t1
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	start_codon	8247	8249	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	8257	8464	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	8588	10654	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	10704	11489	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	11589	11754	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	11816	12308	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	12369	13131	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	13194	21166	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	21303	22234	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	22298	23995	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	24037	25144	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	25225	28108	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	28163	28957	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	29056	29983	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	30111	34016	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	34181	34769	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	intron	34896	37227	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	8247	8256	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	8465	8587	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	10655	10703	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	11490	11588	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	11755	11815	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	12309	12368	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	13132	13193	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	21167	21302	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	22235	22297	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	23996	24036	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	25145	25224	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	28109	28162	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	28958	29055	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	29984	30110	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	34017	34180	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	34770	34895	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	CDS	37228	37332	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1NGP3_CHICK|ENSGALG00000001801|F1NGP3	AUGUSTUS	stop_codon	37330	37332	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGRGRSLKGNRHGEWPQNSHRPSSFKSKAILCSKGSISSQDRNRGPQRQIKDKTYYLGLLRSKTSELTSEINKLQEEI
+# KMYKQEKAAYLSYERRAEALAGEIKEWQGQLEDYNMVVDLLNTNTDIAEVIRDYNLLKVQNDRDAQSVDKIFTERQATEKLIQAVEEDIEREKAADDI
+# IKDMTEENQIKYMEMKAANEKVSQELFAQQQELDALSMKEVSLRAVKEDNQEIASMEGQLAEVRKKTSHFKKIIQQLDMDLEKRQGEENRKYKELKKR
+# EESMDSFLETFEEVKNQELERKAQIEANIIVLLEHSSRNVNRMKQISSVTNQELKIMQEDLTFKSTEMQKSQNTAKYLLTESQKLQMDLQKMELLEGK
+# MTDELASLKERIEQTTAELEVYKDLPALKASGEEKKKRLQDDKEKLTKLRHGFKKVMETLNAEYETLRRELQENETHSQLTNLERKWQHLEQNNFMMK
+# ECILLFKKYSEILTL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/17
+# CDS introns: 0/16
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 56
+#     RM:  56 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F1NGP3_CHICK.fasta

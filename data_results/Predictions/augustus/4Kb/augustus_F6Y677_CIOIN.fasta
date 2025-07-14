@@ -1,0 +1,113 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# ciona version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/F6Y677_CIOIN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 15169, name = F6Y677_CIOIN|ENSCING00000009809|F6Y677) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	gene	1	1111	0.61	+	.	g1
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	transcript	1	1111	0.61	+	.	g1.t1
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	230	340	0.92	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	1	229	0.65	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	341	1108	0.88	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	stop_codon	1109	1111	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [KTKRMLPDRCSSAIDFMEDSEEEEEDSHHDPPTKCRTSFSDVDEIFYEQNHFQQKKKPIRSRSRTSFQHPGGHKEKRN
+# QEEEYSDEDFDEEISQFTSKKPPLFSNRDHYDDYDSDESVSSIKRGHGFSEMDDYDDAISCDDSYMDDDVSLARYGVVQSPTSMVSGGSYGDEIKSTN
+# QKARKIQQRPTSRMNAQNSRALERKQNSANQRSMSRNGRAANRDQNSVMREARAVNRNRCASEREDYSNPQAVNRIARSSSRNSRAVVSQARSLSRNG
+# RAMSRNEASRQTRSMSTNRIQQQQYEEEDFDDDENEEIYEDGGDINLDSIISKYLYRK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	gene	4056	11169	0.07	+	.	g2
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	transcript	4056	11169	0.07	+	.	g2.t1
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	start_codon	4056	4058	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	4158	4486	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	4608	5168	0.71	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	5274	6015	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	6129	6536	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	6627	6917	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	6963	7728	0.66	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	7903	8600	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	8713	9147	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	9287	9578	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	9751	10467	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	10675	11052	0.91	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	4056	4157	0.43	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	4487	4607	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	5169	5273	0.71	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	6016	6128	0.95	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	6537	6626	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	6918	6962	0.68	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	7729	7902	0.96	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	8601	8712	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	9148	9286	0.95	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	9579	9750	0.98	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	10468	10674	0.91	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	11053	11166	0.49	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	stop_codon	11167	11169	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MDLMFMALSYFKRRKFEESAELCTKILEKNPYDQAAWALKARSLTEQVYIDEVEAEEQGIAESVMDDVSVAQVSRPGT
+# SLRAVTGASGPSPAVRPVSQSGRPLSGFVRPGTQSGRPGTMEQALRTPRTAHTARPVTSASGRFVRLGTASMLSSPDGPFINVSRLNYSKYAARPNLA
+# KVLFEYIFHHENDVRNALELAALATEQAQFKDWWWKVQLGKCYHRLGMFRDAEQQYKSALKQQVMLDTVLLLGKVYQRMDQPLQSIATYKQGLEKFPD
+# DRSLLVAIARVHDEMGQLDDATKWYKDVLETDGVNVEAIASIAANYFYTDQPEISIRLYRRLLQMGIHNVELFNNLGLCCYFAQQYDMTMNCFDRALS
+# LAEDEQLGDVWYNISHVALGIGDNNLAYQCLRLAIAADNGHTEAYNNLAVLELRRGDVERAKSLLRSAAELAPHAYEHHYNLATLAENAGDLQTSYSS
+# VLKSVAAFPDHMDSKNLLKTLKQHFESL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 25
+#     RM:  25 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	gene	12428	14173	0.63	-	.	g3
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	transcript	12428	14173	0.63	-	.	g3.t1
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	stop_codon	12428	12430	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	12540	12885	0.63	-	.	transcript_id "g3.t1"; gene_id "g3";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	13089	13302	0.96	-	.	transcript_id "g3.t1"; gene_id "g3";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	13453	14026	0.99	-	.	transcript_id "g3.t1"; gene_id "g3";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	12431	12539	0.99	-	1	transcript_id "g3.t1"; gene_id "g3";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	12886	13088	0.63	-	0	transcript_id "g3.t1"; gene_id "g3";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	13303	13452	0.96	-	0	transcript_id "g3.t1"; gene_id "g3";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	14027	14173	0.99	-	0	transcript_id "g3.t1"; gene_id "g3";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	start_codon	14171	14173	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MSCLYNLYHLTRGDPGVVTSNSRERNVELSVLDIALGHCKEGDFCPYTELIKTKRSKYCRLCEKLVEDLDHHCLFLMN
+# CIARNNHRAFVIFIINVMVLQFSFCYLTLSYMWTAYPNSENWLLIDMLTYESMILDLNILCIFAFLWECQLIGSQLVNIAMGQTTYYQRHGTKPNLSS
+# MLRNVVQFFFPRTEKHRSLKVNSPLLL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=ciona --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/F6Y677_CIOIN.fasta

@@ -1,0 +1,39 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# Xipophorus_maculatus version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.957), CTG(0.0224), TTG(0.0202)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/M3ZIL2_XIPMA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 17739, name = M3ZIL2_XIPMA|ENSXMAG00000002045|M3ZIL2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+M3ZIL2_XIPMA|ENSXMAG00000002045|M3ZIL2	AUGUSTUS	gene	15556	17739	0.09	+	.	g1
+M3ZIL2_XIPMA|ENSXMAG00000002045|M3ZIL2	AUGUSTUS	transcript	15556	17739	0.09	+	.	g1.t1
+M3ZIL2_XIPMA|ENSXMAG00000002045|M3ZIL2	AUGUSTUS	tss	15556	15556	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3ZIL2_XIPMA|ENSXMAG00000002045|M3ZIL2	AUGUSTUS	exon	15556	16010	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3ZIL2_XIPMA|ENSXMAG00000002045|M3ZIL2	AUGUSTUS	start_codon	15777	15779	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3ZIL2_XIPMA|ENSXMAG00000002045|M3ZIL2	AUGUSTUS	intron	16011	17739	0.38	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3ZIL2_XIPMA|ENSXMAG00000002045|M3ZIL2	AUGUSTUS	CDS	15777	16010	0.37	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MKKQPDITNSMRAILVDWLVEVGEEYKLQNETLYLAVNYIDRFLSSMSVLRGKLQLVGTAAMLLASYVPIYDLSLSNK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=Xipophorus_maculatus --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/M3ZIL2_XIPMA.fasta

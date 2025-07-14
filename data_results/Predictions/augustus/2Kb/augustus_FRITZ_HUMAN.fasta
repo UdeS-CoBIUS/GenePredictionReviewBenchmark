@@ -1,0 +1,105 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/FRITZ_HUMAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 712285, name = FRITZ_HUMAN|ENSG00000143951|O95876) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	gene	207013	207669	1	+	.	g1
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	transcript	207013	207669	.	+	.	g1.t1
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	start_codon	207013	207015	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	207013	207669	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	stop_codon	207667	207669	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MVKYFLGQSVLRSSWDQVFAAFWQRYPNPYSKHVLTEDIVHREVTPDQKLLSRRLLTKTNRMPRWAKQLFPANVAHSV
+# YILEDSIVDPQNQTMTTFTWNINHARLMVVEERCVYCVNSDNSGWTEIRREAWVSSSLFGVSRAVQEFGLAQFKSNVTKTMKGFEYILTKLQGEAPSK
+# TLETAKEAKEKAEETALAATEKAKDLASKAATKKQQQQQQFV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	gene	222857	240516	1	-	.	g2
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	transcript	222857	240516	.	-	.	g2.t1
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	stop_codon	222857	222859	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	222857	222982	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	223816	223905	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	224451	224564	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	224972	225148	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	230552	230674	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	232270	232445	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	234325	234421	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	235258	235356	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	240460	240516	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	start_codon	240514	240516	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MRRCSYFPKDVTVFDKDDKSEPIRVLVTGAAGQIAYSLLYSIGNGSVFGKDQPIILVLLDITPMMGVLDGVLMELQDC
+# ALPLLKDVIATDKEDVAFKDLDVAILVGSMPRREGMERKDLLKANVKIFKSQGAALDKYAKKSVKVIVVGNPANTNCLTASKSAPSIPKENFSCLTRL
+# DHNRAKAQIALKLGVTANDVKNVIIWGNHSSTQYPDVNHAKVKLQGKEVGVYEALKDDSWLKGEFVTTVQQRGAAVIKARKLSSAMSAAKAICDHVRD
+# IWFGTPEGEFVSMGVISDGNSYGVPDDLLYSFPVVIKNKTWKFVEGLPINDFSREKMDLTAKELTEEKESAFEFLSSA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 34
+#     RM:  34 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	gene	336813	707838	1	+	.	g3
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	transcript	336813	707838	.	+	.	g3.t1
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	start_codon	336813	336815	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	336813	336836	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	336904	336988	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	342350	342397	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	345181	345240	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	389989	390087	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	392290	392423	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	425187	425796	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	447750	447938	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	451335	451458	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	516533	516596	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	541453	541479	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	570435	570537	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	655012	655174	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	676270	676349	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	676899	676930	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	CDS	707788	707838	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+FRITZ_HUMAN|ENSG00000143951|O95876	AUGUSTUS	stop_codon	707836	707838	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MILFTISKDRDSFCHQMSFCLTELHLWSLKNTLHIADRDIGIYQYYDKKDPPGADAKQSVCAEQMEEQICLSGVLVSL
+# SLSGPQLEKVVIDRSLVGKLISDTISDALLTDSFIILSFLAQNKLCFIQFTKKMESSDVNKRLEKLSALDYKVLSSVRTEWDPLDVRFGTKQPYQVFT
+# VEHSVSVDKEPMADSCIYECIRNKIQCVSVTRIPLKSKAISCCRNVTEDKLILGCEDSSLILYETHRRVTLLAQTELLPSLISCHPSGAILLVGSNQG
+# ELQIFDMALSPINIQLLAEDRLPRETLQFSKLFDASSSLVQMQWIAPQVVSQKGEGSDIYDLLFLRFERGPLGVLLFKLGVFTRGQLGLIDIIFQYIH
+# CDEIYEAINILSSMNWDTLGHQCFISMSAIVNHLLRQKLTPEREAQLETSLGTFYAPTRPLLDSTILEYRDQISKYARRFFHHLLRYQRFEKAFLLAV
+# DVGARDLFMDIILLLKIQDIHYLALDKGELALAEVARKRASDIDAESITSGVELLGPLDRGDMLNEAFIGLSLAPQGEDSFPDNLPPSCPTHRHILQQ
+# RILNGSSNRQIIDRRNELEKDICSGFLMTNTCNAEDGELREDGREQEIRDGGSLKMIHFGLV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/16
+# CDS introns: 0/15
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 431
+#     RM: 431 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/FRITZ_HUMAN.fasta

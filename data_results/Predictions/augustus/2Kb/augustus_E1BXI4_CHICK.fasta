@@ -1,0 +1,111 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/E1BXI4_CHICK.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 19020, name = E1BXI4_CHICK|ENSGALG00000011880|E1BXI4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	gene	1	1063	1	+	.	g1
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	transcript	1	1063	.	+	.	g1.t1
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	1	920	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	921	1063	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	stop_codon	1061	1063	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [ELKEIKQDISSLRYELLEDKSQATEELAILIHKLSEKLNPNMLRCE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	gene	2105	16626	1	+	.	g2
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	transcript	2105	16626	.	+	.	g2.t1
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	start_codon	2105	2107	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	2141	2709	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	2886	3341	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	3529	4109	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	4183	5562	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	5680	6203	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	6335	7126	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	7212	8000	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	8104	8657	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	8851	9669	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	9745	10720	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	10787	12503	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	12644	13600	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	13766	14591	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	14696	16489	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	2105	2140	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	2710	2885	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	3342	3528	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	4110	4182	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	5563	5679	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	6204	6334	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	7127	7211	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	8001	8103	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	8658	8850	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	9670	9744	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	10721	10786	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	12504	12643	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	13601	13765	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	14592	14695	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	16490	16626	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	stop_codon	16624	16626	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MEVSLARVDYLQTVFKTLPGPKIARLELGGALNTPQEKVFVATGSEVRGFTKRGKQFLSFETNLTEDIKAMHISGADL
+# FLCASYIYNHYCDCKDKHYYLSRDKINDVLCLPVDKVNCITPVLACQDRVLRVLQGSDLLYEVEVPGPPTVLALNNGDGGDSGEEIVYGTSDGKLGLI
+# QITGSASVPKWEIENEKKRGGILCIDSFDILRDGVKELLVGRDDGVLEIYSFESADDPVLRYDYVLSESISSIQGGCVGKDGYDEVLACTYSGWLTGL
+# TTELAYREGGSGEELKLSQEMQSKISSLRNEVEHLQMKVLGEREKYQQSSQSSSAVSSVPAFSVNDKFTLNKDDASYSLILEVQAAIDIILVQSDVPV
+# DLLDVDKNSAVVSFSNCDSDPNGNCLLATYRCQANTTRLELKIRSIEGRYGTLQAYVTPRIQPKTCQVYQYQIKPLSLHQRTHSIDHDRPMNTLTLKG
+# QFSFAEIHSWVVFCLPEVPERTPPGESVTFYFQNTFLGTQLESTYRCFESKYLSTHGRILTGIVLSDINLLWLKSEACHTGMITDLFIDKFKFRGTNV
+# KSKVPLLLELLDGCEQERLVAFFEAAS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/15
+# CDS introns: 0/14
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 24
+#     RM:  24 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	gene	17811	18795	1	+	.	g3
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	transcript	17811	18795	.	+	.	g3.t1
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	start_codon	17811	17813	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	17827	18153	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	intron	18267	18567	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	17811	17826	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	18154	18266	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	CDS	18568	18795	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+E1BXI4_CHICK|ENSGALG00000011880|E1BXI4	AUGUSTUS	stop_codon	18793	18795	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MELSLDSPSIMDISITSEAEERPNVNNVPDYVSDIHTYLREMEVKCKPKIGYMKKQPDITNNMRAILVDWLVEVGEEY
+# KLQNETLHLAVNYIDRFLSSMSVLRGKLQLVGTAAMLLAS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/E1BXI4_CHICK.fasta

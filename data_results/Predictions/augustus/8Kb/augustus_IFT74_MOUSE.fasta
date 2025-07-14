@@ -1,0 +1,122 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/IFT74_MOUSE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 94739, name = IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	gene	1	29349	1	+	.	g1
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	transcript	1	29349	.	+	.	g1.t1
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	1	15363	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	15500	18240	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	18290	20486	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	20586	20761	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	20823	26186	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	26247	29283	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	15364	15499	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	18241	18289	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	20487	20585	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	20762	20822	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	26187	26246	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	29284	29349	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	stop_codon	29347	29349	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPPTTARPGSRGGPLGTGGVLSSQIKVADRPVTQQGLSGMKTGMKGPQRQILDKSYYLGLLRSKISELTTEINKLQKE
+# IEMYNQENSVYLSYEKRAETLAVEIKDFQGQLADYNMLVDKLNTNTEMEEVMSDYNMLKAQNDRETQSMDVIFTERQA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 71
+#     RM:  71 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	gene	31734	36961	1	-	.	g2
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	transcript	31734	36961	.	-	.	g2.t1
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	stop_codon	31734	31736	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	32063	32716	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	32894	33964	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	34479	36808	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	36893	36955	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	31734	32062	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	32717	32893	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	33965	34478	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	36809	36892	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	36956	36961	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	start_codon	36959	36961	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MHAFDMKVTRFMFWLFSMLLPSVKSQASETEVPCNFSRRNYTLIPEGISTNVTILDLSYNRITLNAADSRVLQMYSLL
+# TELYLMENNIIALYNSSFRNLLNLEILNICGNSISVIQQGSFVGLNELKQLFLCQNKILQLNPDTFVPLNNLKVLNLQGNLIRLFDAPQLPHLEILTL
+# DGNPWNCTCGLLELHNWLNTSNVTLENENMTMCSYPDELKHDSIKSAPFTTECHSTFISTITEDFQSTRNSSFNSSSHNLTWTSEHEPLGKSWAFLVG
+# VVATVLLTSLLIFIAIKCPVWYNILLSYNHHRLEEHEAETYENGLTRNPSSLSQITDTNSEDTTVIFEQLHAFVVDDDGFIEDRYIDINEVHEEK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 13
+#     RM:  13 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	gene	44618	86579	1	+	.	g3
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	transcript	44618	86579	.	+	.	g3.t1
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	start_codon	44618	44620	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	44629	46436	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	46576	48338	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	48402	52016	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	52161	54457	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	54499	56096	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	56177	71774	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	71829	72689	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	72788	73443	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	73571	79131	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	79296	80320	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	80447	85229	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	intron	85291	86460	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	44618	44628	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	46437	46575	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	48339	48401	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	52017	52160	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	54458	54498	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	56097	56176	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	71775	71828	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	72690	72787	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	73444	73570	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	79132	79295	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	80321	80446	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	85230	85290	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	CDS	86461	86579	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+IFT74_MOUSE|ENSMUSG00000028576|Q8BKE9	AUGUSTUS	stop_codon	86577	86579	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MKYRKEKQIRSVEEEVEQEKQAADGIIKNMSPEKQVKYIEMKTTNEKLLQELDTLQQQLDSLNMKKESLETEIAHSQV
+# KQEAVLLYEKLYELESHRDQMIAEDKSMGSPMEERERLLKQVKEDNQEIASMERQLTDIKEKINQFSEEIRQLDMDLEEHQGEMNQKYKELKKREENM
+# DAFIETFEETKNQELERKAQIEASIITLLEHCSRNINRMKQISSITNQELKMMQDDLSFKSTEMQKSQTTARNLTSDSQRLQLDLQKMELLESKMTEE
+# QQSLKNKIKQMTADLETYSDLAALKSSAEEKKKKLHQERTVLSTHRNAFKKIMEKLTSDYDTLKRQLQDNETHAQLTNLERKWQHLEQNNFVMKEFIA
+# TKSQESDYQPVIKNVMKQIAEYNKTIMDALHNASRS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/12
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 96
+#     RM:  96 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/IFT74_MOUSE.fasta

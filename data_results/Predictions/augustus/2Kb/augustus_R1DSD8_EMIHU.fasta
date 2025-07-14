@@ -1,0 +1,98 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/R1DSD8_EMIHU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5664, name = R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	gene	436	1673	0.12	+	.	g1
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	transcript	436	1673	0.12	+	.	g1.t1
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	tss	436	436	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	exon	436	1673	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	start_codon	495	497	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	CDS	495	1541	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	stop_codon	1539	1541	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	tts	1673	1673	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MATRWSGDGVRLCGTPGCTLADFHAGPCSNAASLGRRREHNIKLPYNEKAAQQLLRGEAAAIKASKREQRERKKQQRP
+# VAAERPVSPPPPQQRLPSGLARFYHPLEWGVPLREGPVEADPVPPSWRHEADAWQLEQAADRIRSRRGVGEAEAAFMDLWNGAVQRSERSRLVSDRCL
+# PALCRAFAVQHAAELRGLAAPFRSHLEVLRQHNLLHPEDVRDCLVLSSPDAAAASPCARCSRPRHERHCPLHGVRRGAACWPTANGAGGTSTVSAADV
+# LTIVGKECEVCGSPRDAERMLLCDGCNKGFHLGCLSPPLAAIPESDWYCAACSPPAAAAAPSEADGRGKKRRVG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g1
+###
+# start gene g2
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	gene	1756	3693	0.04	+	.	g2
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	transcript	1756	3693	0.04	+	.	g2.t1
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	tss	1756	1756	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	exon	1756	3278	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	intron	3279	3394	0.57	+	.	transcript_id "g2.t1"; gene_id "g2";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	CDS	2001	3278	0.59	+	0	transcript_id "g2.t1"; gene_id "g2";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	CDS	3395	3664	0.97	+	0	transcript_id "g2.t1"; gene_id "g2";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	exon	3395	3693	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	stop_codon	3662	3664	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	tts	3693	3693	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [METAASSAAIPAGVDPVFAALHRFNRGQYDACISLCTALLGENPYDQAVWCLKCRAMTMQAFIDDLDFEEEATADALL
+# DENATAALPRPGTSLTRPMTQSNAPGQPGLGMRPVSASGRPLSGFARPGTGSARPDSRVGLSGAPAGIRPGTSRPMTALGRLVRLGTASLVAAAGGPF
+# INVDRLDLRKYAQRPALSRALFEYLLYFEHSPKKALELAAHCTAAAGYEDWWWKERLGKCYYQLGLYREAERQYAASVKTQPMVASYLQLANVSLRLD
+# QPKAALLIYKQGAERYPHDTALLLGVARVHEALGELPLAVESYKRVAGMDPSNVEAIACIAANHFYSGQPELALRFYRRLLQMGIRNTELWCNLGLCC
+# FHSSQYDMALSCLERALFLASDDAMADVWYNIGQVAIGIGDLGLAYQALKVAISADSNHAEAYTNLGVLELRKGNVEAARANFRTAQTHAPQMYEPFY
+# NGALLAYNLGEFQEAFELAQKARDAFPDHTDTLELLGQLNQQLRL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	gene	4334	5430	0.08	-	.	g3
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	transcript	4334	5430	0.08	-	.	g3.t1
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	tts	4334	4334	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	exon	4334	5046	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	stop_codon	4521	4523	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	intron	5047	5165	0.76	-	.	transcript_id "g3.t1"; gene_id "g3";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	CDS	4521	5046	0.98	-	1	transcript_id "g3.t1"; gene_id "g3";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	CDS	5166	5341	0.76	-	0	transcript_id "g3.t1"; gene_id "g3";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	exon	5166	5430	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	start_codon	5339	5341	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+R1DSD8_EMIHU|EMIHUDRAFT_62866|R1DSD8	AUGUSTUS	tss	5430	5430	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MHRTAGPLARVPGVRDGRVSAPYFEPSWATLASTGRQSTAWATQTARPTSAFDRAAPTAGARRHGTFSACLGPPRLHA
+# RHRDQGGGLGGPDEARAARLGAACRPSLAGAAHHAQAYAEEPVAPVAHELVARIDRAVQLSHALPTIKFETTNIRPQKRPARAARAGERLASQPASLL
+# KKSDVEHPLFKRSAHTQGPPACAASFPGPSREKRRRRCILAVATEGDSAPLRSETKL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/R1DSD8_EMIHU.fasta

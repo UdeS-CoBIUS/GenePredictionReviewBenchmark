@@ -1,0 +1,69 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# aedes version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W5JPA7_ANODA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 7557, name = W5JPA7_ANODA|ADAC002259|W5JPA7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	gene	899	1108	0.87	+	.	g1
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	transcript	899	1108	0.87	+	.	g1.t1
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	start_codon	899	901	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	CDS	899	1108	0.87	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	stop_codon	1106	1108	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSCDRYKRPSLEVDKRICPLYGLVKERNIVVAVDTKVATTCLGVNDEAKAMPSTSTSHTRAPVLVPAFL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	gene	2001	5557	0.21	+	.	g2
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	transcript	2001	5557	0.21	+	.	g2.t1
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	intron	2288	2344	0.9	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	intron	2617	2690	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	intron	3695	3753	0.96	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	intron	4198	5488	0.24	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	CDS	2001	2287	0.9	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	CDS	2345	2616	0.96	+	1	transcript_id "g2.t1"; gene_id "g2";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	CDS	2691	3694	0.99	+	2	transcript_id "g2.t1"; gene_id "g2";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	CDS	3754	4197	0.55	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	CDS	5489	5557	0.24	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5JPA7_ANODA|ADAC002259|W5JPA7	AUGUSTUS	stop_codon	5555	5557	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MMAGAMATSKRQTRRQKRYLWLPFLFCKLAKPPIGTDLRLIRSVSVPVASVLIIIIIIITVVVVVVAVVGNVSLVSGI
+# GVCCDRKPTVMFRVPRNCSKPKPTDKWLDAQCDGTAALHTLPSCMTLCDLKNDSYYQLIVVDVPMLDFEAKPKLKVYKGTNLVSEQHLPGIPCAVESL
+# YISDQEPRIPIIAVAVESSVLFYRNLKPYYKYTLPSLTVEPLEIDVWERMPNERGDALDVLIESLRTIEPSQMTLQTQELLSLPDAERGSFIQACAER
+# KLERLSIITAMTTIKKASSDVKAASCLILATECGELLLLDTQAFGVLAQAKCGPFRGTPSLLSASGQYDVDYRVVIATREGSLYLLRKGWLAGQHIVR
+# LEAPAAGLALLPIDQTIVVVCMNRALVCYSKKGKKLWMVRLPQPAVCMTPVCLPHLGINLVCVGLKGGLVQFYSQRKLVDQFYAPESVASLTFGRLGQ
+# EEHVLVLVTVDGSLIVKILKRTAEFVTTENIYGDPAEAASSRLDPRDRRIATLREKSHAATIHGSFQSELWRMRLTTARATIDVINSADSNMSTVDVG
+# LAPLKLAAEVLGLGPVFKLFLVLENISSRKEATGLNLLIQADHRHYLVDRPYLSLPMLVPGAPVRLDFRVTVSVDPADGLPPVDLTPENSYLKVLIFK
+# AGQTKPLIASTVVMPQPEPQILNSF]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=aedes --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W5JPA7_ANODA.fasta

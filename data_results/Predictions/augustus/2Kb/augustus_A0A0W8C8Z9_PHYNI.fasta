@@ -1,0 +1,111 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/A0A0W8C8Z9_PHYNI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 4656, name = A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	gene	1	1130	0.04	-	.	g1
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	transcript	1	1130	0.04	-	.	g1.t1
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	intron	538	592	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	CDS	1	537	0.91	-	2	transcript_id "g1.t1"; gene_id "g1";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	exon	1	537	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	CDS	593	797	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	exon	593	1130	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	start_codon	795	797	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	tss	1130	1130	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPRVSWQEIAVDVDAAEAEAVMARLKLFDIDKSQAMGCTICLGADHKMRYRLLECSSQSCAEASPVKCAQLARRRPRA
+# QEAHVAHKAFCRDLTQNHLRPMRIRHALARKFATYLEDLPPLKTVQNFVNHYDRAQMDNHDRVQDLTAWIREHAYDGSEPMTEPFTFTWEMDNAGLPV
+# VGNGSDKRPFLVGISTKALMLRLMVPPESFILHLDGTYKTNQCDYPVLVVGVSDRSRRFHLVAIFVMSQET]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	gene	1856	2748	0.16	+	.	g2
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	transcript	1856	2748	0.16	+	.	g2.t1
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	tss	1856	1856	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	exon	1856	2479	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	intron	2480	2568	0.91	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	CDS	2001	2479	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	CDS	2569	2656	0.91	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	exon	2569	2748	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	stop_codon	2654	2656	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	tts	2748	2748	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGLFKVLANALGIKKTQVRILVVGLDNSGKTTLVNHLKPKKSQSREVVPTIGFQVEEFTKSNLNFTVFDMSGQSRYRS
+# LWENYYSDVQAIIYVLDSTDTIRMCVAKDELEQLVEHKELSSKKVPILFFANKMDLPNSLTPVECMQHLELDSLGSKSWHITASNAVTGRGVEEGIEW
+# LADQFAKGKSRK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	gene	2764	3660	0.05	-	.	g3
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	transcript	2764	3660	0.05	-	.	g3.t1
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	tts	2764	2764	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	exon	2764	3477	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	stop_codon	2901	2903	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	intron	3478	3551	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	CDS	2901	3477	1	-	1	transcript_id "g3.t1"; gene_id "g3";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	CDS	3552	3604	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	exon	3552	3660	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	start_codon	3602	3604	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	tss	3660	3660	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MFKNTFQSGFLSILYSIGSKPLQIWDKQVRNGHIKRITDQDIQSSVLEIMGTNVSTNFITCPAQPAKTLGIKLPFLVM
+# IIKNLKKYFTFEVQVLDDKNVRRRFRASNYQSSTRVKPFICTMPMRLDEGWNQIQFNLSDFTRRAYGTNYIETLRVQIHANCRIRRIYFSDRLYSEEE
+# LPPEFKLFLPVPKANNATSNEQQKVASPAEQFM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	gene	3756	4656	0.26	+	.	g4
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	transcript	3756	4656	0.26	+	.	g4.t1
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	tss	3756	3756	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	exon	3756	4656	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	start_codon	3854	3856	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+A0A0W8C8Z9_PHYNI|AM587_10017152|A0A0W8C8Z9	AUGUSTUS	CDS	3854	4656	0.99	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MSAAVRVLLPSEPAAPSASSPRPTKRRRLDETSDVAIEVCKTPGENGAAGVTMTSEDESTDNLVKCDDDHFEESNAHS
+# VHLNCAECGEQFLLSTELVAHSQSTRHRPFACQHQGCDKYYSKREHLTRHVETVHIRGSTQSLEERKPYKCELCQARFTYKHGLTRHIKRSHRNVNLP
+# FECSECLKGFKKKSELQAHSYVHTGVLPFECEECGDRFLKRFWLTRHQRKHEANKDADTQVFVCDCGEICFDEEELNTHKQTEHGKEEAED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/A0A0W8C8Z9_PHYNI.fasta

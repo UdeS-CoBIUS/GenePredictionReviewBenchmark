@@ -1,0 +1,75 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/H3ACN3_LATCH.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 31392, name = H3ACN3_LATCH|ENSLACG00000006563|H3ACN3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	gene	1	3581	1	+	.	g1
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	transcript	1	3581	.	+	.	g1.t1
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	intron	1	683	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	intron	786	1677	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	intron	1774	2080	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	intron	2201	3536	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	684	785	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	1678	1773	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	2081	2200	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	3537	3581	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	stop_codon	3579	3581	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [IYKVGKGYHTKDGKLVKNNGSTDYDVSDKSINPLGGFVHYGEVKNDFLLLKGCVIGTKKRVLTLRKSLLVQTSRRALE
+# KIELKFIDTTSKFGHGRFQTIEEKKAFMGPVKKDRIIKEETA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 14
+#     RM:  14 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	gene	6243	24391	1	+	.	g2
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	transcript	6243	24391	.	+	.	g2.t1
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	start_codon	6243	6245	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	intron	6277	6664	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	intron	6745	7210	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	intron	7271	18146	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	intron	18207	21342	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	intron	21461	22015	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	intron	22126	24292	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	6243	6276	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	6665	6744	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	7211	7270	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	18147	18206	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	21343	21460	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	22016	22125	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	CDS	24293	24391	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H3ACN3_LATCH|ENSLACG00000006563|H3ACN3	AUGUSTUS	stop_codon	24389	24391	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MVKLIAKCILTGDATVGKSALAQLFRSDGALFLKNYTMTVGVELVVKAVQIPQTGDSVELFIFDSAGKEIFSEMLENL
+# WENPSVLCLVYDITSEQSFNSCAKWLQRVRARAHGLSIPGVLVGNKSDLSARRTVDFKQAQEWAASQGLDYFETSAKEMENYEAPFHHLAHTLHRVYE
+# EHLETIKSLI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 29
+#     RM:  29 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/H3ACN3_LATCH.fasta

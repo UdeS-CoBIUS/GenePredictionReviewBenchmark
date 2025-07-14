@@ -1,0 +1,123 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/V3ZX09_LOTGI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 20846, name = V3ZX09_LOTGI|LotgiG204362|V3ZX09) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	gene	1	8600	0.17	-	.	g1
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	transcript	1	8600	0.17	-	.	g1.t1
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	1015	2288	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	2428	3340	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	3587	6341	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	6516	8389	0.79	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	1	1014	0.96	-	1	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	1	1014	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	2289	2427	0.99	-	2	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	2289	2427	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	3341	3586	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	3341	3586	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	6342	6515	0.85	-	2	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	6342	6515	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	8390	8450	0.79	-	0	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	8390	8600	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	start_codon	8448	8450	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	tss	8600	8600	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGNMYVLACATQGNEPNPIKAFSMASEYCRSVLRISVAQICQNLGWNSTQTTPLELLTDVLERYVFELGNVSHRYCEQ
+# FGRTEVNLDDVGLAFQQMSVSLEELTEYINHVEPIPFAKETVAFPAPKRNNLQFSNPRSREILQHREEHVPAYLPHMFPGGKDDIDEHLPSEVVGLTP
+# EITSQIDASPTPTDCKLTASSSEGPPSKRLRVSNATLPPEADPSQYEMMSVEMTHEGELTPKRQGKLPDNRTPPAGFRQSLFRDVQSSPSDHIREKFK
+# EKYQEGEKERSDVDVVDDSDNKSNNNSSMLSGKGMKIEKKFKVKSKLHKDGLKKKNVDCKVGVGNLVDKKKSKKMLKDSKLIQKKKANKVHKAAKEVK
+# KETHLTSEDLFTANIQKLRDPDQESLKSQGNSPERLVIASDADVKNKEKFARLAAVDDCIDAVIRQSAAEVSEMKKDQDFVKPNQETLDSFDETINSV
+# VRQSSEDNDSSCIDMKIETESDQKSSLIGPPQSEKEQNLKKKRKLKDVKSKSTKDKGVRDKLKKKLISKSLSTI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g1
+###
+# start gene g2
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	gene	11176	12297	0.04	+	.	g2
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	transcript	11176	12297	0.04	+	.	g2.t1
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	tss	11176	11176	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	11176	12297	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	start_codon	11453	11455	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	11453	12022	0.83	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	stop_codon	12020	12022	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	tts	12297	12297	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGLLDRLARWLGMKKKEANVLVVGLDNSGKTTILNYLKPEECKSHDIVPTVGFSVEKFANSSLQFTAFDMSGQGRYRN
+# LWEHYYRECHGIIFVVDSSDKLRMVVAKDELDQLLSHQDIKNRRIPILFFANKMDLRDSVSSVKCSSLMGLELIRDKAWHICASNAMTGEGLHEGVEW
+# LTDQIKDLVDKKN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	gene	14024	20440	0.01	-	.	g3
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	transcript	14024	20440	0.01	-	.	g3.t1
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	tts	14024	14024	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	14024	14167	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	stop_codon	14051	14053	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	14168	14573	0.96	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	14651	15721	0.93	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	15828	18092	0.65	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	18218	18695	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	18940	19184	0.48	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	19279	19800	0.37	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	intron	19971	20325	0.64	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	14051	14167	0.96	-	0	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	14574	14650	0.93	-	2	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	14574	14650	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	15722	15827	0.98	-	0	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	15722	15827	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	18093	18217	1	-	2	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	18093	18217	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	18696	18939	0.54	-	0	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	18696	18939	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	19185	19278	0.32	-	1	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	19185	19278	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	19801	19970	0.85	-	0	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	19801	19970	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	CDS	20326	20367	0.64	-	0	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	exon	20326	20440	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	start_codon	20365	20367	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+V3ZX09_LOTGI|LotgiG204362|V3ZX09	AUGUSTUS	tss	20440	20440	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MTSCIVFSIIRKRSSLVLVFAHLIVNNQLEAVLDFLSSVPSPTGKPALGFVLTEWCSRQHLFYGSYERKISYSRAVDL
+# FCCQLDNFQQPVKFDLNFPLREGLIEDIDCRSFGQPRLSGSANRAKSTALQYTNIRLCYNCSVVALCKLLLHTIQNNDIRLQEITVPGELIQRTDGVK
+# TRSKSSSDPDEWTEIPVLVKIYKLLINELANQLEVESARTGVGEEDEDTQENGWEDDSDNDDGDYASSGHTLSELLNDFGSNYEGIDLGEEEEDDDPD
+# TINDPINQINLQAYLTAFLRQLSQHHCFSMFSAHNNAPEVTVLQAIDVNV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/V3ZX09_LOTGI.fasta

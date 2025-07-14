@@ -1,0 +1,639 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pfalciparum version. Using species specific transition matrix: /usr/share/augustus/config/species/pfalciparum/pfalciparum_trans_shadow_partial.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/A0A0G4GWT1_VITBC.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22167, name = BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	1	88	0.28	+	.	g1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	1	88	0.28	+	.	g1.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	1	88	0.28	+	1	transcript_id "g1.t1"; gene_id "g1";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	86	88	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [CMCAAGRRSAASESRPTSSMKSTSRPPS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	134	1031	0.22	-	.	g2
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	134	1031	0.22	-	.	g2.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	134	136	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	837	897	0.41	-	.	transcript_id "g2.t1"; gene_id "g2";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	134	836	0.22	-	1	transcript_id "g2.t1"; gene_id "g2";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	898	1031	0.46	-	0	transcript_id "g2.t1"; gene_id "g2";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	1029	1031	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MVVPAQVARVTHATNGPSNGVSSRCRSSSGGSTSSHLPAMMAVHRRPTHNRGKRPDRWLDVCLSKCRVPCVPVHVNAK
+# SAPFIGHRRGQDDPHDERRRRGISERRTTGRPAAPLPADCRSDGRAVVDGVCVVWVGGGRGGLMSSSKPGSSLRARTPPPGWSNSSKRPNWPPKLTCR
+# PTIFHSAITRASAKYAYTDTTRQTDRQTDRQMSATRPAPRSSAHLFAIVARTIRHSQCDRQLTAAALSRQLQRIGHLWSTAAYPPARWPSAAEAGPAE
+# RRMR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	1098	1538	0.4	+	.	g3
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	1098	1538	0.4	+	.	g3.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	1098	1100	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	1140	1220	0.56	+	.	transcript_id "g3.t1"; gene_id "g3";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	1098	1139	0.56	+	0	transcript_id "g3.t1"; gene_id "g3";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	1221	1538	0.42	+	0	transcript_id "g3.t1"; gene_id "g3";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	1536	1538	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MQWLCLPSPPSRQWIWWPTSRKSLMRVSVQAAAAISVCRSDESVCVWWCAEEGADGDDGDSGEGKWSVCGAQPALLGV
+# LLVCVCVCAEDDDEGADDGDSDEGEWNTCVCDWAHLYVCVS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	1916	2239	0.91	+	.	g4
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	1916	2239	0.91	+	.	g4.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	1916	1918	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	1916	2239	0.91	+	0	transcript_id "g4.t1"; gene_id "g4";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	2237	2239	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MVCVLDGEAACLPFVLRVHTHAKQTDRQTDRQTATSPRKAHPIHQLEPSYHTLYAPTPLSTACIITPAPHPPLSAAAA
+# APPSWPSCSPWRLAARSPPPHSEASVPHR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	2262	2632	0.54	-	.	g5
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	2262	2632	0.54	-	.	g5.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	2262	2264	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	2398	2558	0.54	-	.	transcript_id "g5.t1"; gene_id "g5";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	2262	2397	0.98	-	1	transcript_id "g5.t1"; gene_id "g5";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	2559	2632	0.54	-	0	transcript_id "g5.t1"; gene_id "g5";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	2630	2632	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MTDQDACRGRVSGHCVLLTLAAEYCKSKSAVRRPINVPSRTGHTGPNTQPDRPGCAQTNQLARRHLAIR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	2742	3381	0.35	-	.	g6
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	2742	3381	0.35	-	.	g6.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	2742	2744	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	3216	3300	0.45	-	.	transcript_id "g6.t1"; gene_id "g6";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	2742	3215	0.48	-	0	transcript_id "g6.t1"; gene_id "g6";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	3301	3381	0.35	-	0	transcript_id "g6.t1"; gene_id "g6";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	3379	3381	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MPETWVCSMCLSVYSVQNWRATDTLIRTVRCRAHSSDPHILTVCQRIGRVLHTEVGLAAGLSYIEETHDQGQQRQPLS
+# PSDICVVTLQQINTAKDERAEQHHIERHNPQEIGHSEEKVSLPPVCTHLLKQAVYSSDRVGKDSVRRFSPLQHPQGQHVGEGKDHEEQRQPSRVCGGP
+# ENSEIALK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g6
+###
+# start gene g7
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	3410	3916	0.74	-	.	g7
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	3410	3916	0.74	-	.	g7.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	3410	3412	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	3410	3916	0.74	-	0	transcript_id "g7.t1"; gene_id "g7";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	3914	3916	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MCVEGVHAIETRRPVVPSPPPPSPLLIYRTDTSRPLSSVLPSLSFPVTLVALDGTWQHTKEMYRAAPWLADLPAVHLD
+# ASETKGYFCDVRHAPLELVELGAVSTAEAVACVVSGMGRWLSDEAVSRCDEVVGRLLQGVGDMQERAKTEEKDKGREGRAVCDHEGDDGW]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g7
+###
+# start gene g8
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	3997	4646	0.67	-	.	g8
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	3997	4646	0.67	-	.	g8.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	3997	3999	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	4247	4500	0.68	-	.	transcript_id "g8.t1"; gene_id "g8";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	3997	4246	0.76	-	1	transcript_id "g8.t1"; gene_id "g8";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	4501	4646	0.74	-	0	transcript_id "g8.t1"; gene_id "g8";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	4644	4646	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+# protein sequence = [MVNGTMSPSYWSFPTTPKRPNLLRTNHTGSKTQSSSILTPLSCLRTVTKYGDDRLACFEGGQPGDASRGHVVSASSSP
+# SDLRWLPAASPCLPLLFRSSNKDPCRSWRLREHSWHHCVRASTGEEEVRLTHS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g8
+###
+# start gene g9
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	4690	5436	0.89	+	.	g9
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	4690	5436	0.89	+	.	g9.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	4690	4692	.	+	0	transcript_id "g9.t1"; gene_id "g9";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	4690	5436	0.89	+	0	transcript_id "g9.t1"; gene_id "g9";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	5434	5436	.	+	0	transcript_id "g9.t1"; gene_id "g9";
+# protein sequence = [MDESANCVCVARQSTLKSGLCLDTIVAELKHGLDSSGASRTVICRSSKCLQKTGNSLRASIIILQRDQADPSVWLLPP
+# FLRAAYRDYFDAGVADEPRVPFITSPTSQFEGKSDKHRRRCYDTSTHARHLCSFPPFYRVPGDVVPPRPLHGAQERVVPGSPPAADRQGRQLGGPGDL
+# RRGTGRQEHRGDPCFPREGRRADAAGAQGRHRRVQGVCCRDGRAARGYGRAAGVPDGHASSGGSAEVSLYTE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g9
+###
+# start gene g10
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	5468	6759	0.61	+	.	g10
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	5468	6759	0.61	+	.	g10.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	5468	5470	.	+	0	transcript_id "g10.t1"; gene_id "g10";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	5705	5844	0.65	+	.	transcript_id "g10.t1"; gene_id "g10";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	5468	5704	0.62	+	0	transcript_id "g10.t1"; gene_id "g10";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	5845	6759	0.65	+	0	transcript_id "g10.t1"; gene_id "g10";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	6757	6759	.	+	0	transcript_id "g10.t1"; gene_id "g10";
+# protein sequence = [MCVWCAHVFSAESESASSAANADTDVSRKRSPPPPSSSPSGISPSAFERNLRTKLSAIAPTDAAKAALLDFAVRWVDS
+# AMTDTALPALANYPGVSVGADDGSGYPPAVDTDSFFNSVNPTPPTNPYAEEEDYGTGPLSFGVGGGGGGGGGGLESAAAFGALADVSDEAALFQAEEA
+# HIPYPLAPPPPPPTRPWAMGGLQPTPMAMSLAAEPFGAVAVHPAEPTTSPAAFAAVAADKEEEEGEESAPGGAPAVSRLSFFQASAAVGEKKKKADRA
+# APRAARGRVAPAPPPPAAVSAMEPFRAIKAVAAPAAAATAADVKREKAAGAGKVKVEATEDDLALEVQRTVDEWRERARRSDAPSAALDALVASLTSG
+# MRQLSIGWEAL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g10
+###
+# start gene g11
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	6927	7478	0.61	-	.	g11
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	6927	7478	0.61	-	.	g11.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	6927	6929	.	-	0	transcript_id "g11.t1"; gene_id "g11";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	7011	7140	0.84	-	.	transcript_id "g11.t1"; gene_id "g11";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	7307	7392	0.65	-	.	transcript_id "g11.t1"; gene_id "g11";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	6927	7010	0.86	-	0	transcript_id "g11.t1"; gene_id "g11";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	7141	7306	0.86	-	1	transcript_id "g11.t1"; gene_id "g11";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	7393	7478	0.65	-	0	transcript_id "g11.t1"; gene_id "g11";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	7476	7478	.	-	0	transcript_id "g11.t1"; gene_id "g11";
+# protein sequence = [MCSDACLSVCLPVCPFDQSDARMHGMLLSWRQSPIHPSFQVDTDHLPMDRPLPAPLCVRGGWGVSRCCQRIVASHVQI
+# SPSMLWKDSMTCMVALHHKSPTQPMEGRKERHT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g11
+###
+# start gene g12
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	7504	7842	0.96	-	.	g12
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	7504	7842	0.96	-	.	g12.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	7504	7506	.	-	0	transcript_id "g12.t1"; gene_id "g12";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	7504	7842	0.96	-	0	transcript_id "g12.t1"; gene_id "g12";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	7840	7842	.	-	0	transcript_id "g12.t1"; gene_id "g12";
+# protein sequence = [MMVGLVDICHAASQRDTTAPAFSSFDIATPSLSLSLSLSYTHSRKADYNSSLRGFASAWMDGWRASWCYGRPEGGILL
+# GGGDTHTGRQAQAQAHVQRTARLRVSVFCVCVSV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g12
+###
+# start gene g13
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	7874	8703	0.57	-	.	g13
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	7874	8703	0.57	-	.	g13.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	7874	7876	.	-	0	transcript_id "g13.t1"; gene_id "g13";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	8104	8501	0.79	-	.	transcript_id "g13.t1"; gene_id "g13";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	7874	8103	0.78	-	2	transcript_id "g13.t1"; gene_id "g13";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	8502	8703	0.72	-	0	transcript_id "g13.t1"; gene_id "g13";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	8701	8703	.	-	0	transcript_id "g13.t1"; gene_id "g13";
+# protein sequence = [MCMRVAVRRVCSGTLSTNQSPSIHPSTCMCVVCMLAHGCMDAGVPFAHGHEGELRGPHIQSRRGEWLSGAGHGARERA
+# SKITDPTQRVTPSIPLSLSVCVCVCVSVCFCQEEKLARAEQMLMGYTNATDLANDLQATHVLAGP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g13
+###
+# start gene g14
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	9139	9649	0.37	-	.	g14
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	9139	9649	0.37	-	.	g14.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	9139	9141	.	-	0	transcript_id "g14.t1"; gene_id "g14";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	9370	9457	1	-	.	transcript_id "g14.t1"; gene_id "g14";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	9139	9369	0.48	-	0	transcript_id "g14.t1"; gene_id "g14";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	9458	9649	0.75	-	0	transcript_id "g14.t1"; gene_id "g14";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	9647	9649	.	-	0	transcript_id "g14.t1"; gene_id "g14";
+# protein sequence = [MVSANPAMKAMKIESGASSLKGSDNMEVDSYVVDIGGWMNGWMDGWMNGWHNVVLLFALAGWLQGDHQRPHPQAHLPQ
+# GAPLQVGCRVAGDQGQGAEDHRRYRRKRDEPIDGRVAGWVGGMNGLCVDVCVGVCMCSGCSR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g14
+###
+# start gene g15
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	9696	9965	0.8	+	.	g15
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	9696	9965	0.8	+	.	g15.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	9696	9698	.	+	0	transcript_id "g15.t1"; gene_id "g15";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	9696	9965	0.8	+	0	transcript_id "g15.t1"; gene_id "g15";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	9963	9965	.	+	0	transcript_id "g15.t1"; gene_id "g15";
+# protein sequence = [MPPTGREPRGRWLGVCMNPSPSAVCWVKPRPSGVCVNPSRPAMVALCVHSNSDSDRNTRYQQLAAFFRPRGNLRYDRE
+# LRKRLGARRDL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g15
+###
+# start gene g16
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	10078	10524	1	-	.	g16
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	10078	10524	1	-	.	g16.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	10078	10080	.	-	0	transcript_id "g16.t1"; gene_id "g16";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	10078	10524	1	-	0	transcript_id "g16.t1"; gene_id "g16";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	10522	10524	.	-	0	transcript_id "g16.t1"; gene_id "g16";
+# protein sequence = [MAIAVVMRSLCWEDVGLADVAGRVKPVTGRPVADTGRTACDGPVPACCADERGRCREVPERRKPTRRTTKDKPCASSI
+# SALSAHPPGLGAVAATLSSINASASPSTSTSRSSNQCLAVMARHLSTNAAWSREFWRRRDPHSARQSSYW]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g16
+###
+# start gene g17
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	10550	11143	1	-	.	g17
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	10550	11143	1	-	.	g17.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	10550	10552	.	-	0	transcript_id "g17.t1"; gene_id "g17";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	10550	11143	1	-	0	transcript_id "g17.t1"; gene_id "g17";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	11141	11143	.	-	0	transcript_id "g17.t1"; gene_id "g17";
+# protein sequence = [MLFWLSFRSSYRRAMLTVTDMSPTHTSIHPSTRHSTAHRQGAMDQDKGQSMPTRELFAGFLIDLQRRIGLIELQVHPR
+# QLQVGHHSAVVADGAPELLLSLPQQPQLEVALAQPLLPPPVGKGGLPRRLGRQVQGLPGLPQKVDEVVAQRLGDLGPLGVLVEVDAVHLDRLAASIRP
+# QTGHGRGAQTDQPPGRCDGAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g17
+###
+# start gene g18
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	11198	12328	0.62	+	.	g18
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	11198	12328	0.62	+	.	g18.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	11198	11200	.	+	0	transcript_id "g18.t1"; gene_id "g18";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	11470	11571	0.71	+	.	transcript_id "g18.t1"; gene_id "g18";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	11997	12098	0.9	+	.	transcript_id "g18.t1"; gene_id "g18";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	11198	11469	0.86	+	0	transcript_id "g18.t1"; gene_id "g18";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	11572	11996	0.76	+	1	transcript_id "g18.t1"; gene_id "g18";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	12099	12328	0.9	+	2	transcript_id "g18.t1"; gene_id "g18";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	12326	12328	.	+	0	transcript_id "g18.t1"; gene_id "g18";
+# protein sequence = [MPRRTPLLLGWAEREREPQMYVSVYTCADQPEVALRFCRRLLLMGVSSTELWNNLGLACFYAAQYDLAITCLDRWADR
+# QDESIGHMERSAMSVSESATSDSATRQATRVDTHTLLHPPHSCERRGGCMCAMLSVVQVGLVHRPQPRRVPHQPGSARAQKGKHRTGMQQHGHTIHPP
+# SLPPSLPVLVQAQLAFSHASRLAPHLYEPAYNSALVAFKLGDFQDAFNKANMALQVSVSWSPREQGTAEAAQASVHGFLTDPFLRSCVSTGWSARDVM
+# NWMDGWMYGWIDGWINRQAVRSAMSPSLSLSSSC]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g18
+###
+# start gene g19
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	12692	13030	0.47	+	.	g19
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	12692	13030	0.47	+	.	g19.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	12692	12694	.	+	0	transcript_id "g19.t1"; gene_id "g19";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	12773	12868	0.47	+	.	transcript_id "g19.t1"; gene_id "g19";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	12692	12772	0.53	+	0	transcript_id "g19.t1"; gene_id "g19";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	12869	13030	0.47	+	0	transcript_id "g19.t1"; gene_id "g19";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	13028	13030	.	+	0	transcript_id "g19.t1"; gene_id "g19";
+# protein sequence = [MICPVAPTNPSRPSSGQSQNNTHAHLPSWATSREDRQMSTTEIREAADQATCRQTNDGRDTPKTQKSKARQPRMRASE
+# CP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g19
+###
+# start gene g20
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	13098	13592	0.82	+	.	g20
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	13098	13592	0.82	+	.	g20.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	13098	13100	.	+	0	transcript_id "g20.t1"; gene_id "g20";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	13098	13592	0.82	+	0	transcript_id "g20.t1"; gene_id "g20";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	13590	13592	.	+	0	transcript_id "g20.t1"; gene_id "g20";
+# protein sequence = [MIQRHDACGPQTRQTHTDTSLVDISTRHHLINQQMFQNTLHAPYLKLLMFDRQSERGDESIGVAERCVRNTSMSRSRI
+# RHTRKCSLSHFLCLCLSLSFCSAVSVVLLRLIEQERDAADSREHHDQPGRHTHTHSPLVRLVLACGFYANTAIQVPGEIETILPST]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g20
+###
+# start gene g21
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	13609	14255	0.48	-	.	g21
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	13609	14255	0.48	-	.	g21.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	13609	13611	.	-	0	transcript_id "g21.t1"; gene_id "g21";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	14026	14132	0.48	-	.	transcript_id "g21.t1"; gene_id "g21";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	13609	14025	0.5	-	0	transcript_id "g21.t1"; gene_id "g21";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	14133	14255	0.59	-	0	transcript_id "g21.t1"; gene_id "g21";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	14253	14255	.	-	0	transcript_id "g21.t1"; gene_id "g21";
+# protein sequence = [MTQIHARVCRVGGYRGGAGAGSQLRCYTLTGGKFLRTHSVNSKTTATQSADSHCAMAHTNSLCWLFLWLAVSTPLIPV
+# ATAAEHKQLRAADVPVSLPSPLDIGMKRDLAMPVCVCASALVLMWITGEDVQSTHLKSEKSPTSETLEKGPPLDESTGQHLTAACTSIDALCLSVCLS
+# VFQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g21
+###
+# start gene g22
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	14416	14692	0.44	-	.	g22
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	14416	14692	0.44	-	.	g22.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	14416	14418	.	-	0	transcript_id "g22.t1"; gene_id "g22";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	14606	14666	0.44	-	.	transcript_id "g22.t1"; gene_id "g22";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	14416	14605	0.45	-	1	transcript_id "g22.t1"; gene_id "g22";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	14667	14692	0.44	-	0	transcript_id "g22.t1"; gene_id "g22";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	14690	14692	.	-	0	transcript_id "g22.t1"; gene_id "g22";
+# protein sequence = [MVALTIGPLCAKTPGRPCVCGSIGHTHAAGGSDQCVAQCSQSVSVSFCSVRWVLQAWNGWMDGWMDGWGEV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g22
+###
+# start gene g23
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	14722	15129	0.51	-	.	g23
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	14722	15129	0.51	-	.	g23.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	14722	14724	.	-	0	transcript_id "g23.t1"; gene_id "g23";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	14722	15129	0.51	-	0	transcript_id "g23.t1"; gene_id "g23";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	15127	15129	.	-	0	transcript_id "g23.t1"; gene_id "g23";
+# protein sequence = [MRAQCAGLDEVDEMSACPLRAELAAYLSSHRFAEPSGVFEDGNGEQEGPPDAGVQRRSRQPCHQPRDGLQQGERAHLR
+# DALASPPLTQLGGQQTRQQPEQAGAELLTCVPVRVCLVCVRTTTSAATTCARSTART]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g23
+###
+# start gene g24
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	15213	15903	0.42	+	.	g24
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	15213	15903	0.42	+	.	g24.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	15213	15215	.	+	0	transcript_id "g24.t1"; gene_id "g24";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	15249	15324	0.42	+	.	transcript_id "g24.t1"; gene_id "g24";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	15213	15248	0.42	+	0	transcript_id "g24.t1"; gene_id "g24";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	15325	15903	0.42	+	0	transcript_id "g24.t1"; gene_id "g24";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	15901	15903	.	+	0	transcript_id "g24.t1"; gene_id "g24";
+# protein sequence = [MATGILIVAALLIGARTQGRVPSLSSLRIRSLSSAGGAGSGAPMTRPAASHKRRRSGHGERGHNRQAGHRQSADTALW
+# LLVAAAVRLAVQCVALSPPLFQEAQRPRSGAARQTSLVRTGGWMHTCTDCLLSYPRHTCCAVCVCDRSVCNLTTGLCDKRWGGGSVRSAGGTSPASVP
+# MIPVRTAHEADGPHKPAEQAASDVRAAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g24
+###
+# start gene g25
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	16017	17585	0.19	-	.	g25
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	16017	17585	0.19	-	.	g25.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	16017	16019	.	-	0	transcript_id "g25.t1"; gene_id "g25";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	16480	16574	0.42	-	.	transcript_id "g25.t1"; gene_id "g25";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	17129	17270	0.39	-	.	transcript_id "g25.t1"; gene_id "g25";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	16017	16479	1	-	1	transcript_id "g25.t1"; gene_id "g25";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	16575	17128	0.24	-	0	transcript_id "g25.t1"; gene_id "g25";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	17271	17585	0.42	-	0	transcript_id "g25.t1"; gene_id "g25";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	17583	17585	.	-	0	transcript_id "g25.t1"; gene_id "g25";
+# protein sequence = [MHVCVSVCRSVCLSVWENTPSHHITYIPASGRSSIQSSAIYKIKTHAHTHRTRTTDTQRGRNTHTHGQADRQRVLDKK
+# PAHGHAPSDGRHDDDRERKKESESAGLRFRRSESELVRERSEEASRRLSQSNGQSVHFVCEPISQSSNRPASVQPVQQTDSRDADKSYKHTTKNDRQS
+# IHPPITTPALDGLLTFISHIFPTRESERERARERDRERESHSSRERERANTHPVGIHVCIAYTQKTGTATPPPSHPTRHALGMGCVHCTHSFSQSVMH
+# ACIKPLPSSMHVLRSVANSAGSQACTTHGGWGEVEWVDGWVNRGREGGRGAYTKGGPLPPSVPCMSYLPLYNTHTARHACQPTVRPSVRPSPHRRTHS
+# APRDTYTNECTSRARNSCHQTHTQKESARKPCITGLLQRSIKTGQEETHWPDDRFTYMTQQTKNTRSSLTD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g25
+###
+# start gene g26
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	17633	18061	0.99	+	.	g26
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	17633	18061	0.99	+	.	g26.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	17633	17635	.	+	0	transcript_id "g26.t1"; gene_id "g26";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	17633	18061	0.99	+	0	transcript_id "g26.t1"; gene_id "g26";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	18059	18061	.	+	0	transcript_id "g26.t1"; gene_id "g26";
+# protein sequence = [MDHGRRDERGREREREMGGWGEKDERGEATGGIGILRAVWHCSGAKDASTIILSHCTSPTSHYAERRARHAQSEPEQQ
+# AMGEDKTGTRESTAQSDLAACLQQTDRQTAGIQVWSPSAHSRCNVCVCVMGSLAVPTKSARENS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g26
+###
+# start gene g27
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	18124	18641	0.69	+	.	g27
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	18124	18641	0.69	+	.	g27.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	18124	18126	.	+	0	transcript_id "g27.t1"; gene_id "g27";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	18204	18397	0.69	+	.	transcript_id "g27.t1"; gene_id "g27";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	18124	18203	0.98	+	0	transcript_id "g27.t1"; gene_id "g27";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	18398	18641	0.69	+	1	transcript_id "g27.t1"; gene_id "g27";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	18639	18641	.	+	0	transcript_id "g27.t1"; gene_id "g27";
+# protein sequence = [MNEWNATDGCKHEGHDDNEPTQLSCSSYTNEQMNAVQCTPHRNEPSTARTGPDKPRHTQRLAIHTAAGHTGGKPSFPA
+# RRARLRSFLRAGQRYGGTAGGAASGRCGA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g27
+###
+# start gene g28
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	18805	20319	0.59	-	.	g28
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	18805	20319	0.59	-	.	g28.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	18805	18807	.	-	0	transcript_id "g28.t1"; gene_id "g28";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	18984	19044	0.79	-	.	transcript_id "g28.t1"; gene_id "g28";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	19205	19422	0.71	-	.	transcript_id "g28.t1"; gene_id "g28";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	18805	18983	0.77	-	2	transcript_id "g28.t1"; gene_id "g28";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	19045	19204	0.73	-	0	transcript_id "g28.t1"; gene_id "g28";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	19423	20319	0.61	-	0	transcript_id "g28.t1"; gene_id "g28";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	20317	20319	.	-	0	transcript_id "g28.t1"; gene_id "g28";
+# protein sequence = [MRVQVLSSWTIKSLSESGKCHPLELSSATEDTEGDKHEADQSPGDTDGEIRIDDAPHIVLSSPREDAPPPPAQGREGD
+# AKGLTSLQPPSASSEDGEGTWGPSELTDMEEEREGLLQEDAADETRGAAATVVLDQATHTGSAANRVLLPSPGPSTETAHRRAHGSQKDARTKARERL
+# ASTLDVPALHFLIFTSDFSEEDSNDATSVASRSTASNPMIQTRIIDTSEATVEQRAPSRRTMRRWSFGGWEGNAERFRRCFNWEAIRRELFSYSMVHI
+# LVGAAVIALGVAGEEGVVNMDCAVCLCDCVFCGRVDSADLAVWQGFPRCARGGPPHAGHECVHRPLLGNHLNSLQERRAETVYDKRRQSAAVVKGGNG
+# ACHDPPDAVGQLRHAALHLTGAQKSAEEDLPDAQGHPRR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g28
+###
+# start gene g29
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	20380	20978	0.52	-	.	g29
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	20380	20978	0.52	-	.	g29.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	20380	20382	.	-	0	transcript_id "g29.t1"; gene_id "g29";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	20455	20569	0.52	-	.	transcript_id "g29.t1"; gene_id "g29";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	20743	20863	1	-	.	transcript_id "g29.t1"; gene_id "g29";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	20380	20454	0.52	-	0	transcript_id "g29.t1"; gene_id "g29";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	20570	20742	0.8	-	2	transcript_id "g29.t1"; gene_id "g29";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	20864	20978	1	-	0	transcript_id "g29.t1"; gene_id "g29";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	20976	20978	.	-	0	transcript_id "g29.t1"; gene_id "g29";
+# protein sequence = [MQALILRDTQKGDQEIDTSHTSFETFTSPICATLGCLLGRRHACKESAGPSAVNLSCACMDLAASYNFAYAHPLNRTG
+# RKEAWANEVIDALEKITHDEAQGGQTEEETSFTFPQQAPLYQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g29
+###
+# start gene g30
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	21023	21286	0.96	+	.	g30
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	21023	21286	0.96	+	.	g30.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	21023	21025	.	+	0	transcript_id "g30.t1"; gene_id "g30";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	21023	21286	0.96	+	0	transcript_id "g30.t1"; gene_id "g30";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	21284	21286	.	+	0	transcript_id "g30.t1"; gene_id "g30";
+# protein sequence = [MPDQQPFCQCTLTDKVHAPHRHEPQCNCALGSPPKEKPDGWRMDGLNDAPATTHRCTPHSAAPARLCRSLYCSERAHA
+# RLHEAQGDQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g30
+###
+# start gene g31
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	gene	21377	22044	0.85	+	.	g31
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	transcript	21377	22044	0.85	+	.	g31.t1
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	start_codon	21377	21379	.	+	0	transcript_id "g31.t1"; gene_id "g31";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	intron	21514	21596	0.85	+	.	transcript_id "g31.t1"; gene_id "g31";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	21377	21513	0.88	+	0	transcript_id "g31.t1"; gene_id "g31";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	CDS	21597	22044	0.85	+	1	transcript_id "g31.t1"; gene_id "g31";
+BBS8|A0A0G4GWT1_VITBC|Vbra_18899|VITBC	AUGUSTUS	stop_codon	22042	22044	.	+	0	transcript_id "g31.t1"; gene_id "g31";
+# protein sequence = [MLAVGPLRTLRETVFKLSAARRSACLSLSSTELRLRSFDSALHRRPSRAHRQLLSVHCVSVCVAIADGKETHHRAQPA
+# LFFHQEPQEHPEDSAAECCFGLQNSGPQGQCKQSSQANDMHHTLRGTESHCCCCVWLRCAGQVRGVGGFPAGVWRRLQGGPRLCGRRHGKRLQWPGSD
+# AGGTARGGAALRLLRPQR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g31
+###
+# command line:
+# /usr/bin/augustus --species=pfalciparum --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/A0A0G4GWT1_VITBC.fasta

@@ -1,0 +1,65 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# ciona version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F6QE09_CIOIN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5745, name = F6QE09_CIOIN|ENSCING00000015355|F6QE09) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	gene	49	1458	0.81	+	.	g1
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	transcript	49	1458	0.81	+	.	g1.t1
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	start_codon	49	51	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	49	1455	0.81	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	stop_codon	1456	1458	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLNLLDVHTSEIIHISAKLGQNIDQVLEAIVKQLPSPNLDCKSSYNSSSLLKALLFDSTYEKFRGVIANVAILDGTMK
+# KGDIISSVYLQQKDGNSKSAYEVKEVGILRPEHVSTDVLYAGQVGYIVCGMKTVADAQIGDTLYHHKHPVQGLPKFKKARPVVFGEMFPLDQSQFKNL
+# DAALNRLMLNDRSVTKLNSKSFLLGSGFRIGFLGLLHMDVFCQRLEQEFGTNVVMTSPTVPYKAILNPNKRLQIKEEKEITITTPEDYPSQNLVKDFL
+# QPMIIGTVITPLQYSQDIMELCTAKNGTAVGNSYISETSLMLQYRLPLDEIVVDFYDKLKSLSSGYASFDYEDDGYESVNLSKVDILLNGEIVQELSK
+# ICTLEKSRKIGAKTCAKLKDLIPRQPFPVSIQAVIGKSVIARQTLPAAKKDVLAKTGGGDYTRKLKLLRREADLQKHLRAIGKIKVPKNLFIKMMKE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	gene	2039	3562	0.21	+	.	g2
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	transcript	2039	3562	0.21	+	.	g2.t1
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	start_codon	2039	2041	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	intron	2215	2567	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	intron	2732	3231	0.31	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	intron	3290	3483	0.68	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	2039	2214	0.6	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	2568	2731	0.74	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	3232	3289	0.3	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	3484	3559	0.79	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	stop_codon	3560	3562	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MNKLFGWLKGKKKEANVLCVGLDNSGKTTIINYLKPNDAQQVDIVPTVGFNVEKVTMTNLSFTVFDMSGQGRYRVLWS
+# HYYKETQGVIFVVDSADKLRMAVAKDELDQLLKHQIKCSQLLGLENIKEKPWHICASNAKTGEGLSDGMHWLSDQLQTVK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=ciona --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F6QE09_CIOIN.fasta

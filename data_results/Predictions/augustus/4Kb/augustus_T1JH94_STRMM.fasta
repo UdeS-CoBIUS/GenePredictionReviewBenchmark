@@ -1,0 +1,193 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/T1JH94_STRMM.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 9954, name = T1JH94_STRMM|SMAR013225|T1JH94) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	gene	1	1690	0.22	-	.	g1
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	transcript	1	1690	0.22	-	.	g1.t1
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	1	60	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	371	429	0.91	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	616	688	0.98	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	767	842	0.98	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	1067	1144	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	1253	1311	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	1404	1459	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	61	370	0.99	-	1	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	61	370	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	430	615	0.91	-	1	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	430	615	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	689	766	0.98	-	1	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	689	766	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	843	1066	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	843	1066	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	1145	1252	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	1145	1252	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	1312	1403	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	1312	1403	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	1460	1517	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	1460	1690	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	start_codon	1515	1517	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	tss	1690	1690	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLRFPLKAVLKSPRHVVQSVRASGSGVPEKLEVFIDDKRVLVDPGTTVLQAAAMVGVEIPRFCYHDRLSVAGNCRMCL
+# VEVEKAVKPVAACAMPVMKGWKIKTNSEMTRKAREGVMEFLLVNHPLDCPICDQGGECDLQDQSMAFGSDRSRFTDIHFSGKRAVEDKNIGPLIKTIM
+# TRCIHCTRCIRFASEVAGVDDLGTTGRGGDMQVGTYVEKMFMSELSGNVIDICPVGALTSKPYAFTARPWETRKTESVDVLDAVGSNIVVSTRTGEVL
+# RIIPRLHEDINEEWISDKSRFAYDGLKRQRLTSPMIKDSSGNLVPCEWENALIAAAKSLTSCSGNEIAAIVGGLVDAE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	gene	1946	5803	0.08	+	.	g2
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	transcript	1946	5803	0.08	+	.	g2.t1
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	tss	1946	1946	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	1946	2055	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	start_codon	1976	1978	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	2056	2199	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	2323	2380	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	2502	2804	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	2995	3055	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	3181	3408	0.61	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	3512	3956	0.6	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	4093	4149	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	4233	4306	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	4477	4570	0.45	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	4652	4709	0.83	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	4757	4819	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	4956	5020	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	5180	5289	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	5422	5488	0.96	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	5576	5634	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	1976	2055	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	2200	2322	0.98	+	1	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	2200	2322	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	2381	2501	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	2381	2501	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	2805	2994	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	2805	2994	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	3056	3180	0.79	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	3056	3180	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	3409	3511	0.6	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	3409	3511	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	3957	4092	0.65	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	3957	4092	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	4150	4232	0.99	+	1	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	4150	4232	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	4307	4476	0.39	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	4307	4476	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	4571	4651	0.83	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	4571	4651	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	4710	4756	0.97	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	4710	4756	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	4820	4955	0.99	+	1	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	4820	4955	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	5021	5179	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	5021	5179	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	5290	5421	0.96	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	5290	5421	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	5489	5575	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	5489	5575	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	5635	5766	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	5635	5803	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	stop_codon	5764	5766	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	tts	5803	5803	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGFGDLKNDVGVKNLNEYLASRSYISGFQPSQADTVIYEALADKPKPNFFHALRWYNHITSYGPNRKKFAGEKKAVES
+# YGSCAVVSAANGKKVEDDDDVVDLFGSDEEDPEAERIKQERLQAYNAKKSTKPGVIAKSSVVLDVKPWDDETDMKIMEQKVRTIQTDGLIWGVSKLVP
+# VGYGIHKLQIGCVVEDEKVSIDWLSEEIQQFEDIVQSTDVVLGAWGNRWHHYSVNIFWIVGETRSRSVLSVSTDLNKYINKKGVEKMKKNAVVDSIST
+# ALVNTLWQDRDIRFDVAPSEMKLRLGEKLLDTIDSVEDTKGNSGDRGKLLVTNLRLMWHSHSMSRVNLCKFVLFEKFKNYNKFLFLAIGWNCVQNVTT
+# RSINSKLRGTTEALYILTKTNSTRFEFIFTNLVPGNNRLFATVASVYKAYTSTRMYRELKLRGAIIQNKQLKILPQEQIFNKVNGVWNLSSDQGNLGS
+# FIITNIRLVWYANMNELFNISLPYLQMVTIKVRNSKFGMALVVQSSEASGGYVLGFRIDPQEKLQDVYKEISSLFTVYSNNPNFGVEYIETKIETENL
+# LMLDPVEDDVEIESTDSKSDAYAAYFADGNHQKDREAIYSEELGLAIEKPKEGFSLSNLWEVVPKN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/16
+# CDS introns: 0/15
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 12
+#     RM:  12 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	gene	5854	9954	0.02	-	.	g3
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	transcript	5854	9954	0.02	-	.	g3.t1
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	tts	5854	5854	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	5854	6261	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	stop_codon	5893	5895	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	6262	6444	0.46	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	6819	7113	0.61	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	7313	7437	0.46	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	7624	7691	0.31	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	7939	8285	0.26	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	8448	8505	0.99	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	8804	8877	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	9061	9123	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	9188	9268	0.94	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	9437	9496	0.5	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	intron	9643	9892	0.4	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	5893	6261	0.46	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	6445	6818	0.72	-	2	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	6445	6818	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	7114	7312	0.41	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	7114	7312	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	7438	7623	0.3	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	7438	7623	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	7692	7938	0.24	-	1	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	7692	7938	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	8286	8447	0.26	-	1	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	8286	8447	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	8506	8803	1	-	2	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	8506	8803	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	8878	9060	1	-	2	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	8878	9060	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	9124	9187	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	9124	9187	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	9269	9436	0.46	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	9269	9436	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	9497	9642	0.49	-	2	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	9497	9642	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	CDS	9893	9954	0.4	-	1	transcript_id "g3.t1"; gene_id "g3";
+T1JH94_STRMM|SMAR013225|T1JH94	AUGUSTUS	exon	9893	9954	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [AVSIAHPDLLKQLRHLEITPTDLFTQFEIVSGKEAFGFQELEEIRRRRKLYDHHFMLKSCKSFSDCFVEIAKEYVEKW
+# KKLGKDHQLRLMDVISEATLKGILRTSYGDYFKDEKSLQHFKKLLVNVSMLLEKQLLPNSPEEVDMKKYVEEINTIVKQILATRVRETTDSDVERNLF
+# IDVLLEDTKSEAAQLADSTIFIMAGYDVTGKTIMWTLYELAKQPELQEKLYEELKSVLGDNSTSLETIPQLQYLGQVIDETIRYRLKTIFAARNNPED
+# LKLGNYLIPANSRLYLNLGETFMDNKHYANAEKFDPEHFSVVNSRKRHPYAWKPFGFAGKRQCPGQSYVRTKISIYLAEWIRQFRFNNIDPPQRVNRQ
+# TQTLQASQAPCVKTHSLTKIFYYSLVEMSHDLTIYIYTYYLYDVEEDEWLPCITLSQEKHDDARPSLMMGVFRFLKKSVKSLEKLLQLGEFWLCAFVV
+# IDECIYYVSDHVSSFNTRDKSIRMKCGEFFPFTTTILQHKHGRTKILSEPPLPPKSFINDKMYAAPWHNLQTMAIYSPQNDEWQVFPSKGPSNIKFGR
+# LVLYKNMCEGSDDDKELLLLIGEDGTCPDVFYLQLYDVEEDEWYPHVTLSRKELDNTRGWYQLGVVGNLLYFTGDTAEESEDRKVAYFSFDFKSKTVT
+# RLGRIEKLTEFSGELGNFVNDTSIYFLDHDSYNLETKEIKFIAKHELDCHAAVAALNGKVYGIQQYGLNRLAIYTPETDQWEMMYTNGAKTIKNGKLV
+# VYNGRLLCVDLRCYVYEFCFDEKKWDEKSRDYNGAIFCNRMVFTVKKSYTENWK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/T1JH94_STRMM.fasta

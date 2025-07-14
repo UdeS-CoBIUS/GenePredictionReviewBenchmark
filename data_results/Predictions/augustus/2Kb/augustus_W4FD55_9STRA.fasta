@@ -1,0 +1,124 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W4FD55_9STRA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5826, name = W4FD55_9STRA|H257_17847|W4FD55) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	gene	1	760	0.1	-	.	g1
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	transcript	1	760	0.1	-	.	g1.t1
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	tts	1	1	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	exon	1	760	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	stop_codon	179	181	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	CDS	179	619	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	start_codon	617	619	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	tss	760	760	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MDSEKSSDAAPAMAESIPREVFRVPAIGDVWVNGLSNEYDASTFPSQLEAYMTQADYDKALDTINQALHDLWPCVPCW
+# STSYGCCVCTLGLSLYCAWGQVSEAETCTARQIARVNRRACFKDRHITWRLEKSWLKHTSWLVISVVE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	gene	1016	1643	0.08	+	.	g2
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	transcript	1016	1643	0.08	+	.	g2.t1
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	tss	1016	1016	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	exon	1016	1643	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	start_codon	1165	1167	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	CDS	1165	1605	0.5	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	stop_codon	1603	1605	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	tts	1643	1643	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MPKAPRTLCAYRDVSGVCGCSMTACRAKRCSTIPCKRTLYSLFPISTHARRLICGCSRGECYWSSGPSSSQMQDDYID
+# YAVLDQCIVRAMELVPYKAFWQMGEPGYAPLKVSIALLAKSETSEERCIVYSSPPFDVANRMEVCTYK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	gene	1746	3806	0.07	+	.	g3
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	transcript	1746	3806	0.07	+	.	g3.t1
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	tss	1746	1746	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	exon	1746	2216	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	start_codon	2021	2023	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	intron	2217	2270	0.89	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	intron	2910	2984	0.63	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	intron	3101	3226	0.73	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	intron	3469	3528	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	CDS	2021	2216	0.89	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	CDS	2271	2909	0.83	+	2	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	exon	2271	2909	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	CDS	2985	3100	0.54	+	2	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	exon	2985	3100	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	CDS	3227	3468	0.99	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	exon	3227	3468	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	CDS	3529	3712	1	+	1	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	exon	3529	3806	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	stop_codon	3710	3712	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	tts	3806	3806	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MADDLDDGTSPLSARPAHRLEPPLTAKNYLLHKLYLRQEYAECLKLIEDMLKEHQGLCEYPIYVKALIMQHSGRIQES
+# LQLFQAATCLNPDNKDNLKQVGRSLYLLGKHKAAIEVYEETKKLAGPEDWEIHHNIGLCHMYLKSYDLAIESFQSANNIHRHDTTFLQLGKVHTLRED
+# FKAAISVYLEALEFSPENPELLTTVGLLYLRIGENFRAFDYLGNSMTHDPRNAKVTLIIESIQCKVLYSFRGYVDDSSRGVDHSRPWRYGRCLGQVSS
+# RCCPNAPLSLDYSKYHIYNIYGLDTEFSPVVEQHWHVFLWQAAAVASLKRALYLDPFEWITSYNLGLVHLNTGQYASAFHYFSAAINLKPDFASSYMY
+# LAITLGRLDDFENACSAYEKAIEMDADHLFHLNYAVTLLNNDEIERAKVQFDKFDAIFNTLDEATQSSDPEVMAQRQALLEALHEN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	gene	4124	5770	0.11	-	.	g4
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	transcript	4124	5770	0.11	-	.	g4.t1
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	tts	4124	4124	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	exon	4124	4523	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	stop_codon	4151	4153	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	intron	4524	4579	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	CDS	4151	4523	1	-	1	transcript_id "g4.t1"; gene_id "g4";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	CDS	4580	5739	0.48	-	0	transcript_id "g4.t1"; gene_id "g4";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	exon	4580	5770	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	start_codon	5737	5739	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+W4FD55_9STRA|H257_17847|W4FD55	AUGUSTUS	tss	5770	5770	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MTNVTELSSTHCMESSDAAATSTRAGLPSPSMTLVKHIQQLLVRFPQDDAFRHHTEQLCVVVSKVPVLRRALRTLHDQ
+# AQWNAAVVDELRHEHDTNLVHLHHKRQFQRVLQADMVRLRTQCSDLHATMAAERRAASDLQVECSNLQEDYMELDQENHLLRGIVAQLEKNHANLRRK
+# CQQVAAINQQTNERLGMQHEDLANQRHRAQDTIRTLQTSVESMAANPLWLEFLRDRHMYIDLQGEMEGHVETLQSQLQQLTRERSRLERQHADQQLTI
+# EELKRVLMAQETKWTDQSSRLMQLVDSQEEALAELRQSAAAMQKQHVDMERKSHDMEQLVASLQASNDSLVTMVADHVVQLKRAKKDLHRRFLECESL
+# KVQRGALQVERCELSDRCEAHANSMQEQVERWHKTSVELEQRHISLATQLQLSQDEVHVLRQHALPDLSPLFTAQSTPSAPLTLDDSVLQKIQQVLDC
+# RIQDYQRDLDKYPSNAALKHFLSVESVFLAALRGRLLLLA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W4FD55_9STRA.fasta

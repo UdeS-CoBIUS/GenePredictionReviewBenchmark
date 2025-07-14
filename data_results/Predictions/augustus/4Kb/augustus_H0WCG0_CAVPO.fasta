@@ -1,0 +1,93 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/H0WCG0_CAVPO.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 25861, name = H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	gene	1	2869	1	+	.	g1
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	transcript	1	2869	.	+	.	g1.t1
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	1	464	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	628	2696	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	465	627	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	2697	2869	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	stop_codon	2867	2869	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [VMKSTGDVAGGRALYEGYAAVTDAPPECFLTLRDTVLLRKESRKLIVQPNTRLEGSEVQLLEYEASAAGLIRSFSERF
+# PDDGPELEAVLTQLATADARFWKSPNEALSGQP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	gene	4023	19599	1	+	.	g2
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	transcript	4023	19599	.	+	.	g2.t1
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	start_codon	4023	4025	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	4070	4404	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	4482	4636	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	4672	5625	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	5899	6446	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	6494	6742	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	6816	8802	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	8935	9911	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	10019	12988	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	13110	13199	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	13359	14531	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	14602	15047	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	15207	17591	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	17726	18674	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	18810	19183	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	intron	19271	19512	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	4023	4069	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	4405	4481	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	4637	4671	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	5626	5898	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	6447	6493	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	6743	6815	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	8803	8934	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	9912	10018	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	12989	13109	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	13200	13358	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	14532	14601	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	15048	15206	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	17592	17725	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	18675	18809	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	19184	19270	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	CDS	19513	19599	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H0WCG0_CAVPO|ENSCPOG00000022395|H0WCG0	AUGUSTUS	stop_codon	19597	19599	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAAVSSSDCDSGGAESNETNSKWLDAHYDPMANIYTFSSCLALADLHGDGEYKLVVGDFGPDGRNPHLKVLKGPTVLT
+# ESPLPALPAAAATFLMEQHQPRTPALALASGPCVYVYKNLRPYFKFALSQLPPNPLEQDLWDQAKEDLIDPLTLKEMLEGIRFLQLELNEMEAFVNQN
+# KSKPIKRQTVITTMITLKKNLADEDAISCLVLGTENKKLLIIDPEAFTVLAEMDIPSVPVFLEASGQFDVGFQLAAACRNGNIYILKRDSKHPKYSIE
+# LNAQPVGLVRIHKILVVGSTQDSLHGFTHKGKKLWTVQMPATILTMNLLEQHSRSLQAVMVALANQEVRIYRDKALLNVIRTPDTVTSLCFGRYGRED
+# NTLIMITRGGGLIIKILKRTAVFVEGTGEVGPPPAQAMKLNVPRKTRLYVDQTLREREAGTGMHQTFQTDLYLLRVRAARAYVQALESSLSPMSATAR
+# EPLKVHAVVQGLGPTFKLTLHLQNTSAARPVLGLLVCFLYDEALYALPRAFFKVPLLVPGLSYPLETFVQSLSSKGTSDIIRVLVLREGQSAPLLSAH
+# ISMPVSEGLVAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/16
+# CDS introns: 0/15
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 32
+#     RM:  32 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/H0WCG0_CAVPO.fasta

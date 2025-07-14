@@ -1,0 +1,256 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/W2R9D6_PHYPN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 20825, name = W2R9D6_PHYPN|PPTG_01919|W2R9D6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	gene	44	1163	0.04	+	.	g1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	transcript	44	1163	0.04	+	.	g1.t1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tss	44	44	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	44	1163	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	start_codon	374	376	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	374	1039	0.88	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	stop_codon	1037	1039	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tts	1163	1163	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSQTANRIRLQQHLGLFTRGHAIWIYPWISTKYTLSHEYRTVQLCCWSSVDRASPIQSLRYNLHSFSHHETTRWTLFH
+# QLRFRSHFTFFSSAPKPTTNQHNMRLSQVLLVIAAAMLAASDALSDSDVASISKGALPSGPSQRLLRTHHAYDTTADTEERAAPLERINSLAKKFDID
+# LKRAKEPGYMASINADVLERYQAALSKLHKKFKTKKAPLYSEDHF]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	gene	4686	6903	0.02	+	.	g2
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	transcript	4686	6903	0.02	+	.	g2.t1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tss	4686	4686	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	4686	6289	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	start_codon	5433	5435	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	intron	6290	6386	0.5	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	5433	6289	0.41	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	6387	6855	0.5	+	1	transcript_id "g2.t1"; gene_id "g2";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	6387	6903	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	stop_codon	6853	6855	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tts	6903	6903	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MTTDMMVKLIKARSSKPVAGVWRKLRTFQLVPGTFVAPNRAGALKTALEGAVAAAFQAVREALEDQCDEIVPETPQSS
+# VCSSPVLVSGLKDVPVPSAPSSAISAPADSGGASPTYNAGDASEESFVRSSVIEIVNLVSSEEDRELQVASPGDQPSFVSDLKAATYMRAIPNRHARG
+# KVRHQAPKKRAQWHVPRSRKRRHLAKRAITRIGNVIYHAKAFKPAKFEEEPRGVERGGEAARPAKVVRGALIQEGALSLPRCAVAGRSGANHDVQAQQ
+# NKVPRHWERRPLNAPRTLDTLKLFDTGRVGLGVYTTTALDVGDVIREYCGELTEFAAAVEGQPAQARKHNSGYTMLYNAKSVRGKYVYVDALRCGSIT
+# RFLSHACQPNAAFVEQQTRSRVRVLVKMIKNVKASAKVTVHYGDEHWFKCACDVCWEDQRGQEESSEEE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	gene	6957	9030	0.04	-	.	g3
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	transcript	6957	9030	0.04	-	.	g3.t1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tts	6957	6957	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	6957	7374	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	stop_codon	7051	7053	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	intron	7375	7495	0.9	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	intron	8635	8689	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	7051	7374	0.9	-	0	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	7496	8634	0.9	-	2	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	7496	8634	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	8690	8894	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	8690	9030	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	start_codon	8892	8894	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tss	9030	9030	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MPRVSWQEIAVDVDAAEAEAVMARLKLFDIDKSQAMGCTICLGADHKMRYRLLECSSQSCAEASPVKCAQLARRRPRA
+# QEAHVAHKAFCRDLTQNHLRPMRIRHALARKFATYLEDLPPLKTVQNFVNHYDRAQMDNHDRVQDLTAWIREHAYDGSEPMTEPFTFTWEMDNAGLPV
+# VGNGSDKRPFLVGISTKALMLRLMVPPESFILHLDGTYKTNQCDYPVLVVGVSDRSRRFHLVAIFVMSQETQPMFQAALLSLRRLYFWIAEEHLTVHY
+# AMADGDRAQCNALTAVFGDNPRFRFLMCFFHVMKHIQERVKLLSSDAQARVLRELYDLHFARNQGHYIEMLHAIWRRWMAEPTLVPFAQYFYGQWLTG
+# HFTAWQMFTTPSGFASTNNPAETFKLKHDYTLRRRTKMGTLMRELSACCQDQSSSVRAFEFAVCPAPTLARRVSEMRGGDRCDRTDGLQLCKEGRKWK
+# VSLWTGGEWMSSVSGVPVTTGLLSERAFTRCSRSVSPHTSTAAAEKSSLAVGRESGARLPFFQTLDAPGRLNLRSVWSDPAPANL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	gene	9966	10844	0.21	+	.	g4
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	transcript	9966	10844	0.21	+	.	g4.t1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tss	9966	9966	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	9966	10575	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	start_codon	10097	10099	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	intron	10576	10664	0.97	+	.	transcript_id "g4.t1"; gene_id "g4";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	10097	10575	0.98	+	0	transcript_id "g4.t1"; gene_id "g4";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	10665	10752	0.97	+	1	transcript_id "g4.t1"; gene_id "g4";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	10665	10844	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	stop_codon	10750	10752	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tts	10844	10844	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MGLFKVLANALGIKKTQVRILVVGLDNSGKTTLVNHLKPKKSQSREVVPTIGFQVEEFTKSNLNFTVFDMSGQSRYRS
+# LWENYYSDVQAIIYVLDSTDTIRMCVAKDELEQLVEHKELSSKKVPILFFANKMDLPNSLTPVECMQHLELDSLGSKSWHITASNAVTGRGVEEGIEW
+# LADQFAKGKSRK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	gene	10904	11800	0.14	-	.	g5
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	transcript	10904	11800	0.14	-	.	g5.t1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tts	10904	10904	.	-	.	transcript_id "g5.t1"; gene_id "g5";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	10904	11573	.	-	.	transcript_id "g5.t1"; gene_id "g5";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	stop_codon	10997	10999	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	intron	11574	11647	1	-	.	transcript_id "g5.t1"; gene_id "g5";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	10997	11573	0.99	-	1	transcript_id "g5.t1"; gene_id "g5";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	11648	11700	1	-	0	transcript_id "g5.t1"; gene_id "g5";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	11648	11800	.	-	.	transcript_id "g5.t1"; gene_id "g5";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	start_codon	11698	11700	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tss	11800	11800	.	-	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MFKNTFQSGFLSILYSIGSKPLQIWDKQVRNGHIKRITDQDIQSSVLEIMGTNVSTNFITCPAQPAKTLGIKLPFLVM
+# IIKNLKKYFTFEVQVLDDKNVRRRFRASNYQSSTRVKPFICTMPMRLDEGWNQIQFNLSDFTRRAYGTNYIETLRVQIHANCRIRRIYFSDRLYSEEE
+# LPPEFKLFLPVPKANNATSNEQQKVASPAEQFM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	gene	11906	13242	0.23	+	.	g6
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	transcript	11906	13242	0.23	+	.	g6.t1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tss	11906	11906	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	11906	13242	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	start_codon	11950	11952	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	11950	13197	1	+	0	transcript_id "g6.t1"; gene_id "g6";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	stop_codon	13195	13197	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tts	13242	13242	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MSAAVRVLLPSEPAAPSASSPRPTKRRRLDETSDVAIEVCKTPGENGAAGVTMTSEDESTDNLVKCDDDHFEESNAHS
+# VHLNCAECGEQFLLSTELVAHSQSTRHRPFACQHQGCDKYYSKREHLTRHVETVHIRGSTQSLEERKPYKCELCQARFTYNHGLTRHIKRSHRNVNLP
+# FECSECLKGFKKKSELQAHSYVHTGVLPFECEECGERFLKRFWLTRHQRKHEANKDADTQVFVCDCGEICFDEEELNTHKQTEHGKEEAEDDVDAEAK
+# ETPAHLCLVCDQTFSRKQYLRAHLRTHFESLDDRKQYTCPMDGCNKSYTRKSNLMTHYNAVHDKRKSKRFACPREGCTARFGYKTVLKHHIESIHDNP
+# KPPKRRERKSAGILERALGINQVGEQAKRIKAVSHDEKGKTEQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g6
+###
+# start gene g7
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	gene	13486	14133	0.05	+	.	g7
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	transcript	13486	14133	0.05	+	.	g7.t1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tss	13486	13486	.	+	.	transcript_id "g7.t1"; gene_id "g7";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	13486	14133	.	+	.	transcript_id "g7.t1"; gene_id "g7";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	start_codon	13706	13708	.	+	0	transcript_id "g7.t1"; gene_id "g7";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	13706	14104	0.99	+	0	transcript_id "g7.t1"; gene_id "g7";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	stop_codon	14102	14104	.	+	0	transcript_id "g7.t1"; gene_id "g7";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tts	14133	14133	.	+	.	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MIADCSGRLWCPDLEKSAGQPIDGFHNSNQPDYPLAADTAQCSPARCVEQEQSLGAWRAARERIFTSALWSSSVCGGA
+# VSTSVPPLTSGKAGLSATLSCWVLARCRPTGNSCGERGSEGLQPARVRTLGLHM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g7
+###
+# start gene g8
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	gene	14206	16531	0.01	+	.	g8
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	transcript	14206	16531	0.01	+	.	g8.t1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tss	14206	14206	.	+	.	transcript_id "g8.t1"; gene_id "g8";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	14206	16531	.	+	.	transcript_id "g8.t1"; gene_id "g8";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	start_codon	14732	14734	.	+	0	transcript_id "g8.t1"; gene_id "g8";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	14732	16441	0.51	+	0	transcript_id "g8.t1"; gene_id "g8";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	stop_codon	16439	16441	.	+	0	transcript_id "g8.t1"; gene_id "g8";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tts	16531	16531	.	+	.	transcript_id "g8.t1"; gene_id "g8";
+# protein sequence = [MFTSALRASLRVQRLGAMKMAQSSPAFSSSFALRTFANATAASLGIEKFGVTNAKTQVHRNLSYDEIAAHEEKNGEGQ
+# FVKNGTYTIDTGKFTGRSPKDKFIVDQAPSNKNIWWGDINQPVSPEVFDELYETVTEHYGQAEKVYVFDGYAGANPASRKKVRFITELAWQHHFVTNM
+# FLRPQTKEEIADFKPDFTIVNACKVTNKDYKKHGLNSEVFVAFNIEKDVAVIGGTWYGGEMKKGIFSMMNYWLPLDGIMAMHCSANKGKNGDTALFFG
+# LSGTGKTTLSADPQRYLIGDDEHGWDDDGIFNFEGGCYAKTINLSAENEPDIYNAIKRDALLENTFVDSETKEPDFYNTSKTENGRVSYPIYHIPNHE
+# PTSSGGHPSNIVFLTCDAYGVLPPVSKLSDGQAMYHFLSGYTAKVAGTERGVTEPTATFSACFGAAFLPLHPTKYADLLQKKLQKHNTSVYLVNTGWT
+# SGGYGVGKRMSIKDTRACIDAILDGSIKNSEFSEDPNFGFSVPKKLGEIPENVLNPREAWSDKEAYDVTAKKLAGMFQENFKKYVSPGVTDYSKFGPK
+# L]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g8
+###
+# start gene g9
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	gene	16806	20253	0.01	+	.	g9
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	transcript	16806	20253	0.01	+	.	g9.t1
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tss	16806	16806	.	+	.	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	16806	17162	.	+	.	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	start_codon	16924	16926	.	+	0	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	intron	17163	17855	0.18	+	.	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	intron	18024	18088	1	+	.	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	intron	18651	18710	1	+	.	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	16924	17162	0.18	+	0	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	17856	18023	0.18	+	1	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	17856	18023	.	+	.	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	18089	18650	1	+	1	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	18089	18650	.	+	.	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	CDS	18711	20207	1	+	0	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	exon	18711	20253	.	+	.	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	stop_codon	20205	20207	.	+	0	transcript_id "g9.t1"; gene_id "g9";
+W2R9D6_PHYPN|PPTG_01919|W2R9D6	AUGUSTUS	tts	20253	20253	.	+	.	transcript_id "g9.t1"; gene_id "g9";
+# protein sequence = [MVAALLLLRNFAAGLHVFQHAFQHGRRYDHVHIHPDMPNLVASSPWLNFGINDALASSTSSRTIAPTNWCRAEGGQKL
+# CQTEAFSDGVSDGVCPEEVWPTATMLRFPREFFLICICTVYALAFASIRTQVRGLYGENGIQPVDVYLRSVKVGNASESHGVSTFEWIADKFPTLVWL
+# HEPFQWTPSFCMEVICLAGVTIALLGMVQPAWRTTGPLTLLWICYLSIVKCGQTFMQFQWDSFLLEIGVLAVLMAPWWHRGKPDDTFETPAAAVWTLR
+# FLFFKFMLMSGAVKIQSRCPTWLGLTALDFHFATQPLPLPLSWYALQAPPIINRLAVAVTLLIEGPWTFFLIAPHPTLRRIGAIQQIVLQISILLTGN
+# YNFFNLLTIILAAVLLDIDNGAKDCGSDTSNQRKSWITRVESAWYTFQTHPLAAKAMLGCGLFFCVYTWLDAFELTIQDRKQTHSFLELLLATRIRLL
+# PTVGDIQVWLALILPRCTLFSAVLVVCSSCRQVVRSFSHSGHSSTTRKLLVLRLIYLLTATVASLWVFTSSVVTLSVLDQSFQQSLPSFAISTYYSTE
+# KYRITSAYGLFRTMTGVGTVKMANEQHVSVVARPEIILEGTEDGGLTWKSYHFKYKPGDLSSAPRLIAPFQPRLDWQMWFAALGDYHSAPWLVNLVAK
+# LLEGSRDVKELLDTTRDPFPDAPPDAIRAQLYYYDFTRLNTSWNQALPTAKILNYNDTQWWTRTFVKEYLPALERGNPSLTAFVEHHWPSTGARLSSE
+# TNEASKLRQWVDRGLGWLCNTSWSPVGLAAGGVLAQSGVAAMFRTRRRAMLTKLKIQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g9
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/W2R9D6_PHYPN.fasta

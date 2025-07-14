@@ -1,0 +1,55 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F7IDY9_CALJA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22078, name = F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	gene	1	22078	1	+	.	g1
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	transcript	1	22078	.	+	.	g1.t1
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	2655	2731	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	2847	2881	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	6491	6763	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	7618	7664	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	7769	7807	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	7932	8004	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	9758	9889	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	10935	11041	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	12755	12875	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	13023	13181	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	14128	14197	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	14664	14822	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	17822	17955	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	18519	18635	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	18888	19022	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7IDY9_CALJA|ENSCJAG00000032439|F7IDY9	AUGUSTUS	CDS	19695	19781	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [NEANSKWLDAHYDPMANIHTFSACLALADLHGDGEYKLVVGDLGPGGQQPRLKVLKGPLVMTKSPLPALPAAAATFFM
+# EPHEPRTPALALASGPCVYVYKNLRPYFKFSLPQLPPNPLEQDLWNQAKEDQIDPLTLKEMLESIRETAEEPLSVQSLSFLQLELSEMEAFVNQHKSK
+# SIKRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPEAFTILAKMSLPSVPVFLEVSGQFDVEFRLAAACRNGNIYIMRRDSKHPKYCIELSA
+# QPVGLVRVHKILVVGSTQDSLHGFTHKGKKLWTVQMPAAILTMNLLEQHSRGLQAVMAGLANGEVRIYRDKALLNVIRTPDAVTSLCFGRYGREDNTL
+# IMTTRGGGLIIKILKRTAVFVEGGSELGPPPAQAIKLSVPRKTRLYVDQTLREREAGTAMHRAFQTDLYLLRLRAARTYLQALESSLSPVSTTAREPL
+# KLHAMTVDRRRGGRGYKVTQERENNEIIKATLGREWEVKQAGVGVQGLGPTFKLTLHLQNTSTARPILGLLICFLYNEALYALPRAFFKVPLLVPGLS
+# YPLETFVESLSNKGISDIIK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/16
+# CDS introns: 0/17
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 29
+#     RM:  29 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F7IDY9_CALJA.fasta

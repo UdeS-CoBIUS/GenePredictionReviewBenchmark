@@ -1,0 +1,120 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/U3JY08_FICAL.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 41001, name = U3JY08_FICAL|ENSFALG00000007339|U3JY08) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	gene	1	6788	1	+	.	g1
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	transcript	1	6788	.	+	.	g1.t1
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	1	2586	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	2723	3220	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	3342	4060	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	4160	4325	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	4387	4810	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	4871	5724	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	5787	6619	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	2587	2722	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	3221	3341	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	4061	4159	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	4326	4386	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	4811	4870	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	5725	5786	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	6620	6788	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	stop_codon	6786	6788	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLPNTARPGSRGGSLTSGGVLSSQIKVADRPVTQQGLSGIKTAMKGPQRQIMDKTYYLGVLRYVLTAHLVVCSLSDTV
+# LKLGNSVQSKTNELTTEINKLQEEVEMYKQEKSVYLSYEKRAEALAGEIKDLQGQLADFNMVVDILNTSTDMAEVIRDYNMLKVQNDRDAQSIDKIFT
+# ERQTLQSCYTIDLEPALSLAVDGFNVLEKLFFSSRPLRNETLMIMPTSPATLFMLNNIH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 10
+#     RM:  10 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	gene	7062	11139	1	-	.	g2
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	transcript	7062	11139	.	-	.	g2.t1
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	stop_codon	7062	7064	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	7388	8613	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	8821	9007	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	9516	11055	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	7062	7387	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	8614	8820	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	9008	9515	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	11056	11139	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	start_codon	11137	11139	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MKLYWLVISAGTLFLNTVTADCNITSQTVACEESGKNLFNISLNLFQNITKLSLKNNKITLEDHDREILGRFINLIEL
+# HLNENNITVLNNNSFYNMKNLVTLDISNNCISTVHKAAFAGLNQLSVLNLSYNMIAQLDSDTFTSLESLTVLDLQYNFLKYFHIKSSFKPIKIVLAGN
+# PWICCDLLDLQIWLTASNVTLENESNTTCTLSNMDKISIKMAAIQTADCKIEKTSLENTVTSTPAVSLRSSALITALTPNNITGNNGTRAELPLVGKS
+# WTFLAGVLGFVLSTTLLIFTAVKCPAWYHYLISYRHRRLKENDSEMFEQEFSADMSPSPSVSGTSSEEPIVIFEKVHACGDEEDGFIEDKYIDIYVNE
+# ER]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	gene	16135	36328	1	+	.	g3
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	transcript	16135	36328	.	+	.	g3.t1
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	start_codon	16135	16137	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	16173	17074	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	17214	18249	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	18313	18970	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	19138	21794	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	21875	24660	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	24715	28052	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	28151	29061	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	29189	33034	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	33199	33782	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	intron	33909	36244	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	16135	16172	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	17075	17213	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	18250	18312	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	18971	19137	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	21795	21874	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	24661	24714	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	28053	28150	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	29062	29188	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	33035	33198	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	33783	33908	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	CDS	36245	36328	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+U3JY08_FICAL|ENSFALG00000007339|U3JY08	AUGUSTUS	stop_codon	36326	36328	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MVNGKEKTNPEGSTEKLNQAIEEDIEREKVLAEDILKDMTQENQAKYMEMKAANEKLSQELVVQQQELDALNVKEETL
+# RAEIAHSGMKQRAVQLYEEVHELKERRDRMIAEDKNMESPQEERERLLKQARIENVVMLAEVKEKTDYFKKVIQRLDMDLENNRGEENWKYKELKKKE
+# ENMDSFLETFEDVKNQELERKAEIEANIVALLEHSSRNLNHMKQISSVTNQELKIMQEDLTFKSSEMQKSQSTAKNLITESQKLQMDLQKMELLEGKM
+# VGELASLKDKIEQTKAELDVYNNLPALKASGEEKKKKLQDDKEKLTKRSHAFKKIMEHLTTEYETLKKELEENETHSQLTNLERKWQHHEQNNFMMKE
+# CILFFKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/11
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 21
+#     RM:  21 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/U3JY08_FICAL.fasta

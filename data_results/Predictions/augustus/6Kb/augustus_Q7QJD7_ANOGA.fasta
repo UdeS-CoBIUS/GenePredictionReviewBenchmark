@@ -1,0 +1,95 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# aedes version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/Q7QJD7_ANOGA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 14143, name = Q7QJD7_ANOGA|AGAP007459|Q7QJD7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	gene	1	5960	0.44	-	.	g1
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	transcript	1	5960	0.44	-	.	g1.t1
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	intron	1	3391	0.51	-	.	transcript_id "g1.t1"; gene_id "g1";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	intron	3514	3736	0.82	-	.	transcript_id "g1.t1"; gene_id "g1";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	intron	3816	3879	0.97	-	.	transcript_id "g1.t1"; gene_id "g1";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	intron	4037	5686	0.82	-	.	transcript_id "g1.t1"; gene_id "g1";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	intron	5884	5947	0.98	-	.	transcript_id "g1.t1"; gene_id "g1";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	3392	3513	0.59	-	1	transcript_id "g1.t1"; gene_id "g1";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	3737	3815	0.85	-	2	transcript_id "g1.t1"; gene_id "g1";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	3880	4036	0.97	-	0	transcript_id "g1.t1"; gene_id "g1";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	5687	5883	0.95	-	2	transcript_id "g1.t1"; gene_id "g1";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	5948	5960	0.98	-	0	transcript_id "g1.t1"; gene_id "g1";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	start_codon	5958	5960	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPQQPEAFDAFENQVVPFVCALPSAVPLPPVTERNHLLLVRTCMPSGGRRRIVAHSALGTIATTSMRNKNLYKCSGTE
+# ELQDRSHLHQQVTHTKQALRSCCCEVLSPRDCDVSHRVSTSFENAPTQKPFACLLVVVVDNSQIDCASHFTTICLYKIFGWRMGLILRSSFDQLVPEE
+# EWLRDAVCRLTLR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 11
+#     RM:  11 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	gene	6001	8143	0.62	+	.	g2
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	transcript	6001	8143	0.62	+	.	g2.t1
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	start_codon	6001	6003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	intron	6012	6205	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	intron	6475	6544	0.74	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	intron	8011	8074	0.88	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	6001	6011	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	6206	6474	0.98	+	1	transcript_id "g2.t1"; gene_id "g2";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	6545	8010	0.74	+	2	transcript_id "g2.t1"; gene_id "g2";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	8075	8143	0.84	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	stop_codon	8141	8143	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MFLCKTKPTDKWLDAQCDGTAALHTLPSCMTLCDLKNDNYYQLVTVDVPMFDFDAKPKLKVYKGTNLISEQHLPGIPS
+# AVESLYINDQEPRIPIIAVAVESSVLFYRNMKPYYKYTVPSMTIEPLEIDVWKKLPIERGDALDALIDSLRSIEPSQMTLQTQELLSLSESERGGYIR
+# SNADRKLERLSIITTMTTIKKASNEAKSASCLILATESGELLVLDSQAFVVLAQAKVGPFRGTPTMISASGQYDIDYRVVIATREGALYLLRKGWLAG
+# QHIVKLEDPAAGLSLLPIDQTIVVVCMNQSLLCYSKKGKKLWAVKLPQPAVCMTPVCLPHLGINLVCVCLKGGLVQFYSQKKLVDQFYAPESVSALTF
+# GRLGQEEHVLILVTIDGSLIVKILKRTAEFVTTENMYDVKTASDEPPGNLQIPKKTKIFVEQTLREKEHAATIHNSFQSELWRMRLTTARATVDVINS
+# ADSNVSTVDVGLAPLKLAAEVLGLGPTFKLFLMLENISTRKEATGLNVLIQADHRHYLVERPFVQLPMLVPGYPLRLDFRVTVSVDPSDGLPPVDLTS
+# ENSHIKVLVFKSGQTKPLIASTVVMPQPEPQVLNSF]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	gene	11651	12117	0.73	+	.	g3
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	transcript	11651	12117	0.73	+	.	g3.t1
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	start_codon	11651	11653	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	intron	11660	11868	0.78	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	11651	11659	0.77	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	CDS	11869	12117	0.96	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q7QJD7_ANOGA|AGAP007459|Q7QJD7	AUGUSTUS	stop_codon	12115	12117	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MEQKFNESAEKVKSFTKRPSDAELLELYALFKQATVGDNETEKPGMFDLKGKAKWQAWADRKGTSKEAAMEAYIKMVE
+# ELSAKYV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=aedes --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/Q7QJD7_ANOGA.fasta

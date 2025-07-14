@@ -53,10 +53,10 @@ We recommend creating a dedicated Python environment to avoid dependency conflic
     <pre><code> sudo apt install augustus augustus-data augustus-doc </code></pre>
 
     * <a href="https://github.com/weberlab-hhu/Helixer?tab=readme-ov-file">``Helixer``</a>.
-    Due to the deprecated of the module tensorflow-addons, please, consider the following command after installation of ``Helixer``. To ensure proper execution of the scripts, the Helixer folder must be accessible from the project's root directory.
+    Due to the deprecation of the `tensorflow-addons module`, please run the following command after installing `Helixer`. To ensure proper execution of the scripts, the Helixer folder must be accessible from the project's root directory.
     <pre><code> mv utils/HelixerModel.py Helixer/helixer/prediction/. </code></pre>
 
-* Step 3: Retrieve data and source codes from external repositories. You don't have to follow the instructions in this step 3 if you have already cloned the repository in step 1. 
+* Step 3: Retrieve data and source codes from external repositories. You don't have to follow the instructions in this `step 3` if you have already cloned the repository in `step 1`. 
 
     * Access and Download the gitlab project of `Nicolas Scalzitti and al` <a href="https://forge.icube.unistra.fr/n.scalzitti/g3po"> here </a> or clone the repository with the command 
 

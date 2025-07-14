@@ -1,0 +1,55 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G1P887_MYOLU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 9510, name = G1P887_MYOLU|ENSMLUG00000006979|G1P887) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	gene	1	9360	1	+	.	g1
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	transcript	1	9360	.	+	.	g1.t1
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	intron	1	153	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	intron	279	1932	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	intron	2128	3491	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	intron	3553	4809	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	intron	4882	6072	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	intron	6139	6219	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	intron	6298	7153	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	intron	7438	7995	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	intron	8128	9341	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	CDS	154	278	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	CDS	1933	2127	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	CDS	3492	3552	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	CDS	4810	4881	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	CDS	6073	6138	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	CDS	6220	6297	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	CDS	7154	7437	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	CDS	7996	8127	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	CDS	9342	9360	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G1P887_MYOLU|ENSMLUG00000006979|G1P887	AUGUSTUS	stop_codon	9358	9360	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [AELGLNEHHQNEVINYMRFARSKRGLRLKTVDSCFQDLKESRLVDETFTIDEVSEVLSGLQAVVHSEVESELINTAYT
+# NVLLLRQLFSQAEKWYLKLQTDISELENRELLEQVAEFEKAEFTSSTKKPIIDIIKPKLAPLNEGGTAELLNKEILRLQEENEKLKSRLKTIEMQAMN
+# ALDEKSELERALRDLQLDQGTQKDFIKAQDLSDLENTVAALKSEFQKTLSDKTENQKCLEQSLATAKHDLLRVQEQLSMAEKVRFVCECPWRGGCRRG
+# KVLGERWTAAHSHFPPGVDHSELAFFTVQELEKKFQQTAAYRNMKEILTKKNDQIKDLRKRLAKYEPED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 16
+#     RM:  16 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G1P887_MYOLU.fasta

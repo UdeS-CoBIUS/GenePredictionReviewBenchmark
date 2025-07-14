@@ -1,0 +1,200 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/B3RWQ3_TRIAD.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 17833, name = B3RWQ3_TRIAD|TriadG25605|B3RWQ3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	gene	295	2859	0.11	+	.	g1
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	transcript	295	2859	0.11	+	.	g1.t1
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	295	697	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	start_codon	344	346	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	698	1530	0.91	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	1669	1958	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	2119	2188	0.64	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	344	697	0.85	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	1531	1668	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	1531	1668	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	1959	2118	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	1959	2118	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	2189	2769	0.64	+	2	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	2189	2859	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	stop_codon	2767	2769	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	tts	2859	2859	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAYQSTTFLIACFLNWLIQIHGIDQCPCHTPSLCKPVQIGPRSEVVAFSVYRGLWKYYDWTHLTTIALFEEQLPNIDP
+# NLLCYAHSHHVRLVPKASFPVQQLTNKTHIDQWIKDKVKMIKTKFLDGINFDIEQSIPIISPEANDLIKFVNQTTTAIHSAFPGSLVTFDASYWPQCT
+# IGHCYKNVAISKIVDFVITMNYDEEGSLIASANSPFRNTVYTKMSILTEITFSIILAGIHAYKKAGAQMSKIVTAQPWYGYNYRCLGILIDDICVNFS
+# EKLFLKNVAKLFKKMKHGLITRRNVKWNIQGNDDSSKSSIEYGEIEKYLNSNKTSGSKWSNSSQSPYFNYKDAKGAIHQVWYDNPKSLSIKYSYAIKS
+# GIRGIGMWSTDFPNYVQYPKESAAMWKCIDTVLKNSKP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	gene	5007	7320	0.09	-	.	g2
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	transcript	5007	7320	0.09	-	.	g2.t1
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	tts	5007	5007	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	5007	5533	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	stop_codon	5079	5081	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	5534	5667	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	5840	5980	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	6119	6826	0.99	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	5079	5533	1	-	2	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	5668	5839	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	5668	5839	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	5981	6118	0.99	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	5981	6118	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	6827	7081	0.65	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	6827	7320	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	start_codon	7079	7081	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	tss	7320	7320	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSLCQPLQLGHRKEVIGFTVDHGIWPKYDWSKLTTLVLFQKTIDLKLVCHAHSKNVRVVLVADYPVKNLTNQHQRSDY
+# VKSNVAKAKKYYLDGINIDIEQPILKNSAESKGLIALVKEMTDSFHSQIPGSQVSIDVAWSPKCIDKRCYDYASIAKVSDFMVVMSYDERSQVYGSCV
+# ASANSPFNQTFTGVQQYLDLGITADKLVLGQPWYGYDYICLNVTADNICQIKKVPFRGAPCSDAAGLQHGYSKIQMLLSHNATTDRIWNGTLRAPFFN
+# YKSAKDHKIHQIWYDDPESLKLKYETAKHTFKMRGLAFWTVDSLDYGNSPSAKNQTKEMWNAITV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	gene	7876	10658	0.02	+	.	g3
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	transcript	7876	10658	0.02	+	.	g3.t1
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	tss	7876	7876	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	7876	8123	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	start_codon	8001	8003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	8124	8726	0.8	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	8789	8882	0.89	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	8952	9211	0.91	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	9307	9431	0.96	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	9509	9628	0.66	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	9682	9766	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	9823	10448	0.33	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	8001	8123	0.83	+	0	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	8727	8788	0.86	+	0	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	8727	8788	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	8883	8951	0.91	+	1	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	8883	8951	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	9212	9306	0.97	+	1	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	9212	9306	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	9432	9508	0.62	+	2	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	9432	9508	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	9629	9681	0.99	+	0	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	9629	9681	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	9767	9822	0.77	+	1	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	9767	9822	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	10449	10534	0.28	+	2	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	10449	10658	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	stop_codon	10532	10534	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	tts	10658	10658	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MGLFDRFSGWFRSKKKECNILCIGLDNSGKSTIINRLKPEKTQQLDIVPTIGFSVEKFASRNLSFTVFDMSGQGRYRN
+# LWEHYYKEAQALIFVLDSSDKLRMVVAKDELDSMLKHPEIRHKQIPLLVFANKMDLKDAISSVTCTELMGLKEIANKPWHICASNALTGEGLHEGVEW
+# LTGNKSKRTISSNLFLCILLLYDCHKTSLR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	gene	12091	13570	0.01	-	.	g4
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	transcript	12091	13570	0.01	-	.	g4.t1
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	tts	12091	12091	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	12091	13570	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	stop_codon	12425	12427	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	12425	13426	0.91	-	0	transcript_id "g4.t1"; gene_id "g4";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	start_codon	13424	13426	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	tss	13570	13570	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MEDVVEESGGPSLADLGITAGASTQKTAIGKTKVYDKLTLWEKLFLFSSLVSFATVLGLTIQRLTVLQPSSPDFTFAL
+# VLLLNIAFCLYYAFNGVFREREFELYAFIAASVIVLFYVIIEFIIHPKQRSGYKIARLVVICVLAPIDIGLCWKSAQEFGWLEFNIVGATEVLQTAYR
+# TVCRLSALLNFDLQLQFSLLILIVSNFTQLSTLEKVVIGLGVAIAVIMFILGYIAVQIESVIMVIIFIILSVCEPGYIVYKFAKTIVFLTYRVVPKEG
+# SALILDISIFVVGTIALIVRLVLIFVMNQAYRNFGKGLKDKSFGCCTTDTSLARTKNRH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	gene	14226	17833	0.09	+	.	g5
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	transcript	14226	17833	0.09	+	.	g5.t1
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	tss	14226	14226	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	14226	14357	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	start_codon	14286	14288	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	14358	15788	0.63	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	15942	16015	0.71	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	16061	16262	0.71	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	16488	16579	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	16688	16931	0.95	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	17001	17091	0.94	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	17152	17243	0.94	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	17394	17556	0.66	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	intron	17626	17778	0.66	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	14286	14357	0.63	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	15789	15941	0.81	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	15789	15941	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	16016	16060	0.71	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	16016	16060	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	16263	16487	0.97	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	16263	16487	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	16580	16687	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	16580	16687	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	16932	17000	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	16932	17000	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	17092	17151	0.94	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	17092	17151	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	17244	17393	0.77	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	17244	17393	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	17557	17625	0.66	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	17557	17625	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	CDS	17779	17832	0.76	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	exon	17779	17833	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	stop_codon	17830	17832	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+B3RWQ3_TRIAD|TriadG25605|B3RWQ3	AUGUSTUS	tts	17833	17833	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MAETEKYDGILLSLAQQMEEGVPQLLDTLFSFLRRKTDFFTGGGKEAARKVTLTTHDFGLSDTTVHNMPSNLKLHMLL
+# EKFDHHEKLSLKDLETRRQEAEARARRIAKQKEKKQKEEEKQRQQEQEQPKFVELTDEEAKEVQEKIEKEKKEAPKVDPPVSESTAETSKPDNKDDSE
+# DEDSKNKLKPNSGNGADLPNYKWTQLRVPFKVSFPVKGKDVICEIKPNHLKIGLKGHEPIIDGDLHKTIKIENCYWVIEDKKAVMVTIEKVNKMEWWP
+# RLVTTDPEINTKKVEPENSKLSDLDGETRSMVEKMMYDQRQKEMGLPTSEEQKKQDVLKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/B3RWQ3_TRIAD.fasta

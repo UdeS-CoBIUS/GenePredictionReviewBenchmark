@@ -1,0 +1,91 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/E1C569_CHICK.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22594, name = E1C569_CHICK|ENSGALG00000009846|E1C569) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	gene	1	3911	1	+	.	g1
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	transcript	1	3911	.	+	.	g1.t1
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	1	124	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	683	1191	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	1389	1845	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	1937	2947	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	3137	3891	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	125	682	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	1192	1388	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	1846	1936	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	2948	3136	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	3892	3911	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	stop_codon	3909	3911	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [CGIKCKEIPMELVFVIDSSESVGPENFEIIKDFVTALVDRVTVGRNATRIGLVLYSLEVQLEFGLNKHTTQQDVKRAI
+# RKMQYMGEGTYTGTAIRKATQEGFLGARTGVRKVAIVLTDGQADKREAVKLDIVVREAHAANIEMYAIGIVNTSDPTQAEFVHELNLIASDPDREHMY
+# LIDDFNTLPALESKLVNQFCEDEHGTLIYNRNGNVASISGPSFHSVSSSPSYYMLQNNNINGQALSAQTPGVSTTTNVPTVVVNEAYEDKLEEKEQSS
+# LVTVDIGESVLDLRCKLRLDQGPCRVYIIKWYYDKQANACAQFWYGGCDGNANRFESEEECREACVFSSGGDYASS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	gene	5751	21533	1	+	.	g2
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	transcript	5751	21533	.	+	.	g2.t1
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	start_codon	5751	5753	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	5813	6762	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	6846	9019	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	9070	9832	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	9961	10794	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	10931	12494	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	12558	13386	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	13522	13637	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	13722	15078	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	15103	17841	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	intron	18892	21365	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	5751	5812	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	6763	6845	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	9020	9069	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	9833	9960	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	10795	10930	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	12495	12557	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	13387	13521	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	13638	13721	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	15079	15102	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	17842	18891	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	CDS	21366	21533	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1C569_CHICK|ENSGALG00000009846|E1C569	AUGUSTUS	stop_codon	21531	21533	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSAVLDVLWEDRDVRFDISPQQMKMRPGEVLIDCLESIEDTKGNNGDRAVGYNCIINITTRTANSKLRGQTEALYILT
+# KCNNTRFEFIFTNVVPGSPRLFTSVIAVHRAYETSKMYRDLKLRSALIQNKQLRLLPQEQIYDKINGVWNLSSDQRSIKVRDSKFGLALVIESSQQSG
+# GYVLGFKIDPVEKLQEAVKEINSLHKVYSANPIFGVDYEMEEKPQSLEDLTVEQVQDDVEIEPGEQTDAFVAYFADENKDGLKELLEEKKFVDCSLKA
+# GDRSLPCHRLILSACSPYFREYFLSEQNEEKKKEVVLDNVDPNILDMIVKYLYSATIDLNDSNVQDIFALASRFQIPSVFTVCVSYLQKRLAVGNCLA
+# ILRLGVLLDCPRLAFSARDFVSDHFVQICKEEDFLQLAPNELISVISPDSLNVEKEELVFEAVMRWVRSDKENRVKSLGEVFDCIRFRLMPEKYFKEH
+# VEKDDIIKSNSDLQKKVKIIKDAFAGKLPDSSKNKEKSNKGEVNGDVGDEDLLPGYLNDLPRHGMFVKDLILLVNDTAAVAYDPLENECYLAALAEQI
+# PRNHSSIVTKQNQVYIVGGLYVEEENKDQPFQSYFFQLDSIAGEWVALPPLPSARCLFGLGESDDKIYVIAGKDLRNEESLDSVLCYDPVYV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/11
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 30
+#     RM:  30 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/E1C569_CHICK.fasta

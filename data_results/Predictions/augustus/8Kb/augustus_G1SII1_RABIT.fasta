@@ -1,0 +1,54 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/G1SII1_RABIT.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 33116, name = G1SII1_RABIT|ENSOCUG00000002872|G1SII1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	gene	899	25111	1	+	.	g1
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	transcript	899	25111	.	+	.	g1.t1
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	start_codon	899	901	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	intron	1003	5082	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	intron	5148	7787	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	intron	7826	17133	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	intron	17222	17570	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	intron	18543	20918	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	intron	21095	24670	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	CDS	899	1002	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	CDS	5083	5147	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	CDS	7788	7825	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	CDS	17134	17221	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	CDS	17571	18542	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	CDS	20919	21094	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	CDS	24671	25111	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1SII1_RABIT|ENSOCUG00000002872|G1SII1	AUGUSTUS	stop_codon	25109	25111	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MRCVRAGQRWRGSGGICVRSGFWGRPGEAQRLTGRRPREAEYGRKRPVTDPECGQTATQEDYSICNEVEKVAALNLSL
+# ILKEEMRNTSWIRKNWLLVAEAKKPSLCESEPLTSERVRAALSVLKGIVTSCYGPSGRLKQLHNGLGGYVRTTSQSWALLSNLSVTHPVLKILTASVQ
+# NQAACFGDCGLFTAILCCNLIENVQRLALTPAAVIRLNKHLLSLCTDYLKSEACGCRIPVDFSSSRILLCLVRSILTSKPACMLTRNEIDHISALILR
+# AFLLTIPEHTEEHIILGKTMIVPLKGQRVKDSVVLPGILIEMSEIQFARLLPFKKADVLKVALFGMSLSGDFSDTGEGTVMVSRGVSLENAVLDQLLR
+# LGRQLVSDHVDLVLCQKVIHPSLKQFLSTHRVIAIDRVGGTLMEPLSKVTGTQPIGSLDSVSPNSYGSVKNVCPAQFGFKHFLHLIPNEVSICSLLLC
+# NRNDTAWDELKTHTEPESLLSDEGCTQTDLELIAEAFCSALESLAGSLEHDGGETLTDMKYGHCWSVQAGSPAVVSWADLLSQCGCGLHNSQEELSWS
+# FLKSTRHPIAPDTCLPQTATDSAGSLTVDCLTAKLGGLQVAVETANLILDLSYIIEDKN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 50
+#     RM:  50 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/G1SII1_RABIT.fasta

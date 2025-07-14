@@ -1,0 +1,50 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/G3WH06_SARHA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 37105, name = G3WH06_SARHA|ENSSHAG00000012558|G3WH06) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	gene	11067	29105	1	+	.	g1
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	transcript	11067	29105	.	+	.	g1.t1
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	start_codon	11067	11069	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	intron	11152	18160	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	intron	18241	20152	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	intron	20213	21308	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	intron	21369	22859	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	intron	22978	23838	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	intron	23949	29006	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	CDS	11067	11151	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	CDS	18161	18240	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	CDS	20153	20212	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	CDS	21309	21368	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	CDS	22860	22977	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	CDS	23839	23948	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	CDS	29007	29105	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3WH06_SARHA|ENSSHAG00000012558|G3WH06	AUGUSTUS	stop_codon	29103	29105	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MCLEKQILSLLTNRFSLHFVRGSGHLLRGDATVGKSSLAQMFRSDGAHFQKNYTLTTGVDLLVKQLTVPDTNDSVELF
+# IFDSAGKELFSEMLDKLWEHPNLLCLVFDVTNEQSFTNCAKWLEKVRVQLQGSTLPGVLVGNKTDLAGRRVVETSRAQEWAGTHGLEYFETSVKEMEN
+# FEAPFRCLAKLFHQLYRERLELFHSLV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 38
+#     RM:  38 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/G3WH06_SARHA.fasta

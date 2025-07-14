@@ -1,0 +1,81 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F1N626_BOVIN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 109140, name = F1N626_BOVIN|ENSBTAG00000019568|F1N626) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	gene	1978	5078	1	-	.	g1
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	transcript	1978	5078	.	-	.	g1.t1
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	stop_codon	1978	1980	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	2048	4929	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	1978	2047	.	-	1	transcript_id "g1.t1"; gene_id "g1";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	4930	5078	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	start_codon	5076	5078	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MASGSCRYRLSCSLSGHELDVRGLVCCLYPPGAFVSVSRDRTTRLWVPNRTVLDCQELKSLDHKNMRNFELK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	gene	13132	99053	1	+	.	g2
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	transcript	13132	99053	.	+	.	g2.t1
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	start_codon	13132	13134	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	13252	23711	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	23772	25315	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	25378	44400	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	44540	45939	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	46003	51152	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	51297	53736	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	53778	70275	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	70350	78911	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	78966	80587	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	80686	81166	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	intron	81294	99018	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	13132	13251	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	23712	23771	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	25316	25377	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	44401	44539	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	45940	46002	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	51153	51296	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	53737	53777	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	70276	70349	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	78912	78965	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	80588	80685	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	81167	81293	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	CDS	99019	99053	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F1N626_BOVIN|ENSBTAG00000019568|F1N626	AUGUSTUS	stop_codon	99051	99053	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MASNHKPSAVRPVSRGGIGLTGRPPSGIRPPSGNIRVATGLADKLNTNTEMEEVMNDYNMLKAQNDRETQSMDIIFTE
+# RQAKEKQIRSVEEEIEQEKQAAEGIIKNMSPEKQVKYIEMKTTNEKLLQELDTLQQQLDSLNMKKESLESEIAHSQVKQEAVLLHEKLYELESHRDQM
+# IAEDKNMGSPMEERERLLKQVKEDNQEIASMERQPYDFVDITLLKKLFKMVLSLFFRKGEMNQKYKELKKREENMDTFIETFEDTKNQELERKAQIEA
+# SIVSLLEHSSRNINRMKQISSITNQELKMMQDDLNFKSTEMQKSQSTARNLTSAYKFGEEVATP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 146
+#     RM: 146 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F1N626_BOVIN.fasta

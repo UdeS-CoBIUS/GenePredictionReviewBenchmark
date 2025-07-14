@@ -1,0 +1,77 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/M3Y3G7_MUSPF.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 388529, name = M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	gene	2025	89416	1	+	.	g1
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	transcript	2025	89416	.	+	.	g1.t1
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	start_codon	2025	2027	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	intron	2086	6982	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	intron	7031	10150	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	intron	10211	40093	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	intron	40193	43126	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	intron	43261	46792	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	intron	46985	78133	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	intron	78744	89216	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	2025	2085	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	6983	7030	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	10151	10210	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	40094	40192	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	43127	43260	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	46793	46984	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	78134	78743	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	89217	89416	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	stop_codon	89414	89416	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSFCLTELHLWSLKNTLHIGDRDIGIYQYYDKKDPPGVDAKQSLCAEQMEEQICLSGVLVSLSLSGPQLEKVVIDRSL
+# VGKLISDSISDALLTDNFIILSFLAQNKLCFIQFTKKMGSPDTNKRLEKLSALDYKISYYEIPGPVNRTTERRLAINCVQDIVACWWPLVSDDAWPWA
+# PISPEKDRANLLLLGYAEGKLEVLSCVRTEWDLLDVRFGTKQPYQVLTVENSISVDKEPMADSCIYECVRNKIQCISVTRIPLRSKAISCCRNITEDK
+# LILGCEDSSVILYETHRRITLLAQAELLPSLISCHPSGAILLVGSNQGELQIFDMALSPINIQLLAEDRSPSETLQFNKFFDISSSLVQMQWIVPQVV
+# SQKPESGDICDLLFLRFNRGPLGALLFKLGIFTRGKLGLTDIIFQYIHCDEICKAINILSSMDWDTLGHQCFISMSAIVNHLLRQKLTPEREGQT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 156
+#     RM: 156 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	gene	120405	128487	1	-	.	g2
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	transcript	120405	128487	.	-	.	g2.t1
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	stop_codon	120405	120407	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	intron	120550	121208	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	intron	121255	128312	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	120405	120549	.	-	1	transcript_id "g2.t1"; gene_id "g2";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	121209	121254	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	CDS	128313	128487	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+M3Y3G7_MUSPF|ENSMPUG00000005918|M3Y3G7	AUGUSTUS	start_codon	128485	128487	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MHSLRLLSQNQPSQIFLSMSDNFRPVQPLNNRCIRTNINFSLQGKDCPNNRAQKLQYREKAKILSEPLPSSKTRAQQR
+# IFMVGQDGRKEESMSSTERDQVRMHSDLNHVDMESEKITVLEE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 16
+#     RM:  16 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/M3Y3G7_MUSPF.fasta

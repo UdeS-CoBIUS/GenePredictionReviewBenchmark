@@ -1,0 +1,153 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/B5DUR3_DROPS.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 12948, name = B5DUR3_DROPS|FBgn0249050|B5DUR3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	gene	1	2015	0.38	-	.	g1
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	transcript	1	2015	0.38	-	.	g1.t1
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	299	364	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	515	592	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	1745	1832	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	1	298	0.77	-	0	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	1	298	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	365	514	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	365	514	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	593	1744	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	593	1744	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	1833	1913	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	1833	2015	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	start_codon	1911	1913	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	tss	2015	2015	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSEFQPQQGQSISQSQALAQAIQRAKQIAAKIQPSQQAGGPGGPGAGPSPPSGGGGPGPGAGNNFKRHNDDGDSGPDC
+# KRSFGSPDYGHNNNSNMSSSSGGGGGGGGGSGPGGANITQAIAQAAAVAARLAASAGTTCEEQIRIPESIANAFMGRGSNDTITHIQAESGAKVQLMP
+# EQERVITLRGQRDTVSKGRDMIQQMASRGGGGTVEVLLTINMPPPGPSGYSPYQEIMIPGAKVGLVIGKGGDTIKQLQEKTGAKMIIIQDGPNQEVIK
+# PLRISGDPQKIEHAKQMVLDLIAQKDALAQQQGGRGGGSGGGGGGGGGGGPGLGYNNFNNGNGGESVEVFVPKIAVGVVIGKGGDMIRKIQTECGCKL
+# QFIQGKNDEMGDRRCVIQGTRQQVEDAKRTIDGLIENVMQRNGLNRNGNGGGSQSGGEGNSNYGYGYGVNHAQGGREEITFMVPASKCGIVIGRGGET
+# IKLINQQSGAHTEMDRNASNPPNEKLFKSKGTTDQVEAARQMISEKINMELTVIARKPIGGGGGGGGGGGGGGNGSGGGPNNSHHSQQQG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 3
+#     RM:   3 
+# end gene g1
+###
+# start gene g2
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	gene	2416	7024	0.01	+	.	g2
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	transcript	2416	7024	0.01	+	.	g2.t1
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	tss	2416	2416	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	2416	2648	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	start_codon	2535	2537	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	2649	2939	0.49	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	3423	4842	0.32	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	4975	5043	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	5342	5561	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	5656	6078	0.32	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	6312	6379	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	6512	6574	0.68	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	6704	6766	0.94	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	2535	2648	0.35	+	0	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	2940	3422	0.2	+	0	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	2940	3422	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	4843	4974	0.49	+	0	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	4843	4974	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	5044	5341	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	5044	5341	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	5562	5655	0.32	+	2	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	5562	5655	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	6079	6311	0.37	+	1	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	6079	6311	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	6380	6511	0.71	+	2	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	6380	6511	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	6575	6703	0.65	+	2	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	6575	6703	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	6767	6933	0.94	+	2	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	6767	7024	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	stop_codon	6931	6933	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	tts	7024	7024	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLNAKVGKVGKVLVCGMKGVGKTTVIEQLVYGNLNPDTELHPTIEDIYVASCDTGRGGARETLRIYDTAGLQGEQAAQ
+# LPRHYLQFPDAFVLVYDPIDPRSLDMLADIKSDIDKHKEKKEIPVIVLANVRARVKRDTPPTTPNPVEKIMDRANIWCQRERIKHYTVNAMERPSLYE
+# PFTSLCARVHPAQTKSTFPQLRQAVAKKEPKIKRDPAKNPMRDLHIRKLCLNICVGESGDRLTRAAKVLEQLTGQQPVFSKARYTVRSFGIRRNEKIA
+# VHCTVRGAKAEEILERGLKVREYELRRDNFSSTGNFGFGIQEHIDLGIKYDPSIGIYGLDFYVVLGRPGYNVNHRKRKSGTVGFPHRLTKEDAMKWFQ
+# QKNIVVKLINNCGGCQLNSKMGMLHNLADLIKIKKDKMTILVLGLNNSGKSTIVNHFKKPGDQSAIMVPTVGFMVEQFYSMAGVSIKAIDMSGATRYR
+# NLWEHQFKNCQGIIYVIDSSDRMRFVVVKDELDLVLQHPHLCNRTVPILFYGNKSDAEDSLSSVKIAAALSLENIKEKPWNICSSNAISGEGLGEGVQ
+# WLVQQMRFAMLSNKDASKAKSKHSK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	gene	7078	8995	0.16	-	.	g3
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	transcript	7078	8995	0.16	-	.	g3.t1
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	tts	7078	7078	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	7078	7296	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	stop_codon	7155	7157	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	7297	7594	0.96	-	.	transcript_id "g3.t1"; gene_id "g3";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	7155	7296	0.96	-	1	transcript_id "g3.t1"; gene_id "g3";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	7595	7797	0.68	-	0	transcript_id "g3.t1"; gene_id "g3";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	7595	7806	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	start_codon	7795	7797	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	8871	8995	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	tss	8995	8995	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MDEQRSDKIYGGCEGPDAMYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENEANEVHFREIPSHVLQKVCMY
+# FTYKVRYTNSSTEIPEFPIAPEIALELLMAANFLDC]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	gene	9987	12948	0.4	-	.	g4
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	transcript	9987	12948	0.4	-	.	g4.t1
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	tts	9987	9987	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	exon	9987	11372	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	stop_codon	10086	10088	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	intron	11373	12948	0.91	-	.	transcript_id "g4.t1"; gene_id "g4";
+B5DUR3_DROPS|FBgn0249050|B5DUR3	AUGUSTUS	CDS	10086	11372	0.89	-	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [FWEIISDEHGIDATGAYHGDSDLQLERINVYYNEASGGKYVPRAVLVDLEPGTMDSVRSGPFGQIFRPDNFVFGQSGA
+# GNNWAKGHYTEGAELVDSVLDVVRKEAESCDCLQGFQLTHSLGGGTGSGMGTLLISKIREEYPDRIMNTYSVVPSPKVSDTVVEPYNATLSVHQLVEN
+# TDETYCIDNEALYDICFRTLKLTTPTYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVNMVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQM
+# FDAKNMMAACDPRHGRYLTVAAIFRGRMSMKEVDEQMLNIQNKNSSYFVEWIPNNVKTAVCDIPPRGLKMSATFIGNSTAIQELFKRISEQFTAMFRR
+# KAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADEDAEFEEEQEAEVDEN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/B5DUR3_DROPS.fasta

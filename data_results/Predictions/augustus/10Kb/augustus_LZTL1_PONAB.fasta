@@ -1,0 +1,48 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/LZTL1_PONAB.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 38307, name = LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	gene	10288	25973	1	+	.	g1
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	transcript	10288	25973	.	+	.	g1.t1
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	start_codon	10288	10290	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	CDS	10288	10290	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	CDS	14226	14350	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	CDS	16493	16687	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	CDS	17982	18042	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	CDS	19157	19228	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	CDS	21459	21524	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	CDS	21607	21684	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	CDS	23669	23845	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	CDS	24825	24931	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	CDS	25955	25973	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_PONAB|ENSPPYG00000013942|Q5RBR4	AUGUSTUS	stop_codon	25971	25973	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAELGLNEHHQNEVINYMRFARSKRGLRLKTVDSCFQDLKESRLVEETFTIDEVSEVLNGLQAVVHSEVESELINTAY
+# TNVLLLRQLFAQAEKWYLKLQTDISELENRELLEQVAEFEKAEITSSNKKPILDVTKPKLAPLNEGGTAELLNKEILRLQEENEKLKSRLKTVEIQAT
+# NALDEKSKLEKALQDLQLDQGNQKDFIKAQDLSNLENTVAALKSEFQKTLNDKTENQKSLEENLATAKHDLLRVQEQLHMAEKQELEKKFQQTAAYRN
+# MKEILTKKNDQIKDLRKRLAQYEPED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 26
+#     RM:  26 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/LZTL1_PONAB.fasta

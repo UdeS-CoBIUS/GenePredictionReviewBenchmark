@@ -1,0 +1,57 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/A0A0L0CIR6_LUCCU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 17347, name = A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	gene	1656	9384	0.02	+	.	g1
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	transcript	1656	9384	0.02	+	.	g1.t1
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	tss	1656	1656	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	exon	1656	1823	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	exon	2338	2681	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	start_codon	2340	2342	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	intron	2682	8158	0.39	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	intron	8280	8332	0.95	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	intron	8523	8577	0.97	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	intron	8816	8882	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	CDS	2340	2681	0.5	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	CDS	8159	8279	0.39	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	exon	8159	8279	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	CDS	8333	8522	0.96	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	exon	8333	8522	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	CDS	8578	8815	0.98	+	1	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	exon	8578	8815	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	CDS	8883	9347	0.67	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	exon	8883	9384	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	stop_codon	9345	9347	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CIR6_LUCCU|FF38_12450|A0A0L0CIR6	AUGUSTUS	tts	9384	9384	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MCLYLSSLRQKQSTNLYTGPGVVGNVIVDPSAKIGQGCRIGPNVTIGPDVIIEDGVCIKRSTILKGAIVKSHSWLDSC
+# IVGWRSIVGRWVRLEGTTVLGEDVIVKDEIYINGGQVLSTIYYIEDTKGNPGDSGRLLATNLRLIWYSLVHKKFNLSIGYGRIANMNTKTVTNKIRGN
+# CLALYILAIGGSTRFEFLFTDVSGETERKHKPIFQSVFDIYHLYQRTYLYRDLKLRGAILQSGQLIILPQEQVFNKVEGVWNLSSDQGNLGCFVVSNI
+# RVVWYADANETFNISLPYMQIANIRIRESKYGPALVIQTAETGGGYVLGFRIDPPERLTEIFQELISLHSVFTENPNFGIAYESSELEKQNVSANAQR
+# KEIRIEEFQEIDERQEKEINSKLNTYLAEGSLSVGEEKPPREPVYCKELGFAMERIRDGYKLKDLWDVLPQQMILVEEE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 17
+#     RM:  17 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/A0A0L0CIR6_LUCCU.fasta

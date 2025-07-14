@@ -1,0 +1,103 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/G1KMJ2_ANOCA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 43078, name = G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	gene	1	3600	1	+	.	g1
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	transcript	1	3600	.	+	.	g1.t1
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	1	384	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	461	3457	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	385	460	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	3458	3600	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	stop_codon	3598	3600	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [QIMKRLIKRYVLKAQVDKENDEVNEGELKEIKQDISSLRYELLEDKSQATEELAILIHKLSEKLNPNISRCE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	gene	10114	42705	1	+	.	g2
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	transcript	10114	42705	.	+	.	g2.t1
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	start_codon	10114	10116	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	10150	11277	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	11344	12624	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	12688	13091	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	13268	15877	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	15940	17271	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	17389	18274	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	18406	18934	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	19020	22155	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	22259	23080	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	23274	23705	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	23781	25543	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	25610	25856	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	25997	26809	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	26975	27880	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	27991	28081	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	28186	39763	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	40014	41194	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	41308	41959	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	intron	42184	42266	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	10114	10149	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	11278	11343	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	12625	12687	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	13092	13267	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	15878	15939	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	17272	17388	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	18275	18405	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	18935	19019	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	22156	22258	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	23081	23273	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	23706	23780	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	25544	25609	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	25857	25996	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	26810	26974	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	27881	27990	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	28082	28185	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	39764	40013	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	41195	41307	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	41960	42183	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	CDS	42267	42705	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1KMJ2_ANOCA|ENSACAG00000012540|G1KMJ2	AUGUSTUS	stop_codon	42703	42705	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MDLNLNRVDYLQVGVTSQKTMRLLPASGRKATQKVVIGDHDGVITCFGIKKGESVPVFKTLPGEKIARLELGGALNTL
+# QEKIFVAAGSEVRGFTKKGKQFLSFNTNLTENIKAMHISGSDLFLGASYIYNHYCDCDSGEEVLFGTSDGNIGLVEITGVSPVDKWKIGNEKKRGGIL
+# CMDSFDILGDGVKELLIGRDDGMLEVYGFENSKSPVLRYEYTFSESVTSVQGGCVGKEGYDEIVASTYSGWVTGLTTEPIHRECGSGDGLKLSHDMQN
+# KVLSLRNELEQLQIKVLQEREKYQQSSLSSTAVSAVPTFSINDKFTLNRDDASYSLVLEVQAAIDTVLLQCDVPIDLKDVDKNSAVVSVVDCESEPNG
+# NFLLATYRCQANTTRLELKILSIEGRYGTLQAYVTPRVQPKTCQVRQYQIKPLSLHQRTHCIDRDRPMNTLTLKGQFSFAEVHSWVVFCLPEVPEKTP
+# VGESISFYFQNTFLDTQLECTYRKGEGYFKSDNISTISILKDVLSKEATKRKINLNISCDINEVSVNHTLKLIHPKLEYQLMLAKKVELIDALKVPLG
+# QIPWSTNDENYVDVPVGKMGSKQPAFTIHVDEPDTTRQKKRISRKTMPSEDALGLRAAVASIGNRKPLTPIDNPMDLSTGSPSIMDMSIVQEAEARVN
+# VNHVPDYIEDIYKYLREMEVKCKPKVGYMKKQPDITNNMRAILVDWLVEVGEEYKLQNETLHLAVNYIDRFLSMMSVLRGKLQLVGTAAMLLASKLSM
+# TIYKIGVMVEPSGSGTRRRGRKTPRESDSFEERERKRLRDLFAEPTDEDSFEGFTEGMEEEMVSSEEDDMEWTRVREDLGVTGNDSMGGDWRVAGSDP
+# WTGWRDGAGSTAGDAVGHSERCFSSDDDEAPGIRIAADSDEEL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/20
+# CDS introns: 0/19
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 33
+#     RM:  33 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/G1KMJ2_ANOCA.fasta

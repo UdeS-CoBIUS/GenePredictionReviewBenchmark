@@ -1,0 +1,143 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# leishmania_tarentolae version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/A4I446_LEIIN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 16561, name = BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	gene	87	2831	1	+	.	g1
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	transcript	87	2831	1	+	.	g1.t1
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	start_codon	87	89	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	CDS	87	2828	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	stop_codon	2829	2831	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MINPNRVTRSIATDVLYSFLRRLANDSSTPSENLTCIAAQLFALVRNLGPHWKAITQPNDKIPIEVFQRDKQQLSMTC
+# LWILYYTPRSTFRQWLQEEVDGKVIAGMMQIVAESQSTFRYTAAPASSSAAGPVAGVAKDAANEEVEERRAWEARSTTFVTAIGTQMCSLFLNEIPSI
+# LRTVRDNNPNAAVFPFFVMLESVLNLGNSTISLQMSSAVMHEVVCKLFPEIISRKARMGNGMVLLTFRLMSSCCQYVRSSASCTFLLMSQAFFSWKNS
+# LSKIRSLTANALVSVAESRVRDLRLAGRFIEFQFDELIERAKVEEANYTAPSCDFASRYEDDSNAPGGDAQMKYRQKVEGQVMSVQRNLPISRYLLEK
+# SNVPDQQPPRFSSDFTAMTATVLSLFDDVLRLQMDDSMKFKEARATAYFEVFRNFLRQNALKEALKWLYRLHDAHRANSDYLEAGMVLVFIAALCFRV
+# TEVFYFVKGKDSKGARMPFEVLSHVFWHDYVRILPEVDALLPADTVYAIVSELYTCPDDMCFSMEGQVKALKEAAEFQDKGQYYEYSLQTIDIANKYL
+# MAVSDFKGSSVVHMAMSTWCTAIAEPKSKRHNSRYFFLWARMERHTLPKSRKELHEDANDSKVGEKPRGLPNGNPIRRIYKMSTATTLEEFKNYARSY
+# VESLFFDTSLVLLTDDLTETLPALPEPDSKRKRVAAVHRQPNHCLVTVSEAQPYFAKGTRVPPDGFDRSMHISYFENTVNVGSRDEVSDGRKLDLMTQ
+# RMSVNTYELERSFPSTTSAIDIAKTHQVVLNPFETAEEMLNSRREAMNQAPVNDALITVIRKALSPKELPPGAYMKEVIAVMGDHPEVIHAVRALSTL
+# ARAKLEACEKMEAMSKNPEDYALVLKAVTDIECCLVAMQHPDENDHASSSGM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	gene	4258	5868	1	+	.	g2
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	transcript	4258	5868	1	+	.	g2.t1
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	start_codon	4258	4260	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	CDS	4258	5865	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	stop_codon	5866	5868	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSDPCEFKNQVTGEVAILSQWKKETAHEDTATQTSKLKVKSHESQTDISCFQASDQLDKGIGTERRSFQASLEGLQYV
+# YNGVPHDKAKLSTFLEESMNQLLAVLHRNATSSIFDHYSPAWSRKNTALSVLYTLTSPAVQEDNLEALGVTWNTHGNIVAAAYGLMETSGWCYKKGYV
+# CVWNLARPDLRESRPHNTLETETGATSIAFHPTDPCMLAVGTYSGEVVVFANVTENFPGKYTSSASEVAHTEPVTVLQWVKNPQESRHHHQYVLCSAS
+# QSGLIIQWSPANKLAKPIAAYSVRSRRHLSVGITALTYGGVQTQRGSYLPALDGVLLVGLENGEVGRGRTWPLPIETNSQAPPTIIPLELDWLESHCG
+# PLQSLSASPFFRHLFLTTSSDCSARLYSDLERSPLLTLESSEETKGYLYDGRFSPFRPSVVAVVSRRSLLHVYDLERDQLKPAYTAAVSADGAGVLTV
+# AFNSTAAEWLATGDARGVVQVWRLPTELSQVTELERAALRSSQPTCDSTKEVQDSAAILDLFGSRV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	gene	8001	8561	1	+	.	g3
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	transcript	8001	8561	1	+	.	g3.t1
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	start_codon	8001	8003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	CDS	8001	8558	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	stop_codon	8559	8561	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MVLLRLRVAVVGEPTSGKTAFVQMVHSNGTVFPKNYLMTMGCDFVVKEFALDDDNTVEVSLLDVAGQRLYDRMTSHYL
+# ESVSAFILVYDVSNKATFESCRKWVTKARTAKKDMIGFLVGNKMDLADKAEVTDNQAEVFARANQLTFFKCSALRGTGTVEPVERLSRMFLEEYQKRL
+# AQLSQLSASK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	gene	9184	9558	0.93	+	.	g4
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	transcript	9184	9558	0.93	+	.	g4.t1
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	start_codon	9184	9186	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	CDS	9184	9555	0.93	+	0	transcript_id "g4.t1"; gene_id "g4";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	stop_codon	9556	9558	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MSHSPFLTALYADVQSRLPLWTTQYVKPVSDGAFVVSSTWTDDSGAQLQRLFIAVEASDTNNISEAVLTEWIALVEAW
+# QTAHKEDEVSCFVGFVDLAGTVSYYRCETAVAGVLRSKPDDHLTCR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	gene	10327	11091	0.91	+	.	g5
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	transcript	10327	11091	0.91	+	.	g5.t1
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	start_codon	10327	10329	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	CDS	10327	11088	0.91	+	0	transcript_id "g5.t1"; gene_id "g5";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	stop_codon	11089	11091	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MHEMGDPSWRRACDLLAKHLQSLGQKITAIRRITNRRSSVEEIKTEREEVKRITRDANATDVQDIRKIVKSFERFILL
+# DKSLSDEGKKLAKDAEMVLKDYERTCNDFYRKCMHGESARGTHSNRALRAFREASEDDEENEGQSLLNTESPQRVQFERDMYEELMLERQRETGEIAE
+# NVRDIHEIFQHINGMVNEQGEQLDIVENNLSSAERATRNASQHLRRAQQYQATSSRNKILFICMMIMLAIVSIGLLMN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	gene	12508	13698	1	+	.	g6
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	transcript	12508	13698	1	+	.	g6.t1
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	start_codon	12508	12510	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	CDS	12508	13695	1	+	0	transcript_id "g6.t1"; gene_id "g6";
+BBS19|A4I446_LEIIN|LINJ_29_0090|LEIIN	AUGUSTUS	stop_codon	13696	13698	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MEDPAAQEVVVTPWTVEGDVNYDKLIKHFGCQAIDEKLLERMERLTRKKPHHFLRRGIFFSHRDLNLILDAYEKGQPF
+# YLYTGRGPSSESMHVGHLIPFMFTKWLQDTFHVPLVIQLTDDEKFFFKDLTMDEIDKMTTENLKDIIAFGFDPKLTFIFRDFEYVGRMYRIVARIEKA
+# YTASQVRGCFGFKMEDNCGRWMFPAIQAAPSFSAAFPHIFPQEKGNVFCMIPQAIDQDPYFRLTRDVAPRMGYLKPAVIHSKFFPGLSGSKGKMSSST
+# GAAVFLTDTPKMIKDKINKHAFSGGGADKKEQLLLGGNTNVDVPMQWLRFFLEDDEELTRLQKDYMLGRIMTGDVKKVLIQQITSIVTAHQEARKKVT
+# EADVELFTAVRAMGPAKEEAESRK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g6
+###
+# command line:
+# /usr/bin/augustus --species=leishmania_tarentolae --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/A4I446_LEIIN.fasta

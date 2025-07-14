@@ -1,0 +1,48 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/G1LSZ3_AILME.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 37776, name = G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	gene	13897	27776	1	+	.	g1
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	transcript	13897	27776	.	+	.	g1.t1
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	start_codon	13897	13899	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	intron	13988	16376	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	intron	16457	16836	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	intron	16897	19997	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	intron	20116	21055	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	intron	21166	27677	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	CDS	13897	13987	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	CDS	16377	16456	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	CDS	16837	16896	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	CDS	19998	20115	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	CDS	21056	21165	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	CDS	27678	27776	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1LSZ3_AILME|ENSAMEG00000009688|G1LSZ3	AUGUSTUS	stop_codon	27774	27776	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGGDGETWSEVTGYSWEAGANGDVNRTHEIGDPAVGKTALAQIFRSDGAHFQKNYTLTTGVDLVVKTVPVPDTGDSVW
+# ESPNVLCLVYDVTNEQSFANCSKWLEKARSQIPGTSLPGVLVGNKTDLAGRRTVDSAQAREWALGQGLECFETSVKEMENYEAPFHCLAKQFHHLYRE
+# KVEVFHALV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 18
+#     RM:  18 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/G1LSZ3_AILME.fasta

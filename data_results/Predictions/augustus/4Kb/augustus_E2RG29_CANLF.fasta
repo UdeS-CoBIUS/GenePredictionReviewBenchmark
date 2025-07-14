@@ -1,0 +1,92 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/E2RG29_CANLF.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 88927, name = E2RG29_CANLF|ENSCAFG00000001706|E2RG29) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	gene	1	1896	1	-	.	g1
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	transcript	1	1896	.	-	.	g1.t1
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	1	1747	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	1748	1896	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	start_codon	1894	1896	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MASSAARYRLSCSLPGHELDVRGLVCSLYPPGAFVSVSRDRTTRLWVPD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	gene	6561	83063	1	+	.	g2
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	transcript	6561	83063	.	+	.	g2.t1
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	start_codon	6561	6563	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	6681	11145	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	11282	13692	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	13742	15245	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	15345	15504	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	15566	20324	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	20385	22319	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	22382	32287	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	32427	33923	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	33987	38055	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	38200	39850	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	39892	49677	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	49758	66426	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	66481	68201	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	68300	69166	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	69294	78683	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	intron	78848	82991	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	6561	6680	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	11146	11281	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	13693	13741	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	15246	15344	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	15505	15565	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	20325	20384	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	22320	22381	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	32288	32426	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	33924	33986	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	38056	38199	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	39851	39891	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	49678	49757	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	66427	66480	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	68202	68299	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	69167	69293	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	78684	78847	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	CDS	82992	83063	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E2RG29_CANLF|ENSCAFG00000001706|E2RG29	AUGUSTUS	stop_codon	83061	83063	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MASNHKPSAARPVSRGGIGLPGRPPSGIRPPSGNTRVATGLPPGTARPGSRGGPIGTGGVLSSQIKVADRPVTQQGLS
+# GMKTGMKGPQRQILDKSYYLGLLRSKISELTMEINKLQKEIEMYNQENSVYLSYEKRAETLAVEIKEFQGQLADYNMLVDKLNTNTEMEEVMNDYNML
+# KAQNDRETQSMDIIFTERQAKEKQIRSVEEEVEQEKQAADGIIKNMSPEKQVKYIEMKTTNEKLLQELDTLQQQLDSLNMKKESLEAEIAHSQVKQEA
+# VLLHEKLYELESHRDQMIAEDKSMGSPMEERERLLKQVKEDNQEIASMERQLTDIKEKINQFSEEIRQLDMDLEEHQGEMNQKYKELKKREENMDTFI
+# ETFEETKNQELERKAQIEANIVALLEHCSRNINRMKQISSITNQELKMMQDDLNFKSTEMQKSQSTARNLTSDSQRLQLDLQKMELLESKMTEEQHSL
+# KNKIKQMTTDLETYNDLPALKSAGEEKKKLTNLERKWQHHEQNNFVMKECIL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/17
+# CDS introns: 0/16
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 147
+#     RM: 147 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/E2RG29_CANLF.fasta

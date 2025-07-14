@@ -1,0 +1,47 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/ARL6_DANRE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 42122, name = ARL6_DANRE|ENSDARG00000032056|Q5M9P8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	gene	26661	34422	0.14	+	.	g1
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	transcript	26661	34422	0.14	+	.	g1.t1
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	start_codon	26661	26663	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	CDS	26661	26697	0.85	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	CDS	27417	27562	0.59	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	CDS	27675	27736	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	CDS	28305	28388	0.55	+	1	transcript_id "g1.t1"; gene_id "g1";
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	CDS	28492	28586	0.98	+	1	transcript_id "g1.t1"; gene_id "g1";
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	CDS	28690	28819	0.89	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	CDS	32410	32465	0.68	+	1	transcript_id "g1.t1"; gene_id "g1";
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	CDS	34397	34419	0.33	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_DANRE|ENSDARG00000032056|Q5M9P8	AUGUSTUS	stop_codon	34420	34422	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MALMIINFFHNKEEPRPTKQMGLFDKLAGWLGLKKKEVNVLCLGLDNSGKTTIINQLKPSNAQAQDIVPTIGFSIEKF
+# KTSSFSPQSLSFTVFDMSGQGRYRNLWEHYYKEGQAIIFVIDSGDKLRMVVAKEELDTLLNHPDIKHRRIPLLFFANKMDLRDALSAVKVSQLLCLEN
+# IKDKPWHICASDAVKGEGLLEGVDWLQDQIRAMKT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 18
+#     RM:  18 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/ARL6_DANRE.fasta

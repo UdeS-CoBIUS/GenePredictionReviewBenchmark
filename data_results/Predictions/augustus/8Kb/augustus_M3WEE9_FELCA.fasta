@@ -1,0 +1,47 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/M3WEE9_FELCA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 33243, name = M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	gene	8497	25243	1	+	.	g1
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	transcript	8497	25243	.	+	.	g1.t1
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	start_codon	8497	8499	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	intron	8531	14585	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	intron	14666	15251	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	intron	15312	18416	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	intron	18535	19446	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	intron	19557	25144	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	CDS	8497	8530	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	CDS	14586	14665	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	CDS	15252	15311	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	CDS	18417	18534	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	CDS	19447	19556	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	CDS	25145	25243	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3WEE9_FELCA|ENSFCAG00000011068|M3WEE9	AUGUSTUS	stop_codon	25241	25243	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MVKLAAKCILAGDPAVGKTALAQIFRTDGAHFQKNYTLTTGVDLVVKTVPVPDTGDSVWESPNVLCLVYDVTSEQSFT
+# NCSKWLEKARSQIPGTSLPGVLVGNKTDLAGRRAVDSAQAQAWALGQGLECFETSVKELENCEAPFRCLAKQFHHLYREKVEVFHALL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 35
+#     RM:  35 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/M3WEE9_FELCA.fasta

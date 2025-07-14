@@ -1,0 +1,104 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/F6XU90_ORNAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 56203, name = F6XU90_ORNAN|ENSOANG00000015116|F6XU90) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	gene	1	1816	1	+	.	g1
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	transcript	1	1816	.	+	.	g1.t1
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	1	932	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	1009	1673	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	933	1008	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	1674	1816	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	stop_codon	1814	1816	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [QIMKRLIKRYVLKAQVDKENDEVNEGELKEIKQDISSLRYELLEDKSQATEELAILIHKLSETLNPSMLRCD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	gene	10333	56203	1	+	.	g2
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	transcript	10333	56203	.	+	.	g2.t1
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	start_codon	10333	10335	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	10369	15277	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	15341	16565	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	16742	18254	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	18442	19527	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	19601	20959	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	21077	22591	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	22723	23842	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	23928	28205	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	28337	29462	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	29548	31122	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	31226	32427	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	32621	35504	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	35580	36933	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	37000	38037	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	38178	39088	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	39254	42895	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	43006	43112	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	43217	53439	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	53690	55742	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	intron	55859	56010	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	10333	10368	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	15278	15340	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	16566	16741	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	18255	18441	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	19528	19600	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	20960	21076	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	22592	22722	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	23843	23927	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	28206	28336	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	29463	29547	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	31123	31225	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	32428	32620	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	35505	35579	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	36934	36999	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	38038	38177	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	39089	39253	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	42896	43005	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	43113	43216	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	53440	53689	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	55743	55858	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XU90_ORNAN|ENSOANG00000015116|F6XU90	AUGUSTUS	CDS	56011	56203	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MELTLNRSDYLQVVIGDHDGVLTCFGIKKGDVLPVFKTLPGQKIARLELGGALNTPQEKIFVATGSEIRGFTKRGKQF
+# LSFETNLTESIKAMHISGSDLFLCANYIYNHYCDCKDQHYYLSGDKINDVICLPVEKLNRITPVLACQDRILRVLQGSDIVFEVEVPGPPTVLALHNG
+# NGGDSGEELVFGTSDGKLGVIQITTTSPVHKWEIQNEKKRGGILCVDSFDILGDGVKELLVGRDDGMVEIYRFDNANEPILQFDQALSESVTSIQGGC
+# VGKDGYDEILLSTYSGILCVDSFDILGDGVKELLVGRDDGMVEIYRFDNANEPILQFDQALSESVTSIQGGCVGKDGYDEILLSTYSGWVTGLTTEPI
+# HKEGGPGEELKINQEMQNKISSLRDELDNLQFKVQQEREKYQQSAQSSTAISTVPTFSVNDKFTLNKDDASYSLILEVQTAIDNVLVQSDVPIDLLDV
+# DKNSAVVSFSSCDSEPNDNFLLATYRCQANTTRLELKIRSIEGQYGSLQAYITPRIQPKTCQVRQYQIKPLSLHQRTHFIDHDRPMNTLTLTGQFSFA
+# EVHSWVVFCLPEVPEKAPAEECVTFYFQNTFLDTQLETTYRKGEGTFKSDNISTISILKDVLSKEATKRKINLNISYEINEVSISHTLKLIHPKLEYQ
+# LLLAKKVQLIDALKVAPLQELPVNNENHGTAPPWKDSSKQPAFTIHVDEPDGENLKKPAVLEKIRSEDHILGFTSAISLPGARKPLEPVDFSMEASSD
+# SPLTMDMSVVQETEEKQTSVNEVPDYHEDIHTYLREMEVKCKPKMGYMKKQPDITNSMRAILVDWLVEVGEEYKLQNETLHLAVNYIDRFLSSMSVLR
+# GKLQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/21
+# CDS introns: 0/20
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 97
+#     RM:  97 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/F6XU90_ORNAN.fasta

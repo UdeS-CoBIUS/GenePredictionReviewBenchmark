@@ -1,0 +1,49 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# nasonia version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/K7JBG2_NASVI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 2488, name = K7JBG2_NASVI|NV18743|K7JBG2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	gene	151	2338	0.09	+	.	g1
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	transcript	151	2338	0.09	+	.	g1.t1
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	start_codon	151	153	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	intron	319	739	0.16	+	.	transcript_id "g1.t1"; gene_id "g1";
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	intron	1042	1109	0.83	+	.	transcript_id "g1.t1"; gene_id "g1";
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	intron	1360	1438	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	intron	1619	1705	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	CDS	151	318	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	CDS	740	1041	0.47	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	CDS	1110	1359	0.83	+	1	transcript_id "g1.t1"; gene_id "g1";
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	CDS	1439	1618	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	CDS	1706	2338	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7JBG2_NASVI|NV18743|K7JBG2	AUGUSTUS	stop_codon	2336	2338	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MERTGLSTSRWLDAIWEPNTRMYTLPNGIDMLDVTGDGDARLIIADLGSSTLDDTKIWYKAGLDEELNILSLADDLEV
+# LQKEIGAAYLTSRTLKFLSLESEARRSFAEQYRRLPLVKTNAISIVGAIRKDSWNDIACSYLIVGTEFGEILIVDHRLVAFFVVEKYTIGWPVVALTT
+# SGLWMGDGQIVVTGRDGRIGAIKKGGKFKPWETLSAPAVAIATLTCEGAAIAAMNGTFSAFSKKGVKLWKVQLLGNPLDMVSLPVPQSGLSLLAISIA
+# NLGVRIYDQKHLVDTIKTLESVSSLKYGRLGQEERAMAMVTCSGGLSVKILKRTADFSTRSNLQSNFDSPSANAKFLIPKKTKLFIEQTIRERSEAVK
+# IHTSFQQGFLRLRLDAAIRACEITKSRHESGPVPITLQSSVLGLGPSYIVKIVVTNISEGYSSADLFLVCRDENASIKPRVVKLPLLATGIPLPVTFS
+# VTPQGRVSNKIQVLLCSKGQIRPLSVTNVLLPVAEEDIEV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=nasonia --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/K7JBG2_NASVI.fasta

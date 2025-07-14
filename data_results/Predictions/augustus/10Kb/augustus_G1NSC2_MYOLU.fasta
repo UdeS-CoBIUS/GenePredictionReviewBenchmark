@@ -1,0 +1,68 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/G1NSC2_MYOLU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22127, name = G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	gene	3164	6079	1	-	.	g1
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	transcript	3164	6079	.	-	.	g1.t1
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	stop_codon	3164	3166	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	intron	3254	3442	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	intron	3581	4136	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	intron	4266	4699	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	intron	4847	6076	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	CDS	3164	3253	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	CDS	3443	3580	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	CDS	4137	4265	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	CDS	4700	4846	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	CDS	6077	6079	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	start_codon	6077	6079	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MASNCRTVSDQWKKKPAKIELNETQKQEIKEAFDLFDIDGSGTIDVKELKIAMRALGFEPKKEEVKKLIAEIDKEGTG
+# TISFEDFFAIMSLKMSEKDEKEELLKAFKLFDDDATGSITLNNIKRVAKELGETLTDDELQEMLDEADHDGDGEINEDEFLRMMQKTSLY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	gene	10346	12127	1	+	.	g2
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	transcript	10346	12127	.	+	.	g2.t1
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	start_codon	10346	10348	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	CDS	10346	12127	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1NSC2_MYOLU|ENSMLUG00000000020|G1NSC2	AUGUSTUS	stop_codon	12125	12127	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSEGLDSCIEEVTSLQVPVHDVFDHIDSTKIFSELESLNVSLCPFLQIASDTGLILKERDLKDVASQSLTTCSLSERP
+# VKSAKLFRPQATVGADKNTSQTPKTLRNSLPADSRCRQSVLTHSRHCNREASDQWTSRHGAAAPQADRCGDLGELAVGLSHGDHSSMRLVEGAVRLQH
+# QNTSVCQGSWTMPFTFDISRVFTCCLPGLPEAFSCVCPGYVTVVSMFSATVLEDLQNQPLGVVLIEGDLTENYRHLGFNKSANVQTVLESMKKLQQDS
+# SEQLWTNHVLQVLVKFNVNLVLVQGTVSEHLIEKCVHTKRLVIGSVNGSVMQAFAEASGAVQVSYITQVSDNSVGRGVSVTFWRSSPLDVGDGISRMA
+# ILLKTEGINLVTVVLTDPVTAQMQTKEDRFWTCAYRLHYALKEQKVFLGGGAVEFLCLSHLQILMEQPLNKGDQTCSGGLHNTSSWLASSLALYRPTV
+# LKCLAEGWHKYLSTVICNTANYSSEFEARTFIQHHLQNATDSGSPSSYILNEYSKLNSGVFNSGISNEPEQIPRVYDIVTPKIEAWRRALDLVLLVLQ
+# TDSEIITGSGHTQIKSQESEGFLFL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/G1NSC2_MYOLU.fasta

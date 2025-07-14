@@ -1,0 +1,63 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/W5MZI7_LEPOC.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 16010, name = W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	gene	1	2820	0.9	+	.	g1
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	transcript	1	2820	0.9	+	.	g1.t1
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	CDS	362	481	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	CDS	2776	2817	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	stop_codon	2818	2820	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [SLLVQTSRRALEKIDLKFIDTTSKFGHGRFQTVEEKKAFMGPLKKDRIAKEETA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	gene	4378	12010	0.29	+	.	g2
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	transcript	4378	12010	0.29	+	.	g2.t1
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	start_codon	4378	4380	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	CDS	4378	4411	0.88	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	CDS	4765	4844	0.96	+	2	transcript_id "g2.t1"; gene_id "g2";
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	CDS	5934	5993	0.98	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	CDS	9859	9918	0.8	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	CDS	10309	10426	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	CDS	11355	11539	0.44	+	2	transcript_id "g2.t1"; gene_id "g2";
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	CDS	11912	12007	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MZI7_LEPOC|ENSLOCG00000011228|W5MZI7	AUGUSTUS	stop_codon	12008	12010	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MVKLRAKCILVGDAAVGKSALSQMFRSDGSHFQKNYSMTAGVEVLTRTVHIPDTSDGVELFIFDSAGKGVFLEACEKL
+# WEQPAVLCLVYDISSEQSFQNCGQWLERVRGHSQGQHVPVTVRCLAGVLVGNKTDLAARREVESGLAQEWAESQGLEYCETSAVSPFPPSHSPLVHRA
+# LSQKEVENCEAPFLILAQVFHQLYQDRLQAIQALA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 13
+#     RM:  13 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/W5MZI7_LEPOC.fasta

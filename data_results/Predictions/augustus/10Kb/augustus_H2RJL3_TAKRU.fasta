@@ -1,0 +1,119 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H2RJL3_TAKRU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22302, name = H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	gene	1	2309	0.19	-	.	g1
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	transcript	1	2309	0.19	-	.	g1.t1
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	1829	1955	0.74	-	0	transcript_id "g1.t1"; gene_id "g1";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	2175	2309	0.27	-	0	transcript_id "g1.t1"; gene_id "g1";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	start_codon	2307	2309	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPLSNLRLCLSFVLQCGNFAVLVDLHVLPLGGLEDTSWFTEDHIEEVTDVVRDALSQRVKQCEESLYSRRQPKHKNVL
+# APASPLFVK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	gene	10176	12302	0.68	+	.	g2
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	transcript	10176	12302	0.68	+	.	g2.t1
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	start_codon	10176	10178	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	10176	11157	0.7	+	0	transcript_id "g2.t1"; gene_id "g2";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	11431	11612	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	11689	11799	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	11874	12299	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	stop_codon	12300	12302	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSRLVKKSPSVCTDLPLDTTDSWKKLRVLLQLLKSCFGPKGRLKLLHNSIGGHVVTTSTSSVLLSAISSSLPLINLIK
+# TSILNHVGRFGDCGLFAAIFCLTLIEQSRQSGLRGRAAAQLNKHLLDLCTVYLRQEDCGCKMELGFNSSHNLTTLASSIISSKPACVLTQSEVLHMSK
+# LSVQAFLLTVPCSSTGVKLGETVTVPVEGPPVKHSAVFPGLLVDMPDLLSLDKAKRPHLRPLRAVVFSASLAGDLSDTGDGVIEVHEGEDTDSQILDR
+# LLELGKQVVEDEVKLFVCQKVVHPVLQQYLRSQDVLVVERLGVALMEPLLQLTGANPVATLHTPVPAEAYGTVHDLGIRQFGSKKMLHLLPAGESSIC
+# TMMLCHRNATVLSELKVVCQNTEHVLRLTLRDPYILLGGGCTETHLATYVRHKVSGQLTETAAALGCSQEECLLGLEGFCRSLQSVAMALEHDGGSSA
+# MDLTHAHHWILPADVMREEVEDTLGPCSCGLVEGGPNKPKTYLSTKTPAFSPGPPCADAMAQPRVLDSFTAKINALQVAVETANLALDVRFVIQDMN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	gene	14909	19529	0.13	-	.	g3
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	transcript	14909	19529	0.13	-	.	g3.t1
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	stop_codon	14909	14911	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	14912	15040	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	15456	15560	0.48	-	0	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	15651	15727	1	-	2	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	15804	15946	1	-	1	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	16822	16933	0.87	-	2	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	17020	17132	0.81	-	1	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	17229	17297	0.85	-	1	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	17367	17448	0.63	-	2	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	18445	18591	0.29	-	2	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	19502	19529	0.64	-	0	transcript_id "g3.t1"; gene_id "g3";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	start_codon	19527	19529	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MTFTIKWHRGLPSLAVATSLRLRPTEAKQTKIGGLGTKMSKPGLYREASHSGSWYSASGSQLNAQLEDWLSKANSKRR
+# PARAIIAPHAGYSYCGACAAHAYKQVDPTVTRRVFILGPSHHVHLTCCALSSAEIYRTPLYDMRIDQKVYAELWKTGLFDRMNIKTDEDEHSIEMHLP
+# YTAKAMESRKDDFSIVPILVGALSENKEHEYGKLLSKYLADPSNLFVISSDFCHWGNRFHYTYYDESQGEIYRSIEHLDKMGMGIIEQLDPPSFSNYI
+# KKYRNTICGRHPIGVLLNAVAELRKSGLDMNFSFLNYAQSGQCRNWEQSSVSYAAGALYVH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	gene	19629	22302	0.48	+	.	g4
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	transcript	19629	22302	0.48	+	.	g4.t1
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	start_codon	19629	19631	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	19629	19734	0.97	+	0	transcript_id "g4.t1"; gene_id "g4";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	19805	19888	0.99	+	2	transcript_id "g4.t1"; gene_id "g4";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	20122	20285	1	+	2	transcript_id "g4.t1"; gene_id "g4";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	20371	20501	0.79	+	0	transcript_id "g4.t1"; gene_id "g4";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	20597	20690	0.99	+	1	transcript_id "g4.t1"; gene_id "g4";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	20923	20994	0.93	+	0	transcript_id "g4.t1"; gene_id "g4";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	21076	21151	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+H2RJL3_TAKRU|ENSTRUG00000000162|H2RJL3	AUGUSTUS	CDS	21238	21329	1	+	2	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MNASKNKDSGEVIKNYHQQAFEYISRALRIDEDDTGEKEQAVQWYKKGIAELERGIAVELTRGESTLESKKSSVPRQT
+# PNHVVPQAKGVPKGQPAPRGAGTNRSLTSVRPASRFTDFKVSPQAGKDQNGKNLAVKAPRRDMKNFKNVDSKLASLILNEIVESGASVSFEDIAGQEL
+# AKQALQEIVILPALRPEAKAVAAESNATFFNISAASLTSKYVGEGEKLVRALFAVARELQPSIIFIDEVDSLLCERREGEHDASRRLKTEFLIEFDG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H2RJL3_TAKRU.fasta

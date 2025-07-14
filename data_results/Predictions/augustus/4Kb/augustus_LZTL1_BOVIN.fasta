@@ -1,0 +1,55 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/LZTL1_BOVIN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 26060, name = LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	gene	7006	21643	1	+	.	g1
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	transcript	7006	21643	.	+	.	g1.t1
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	start_codon	7006	7008	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	intron	7068	11018	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	intron	11241	14673	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	intron	14735	15737	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	intron	15810	16850	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	intron	16917	16998	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	intron	17077	19015	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	intron	19193	20234	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	intron	20339	21624	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	CDS	7006	7067	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	CDS	11019	11240	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	CDS	14674	14734	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	CDS	15738	15809	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	CDS	16851	16916	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	CDS	16999	17076	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	CDS	19016	19192	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	CDS	20235	20338	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	CDS	21625	21643	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+LZTL1_BOVIN|ENSBTAG00000001484|Q3ZBL4	AUGUSTUS	stop_codon	21641	21643	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MQLLKRQAREDKATSEIKKGRGFGSWLFFRLVEETFTVDEVSEVLNGLQAVVHSEVESELINTAYTNVLLLRQLFSQA
+# EKWYLKLQTDISELENRELLEQVAEFEKAEFTSSNKKSIIDSMKPKLAPLHEGGAAELLNKEIIRLQEENEKLKSRLKTIESQATDALDEKSKLERAL
+# QDLQLEHGSQKDFIKAQDLSDLENTVAALKSEFQKTLNDQTENQKSLEENLATAKHDLLRVQEQLSMAEKELEKKFQQTAAFRNMKEILTKKNDQIKD
+# LRKRLAKYEPED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 12
+#     RM:  12 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/LZTL1_BOVIN.fasta

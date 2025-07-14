@@ -1,0 +1,72 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/F1PG88_CANLF.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 59428, name = F1PG88_CANLF|ENSCAFG00000001526|F1PG88) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	gene	6311	22213	1	+	.	g1
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	transcript	6311	22213	.	+	.	g1.t1
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	start_codon	6311	6313	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	intron	6372	8062	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	intron	8196	9365	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	intron	9476	22184	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	CDS	6311	6371	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	CDS	8063	8195	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	CDS	9366	9475	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	CDS	22185	22213	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	stop_codon	22211	22213	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSMTDLLNAEDIKKAVGAFTAVDSFDHKKFFQMVGLKKKSPDDVKKVFHILDKDKSGFIEEDELGFILKGFSPDARDL
+# SVKETKTLMAAGDKDGDGKIGVDEFSSLVAES]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 40
+#     RM:  40 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	gene	37170	55314	1	+	.	g2
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	transcript	37170	55314	.	+	.	g2.t1
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	start_codon	37170	37172	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	intron	37204	43700	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	intron	43781	44159	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	intron	44220	47526	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	intron	47645	48604	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	intron	48715	55215	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	CDS	37170	37203	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	CDS	43701	43780	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	CDS	44160	44219	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	CDS	47527	47644	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	CDS	48605	48714	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	CDS	55216	55314	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F1PG88_CANLF|ENSCAFG00000001526|F1PG88	AUGUSTUS	stop_codon	55312	55314	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MVKLAAKCILAGDSAVGKTALAQIFRSDGAHFQKNYTLTTGVDLVVKTVPVPDTGDSVWESPNVLCLVYDVTNEQSFA
+# NCGKWLEKARSQMPGASLPGVLVGNKTDLASRRAVDSAQARSWALGQGLECFETSVKEMENYEAPFHCLAKQFHHLYREKVEVFQALV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 30
+#     RM:  30 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/F1PG88_CANLF.fasta

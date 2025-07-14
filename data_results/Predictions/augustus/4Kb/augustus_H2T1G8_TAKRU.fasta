@@ -1,0 +1,51 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/H2T1G8_TAKRU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10710, name = H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	gene	3729	8952	0.24	+	.	g1
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	transcript	3729	8952	0.24	+	.	g1.t1
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	start_codon	3729	3731	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	3729	3731	0.84	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	4016	4140	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	4269	4463	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	5402	5459	0.91	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	5805	5876	0.95	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	5960	6025	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	6105	6182	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	6277	6453	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	6525	6645	0.34	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	6803	6926	0.44	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	CDS	8784	8949	0.57	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2T1G8_TAKRU|ENSTRUG00000007474|H2T1G8	AUGUSTUS	stop_codon	8950	8952	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAEFGFNEHHQNEVINYMRFARSKRILRLKTIDSCFEELKESRLVEDTFTVDEVREMLDGLQTVVRDEVEMELINTAH
+# TNVLLLRQLFSQAEKFYLRLQSDISELENRELLEQVAEFEKTDFKSADKINQETNKSKLAPLNESGVAELLNREISRLQEENDKLKARLRSLESQAMS
+# ALDEKTRAERALKDLQKGQGEDTLSVKAQDISSLEDTVAALKEDYERCLSASAASQKDLQENLVSSKHQFLRVQEQLALAEKELEKKFQQTAAYRNMK
+# EILTKKNEQIKELRKQLQRWPHLGRAVAVILHSMFYANTVTLRFAEALFISLVDTCPRSPVVRSASVMMVVMGVADPRLGCTGVRKQHLVVSVASETS
+# CSHTFYVSLFPGEERRCDRTDCD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/11
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/H2T1G8_TAKRU.fasta

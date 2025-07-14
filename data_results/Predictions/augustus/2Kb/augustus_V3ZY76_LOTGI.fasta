@@ -1,0 +1,104 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/V3ZY76_LOTGI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 16915, name = V3ZY76_LOTGI|LotgiG115648|V3ZY76) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	gene	1	1400	0.08	-	.	g1
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	transcript	1	1400	0.08	-	.	g1.t1
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	1	195	0.49	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	253	479	0.89	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	574	1061	0.61	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	196	252	0.5	-	2	transcript_id "g1.t1"; gene_id "g1";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	196	252	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	480	573	0.59	-	0	transcript_id "g1.t1"; gene_id "g1";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	480	573	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	1062	1205	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	1062	1400	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	start_codon	1203	1205	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	tss	1400	1400	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MEDDLDELYGKRKRKKVARPNPLFEKWLTEWRDEAALKGWKSQYNYAKLLFTFLQALDALKKFPLRLEYGKDCKMLKN
+# FGEKTCKMLDMKLAEHMKVN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	gene	1906	15326	0.03	+	.	g2
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	transcript	1906	15326	0.03	+	.	g2.t1
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	tss	1906	1906	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	1906	2163	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	2164	2672	0.88	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	2763	2950	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	3076	3597	0.93	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	3645	3753	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	3863	4166	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	4299	4618	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	4726	4969	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	5094	5448	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	5678	6032	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	6192	10648	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	intron	10783	14828	0.49	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	2001	2163	0.98	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	2673	2762	0.88	+	2	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	2673	2762	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	2951	3075	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	2951	3075	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	3598	3644	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	3598	3644	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	3754	3862	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	3754	3862	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	4167	4298	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	4167	4298	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	4619	4725	0.98	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	4619	4725	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	4970	5093	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	4970	5093	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	5449	5677	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	5449	5677	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	6033	6191	0.94	+	2	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	6033	6191	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	10649	10782	0.86	+	2	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	10649	10782	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	CDS	14829	14915	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	exon	14829	15326	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	stop_codon	14913	14915	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+V3ZY76_LOTGI|LotgiG115648|V3ZY76	AUGUSTUS	tts	15326	15326	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MNPKWLDAYHDPVASLYTFTQCLTLADIQADSDWKLIIADLGTGSYDMKLKVYKNTSLLSEHAIIDLPTGVVTFYMDT
+# LEPRTPAIAVASGPYIYIYKNLRPYFKFTLPPLEVNQVEKELWEQAKNENINISVLRDTLEGLRNEGNPLTVRSMKFLQLESSDMEAFATLHKHSPLK
+# RQTVITCLDTLKKSLADEDAISCLVVGTENKLIYILDPEAFTVLATMDLLSVPVFISVNGLFDVEYRLVVSCRNGCIYTLKRGSKEGSKHCIELNSQP
+# VGMERINKTIYVGCMDETLQCYSSKGKKLWTVKLPASVTTMKAIDYTPRQLKALLVALSNCEVHMYKDKYLVDIIKTEGIVTGLQFGRFGREDGTLVM
+# TTRGGGLFVKILKRSAKFEEKDALAGPPAAQNVKINMPKKTKLFVDQTMREKENAVSMHRTFQRDLYLLRLNTARQYVKALENSMNPISSDPTEPLKL
+# SAQVFVLKDGKSVPIVTGVISMPVSEAAAVA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 12
+#     RM:  12 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/V3ZY76_LOTGI.fasta

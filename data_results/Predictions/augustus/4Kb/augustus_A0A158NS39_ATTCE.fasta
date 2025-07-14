@@ -1,0 +1,54 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# camponotus_floridanus version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A158NS39_ATTCE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 8222, name = A0A158NS39_ATTCE|LOC105623569|A0A158NS39) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	gene	4001	8222	0.11	+	.	g1
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	transcript	4001	8222	0.11	+	.	g1.t1
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	start_codon	4001	4003	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	intron	4215	4392	0.37	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	intron	4467	4710	0.82	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	intron	5049	5148	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	intron	5360	5436	0.84	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	intron	5614	7434	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	intron	7613	7726	0.59	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	intron	7909	7979	0.47	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	CDS	4001	4214	0.59	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	CDS	4393	4466	0.37	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	CDS	4711	5048	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	CDS	5149	5359	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	CDS	5437	5613	0.84	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	CDS	7435	7612	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	CDS	7727	7908	0.59	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A158NS39_ATTCE|LOC105623569|A0A158NS39	AUGUSTUS	CDS	7980	8222	0.45	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSEPTENQMEQCDIVLPRQGLLYQTDALNYILCKPKLIPLKSVTLEKLEKMQKDAEIKVKESQEAEDSLNAITISVLI
+# AWYFSLLIIFILPLDVSSTVFRQCVEQNIHNSTKDPNNTTSAPFITCKEPWPNVPENVFPNLWRIVYWTSQCLTWLILPLMQSYIKAGDFTIRGKLKS
+# ALIDNAIYYGSYLFICGILLIYIALKPGLDLDGQKLKAIASSASNTWGLFLLVLLLGYALVEVPRGLWNASKPGYTLNYSYFKVAKLSLDKCEAEETV
+# DDILESLQVATISIGPGHPFHCNLETIFQKIPAELKDRMNRRQLPDDTPTDTPTEKALIRLHRQTIKALQTLQRIETQWGILVDKIFDLEDVAKNQVS
+# HDRRFKQAFPTHRSLPFRIIYNPVVEWYWKCIVKDYVLKAAAICAGCLSVAVVWSEVTFFNKSPVLSLFARFLNLAKRNYDYFTIEVLSTLIIAYLCY
+# CAYSTVLKIRVLNLYYLAPHHQTNEYSLIFSGMMLCRLTPPMCLNFLGLIHMDSHIIKTHILETHYTQV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=camponotus_floridanus --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A158NS39_ATTCE.fasta

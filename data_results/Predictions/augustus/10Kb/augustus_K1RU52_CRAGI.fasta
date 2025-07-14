@@ -1,0 +1,223 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/K1RU52_CRAGI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 30314, name = K1RU52_CRAGI|CGI_10020853|K1RU52) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	gene	2	1425	0.17	+	.	g1
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	transcript	2	1425	0.17	+	.	g1.t1
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	81	360	0.95	+	.	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	425	892	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	976	1154	0.92	+	.	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	2	80	0.84	+	0	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	2	80	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	361	424	0.96	+	2	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	361	424	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	893	975	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	893	975	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	1155	1252	0.85	+	2	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	1155	1425	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	stop_codon	1250	1252	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	tts	1425	1425	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [AVDPSLEFEKRRNVPVKYNRELWQTTFKAMKRIEEIRIKRQNQFILNRLKKGKELRKEADVKEVETNIHLIKAPTVSC
+# DIPAGRVKTLEKKMVQVIQEEDDDDMEEV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	gene	2601	8890	0.03	-	.	g2
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	transcript	2601	8890	0.03	-	.	g2.t1
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	tts	2601	2601	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	2601	2698	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	stop_codon	2629	2631	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	2699	2822	0.26	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	2907	3172	0.72	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	3277	3375	0.96	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	3559	3687	0.84	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	3784	3913	0.77	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	4058	4136	0.93	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	4264	4337	0.99	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	4470	4705	0.97	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	4986	5195	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	5321	6000	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	6086	6214	0.95	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	6292	6461	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	6686	6795	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	6943	7819	0.47	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	8011	8159	0.99	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	8217	8313	0.99	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	8387	8449	0.86	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	8486	8566	0.83	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	2629	2698	0.26	-	1	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	2823	2906	0.63	-	1	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	2823	2906	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	3173	3276	0.75	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	3173	3276	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	3376	3558	0.82	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	3376	3558	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	3688	3783	0.87	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	3688	3783	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	3914	4057	0.88	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	3914	4057	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	4137	4263	0.93	-	1	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	4137	4263	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	4338	4469	0.99	-	1	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	4338	4469	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	4706	4985	0.97	-	2	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	4706	4985	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	5196	5320	1	-	1	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	5196	5320	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	6001	6085	1	-	2	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	6001	6085	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	6215	6291	0.95	-	1	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	6215	6291	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	6462	6685	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	6462	6685	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	6796	6942	0.53	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	6796	6942	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	7820	8010	0.98	-	2	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	7820	8010	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	8160	8216	0.99	-	2	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	8160	8216	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	8314	8386	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	8314	8386	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	8450	8485	0.86	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	8450	8485	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	8567	8704	0.97	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	8567	8890	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	start_codon	8702	8704	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	tss	8890	8890	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MEEELRYGKRKKKKIKTPNPLFGVWLREWKEEAAEKGIKSQYVYAKSLVFDIYAFVFQALKSLQRYPLLLTSGKDCKI
+# LENFGDKLCKMLEDRLQKHIQEHGAIVPPDPEASTSKAPARQKPKPTKNAAPTVKRAGTQGGGHQRVTHALSDSDSEGGTGAPPPPRHILKMCGEDPE
+# VHCTIMVSFVQSADGRGFMSKTELCNKAQELADKSFTVADPGCRYTAWSSMGTLIKKGLVTKESSPAKYSLTEAGCELAHRLEMSQADDYPVCLIPTP
+# RAPAGIPEASSQDIGQLQYKYVTNEGEEVINKDKAAVLIEDDFGLGFLIKVNYQKLLTSGKRYRLDTTRPLGEDVYVYLHGDDTDELAINTNMPRLPS
+# LDEDDLQEAVNVEKPRKEVKKRTKTPKDVMSSASAEPQLLSFQSSSPQTATKTLGRVHSQRSSATSENSQDSIESAASTCVPNFVFQPGEFEIILCVD
+# NAEFYGSRQGGGKSLLPDLIKNGVTCDLRKLHVGDLLWVAREKTQTEAGKGRSAAQEKGAGIGLHRGEEEDGRPRSQLYRRSTPRSKGQHLTVEFRLK
+# HCGLKKPIFMIEDYGSLQHFSMPEDRIRQTITNLKVSLHQGQGQVIDGFQVKKTKNVKESVAYLTVMTRYLQSYYKNLLALINLLESMEQFDFPQDKR
+# LYACSIDDIKDQVWTNDITDREIRLMEFNEFNQGSVKSRNLSVQDMFCKHLSKVSGMSGERAMAVTQVYPTLTHLMDAYRSCPNKSVAESLLSTIKVN
+# KSLSMLAPQHGVLSYSEETIRDPDSN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/19
+# CDS introns: 0/18
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 10
+#     RM:  10 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	gene	9976	19990	0.02	+	.	g3
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	transcript	9976	19990	0.02	+	.	g3.t1
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	tss	9976	9976	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	9976	10044	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	start_codon	10001	10003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	10045	11486	0.95	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	11663	11944	0.48	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	12035	12334	0.64	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	12460	12620	0.54	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	12668	12954	0.54	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	13067	14917	0.66	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	15050	15449	0.54	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	15557	15860	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	15985	16636	0.93	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	16866	17385	0.92	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	17545	18031	0.87	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	18166	18398	0.76	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	18534	18717	0.99	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	18805	19657	0.85	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	10001	10044	0.99	+	0	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	11487	11662	0.75	+	1	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	11487	11662	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	11945	12034	0.64	+	2	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	11945	12034	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	12335	12459	0.99	+	2	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	12335	12459	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	12621	12667	0.55	+	0	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	12621	12667	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	12955	13066	0.67	+	1	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	12955	13066	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	14918	15049	0.68	+	0	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	14918	15049	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	15450	15556	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	15450	15556	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	15861	15984	0.99	+	1	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	15861	15984	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	16637	16865	0.95	+	0	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	16637	16865	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	17386	17544	0.93	+	2	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	17386	17544	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	18032	18165	0.76	+	2	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	18032	18165	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	18399	18533	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	18399	18533	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	18718	18804	0.98	+	0	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	18718	18804	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	19658	19807	0.88	+	0	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	19658	19990	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	stop_codon	19805	19807	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	tts	19990	19990	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MSTEDKEQIGNDTSGMVGNDKWLEAYKDPVASLYTLTQCICLSDVQADGDWKLIIADLGTGSFNMKLKVYKGEGTNLM
+# SEHTIIDLPTGVVSFYMDTHEPRTPAIAVASGPYIYVYKNLRPYFKFTLPTLEVNPVEADLWNQVKEEKINIFVLREMLEGMRAEGTVLTVRSLRFLQ
+# LQDVGDCETFANMYKYTPLKRQTVITCLSTMKKSMAEEDAISCLVLGTESKSIYVLDPEAFTVLTTLDLPAVPVFLSVTGLFDVEYRIVVACRNGCIY
+# TLKRGTTDPLKNCIELNSQPVGLERINKTIYVGTMDESLHCYTSKGKKLWTVKLPGSMTTMEVIDYKSKGFKAVIVALNNCQVHIYKEKYLVNVIKTD
+# AIVTGLKFGQFGREEGTLIMTLKGGGLVIKILKRNATFEEKDLSGGPPSAQNTRLNVPKKTKLFVDQTMRERENAITMHRTFQRDLYLLRLNTLREYA
+# KSLDNSMNPISSDPSEPLKLNAQVQGIGPTFKLTVNLQNTSLSQPSTSLLITFLYDEKLYNFKKSFIEVPMLVPGLNYAFETFLECLSDKGVSDNIKS
+# CSQVMVLVCELELPFKDQIFFRGICACSFRLPERIQELLPLVFNEECL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/15
+# CDS introns: 0/14
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# start gene g4
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	gene	27149	30314	0.09	-	.	g4
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	transcript	27149	30314	0.09	-	.	g4.t1
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	tts	27149	27149	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	exon	27149	28048	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	stop_codon	27243	27245	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	intron	28049	30314	0.1	-	.	transcript_id "g4.t1"; gene_id "g4";
+K1RU52_CRAGI|CGI_10020853|K1RU52	AUGUSTUS	CDS	27243	28048	0.28	-	2	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [YGHIAPKTFWGRLVCIAYAMLGIPLMLLCLANIGEVLADIFRFIYAKICCCGCCRKKDKTKVVQIKPVAQEPNWNSDK
+# SKIITAAPPMGTSEFTKIPPKTPDSVKGSDDGKPVKIIPLDIRSFKTQQELANRSQQVRGEPMIMDDDSDDEDDDLDEKKITVPLTVTMIVIAGYILG
+# GAMLFGLWETWDELQSAYFCFITLSTIGFGDVVPGTDFDNPQQTAQLILGAVYVLFGMAILSMCFSLMQDEIIAKCKWVGQKLGLVDKDED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/K1RU52_CRAGI.fasta

@@ -1,0 +1,312 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# caenorhabditis version. Using species specific transition matrix: /usr/share/augustus/config/species/caenorhabditis/caenorhabditis_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/A8WJB5_CAEBR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 20984, name = A8WJB5_CAEBR|WBGene00042061|A8WJB5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	gene	1	835	0.13	-	.	g1
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	transcript	1	835	0.13	-	.	g1.t1
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	328	444	0.33	-	2	transcript_id "g1.t1"; gene_id "g1";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	initial	686	752	0.52	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	1	327	0.61	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	445	685	0.62	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	328	444	0.33	-	2	transcript_id "g1.t1"; gene_id "g1";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	686	752	0.52	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	start_codon	750	752	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	5'-UTR	753	835	0.3	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tss	835	835	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGFPSTPLEAKQALGISSAISAASSGLRAGSPMLSVSYEPQFSFARCIEQWRGKEIARWIE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	gene	1196	4209	0.27	+	.	g2
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	transcript	1196	4209	0.27	+	.	g2.t1
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tss	1196	1196	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	5'-UTR	1196	1220	0.42	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	start_codon	1221	1223	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	initial	1221	1334	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	1383	1502	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	1560	1667	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	1721	2016	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	2066	2201	0.99	+	1	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	2248	2400	0.98	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	2447	3122	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	3173	3786	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	3833	3868	0.83	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	terminal	3922	3996	0.85	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	1335	1382	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	1503	1559	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	1668	1720	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	2017	2065	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	2202	2247	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	2401	2446	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	3123	3172	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	3787	3832	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	3869	3921	0.83	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	1221	1334	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	1383	1502	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	1560	1667	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	1721	2016	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	2066	2201	0.99	+	1	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	2248	2400	0.98	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	2447	3122	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	3173	3786	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	3833	3868	0.83	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	3922	3996	0.85	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	stop_codon	3994	3996	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	3'-UTR	3997	4209	0.7	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tts	4209	4209	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MDEDNANEIFKAFTKQNIEYDLSGSATVCYKSKTYSAKVLLHGNVLCVSESSGTEEVAACEPLIFILERSVIKKLEDK
+# PEASSKYSFVLTFNDETENLEFGVESEETREQWMIKLATCSHQMARAELDEVAYKFYTMSPSASSESDGVIDPKTSSFQSFYQTAPLRIAHNFAITQQ
+# NNLPARRVTVEECMSETKLSLILPKEIIKLNRKKISEFSGLLESRLRVWPQSSVSWLHEVIRQLREMSETYEQCFEFVDNYSGPHFRKSTEKHRVAFG
+# LVPTNLHIHSYDINSNDKRDFITAGTASAIPYRYNNGGLAKLYTQLDVEPYNFDYTFWNKRQTLLDLKKTIGELSHKIEKEWKIAKFGSPDKICLQVH
+# AGIKQVYEGLKDVLSSLPDVEHCSDILLEEEKKRLDAGGKIPETRVYDNIQNQIDRIDAMIVSLNTKIAVIDTLNEEPHEREACEKNTRQAVSTCLDI
+# LLALADSILESQLFSLVKALQKPSIAHAYFHIMIRTDFVLSQAITIASTAILNRIQKKEIPFTDDFLLVIFSFLSAYGDERGMIEDAIEAWKSLEQRV
+# RFRLVRAPSAVCRTCIPMVQGTRSALKVAIPLPHEYFDSLPDHIKWTSEFTVVTAYFNIGVNHEATFGQSFGGIALESSVNQDAAEKLNMFANRAEAS
+# QRAREAVMEVVNEVSTEPSRKNLNVFDWVMTACEQLGGEAVISCKSGKDRTGMASTLELGRVLRETCGFNTTQISEVVNSLRKDGSIPNAFSTEVFRP
+# PSGTYAKGVAS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	gene	4306	9265	0.32	+	.	g3
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	transcript	4306	9265	0.32	+	.	g3.t1
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tss	4306	4306	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	5'-UTR	4306	4356	0.61	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	start_codon	4357	4359	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	initial	4357	4421	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	4466	4548	1	+	1	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	4592	4723	0.86	+	2	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	6271	6389	0.96	+	2	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	6438	6557	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	6615	6722	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	6776	7071	0.99	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	7121	7256	1	+	1	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	7303	7455	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	7502	8177	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	8228	8841	0.99	+	2	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	terminal	8888	9052	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	4422	4465	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	4549	4591	0.97	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	4724	6270	0.69	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	6390	6437	0.99	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	6558	6614	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	6723	6775	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	7072	7120	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	7257	7302	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	7456	7501	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	8178	8227	0.99	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	8842	8887	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	4357	4421	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	4466	4548	1	+	1	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	4592	4723	0.86	+	2	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	6271	6389	0.96	+	2	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	6438	6557	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	6615	6722	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	6776	7071	0.99	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	7121	7256	1	+	1	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	7303	7455	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	7502	8177	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	8228	8841	0.99	+	2	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	8888	9052	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	stop_codon	9050	9052	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	3'-UTR	9053	9265	0.7	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tts	9265	9265	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MERVNGEDIWQDREIRFDVDHKLLRMINGEVQIAKVENVEDTKGNNGDKGVIRVTNLRLIWYAMSMPRINITIGWNTI
+# TGTQSKTSTSVKYHSDSMDEDNANEIFKAFTKQNIEYDLSGSATVCYKSKTYSAKVLLHGNVLCVSESSGTEEVAACEPLIFILERSVIKKLEDKPEA
+# SSKYSFVLTFNDETENLEFGVESEETREQWMIKLATCSHQMARAELDEVAYKFYTMSPSASSESDGVIDPKTSSFQSFYQTAPLRIAHNFAITQQNNL
+# PARRVTVEECMSETKLSLILPKEIIKLNRKKISEFSGLLESRLRVWPQSSVSWLHEVIRQLREMSETYEQCFEFVDNYSGPHFRKSTEKHRVAFGLVP
+# TNLHIHSYDINSNDKRDFITAGTASAIPYRYNNGGLAKLYTQLDVEPYNFDYTFWNKRQTLLDLKKTIGELSHKIEKEWKIAKFGSPDKICLQVHAGI
+# KQVYEGLKDVLSSLPDVEHCSDILLEEEKKRLDAGGKIPETRVYDNIQNQIDRIDAMIVSLNTKIAVIDTLNEEPHEREACEKNTRQAVSTCLDILLA
+# LADSILESQLFSLVKALQKPSIAHAYFHIMIRTDFVLSQAITIASTAILNRIQKKEIPFTDDFLLVIFSFLSAYGDERGMIEDAIEAWKSLEQRVRFR
+# LVRAPSAVCRTCIPMVQGTRSALKVAIPLPHEYFDSLPDHIKWTSEFTVVTAYFNIGVNHEATFGQSFGGIALESSVNQDAAEKLNMFANRAEASQRA
+# REAVMEVVNEVSTEPSRKNLNVFDWVMTACEQLGGEAVISCKSGKDRTGMASTLELGRVLRETCGFNTTQISEVVNSLRKDGVRRENCRKNVGKPVYS
+# FSPFQMHFLPKVFRPPSGTYAKGVAS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# start gene g4
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	gene	9356	10972	0.18	+	.	g4
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	transcript	9356	10972	0.18	+	.	g4.t1
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tss	9356	9356	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	5'-UTR	9356	9411	0.38	+	.	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	start_codon	9412	9414	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	initial	9412	9476	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	9521	9603	1	+	1	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	9647	9762	0.98	+	2	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	10010	10297	0.97	+	0	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	10343	10639	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	terminal	10691	10936	0.93	+	0	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	9477	9520	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	9604	9646	0.98	+	.	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	9763	10009	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	10298	10342	0.97	+	.	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	10640	10690	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	9412	9476	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	9521	9603	1	+	1	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	9647	9762	0.98	+	2	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	10010	10297	0.97	+	0	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	10343	10639	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	10691	10936	0.93	+	0	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	stop_codon	10934	10936	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	3'-UTR	10937	10972	0.58	+	.	transcript_id "g4.t1"; gene_id "g4";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tts	10972	10972	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MERVNGEDIWQDREIRFDVDHKLLRMINGEVQIAKVENVEDTKGNNGDKGVIRVTNLRLIWYAMSMPRINITIGWNTI
+# TGTQSKTSTSLATRNRGGSNEAIYVLAKVSSSTTKFEFIFTTTNTTAHTKLFTTIASINRAYETTKMYRELKMRGIFIKNDGTLKILPQENIVENVSG
+# VWNLSTETGSLGVFVITNIRVVWYAEMNVGYNVSVPYLTLYSARIRESKFGMALVLETTSSSGEYVLGFKVDPTEKLQGLLKSIQSLHKAHLLRPIFG
+# VQYVKEKAEKSEARQIKEDEDVTDVMDNNEDDVEIEKDIRPDPFAAYFDGQHSVTDEKRLPVLNQEIGLAMEPIRNGFTLKDLWAIHIDG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	gene	11986	12550	0.31	+	.	g5
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	transcript	11986	12550	0.31	+	.	g5.t1
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tss	11986	11986	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	5'-UTR	11986	12002	0.57	+	.	transcript_id "g5.t1"; gene_id "g5";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	start_codon	12003	12005	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	initial	12003	12145	0.91	+	0	transcript_id "g5.t1"; gene_id "g5";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	terminal	12190	12466	0.57	+	1	transcript_id "g5.t1"; gene_id "g5";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	12146	12189	0.98	+	.	transcript_id "g5.t1"; gene_id "g5";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	12003	12145	0.91	+	0	transcript_id "g5.t1"; gene_id "g5";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	12190	12466	0.57	+	1	transcript_id "g5.t1"; gene_id "g5";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	stop_codon	12464	12466	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	3'-UTR	12467	12550	0.56	+	.	transcript_id "g5.t1"; gene_id "g5";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tts	12550	12550	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MSELCDSLSVVFTDSPKIEDHLFAKAIRWADQNPEDVVFWARRQALERIPDVDVDWSSKIRALRRIRFGYNRKNLILG
+# CINEAIKSSMDSEIAAIFCSLSIPKTCSEMGSLLAALASFCNGNDGRAVVVIDLKEDNDVG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	gene	12762	16315	0.12	-	.	g6
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	transcript	12762	16315	0.12	-	.	g6.t1
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tts	12762	12762	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	3'-UTR	12762	12813	0.66	-	.	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	stop_codon	12814	12816	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	terminal	12814	13093	1	-	1	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	14980	15099	0.99	-	1	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	15180	15377	0.61	-	1	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	initial	16135	16286	0.38	-	0	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	13094	14979	1	-	.	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	15100	15179	0.98	-	.	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	15378	16134	0.37	-	.	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	12814	13093	1	-	1	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	14980	15099	0.99	-	1	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	15180	15377	0.61	-	1	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	16135	16286	0.38	-	0	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	start_codon	16284	16286	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	5'-UTR	16287	16315	0.21	-	.	transcript_id "g6.t1"; gene_id "g6";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tss	16315	16315	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MVLIFLVFSVIVSFVGPPTADAFLASAFSSVSQAGKTSNCHDWSEYGPCFSTSDRSFWRNLPQQCYQNRYMSLITGIG
+# NPIVQKVMDYAELFNKSATACGMCNVQVACSPRCDYVAGGNSFGVVDRICDLPTEKQACAMTPQAYDEDSGLCKVWPPRHTTAVDFLGALVPPNIRDQ
+# VWALKPLNCISISGKCYCCCAPYTPNPCDAQCTLHPCSRRQKFSKTQIKILRRKWLQKQEEREQEQEQEEREE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g6
+###
+# start gene g7
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	gene	16516	20984	0.36	-	.	g7
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	transcript	16516	20984	0.36	-	.	g7.t1
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	tts	16516	16516	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	3'-UTR	16516	16595	0.39	-	.	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	stop_codon	16596	16598	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	terminal	16596	16733	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	17716	17907	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	17999	18227	1	-	1	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	18280	18397	1	-	2	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	18445	18508	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	18556	19178	1	-	2	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	internal	20691	20943	0.95	-	0	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	16734	17715	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	17908	17998	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	18228	18279	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	18398	18444	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	18509	18555	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	19179	20690	0.95	-	.	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	intron	20944	20984	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	16596	16733	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	17716	17907	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	17999	18227	1	-	1	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	18280	18397	1	-	2	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	18445	18508	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	18556	19178	1	-	2	transcript_id "g7.t1"; gene_id "g7";
+A8WJB5_CAEBR|WBGene00042061|A8WJB5	AUGUSTUS	CDS	20691	20943	0.95	-	0	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [IGRIDKDYPFVDAHKAPCLEVAWSPFNDNVIASCSEDTTCKVWVIPDRGLSRNLSEPAVELTGHQKRVNTIAWHPVAN
+# NVLLTAGGENVMFMWNVGTGEALLEISGHPDQIWSINFNYDGSQFVTTCKDKKIRILDSHTGEVLHEGTGHEGVKPQRAIFVKDGLIMTTGFTKRSER
+# LYALRAPEDLSTPIVEEELDTSNGVLFPFYDEDSGLVYLIGKGDCAIRYYEVNNEAPFVHYINTYTTNEPQRAIGFQSKRGMSSEENEINRIYKLTTK
+# GVVDILQFFVPRKSDLFQHDLYPDTRSTIPALTAEEFMEGKNAAPNRQPVNAAAAAAAAKPKVQVAKKANILSTLAPTAAESAPTQSYAERPPSSQQS
+# SPRPSASPRPRPVVDEDMGIVPMREAPPSRPTSSRASRTEIPPKEEKGPDPMKPKQAVTLKSRAARDEPGGGGQTPGQKRAAAELERIKRDQSRTAEE
+# DTLAPPPQAARASASPRGSVSSEHVPQNMDELLDDLMKMKAVLRQHERRIRMLEEEIADRNMSNAYSF]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g7
+###
+# command line:
+# /usr/bin/augustus --species=caenorhabditis --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/A8WJB5_CAEBR.fasta

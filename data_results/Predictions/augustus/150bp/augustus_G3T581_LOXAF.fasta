@@ -1,0 +1,48 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G3T581_LOXAF.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 11535, name = G3T581_LOXAF|ENSLAFG00000010237|G3T581) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	gene	1	11385	1	+	.	g1
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	transcript	1	11385	.	+	.	g1.t1
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	intron	1	150	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	intron	276	1939	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	intron	2162	3413	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	intron	3475	9216	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	intron	9394	10190	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	intron	10295	11366	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	CDS	151	275	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	CDS	1940	2161	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	CDS	3414	3474	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	CDS	9217	9393	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	CDS	10191	10294	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	CDS	11367	11385	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3T581_LOXAF|ENSLAFG00000010237|G3T581	AUGUSTUS	stop_codon	11383	11385	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [AELGLNDHHQNEVINYMRFARSKRGLRLKTVDSCFQDLKESRSCELWLFYRLVEETFTVDEVSEVLSGLQAVVHSEVE
+# SELINTAYTNVLLLRQLFSQAEKWYLKLQTDISELENRELLEQVAEFEKAEFTSSNKKDFIKAQDLSELENTVAALKSEFERTLTDKTENQKSLEENL
+# ATAKHDLLRVQEQLSLAEKELEKKFQQTAAYRNMKEILTKKNDQIKELRKKLAKYEPED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 23
+#     RM:  23 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G3T581_LOXAF.fasta

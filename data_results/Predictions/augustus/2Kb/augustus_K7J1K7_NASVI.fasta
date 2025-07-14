@@ -1,0 +1,103 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# nasonia version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/K7J1K7_NASVI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5909, name = K7J1K7_NASVI|NV15238|K7J1K7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	gene	216	1554	0.59	+	.	g1
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	transcript	216	1554	0.59	+	.	g1.t1
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	start_codon	216	218	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	537	788	0.96	+	.	transcript_id "g1.t1"; gene_id "g1";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	947	1025	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	1335	1415	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	216	536	0.59	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	789	946	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	1026	1334	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	1416	1554	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	stop_codon	1552	1554	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLRNFTNQKLKSSAYNNEPDEPFNHNPKWKRSVAELNTYVDIFAPELLAPWEMLAETPMVPITAAPHQKVLSWLGMAE
+# KNQEVTTGPNTSDTPVVVETQETHHQDQDKVPVACVPTGVKHLHHKALEFDIGVYFEANGHGTIVFKDSAVQIIRTAADNPSLSENQRTAAHTLSSII
+# DVINQTVGDALSDMLLVELILRAKGWDTVAWEKSYRDLPNRQVKVKVQDRNAITTTDAERRCVTPMGLQEKIDEIVAKYPKGRSFVRPSGTEDVVRVY
+# AECDRIEDVEKLAAQVSIAVFELAGGIGTKPVVP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	gene	2447	3909	0.2	+	.	g2
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	transcript	2447	3909	0.2	+	.	g2.t1
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	start_codon	2447	2449	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	2508	2914	0.35	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	3067	3153	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	3256	3396	0.92	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	3589	3696	0.92	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	2447	2507	0.29	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	2915	3066	0.41	+	2	transcript_id "g2.t1"; gene_id "g2";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	3154	3255	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	3397	3588	0.92	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	3697	3909	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	stop_codon	3907	3909	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MEMRLGEHLIDKLEMVEDTKVMGVHRAYISSKIYREMKLRVGIIHDKRLTLLPQETVHETLPGVWNLSTEQGNVGTFI
+# VTNIRIVWYADMNQQFNVSMPYLTIANINVRSSKFGPTLVITSTESSGSYILGFRVDPIDKLYSLHKELVSLNAAYNKSPIFGVEYTFEHQSVPQPES
+# ITEKFTEIESSEDEISNVFNMYFSEGGVNQRKPVLSNSLGLATEEPREGSTLEMLWELLPSTK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	gene	4111	5794	0.49	-	.	g3
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	transcript	4111	5794	0.49	-	.	g3.t1
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	stop_codon	4111	4113	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	4309	4395	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	4589	4699	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	5075	5158	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	5287	5361	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	intron	5493	5574	0.93	-	.	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	4111	4308	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	4396	4588	1	-	1	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	4700	5074	1	-	1	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	5159	5286	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	5362	5492	0.97	-	2	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	CDS	5575	5794	0.49	-	0	transcript_id "g3.t1"; gene_id "g3";
+K7J1K7_NASVI|NV15238|K7J1K7	AUGUSTUS	start_codon	5792	5794	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MHSMVKCSRSIIISIGSPGHLRNRDSCKRFSSTYVTFNDDGNELLVNMGGEHIYLFDINNHGNSRSFIVPVELETNTG
+# DQGCNDPCVEDNRAPIVLKDMSALNISEFSPEVEELQLKANKAFEEERYANAITLYNEAISLCPYSAKLYGNRAATYMKRAWGGDRYAALRDCRTTLS
+# LDSEHIKAHYRLARCLFDLNLAQEAHIVMENFKEKFPQHANASACKTLRKDINEAINTCKVSSTTKSLSETRISDNEKEWRKNAIDFKLRLCGHCNTI
+# TDIKEANFFGDDGQFIIAGSDDGSFFIWDRYTTNIARVLKGDQRIVNCLQPHPSTCLLATSGIDSVIRLWSPMPEDGSVNVWEVENSNEAAIANYMRM
+# NSDHFEVMLFNMGYRYSLNSGSTHDDNEDQQESSNNPTCRPS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=nasonia --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/K7J1K7_NASVI.fasta

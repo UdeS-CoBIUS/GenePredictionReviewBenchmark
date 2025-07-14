@@ -1,0 +1,114 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# caenorhabditis version. Using species specific transition matrix: /usr/share/augustus/config/species/caenorhabditis/caenorhabditis_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G0MCB1_CAEBE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 12227, name = G0MCB1_CAEBE|WBGene00146894|G0MCB1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	gene	19	791	0.08	+	.	g1
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	transcript	19	791	0.08	+	.	g1.t1
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	tss	19	19	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	5'-UTR	19	46	0.11	+	.	transcript_id "g1.t1"; gene_id "g1";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	start_codon	47	49	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	initial	47	196	0.93	+	0	transcript_id "g1.t1"; gene_id "g1";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	terminal	365	448	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	197	364	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	47	196	0.93	+	0	transcript_id "g1.t1"; gene_id "g1";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	365	448	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	stop_codon	446	448	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	3'-UTR	449	791	0.7	+	.	transcript_id "g1.t1"; gene_id "g1";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	tts	791	791	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MRKKRKPYTKAQTLELEKEFLYNTYVSKQKRWELAKYLHLTERQVKIWFQNRRMKDKKQKQRSTGDPTGMLMPAGLD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g1
+###
+# start gene g2
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	gene	1946	10582	0.03	+	.	g2
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	transcript	1946	10582	0.03	+	.	g2.t1
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	tss	1946	1946	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	5'-UTR	1946	2000	0.41	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	initial	2001	2099	0.92	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	2215	2277	0.89	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	2346	2600	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	2990	3427	0.94	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	3500	3584	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	3740	3830	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	3959	4070	0.99	+	1	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	4311	4802	0.69	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	8207	8297	0.31	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	8946	9087	0.98	+	2	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	9216	9325	0.98	+	1	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	internal	9372	9475	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	terminal	9955	10227	0.97	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	2100	2214	0.87	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	2278	2345	0.89	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	2601	2989	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	3428	3499	0.94	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	3585	3739	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	3831	3958	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	4071	4310	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	4803	8206	0.1	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	8298	8945	0.67	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	9088	9215	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	9326	9371	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	intron	9476	9954	0.96	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	2001	2099	0.92	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	2215	2277	0.89	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	2346	2600	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	2990	3427	0.94	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	3500	3584	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	3740	3830	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	3959	4070	0.99	+	1	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	4311	4802	0.69	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	8207	8297	0.31	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	8946	9087	0.98	+	2	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	9216	9325	0.98	+	1	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	9372	9475	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	CDS	9955	10227	0.97	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	stop_codon	10225	10227	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	3'-UTR	10228	10231	0.67	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	3'-UTR	10412	10582	0.27	+	.	transcript_id "g2.t1"; gene_id "g2";
+G0MCB1_CAEBE|WBGene00146894|G0MCB1	AUGUSTUS	tts	10582	10582	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MQNYTRTDYAQVGTTNRGCMRVIPADKDKDYDLIVVGGQNGSLICLSRKSNDTTIIFKTQPGPPIQSLALGGPASSKK
+# KDKIFVASQNTVRGVNRKGKTFFSMETNMAEVANRMFVRGLDVVLTGRKSYSRYHDTVDSNNYLCTEDIHDVVSLVFEEAWGNREYTSVLACGNSTLQ
+# VIEGNKFDYEVRLDSIPFTVALYMGDGGHTKVLVLYGTKTGRLGLASVPQGSGKVLWEISTTSTACVTTIVCYSVTGGQFPDIIVGKEDGLIEIYTID
+# ETDHAQLFGTFPCEESITGISCGNVASKTETDIIVCTFTGWLFSLAKTSRPMIENLPVAANFNVKMQQLRSEVEELQVKVNEERTRYEQITKTQGGGA
+# GSTFFHSFQVHESFDYSAPHGAYNLTIELVIPIDFVVVQSQLPIRLMEVEKNASVVSEVRQDALNPWPLLASYRCQANVCRLELRVQANEGDWGIINL
+# YVCPKIMPKCAQVSRGGDIWIMGQPEIWNMPKRGFELGLGTEGHPDTWKSFGRCGNLGQLGEFDMMHQKWVTCAPITTHFIRALSSHQRTHDFDMYRP
+# LNILQFTGTFSIAEAHAWLHHLLPNVPSKCPPADTITNNYACAANGGTQLQVVYSKGSAVFRSDCMSTISIIRDKVSEQTMKMQIRVEVACELNHDSI
+# DHCLKLIDPKLSEMLDIEKQKMFASALKELESNNDDVFSFLSPANAKLLRDHDEIYQKSEGINIEESGVLAVFENLALSRAKLTGKSTKGKVEAIRNL
+# VENDYSLENMKALFKKMGNE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/12
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/3
+# hint groups fully obeyed: 19
+#     RM:  19 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=caenorhabditis --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G0MCB1_CAEBE.fasta

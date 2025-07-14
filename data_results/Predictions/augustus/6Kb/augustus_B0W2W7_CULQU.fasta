@@ -1,0 +1,115 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# culex version. Using species specific transition matrix: /usr/share/augustus/config/species/culex/culex_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/B0W2W7_CULQU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 33288, name = B0W2W7_CULQU|CPIJ001567|B0W2W7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	gene	385	1482	1	+	.	g1
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	transcript	385	1482	.	+	.	g1.t1
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	start_codon	385	387	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	509	590	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	385	508	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	591	1402	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	stop_codon	1403	1405	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	3'-UTR	1406	1482	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	tts	1482	1482	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MDDQGCPRCKTTKYRNPSLKLMVNVCGHTLCESCVELLFLKGSGSCPECNVALRRSNFRVQLFEDSNVDKEVQIRKRI
+# LKDFNKKEDDFNSLAEYNDYLEMIEEIVFNLCNNIDIINTNKRIEQYKKENRDVILKNKTKLSKDEIELEELIEVEKEQTDQRKKELAMMEAENRKQK
+# AKNKEDLIDSLMASYEDASAIVDKFAQRAEKQHIPLPKPMAPPPPKTTHFSTGIKFQSQHGFLPVPRIEEGPTYVYEAQVFPKEGPMPPALADIGSNG
+# YIKHIRAETLGERAGGFQTNISCLRAIQEALVGLYHGC]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	gene	1497	5797	1	-	.	g2
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	transcript	1497	5797	.	-	.	g2.t1
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	tts	1497	1497	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	3'-UTR	1497	1625	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	stop_codon	1626	1628	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	3167	5769	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	1629	3166	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	5770	5797	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	start_codon	5795	5797	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MRIAWQARAQMPKKNKPAAKGPFYFFMMEFKEQEEAAGYRFSGLAEVTEKAGPHWEKLAPHEREPYNQRAKQNKANPK
+# EAGGYGERYTAQGKPFSQVQAEAAKRRQLEEQIQKRIVEMIQTASANNALGELEVYFVSCNYFCVSLSGEYVPAELAIIKYSLNDGVMDSLNVLINPT
+# DLPLGMALDAKTHSSSTHQLPVPPDALGEANYEKILRQILKFFKNTSGSKVVPPIFTWNKDIPMVDSILRGILEATDLDYVKFSILPLIDFFYNLKLA
+# TEDYGLDIKTFPSIHLAKALLEKDVYAYTAGIACDVHEQLNNQVACALSRVVRWAYVISDSCCLDVGIEMEKGRHLPHNMTTLSDITGTVSALSSRMS
+# KLTTTSDNNRSKMSRPRSTDRTDRDVTTTTIYSSRAGTVTGKPSTIVPQQPASSGGTRAANDTFNTTNPFYAMQMAQSANRSPTKKNPWSRENKLTEV
+# RDPQSDTETSMLMLAPVAGRGRGTLARMNAAGRGRAQDLCTTVKTVGRGHLN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	gene	6001	27590	1	+	.	g3
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	transcript	6001	27590	.	+	.	g3.t1
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	start_codon	6001	6003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	6127	6332	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	6460	11236	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	11347	11402	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	11809	11888	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	12441	20438	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	20543	20637	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	20851	22000	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	22165	22358	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	intron	22508	27187	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	6001	6126	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	6333	6459	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	11237	11346	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	11403	11808	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	11889	12440	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	20439	20542	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	20638	20850	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	22001	22164	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	22359	22507	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	CDS	27188	27285	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	stop_codon	27286	27288	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	3'-UTR	27289	27590	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+B0W2W7_CULQU|CPIJ001567|B0W2W7	AUGUSTUS	tts	27590	27590	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MDISIKPVFSFSLNYKVFEKLVTCGKYDGIHSCLTVVTNADKNSKLSVSEIKNDIAMLNMNFPIRAIIAGKLKKDDER
+# DILVIGTVVKIFNPEGTEVLWMITAGGVNALLLSDIDKDGQNELIIGTDDGCIKIYKKDTLLHEFTEGNEIQNLMLIGPNQFMYSVKNGTIGVFEENI
+# RLWRIKSKTRVTALAMYDILGCENKQVIIGWKSGKIDVRDARNGDVLFKMKLNDFVCGIACNDYRGIGVLDLVIVTVDGEICGYTTPSVNLMNLHNLA
+# DEEMSSLLSQKQKLLLELKHYENNIKFNKELSSSNDSQLVQSVPDNVGVIPSNTRLQIGISTSYDSTDMNIDITVSTNNATTIRAVLIFADQLFKEET
+# LIAHLTKDVSRILIPLKTLKDNAQDIHIKAFVGYPTSVQFHVFELTRQLPKFAMYTIPHSLTGSPKSIAYINNLAEKDHDAGDSYVGFRITERLKRIC
+# IWINQNFLLPSDIEYMTSSDADATELKLNLISLRTSKTVCLHFNNDGKTRFHTEDIELAGDLIQSLVQFLNIENMNSVAYFPLVYDEIRELFGKLQGL
+# QETEKQINSEIIDNINQVKSHLIRAEDARYYNEDDVIKYHNEMMNTNEDLLKNYKIRLVNAGQVQLALKRVHSILYSASKLRVGTFASTIIGKFKDAL
+# KTNNIEAVLKIIELGEM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 43
+#     RM:  43 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=culex --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/B0W2W7_CULQU.fasta

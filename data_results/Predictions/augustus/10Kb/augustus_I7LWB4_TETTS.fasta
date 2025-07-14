@@ -1,0 +1,156 @@
+# Warning: Using nonstandard genetic code: TAA coding for GLUTAMINE instead of STOP.
+# Warning: Using nonstandard genetic code: TAG coding for GLUTAMINE instead of STOP.
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# tetrahymena version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/I7LWB4_TETTS.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22976, name = I7LWB4_TETTS|TTHERM_00149230|I7LWB4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	gene	2	2469	1	+	.	g1
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	transcript	2	2469	.	+	.	g1.t1
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	772	854	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	1710	1761	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	2320	2379	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	2	771	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	855	1709	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	1762	2319	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	2380	2469	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	stop_codon	2467	2469	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [QCWNADDAKQFLTLAEPVIAKYYPDSSQQPKNLKEILLRFALTVNSNVGPFAAFLGGFVTQEIVKAITNKYIPTSQVF
+# FSDCMEIIPESGDLNINNYASYIEKNYALEFAPTNDRNDGIRHAIGNTLLNQIKFCNLFMIGCGAIGCELLKNFAMINLGTGVDKQNGKIGQLTITDP
+# DHIEVSNLNRQFLFREKHLRKPKSQTAAASAIQMNPLLKDHILARLDKVHDGTINIFSDKFFSTLNVVANALDNVQARRYVDSRCVSNKKPLLESGTL
+# GPKGHVQVILPYKTESYGSQQDPQEEGEIPHCTLKMFPEETLHCVEWARDKFGKLFTLRPKSVNKILEDSNYDPQGGQELKEFKEAIKLLEKRPQSFS
+# DCIAYAVKKFYKYFRNDICQLMYTYPIDSKTKDGEPFWKLPKRPPTDISFDPNNQLHRDFVTALAVLRAKIFQVEYPKSFRTEAEKIKIAQEASIVKI
+# EDFKPSENKAQAISSEVNKDKKTDENDKDEQEAQEEDQHSNKIMDEVAEKAMLMKKLSEIKKVIPEEYFKPNTEKHLLLAEEFEKDEDDNGHIDLIYA
+# MANCRSTNYKLAPMDWIQVKIKAGRIVPALATTTATVAGLQTIELIKILKNEKLSNMKNAFLNLAVPLIQLTEPQKAEQIKIHEELEVTLWDRWEVSL
+# GQNVTLKQVFQHFETKYKLNVCDIISGSKPIYLSTVMDIAGKEHEKEKTLNSQITDIIEVEDDYIDLIFTFSNKKGEKVKQTPLVRIQFK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	gene	3185	3553	1	-	.	g2
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	transcript	3185	3553	.	-	.	g2.t1
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	stop_codon	3185	3187	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	3185	3553	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	start_codon	3551	3553	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLNLNMDLRNTYRGNHQIYQDLIQIIERELTPLMNFELTELDKISSNYYIDVHEMYNRVQQKIFLRKQLIYSIVLLKK
+# LFMIGKIKRKEMIEDFANFLMQPKYFREKSSFVPPAPEILDLIN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	gene	5534	6301	1	+	.	g3
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	transcript	5534	6301	.	+	.	g3.t1
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	start_codon	5534	5536	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	5590	5653	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	5907	6001	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	6150	6203	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	5534	5589	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	5654	5906	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	6002	6149	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	6204	6301	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	stop_codon	6299	6301	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MAKVALKLKIYFAEKGWVSVDIQKVEKGYYDQDLSWRMRRLGAPSEAYLCKSMIMENTGFKQEFESKYYQRFYCVIIQ
+# YVTKMNSDKLLKAARAIQNNNCEEKESNQMTGYGYNGVTPFLFNQKMPILISDKLGNLNPKFFFLGGGHADLKLRVSFDEFINKHEYDVYPCDLSDTD
+# KNWKHLQD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	gene	10046	12836	1	+	.	g4
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	transcript	10046	12836	.	+	.	g4.t1
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	start_codon	10046	10048	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	10081	10141	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	10188	10328	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	10577	10732	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	10968	11476	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	11729	11776	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	12173	12226	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	12338	12397	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	12560	12608	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	10046	10080	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	10142	10187	.	+	1	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	10329	10576	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	10733	10967	.	+	1	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	11477	11728	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	11777	12172	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	12227	12337	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	12398	12559	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	12609	12836	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	stop_codon	12834	12836	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MDPRIPTAQKTGMRPLGTAMKPGTAMRGEFGFNAGQAANLKIVDRPVTKGGMMGISTKPQTQGRAIQDRGYFMTLLRN
+# KISEIQNEIKVFKDKIEQIQQDNTTYNSLQKRFDDLIKEVRNLEGQLADYNLASDKQRSKTRPEEIHNMYQHIKLQNQRKADQLDEIFLERKRQEEEI
+# QKLEMRIHEINQQAEQKITELDPEQRQEYENLLQENRQLNNDINLQRNELEEINIKLQQTESRLNIDSQKLKGKYLKEQIIELERKREDLELQLNEAN
+# LSFPEARDKLKARVAEDNALLAQTEKRTKEIQKNIDNYEKRIREINAELNGGAEREAQKQKYEIIYQKDKEMNDFIQNYQQFREREIEQINSIEQNII
+# TLLENSSKILSLTGNLPSQADYTQIIGNFKFQEGMKENSENTLVMIEKQVETLKESLKQLETLEEKLAQKKEKQVKLLEQWNTDIDTKYNRIDQFKRE
+# FEQKEKRLLKDREELNGFKNQISEQLKNVTYDYNLKEKKLNMHESYPSYTEAEKKFSNCENQVNNLRNFIITKTKDMDYENIKEECKKLVDDINRAIL
+# KN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 5
+#     RM:   5 
+# end gene g4
+###
+# start gene g5
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	gene	22533	22786	1	-	.	g5
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	transcript	22533	22786	.	-	.	g5.t1
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	stop_codon	22533	22535	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	intron	22651	22703	.	-	.	transcript_id "g5.t1"; gene_id "g5";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	22533	22650	.	-	1	transcript_id "g5.t1"; gene_id "g5";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	CDS	22704	22786	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+I7LWB4_TETTS|TTHERM_00149230|I7LWB4	AUGUSTUS	start_codon	22784	22786	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MLYNELLSVHGEEYAQKMQKRFHQTDIWAPFRHRYAYMYNSSNKNVKDYKQVTLSRYINGFDKFNV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=tetrahymena --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/I7LWB4_TETTS.fasta

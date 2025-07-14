@@ -1,0 +1,85 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/B3S9A2_TRIAD.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 6382, name = B3S9A2_TRIAD|TriadG36591|B3S9A2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	gene	1	4387	0.12	+	.	g1
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	transcript	1	4387	0.12	+	.	g1.t1
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	intron	1	2954	0.39	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	intron	3035	3243	0.93	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	intron	3304	3606	0.57	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	intron	3725	3843	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	intron	3954	4035	0.96	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	CDS	2955	3034	0.94	+	2	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	exon	2955	3034	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	CDS	3244	3303	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	exon	3244	3303	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	CDS	3607	3724	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	exon	3607	3724	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	CDS	3844	3953	0.96	+	2	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	exon	3844	3953	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	CDS	4036	4131	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	exon	4036	4387	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	stop_codon	4129	4131	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	tts	4387	4387	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [DDTVGKSALTQVFHSDGTHYPKNYLMTTGIELIVKSITVPNTKATVWDGIDVFLLVFDVTNPQSLINCEKWLERIKDK
+# SYNNHLMGAVVANKIDLKGRRDVDTNAGSEFAKKHNLEYFECSAKENLNIEEPFKAIAQSFHSHYEECLEKFKCV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	gene	4421	6000	0.03	-	.	g2
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	transcript	4421	6000	0.03	-	.	g2.t1
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	tts	4421	4421	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	exon	4421	4913	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	stop_codon	4758	4760	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	intron	4914	5059	0.68	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	intron	5180	5304	0.72	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	intron	5395	5477	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	intron	5572	5665	0.78	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	CDS	4758	4913	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	CDS	5060	5179	0.68	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	exon	5060	5179	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	CDS	5305	5394	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	exon	5305	5394	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	CDS	5478	5571	0.99	-	1	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	exon	5478	5571	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	CDS	5666	5751	0.71	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	exon	5666	6000	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	start_codon	5749	5751	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+B3S9A2_TRIAD|TriadG36591|B3S9A2	AUGUSTUS	tss	6000	6000	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLNSLCETLQSRVCISFMINVLATIYFDKQIAKAISSNDLFSIESQAESYGVIGIDEGQFFPDVVPFAEHMANKGKLV
+# IVAALDGTFQRKGFGDFLNLIPLAEDVMKLSAVCMLCYSEGAFTKRLSSEQTVEVIGGTDKYMAVCRNCYKKPIKELHLQETPTKATNLGRKLILDEE
+# VTASS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/B3S9A2_TRIAD.fasta

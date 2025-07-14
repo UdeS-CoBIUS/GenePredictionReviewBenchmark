@@ -1,0 +1,87 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/G5E7D8_LOXAF.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 31687, name = G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	gene	1	3337	1	+	.	g1
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	transcript	1	3337	.	+	.	g1.t1
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	1	2488	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	2652	3164	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	2489	2651	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	3165	3337	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	stop_codon	3335	3337	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [VLKSTGDVAGGRVLYEGYAAVTDAPPECFLTLRDTVLLRKESRKLIVQPNTRLEGSEVQLLEYEASAAGLIRSFSERF
+# PEDGPELEEVLTQLATADARFWKAPREVPAGQA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 12
+#     RM:  12 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	gene	11954	28928	1	+	.	g2
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	transcript	11954	28928	.	+	.	g2.t1
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	start_codon	11954	11956	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	12164	12678	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	12726	13030	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	13104	14700	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	14833	15573	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	15681	17875	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	17997	18159	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	18319	20012	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	20083	20568	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	20728	21465	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	21600	22542	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	22678	23249	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	intron	23337	28808	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	11954	12163	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	12679	12725	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	13031	13103	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	14701	14832	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	15574	15680	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	17876	17996	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	18160	18318	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	20013	20082	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	20569	20727	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	21466	21599	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	22543	22677	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	23250	23336	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	CDS	28809	28928	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5E7D8_LOXAF|ENSLAFG00000022127|G5E7D8	AUGUSTUS	stop_codon	28926	28928	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MVLTESPLPALPAAAATFLMEQHEPRTPALALASGPCVYIYKNLRPYFKFSLPQLPPNPLEQDLWNQAKEDRIDPLTL
+# KEMLEGIRFLQLELSEMEAFVNQHKSKAIKRQTVITTMTTLKKNLADEDAMSCLVLGTENKELLVLDPEAFTVLTKMSLPSVPVFLEISGQFDVEFRL
+# AAACRNGNIYILRRDSKHPKYCIELRAQPVGLVRVHKVLVVGSTQDSLHGFTHKGKKLWTVQMPAPILTMNLLEQRSRGLQAVMAGLANSEVRIYRDK
+# ALLNVIRTPDGVTSLCFGRYGREDNTLIMTTKGGGLIIKILKRTAVFVERGGEVGPPPAQSMKLSVPRKTRLYVDQTLREREAGTAMHRTFQTDLYLL
+# RLRAARAYVQALESSLSPVSATAREPLKLHAVVQGLGPTFKLTLHLQNTSMARPIVGLLICFLYNQAFYALPRAFFKVPLLVPGLSYPLETFVESLSD
+# KGISDSIKVPRGASEERSGDPCLKDDRLNGNSNNKVFYRFHYLPVLQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/12
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 27
+#     RM:  27 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/G5E7D8_LOXAF.fasta

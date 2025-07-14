@@ -1,0 +1,110 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# ciona version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H2Y3Y0_CIOSA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22095, name = H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	gene	2862	7555	0.48	-	.	g1
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	transcript	2862	7555	0.48	-	.	g1.t1
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	stop_codon	2862	2864	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	intron	2990	3606	0.61	-	.	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	intron	3771	4050	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	intron	4162	4476	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	intron	4755	4915	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	intron	5015	6585	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	intron	6686	7418	0.96	-	.	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	2865	2989	0.62	-	2	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	3607	3770	0.61	-	1	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	4051	4161	0.99	-	1	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	4477	4754	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	4916	5014	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	6586	6685	0.99	-	1	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	7419	7555	0.81	-	0	transcript_id "g1.t1"; gene_id "g1";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	start_codon	7553	7555	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSAIKSLNAKAEVARSTQALAINISAARGLQDVLRTNLGPKGTMKMLVSGAGDIKLTKDGNVLLHEMQIQHPTASLIA
+# KVATAQDDITGDGTTSNVLIIGELLKQADNYIQEGVHPRIITEGFELAKDKALEVLESIKCDIKITRERLIDVARTSLATKVHRKLADQLTEVVVDAV
+# LSVRREEEPINLHMVEIMEMQHKLDCDTSLIRGIVLDHGARHPDMKKRVENAFILTCNVSMEYEKSEVNAGFFYKSAAEREKLVEAERRFTNDKVNKV
+# IQLKKEVKLCIDGFQMITYSSPGNRPAIAGHVGEEWNHGSQARQAAEHGAIGPRVRGGRHELCG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	gene	10081	12104	0.27	+	.	g2
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	transcript	10081	12104	0.27	+	.	g2.t1
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	start_codon	10081	10083	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	intron	10117	10858	0.48	+	.	transcript_id "g2.t1"; gene_id "g2";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	intron	11042	11834	0.86	+	.	transcript_id "g2.t1"; gene_id "g2";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	10081	10116	0.44	+	0	transcript_id "g2.t1"; gene_id "g2";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	10859	11041	0.78	+	0	transcript_id "g2.t1"; gene_id "g2";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	11835	12101	0.72	+	0	transcript_id "g2.t1"; gene_id "g2";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	stop_codon	12102	12104	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGLLDRLSNWLQFKKKEARILCVGLDNSGKSTIINQLKPLRTRNTDIAPTVGFCVEQFNSGNLSFTVFDMSGQIQQKR
+# NLPVLFFANKNDLRHSVSPVKCAQLLGLDRGEWVRGGSPLRRHMGSPLAGRAWHICPSNGLTGEGLKEGLDWLSDQLIDLKSKR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	gene	13082	13306	0.69	-	.	g3
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	transcript	13082	13306	0.69	-	.	g3.t1
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	stop_codon	13082	13084	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	13085	13306	0.69	-	0	transcript_id "g3.t1"; gene_id "g3";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	start_codon	13304	13306	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MRASQPPHPAFDVTTFRSPIRPSKRTGHCGCASPCTSNTHNAQCIEQKHDLVENIFPVLFYLIGAFLLFSPILR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	gene	14008	14370	0.48	+	.	g4
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	transcript	14008	14370	0.48	+	.	g4.t1
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	start_codon	14008	14010	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	CDS	14008	14367	0.48	+	0	transcript_id "g4.t1"; gene_id "g4";
+H2Y3Y0_CIOSA|ENSCSAVG00000000015|H2Y3Y0	AUGUSTUS	stop_codon	14368	14370	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MRYKVSAATTQRRDTSSRGYQASDLSTYRCPTCWGCHINLKSAREGSCAELAAISNFITCNIDCNSAPHNTYSEETKK
+# SKFPSLKHKKIGCIERINVRDNISKSHSTEKNIFKIFEIFKR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=ciona --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H2Y3Y0_CIOSA.fasta

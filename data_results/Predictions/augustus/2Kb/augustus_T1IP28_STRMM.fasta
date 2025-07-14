@@ -1,0 +1,113 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/T1IP28_STRMM.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 4896, name = T1IP28_STRMM|SMAR002770|T1IP28) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	gene	1	1680	0.11	-	.	g1
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	transcript	1	1680	0.11	-	.	g1.t1
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	intron	678	741	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	intron	887	954	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	intron	1198	1303	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	CDS	1	677	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	exon	1	677	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	CDS	742	886	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	exon	742	886	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	CDS	955	1197	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	exon	955	1197	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	CDS	1304	1409	0.94	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	exon	1304	1680	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	start_codon	1407	1409	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	tss	1680	1680	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGWHAIQTTPLELLVDILHRYLEELGKTAHRYSEQFGRTEPNLDDLGLAFKDIGVLLVELEDFVNNVEPVPFVQDMPK
+# IPVARPNHLQYPKQGSREVLTRPEWIDEHLPLMNPEVEDEIESPSTSVDFNRKNGAPSAEMTDGLAQGLRRPLEAIGTNGVPFKRPRLFADDEGCPMR
+# DGSSVSMTLTGDIALDGRQANARASKFLDEIRCSSSSHSPEQSAVDDAWKDGKKELKKTDKVKLKNKKDKGKIVKKKNGKKEKVKNSSKKNKDKNKEG
+# KKLKLMTDTIMNTVGRGPDGKFKKMKMKIPKSKPLIIKTKKAVKTGVEKSNKNKKKLQTLGVSPSFLSTSKLPKTPKVKLSTPKPPKPPKPPKTEKHP
+# SPLAQLATFLSKAGTREQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 3
+#     RM:   3 
+# end gene g1
+###
+# start gene g2
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	gene	1986	2928	0.08	+	.	g2
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	transcript	1986	2928	0.08	+	.	g2.t1
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	tss	1986	1986	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	exon	1986	2519	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	start_codon	2265	2267	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	intron	2520	2581	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	CDS	2265	2519	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	CDS	2582	2896	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	exon	2582	2928	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	stop_codon	2894	2896	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	tts	2928	2928	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGLFDKLTIWLGVRKREASVLVVGLDNSGKTTIINHFKPSDQKSIDIVPTVGFNIEKFRAKSVGFTAFDMSGQGRYRN
+# LWEHYYKTANGIIFVVDSSDQLRLVVAKDELDLMLQHPDISARRMPILFYANKMDEKNSLSSVKISLALGLEGIRDKPWHICASNAVTGEGLQEGVDW
+# LTGQIRDLISFRG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	gene	2989	4540	0.07	-	.	g3
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	transcript	2989	4540	0.07	-	.	g3.t1
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	tts	2989	2989	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	exon	2989	3141	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	stop_codon	3091	3093	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	intron	3142	3196	0.96	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	intron	3308	3380	0.95	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	intron	3444	3502	0.91	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	CDS	3091	3141	0.99	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	CDS	3197	3307	0.96	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	exon	3197	3307	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	CDS	3381	3443	0.98	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	exon	3381	3443	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	CDS	3503	4474	0.83	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	exon	3503	4540	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	start_codon	4472	4474	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1IP28_STRMM|SMAR002770|T1IP28	AUGUSTUS	tss	4540	4540	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MVSIIIRPLETPVVKIDYKKKIDRLWNFLFFIYGLRVNRDSVNSMIRVRCILVTINTTLQAFTLLHYLVAAVYGLKQQ
+# IVKDEIAFFINFLNIVMSVLLSVITSLILQYRKEKFRRLYTKLALSCDNDFIQSLYKTTAVYLGLTALVPMCSVISACFGYNGKLSKYYNVLLFVGGN
+# LSDEMLYYVKYLMLGQFLFILAFDVYFVDSMIVYFANVCKMVARHFWLLNQKLQILLLNGRNFRMDELNRLRQRHEQICDLVREMNELFSPLIVIWLL
+# VMTVSLCVDIRAVSMVQFTAYYNIFFVCKVTDRICLLVLLFKAASRVNNEAHFMSEKSLTSIIMMPHNEDKLHHYDLNYILFCLRLGNTNIGISASGL
+# FLLNATSFLSLTGSVITYVIVLTQSS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/T1IP28_STRMM.fasta

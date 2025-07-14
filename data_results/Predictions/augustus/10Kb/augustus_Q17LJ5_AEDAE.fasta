@@ -1,0 +1,64 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# aedes version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/Q17LJ5_AEDAE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 23703, name = Q17LJ5_AEDAE|AAEL001345|Q17LJ5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	gene	5405	9692	0.96	+	.	g1
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	transcript	5405	9692	0.96	+	.	g1.t1
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	start_codon	5405	5407	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	intron	5544	8691	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	CDS	5405	5543	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	CDS	8692	9692	0.96	+	2	transcript_id "g1.t1"; gene_id "g1";
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	stop_codon	9690	9692	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MTAESGSRSESPLPAPGVDMDDSRFRIRPYQQILSSCSGALVTSLFMTPLDVVKTRLQTQQKMMLSNKCYLYCNGLMD
+# HLCPCGPNGTAFAKPKLHFTGTIDAFVKISHHEGVKSLWSGLSPTLVLALPTTVIYFVAYEQFRLRLKEFYLRKRDKSAELPFWLPLVAGGSARVMAV
+# TIVNPLELIRTKMQSEKLSYTEVGRGFRSMLKMQGIMGLWKGFFPTILRDVPFSGIYWTTYETFKKRCNVTQPTFGVSFVGGAISGGVAAFLTVPFDV
+# VKTHQQIEFGEKFLYAENGEKKKPQKSSGTFETMRNIYVRNGIKGLFAGLTPRLVKVAPACAIMIASFEYGKNFFYNYNVTRYQARWEKDQGALIKTK
+# KHTGVGY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 14
+#     RM:  14 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	gene	12166	13272	0.96	+	.	g2
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	transcript	12166	13272	0.96	+	.	g2.t1
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	start_codon	12166	12168	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	intron	12222	12284	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	CDS	12166	12221	0.96	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	CDS	12285	13272	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+Q17LJ5_AEDAE|AAEL001345|Q17LJ5	AUGUSTUS	stop_codon	13270	13272	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MNQKPVWEDREIKFDITNICKTIRSGEQPLEILDSIEDTKGNLGDRGRLLVTNLRIIWYSVTSNRFSLSIGFSCVLTM
+# NTKTVVSKVRGTTQALHILSVGNNSRFEFIFTNLTVNNTKHFSAIFDIYRLYQASFLYRELKLRSAIVNSGQLNVLLQEQVFNTVSGVWNLSSDQGNL
+# GIFILTNVRLVWFAEMNNSFNISLPYMQISNIRIRESKYGPALVIQTLETAGSYVLGFRIDPQHKLTDVYKELLSLHTVYTETPIFGVFYEQKPDTVR
+# RPTESIDDIEELDTRAGAEINSKFTAYLAESDPGSRRRKPFYCKELGFAMESIKDGYSLKDLWEVVPSSSTSG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=aedes --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/Q17LJ5_AEDAE.fasta

@@ -1,0 +1,107 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/E1BHJ5_BOVIN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 464894, name = E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	gene	6001	29778	1	+	.	g1
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	transcript	6001	29778	.	+	.	g1.t1
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	start_codon	6001	6003	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	6113	16285	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	16437	19385	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	19451	28009	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	28124	29704	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	6001	6112	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	16286	16436	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	19386	19450	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	28010	28123	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	29705	29778	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	stop_codon	29776	29778	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSLFKARDWWSTVLGDKEEFDQGCLCLADVDNTGNGQDKIIVGSFMGYLRIFNPHPVKTGDGAQAEDLLLEVHLRDPI
+# LQVEVGKFVSGTEMLHLAVLHSRKLCVYSVSGTLGNVEHGNQYQIKLMYEHNLQRTACNMTYGSFGGVKVTGMFEEYGRCLELGEKRPEKVKI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 48
+#     RM:  48 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	gene	180563	243375	1	+	.	g2
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	transcript	180563	243375	.	+	.	g2.t1
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	start_codon	180563	180565	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	180566	180827	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	180961	186630	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	186708	199221	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	199325	208534	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	208676	218841	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	218938	232701	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	232944	239663	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	239817	243339	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	180563	180565	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	180828	180960	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	186631	186707	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	199222	199324	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	208535	208675	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	218842	218937	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	232702	232943	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	239664	239816	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	243340	243375	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	stop_codon	243373	243375	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MCSYLGTDPSLFQAPKVESRELNYDELDMELKELQKVIKNVNKSQDVWPLTEREDDLKVSAMVSPNFDSVSVTLKNRV
+# ALQKIKLSIYVQPPLVLTGDQFTFEFMGIPRVSQCKFRLPLKLVCLPGQPSKTASHKLTIDTNKSPVSLLSLFPGFAKQSEDDQVNVMGFRFLGGSQV
+# TLLASKTSQRYRIQSEQFEDLWLITNELIIRLQEYFEKQGIKDFTCSFSGSVPLEEYFELIDHHFEVCMIITHIICSFSVYEREGDPVELRINGEKLE
+# ELLSERAVQFRAIQRRLLTRFKDKTPAPLQHLDTLLDGTYKQVLRVLDVQELL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 129
+#     RM: 129 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	gene	366951	396590	1	+	.	g3
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	transcript	366951	396590	.	+	.	g3.t1
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	start_codon	366951	366953	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	367044	367106	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	367290	393177	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	intron	393401	396582	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	366951	367043	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	367107	367289	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	393178	393400	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	CDS	396583	396590	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+E1BHJ5_BOVIN|ENSBTAG00000006528|E1BHJ5	AUGUSTUS	stop_codon	396588	396590	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MNDNFYYSTYLVFVEDKVHQVVLKKNKSVPKVIALADAVEENQDNLFQSFTRLKSATHLVILLIGLWQKLSADQIAIL
+# EAAFLPLQQDTQELGWEETVDAALSHLLKTCLSKSSKEQALNLNSQLGIPKDTSQLKKHITLFCDRLAKGGRLCLSTDAAAPQTMVMPGA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 46
+#     RM:  46 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/E1BHJ5_BOVIN.fasta

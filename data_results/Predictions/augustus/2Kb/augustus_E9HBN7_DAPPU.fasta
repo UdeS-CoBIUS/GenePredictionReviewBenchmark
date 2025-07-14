@@ -1,0 +1,117 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/E9HBN7_DAPPU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5592, name = E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	gene	1	1440	0.09	-	.	g1
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	transcript	1	1440	0.09	-	.	g1.t1
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	1	231	0.92	-	.	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	350	417	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	579	663	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	838	891	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	996	1068	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	232	349	0.92	-	2	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	232	349	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	418	578	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	418	578	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	664	837	0.99	-	1	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	664	837	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	892	995	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	892	995	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	1069	1239	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	1069	1440	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	start_codon	1237	1239	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	tss	1440	1440	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MDSAEEFSEDVDIDDKSTGEGNEKSVKKRYKCTYEDCSAAFGKPSRLVQHERIHSGERPFKCEQCEQSYTRSFHLKRH
+# VSTVHEQLAVEMFLCPKENCGKQFVSRQKMEIHHENAHSANSLKCPTCEKTFKKNQQLKIHQYQHTGILPYVCDYEGCGKRFLMPSRLKGHAKIHKGY
+# ICTAEGCNQEFPMWSALRKHKAEAHAQKHVCTVCNSSFKTRGFLKSHMKMHQPTREVFHCTIESCS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	gene	1856	3786	0.01	+	.	g2
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	transcript	1856	3786	0.01	+	.	g2.t1
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	tss	1856	1856	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	1856	2047	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	2048	2117	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	2267	2345	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	2396	2471	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	2600	2691	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	2828	3133	0.54	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	intron	3329	3391	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	2001	2047	0.7	+	0	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	2118	2266	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	2118	2266	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	2346	2395	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	2346	2395	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	2472	2599	0.97	+	0	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	2472	2599	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	2692	2827	0.98	+	1	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	2692	2827	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	3134	3328	0.96	+	0	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	3134	3328	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	3392	3592	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	3392	3786	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	stop_codon	3590	3592	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	tts	3786	3786	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MPYWQENEIRFDVSSSYLATVTGESVLERVEPVEDTKANSGEAGCLIMTNLRLLWFSNKTAKLNLTIGYNTLVTITSQ
+# SAKNKKLNSTDALYLLAKVGNGRFEFLFTPLLENKTNYSVILNEIHKSYVASKPFRELRLRHHIIHANQLKVMPLEHICNRVEGVWNLANNQFSLRDS
+# KFGKVLVIESTENNGGRYLLGFRIDPASRLKQILQEIQSLHLTQIRNPELGVSWNSISTRQTHALGPVQDEKEDEGVRCFTNYLQTDYMDSVSCGHPP
+# EFDRTIGLAMEKLPSGVNRNTLWQIIF]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	gene	3817	5450	0.08	-	.	g3
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	transcript	3817	5450	0.08	-	.	g3.t1
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	tts	3817	3817	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	exon	3817	5450	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	stop_codon	4228	4230	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	CDS	4228	5211	0.88	-	0	transcript_id "g3.t1"; gene_id "g3";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	start_codon	5209	5211	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+E9HBN7_DAPPU|DAPPUDRAFT_327755|E9HBN7	AUGUSTUS	tss	5450	5450	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MTQSNSNNVVYLQTALRNLEERYKKLQNRVESLQVENERLVTSRTELVVEVERLQDQQIRLRERNLRLTQEFHSKQQE
+# CSLLAEKLTMFARGRVGNAYRTDSESFKSDLTEVKEDLEGSHDSLVTVELHGSADSRPKTLDVTSRTYSEPNLSAIQRELDMVRKGLWSPALENGKGV
+# IVEELSSKILHSLKRGQGELEEQCSRMMEIQQNSMEAVQELSILSDETDDTDPLDHVQHCTQAALALQEKLQGQNIKLRHLHQILKITSGKDKLFVYT
+# FLFTLKAQILFLANETGAASVVTQTSFDMHAPDLSNSSVWKNMNLQDRIWYSI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/E9HBN7_DAPPU.fasta

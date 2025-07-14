@@ -1,0 +1,36 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# leishmania_tarentolae version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/S9VEE0_9TRYP.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 16546, name = S9VEE0_9TRYP|AGDE_04534|S9VEE0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+S9VEE0_9TRYP|AGDE_04534|S9VEE0	AUGUSTUS	gene	8112	8546	0.61	+	.	g1
+S9VEE0_9TRYP|AGDE_04534|S9VEE0	AUGUSTUS	transcript	8112	8546	0.61	+	.	g1.t1
+S9VEE0_9TRYP|AGDE_04534|S9VEE0	AUGUSTUS	start_codon	8112	8114	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+S9VEE0_9TRYP|AGDE_04534|S9VEE0	AUGUSTUS	CDS	8112	8543	0.61	+	0	transcript_id "g1.t1"; gene_id "g1";
+S9VEE0_9TRYP|AGDE_04534|S9VEE0	AUGUSTUS	stop_codon	8544	8546	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MTMGCDFVVKEVPLNEEDVVEVTLMDIGGQKLYDRMVPAYMENVTAYFLMYDVSNKTTFETCKKWVKRAQAANKEMIG
+# VLIANKMDLADKCEITDSQGESFAKANNMRFYKCSALRGTGINEPIIDFANFFLEGYRQRIAEMSQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=leishmania_tarentolae --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/S9VEE0_9TRYP.fasta

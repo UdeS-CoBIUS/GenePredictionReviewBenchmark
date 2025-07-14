@@ -1,0 +1,115 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W2YZ86_PHYPR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 4911, name = W2YZ86_PHYPR|F442_12310|W2YZ86) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	gene	10	1913	0.03	+	.	g1
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	transcript	10	1913	0.03	+	.	g1.t1
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	start_codon	10	12	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	187	286	0.23	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	499	572	0.16	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	722	1254	0.05	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	1391	1445	0.05	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	10	186	0.37	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	10	186	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	287	498	0.17	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	287	498	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	573	721	0.06	+	1	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	573	721	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	1255	1390	0.05	+	2	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	1255	1390	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	1446	1878	0.06	+	1	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	1446	1913	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	stop_codon	1876	1878	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	tts	1913	1913	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MYEAKLKQLNPNLKNITYDIQDLYTYIDSLTDLSALVLDLETKTYLPCGKEWIKKKVFQSWGSLLAVMIRRGAGVLML
+# GTDKRAVRSRDQRGITVGTRWGQYVLHTLNVSLQPPPLARKALPEPLGMQSRMVSLSIHCCQMFSVLQLPSRGALQARADREAWRKKQATRPRHSIWS
+# SLSGRPFRIECFLPSSGVVHGSYCSRRYALRHGSASSFTRYHVSSYTTRKLTALQYSSPLSRALPVCCLVVLIPADIARYYLGTRGNLRSQVFPLTAF
+# MFLSACPAFPGLVYLSFFAEHRLPFNVVAGTSFVLLLLAETFAGFVVLRELLRQEAARFLKMRELSDINATEDEGERTRFLQGEARNPMATSWQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	gene	1966	3043	0.11	+	.	g2
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	transcript	1966	3043	0.11	+	.	g2.t1
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	tss	1966	1966	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	1966	2042	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	start_codon	2019	2021	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	2043	2107	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	2219	2284	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	2411	2470	0.92	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	2589	2647	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	2764	2824	0.96	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	2019	2042	0.62	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	2108	2218	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	2108	2218	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	2285	2410	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	2285	2410	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	2471	2588	0.92	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	2471	2588	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	2648	2763	0.96	+	2	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	2648	2763	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	2825	2911	0.96	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	2825	3043	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	stop_codon	2909	2911	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	tts	3043	3043	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [METTHKSTTVLRCKVAIVGDATVGKTALLQVLKSNGHEYPKNYVMTSDVELSTKSIPIPDTNVVVELYLFDCAGQSIF
+# NQLDFGTVHYKGASMALVVFDVNNKESFKSCSKWYQDVRDASPNHNIPGVLLANKTDLRYNNRDAISTKEAEEFAKRNDLKYFECSAQQNSGVEAPFA
+# YIADWFHKKYQAATQRA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	gene	3054	4370	0.05	-	.	g3
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	transcript	3054	4370	0.05	-	.	g3.t1
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	tts	3054	3054	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	3054	3805	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	stop_codon	3112	3114	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	3806	3869	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	3112	3805	1	-	1	transcript_id "g3.t1"; gene_id "g3";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	3870	4267	0.89	-	0	transcript_id "g3.t1"; gene_id "g3";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	3870	4370	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	start_codon	4265	4267	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	tss	4370	4370	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MGSTKTFTLQSPLWSRRRAMRNITDSTCDYGLAQTEEGCVRTLSSYNPDAYLHVQIIYLVLGSVTTFASAVMYIRSLK
+# HEASKLQQYNFIFCCYASLTMVLTGADPKSYGHLIPRPISSFLSDSLTAALYSVYILTLGYWATIIQKGAAMGDRPAQLICLESIAIAVVWAFYILYN
+# ISLFLSKGFNRTGITYLHLMWSAIMLGIISTVFLIYGLRVLARLQAYEQEKKLRIPTMASDRVMNHSYNMGSLSDDEDGVPVVQEPKFANRGKPKEGH
+# STKIRKILYVTETLSLIVIATQMYMAVTHTAGESEELQCANGIGCESVKAGLSYLNILQVVCVWAVLWAFRTIKKKEVIPQPNNAQSMA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W2YZ86_PHYPR.fasta

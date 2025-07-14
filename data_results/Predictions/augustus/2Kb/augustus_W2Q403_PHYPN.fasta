@@ -1,0 +1,103 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W2Q403_PHYPN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 6464, name = W2Q403_PHYPN|PPTG_13442|W2Q403) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	gene	1	1790	0.04	-	.	g1
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	transcript	1	1790	0.04	-	.	g1.t1
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	intron	1	552	0.15	-	.	transcript_id "g1.t1"; gene_id "g1";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	intron	952	1156	0.64	-	.	transcript_id "g1.t1"; gene_id "g1";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	CDS	553	951	0.74	-	0	transcript_id "g1.t1"; gene_id "g1";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	exon	553	951	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	CDS	1157	1711	0.64	-	0	transcript_id "g1.t1"; gene_id "g1";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	exon	1157	1790	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	start_codon	1709	1711	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	tss	1790	1790	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSSAKPVLTFVTGNANKLKEVVAILGTDFPFELRNQAVDLPELQGEPADIAKEKCRLATKQVQGAVLVEDTSLCFNAL
+# KGLPGPYIKWFLEKTGHDGLNNMLAAYEDKSAYAQCIFAYAAVGAEPQVFIGQTHGKIVPARGPTTFGWDPVFQPDGFDQTYAEMEKATKNQISHRYK
+# ALEALKAHLQIPRCEATMSVPIGYMEPPHYIQPSALAEILRDPSTSSKRPVIIDVRDTDYAGGHIRSAVNIPEDNFMDDDDVDALVEKFKNEDAIVFH
+# CMMSQVRGPSCAKRFKSRMEVVLEGANHKPRVLILHGGYERFGR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	gene	1896	4360	0.07	+	.	g2
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	transcript	1896	4360	0.07	+	.	g2.t1
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	tss	1896	1896	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	exon	1896	3975	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	start_codon	2063	2065	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	intron	3976	4048	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	CDS	2063	3975	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	CDS	4049	4307	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	exon	4049	4360	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	stop_codon	4305	4307	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	tts	4360	4360	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLPAFQVHLHQPILERVAQVGKFDGRHPALACGTTAGKVFIHSPNENTFRDNSEADDSEQSSVRFLKINRKVTALAAG
+# KFENADQGDTLVVGTQSSLLAYDVEKNSDIFYKDVPDGVSAMLFAPAPRTASSANSPSQMVVVGGNCSLQGFGRDGGELFWTVTGDHVHALTVNDVTG
+# HGRDELIAGSDDFEIRAFQNEEVVFECTETSRVLALAAIKKQMFGYALQNGTVGVYKGKHRAWRVKSKNVPTAIHSFDIDGDGEKEIVMGWSNGKFES
+# RKLTNGEAVHKEVLKSPVAALVTADYRMDGKEEIICCSADGEIRGYFTSTGDFPAPGVSTGTNDKASQEEKEVAKLSKHRAALQLEIKALEANQAGTA
+# SSGKGLRIRADTNIKVRSLASKTATNFELEVSTENDAVIKMVVVFESEAGIFEGESLVVRPATMSPTVRIPLNLSKHAAARLDFKVLVGSRGHHTSFH
+# VFESTFKLPKFAAFHHITGETPGPQTTPEGSVRFSTPVKPQQMYSWLDNAFVLAEVIPESSQAHLMFRSLRDNSRLNISVAPQETVIRTDNMELAAEL
+# VQHMCAFLEWRDLESMADFPQQMEEFRNLLVRVDESNAIRLKLTGEMADDSNQVKNLIIRVEDSRILNDMPRMRRFYSELFSLNNQLLGEYTKRSTNH
+# QALLDALKEVNSMIQLAARLRFGNAKSTVIAACRKAIKNNNIHALFYIVKTGKEENQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	gene	4374	6464	0.48	-	.	g3
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	transcript	4374	6464	0.48	-	.	g3.t1
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	tts	4374	4374	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	exon	4374	4595	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	stop_codon	4403	4405	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	intron	4596	4665	0.99	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	intron	6040	6222	0.71	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	CDS	4403	4595	0.99	-	1	transcript_id "g3.t1"; gene_id "g3";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	CDS	4666	6039	0.97	-	1	transcript_id "g3.t1"; gene_id "g3";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	exon	4666	6039	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	CDS	6223	6464	0.72	-	0	transcript_id "g3.t1"; gene_id "g3";
+W2Q403_PHYPN|PPTG_13442|W2Q403	AUGUSTUS	exon	6223	6464	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [PNLTLPPKAVEAAKEAGMAPDAFYCMQMLDETGIVVVPGSGFGQKEGTWHFRTTILPPEDAVDDVIEKTSKFHARFMD
+# KYSVIREILANAFKKLALDSMFLPLKEDSLLFHLCLYYGALVLLLELLVPLLLHRRVRIEIPRLPLRAPVVPLSTREFQQRRLALRQQVAALQRDIAE
+# TPRRSPQKRRQVSSTSAAKQRSAASSTLSSPTSSVKMRPKSPRETSGVKRKSNRNQEQGRDAPAEPTRPMPMAMSDFLVTSAPRRGGFSFDEIRDEVL
+# VEENRKEKEDWVNARIARRRESSTFSGRRPVRLVEDVESVGYNGPSEAATRLEALIGARRRRRESAPPPHIPAPPPVPAMNHSPAPVSAPVAPAASLE
+# NHLELSVSQAPKPVQQEASLLVRPQNEQKTTQDEKTKESERNEPVADFQAFCASFAVGGSAAALQAAAKRKHHEAFGSDTEQTSGGVGIAEEFVKMRK
+# YPRVSEQITEESESSAPSATLQVLDKRSHYKALGSENENEIDDAVEVQQIFEKRNHDQAFGEPERPQETTPRIIRRISFGDEADALTASPKEVPSERS
+# TGKRKHKQAFGMLDDEDEDAEWRDSLAFRPHRMD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W2Q403_PHYPN.fasta

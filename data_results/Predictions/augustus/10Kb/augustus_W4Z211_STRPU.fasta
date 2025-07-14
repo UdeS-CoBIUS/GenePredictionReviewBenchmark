@@ -1,0 +1,106 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# strongylocentrotus_purpuratus version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.251), CTG(0.478), TTG(0.271)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/W4Z211_STRPU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 20222, name = W4Z211_STRPU|SPU_022155|W4Z211) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	gene	1	9309	0.42	-	.	g1
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	transcript	1	9309	0.42	-	.	g1.t1
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	1	997	0.9	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	1215	3586	0.98	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	3659	4886	0.98	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	4969	6008	0.96	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	6089	6931	0.98	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	7065	9298	0.5	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	998	1214	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	3587	3658	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	4887	4968	0.96	-	1	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	6009	6088	0.98	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	6932	7064	0.62	-	1	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	9299	9309	0.53	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	start_codon	9307	9309	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGGSFRNPKNLDFDFSVSKKMLAVSGPIAYGIVAENMPQKDVKVCFLGNYCVGKTSITKRFVKGRFDEEYTSTIGAAF
+# LSRSLYSQNIEYRFALWDTAGQERFRSLAPLTYRSAAAALIVYDITNQQSFDEVNFWISELRRDGPEEILIYVIGNKVDLESYRVVDREVAESYAQTK
+# GVFHFHSSAKTGQGVEEIFYHI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 27
+#     RM:  27 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	gene	9974	15058	0.48	+	.	g2
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	transcript	9974	15058	0.48	+	.	g2.t1
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	start_codon	9974	9976	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	10212	13104	0.48	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	13405	14098	0.55	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	14177	14831	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	9974	10211	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	13105	13404	0.48	+	2	transcript_id "g2.t1"; gene_id "g2";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	14099	14176	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	14832	15058	0.99	+	2	transcript_id "g2.t1"; gene_id "g2";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	stop_codon	15056	15058	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [LQGSRSTAGMPDNKNQFKEVLPKQGLVYQEEQPTMVLCKPKLLPLKSVTLEKMEKMQKDAQDKVQEQEMAERLQQSQG
+# IAGAHTASSGTSDSPHALASAAVIHPVRCRTFSFAANLGACQQQRRQSLTLSPLSGIRRSFSDKDDKNVRALFIPVPVKTSNNPDDINIGEELGANLK
+# NKKDDLMKILIKFSKRPAIQKLAEEEGLDDNLFHQSFTSFRKYIMEVESLEPDLHIVLSDILVGAGHIDDIFPYFIRHARQIFPALDCMEDLKKISDL
+# TDPAQW]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	gene	15471	20222	0.2	+	.	g3
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	transcript	15471	20222	0.2	+	.	g3.t1
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	start_codon	15471	15473	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	15611	16472	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	16698	17277	0.72	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	17447	18309	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	18422	19883	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	intron	19962	20222	0.57	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	15471	15610	0.52	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	16473	16697	0.73	+	1	transcript_id "g3.t1"; gene_id "g3";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	17278	17446	0.89	+	1	transcript_id "g3.t1"; gene_id "g3";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	18310	18421	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4Z211_STRPU|SPU_022155|W4Z211	AUGUSTUS	CDS	19884	19961	0.57	+	2	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [LSDILVGAGHIDDIFPYFIRHARQIFPALDCMEDLKKISDLTDPAQWYPEARAIDRKIIFHAGPTNSGKTYHALESYS
+# QAKSGVYCGPLKLLASEVHKKTNERVXXXXXXXXXXXXXXXXXKYPEARAIDRKIIFHAGPTNSGKTYHALESYSQAKSGVYCGPLKLLASEVHKKTN
+# ERGIMCDLVTGEERKYAHPDSIPSSHVACTVEMTSVSQPYEVAVIDEIQMLRDPSRGWAWTRALL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=strongylocentrotus_purpuratus --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/W4Z211_STRPU.fasta

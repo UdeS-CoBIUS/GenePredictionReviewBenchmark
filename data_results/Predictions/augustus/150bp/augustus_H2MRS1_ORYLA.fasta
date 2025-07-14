@@ -1,0 +1,62 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/H2MRS1_ORYLA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5033, name = H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	gene	1	3809	0.09	+	.	g1
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	transcript	1	3809	0.09	+	.	g1.t1
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	CDS	1208	1335	0.83	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	CDS	1409	1544	0.99	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	CDS	1791	1886	0.85	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	CDS	2087	2149	0.93	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	CDS	2252	2386	0.82	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	CDS	2565	2648	0.54	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	CDS	3585	3608	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	CDS	3708	3806	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	stop_codon	3807	3809	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [KLRGQTEALYILTKSNNTRFEFIFTNLVPGSPRLFTSVIAVHRAYETSKMYRDLKLRAALIQNKQLRLLPQEQVYDKI
+# NGVWNLSSDQGNLGTFFITNVRIVWHANMNESFNVSIPYLQIWSIRIRDSKFGLALVIESSRQSGGYVLGFKIDPVDKLQDALKEINSLHKVYSANPI
+# FGVDYEMEEKPQPLEELTVDQPPDDVEIEPDEQTDAFTAYFADGVKQQDREPVFSEELGLAIEKLKDGFTLQGLWEVIG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	gene	4680	5033	0.88	+	.	g2
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	transcript	4680	5033	0.88	+	.	g2.t1
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	start_codon	4680	4682	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H2MRS1_ORYLA|ENSORLG00000017147|H2MRS1	AUGUSTUS	CDS	4680	5033	0.88	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MDPRGLKEDLRLFQSTLLQDGLKELLNENKLIDCTLKVEDRSIPCHRLILAACSPYFRELFFSVDGKEVENKEVVLED
+# LDPNIMELIVNYLYSAEIDIYDSNVQDILALANRFQIPSV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/H2MRS1_ORYLA.fasta

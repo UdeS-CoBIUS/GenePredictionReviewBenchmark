@@ -1,0 +1,107 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/F6XCD9_CANLF.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 455188, name = F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	gene	2873	3118	1	-	.	g1
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	transcript	2873	3118	.	-	.	g1.t1
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	stop_codon	2873	2875	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	2873	3118	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	start_codon	3116	3118	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPEDKITVQVDAEEKEDVKSGAEFLSLSKARTEEYVKELEKMKNIIPFDQMTIEDLNEVFPETKLDKKYPYWPHKPME
+# NLS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	gene	171086	261434	1	+	.	g2
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	transcript	171086	261434	.	+	.	g2.t1
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	start_codon	171086	171088	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	171214	180110	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	180293	184839	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	184917	187864	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	187919	193375	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	193479	195035	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	195141	203811	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	203893	217819	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	217916	226000	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	226174	230084	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	230238	254228	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	254354	256984	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	257063	261397	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	171086	171213	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	180111	180292	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	184840	184916	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	187865	187918	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	193376	193478	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	195036	195140	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	203812	203892	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	217820	217915	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	226001	226173	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	230085	230237	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	254229	254353	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	256985	257062	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	261398	261434	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	stop_codon	261432	261434	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MWLTVIAMSSHETFRIKRFLAKKQKQNRPIPQWIQMKTGNKISDLKGVIVTLSDDGHLQCSYLGTDPSLFQAPKVESR
+# ELHYDELDIELKELQKIIKDVNKSQGIWPVTEREDDLKVSAMVSPNVDSVSQATDVEVGIDLIPSVTVKVTLQNRLALQKAKLSVYVQPPLVLTCDQF
+# TFEFMAPEMSRTVAFSVYLKGSYTPPELEGNAVVSYSRPSGQPSKTASHKLTIDTNKSPVSLLSLFPGFANQSEDDQVNIMGFRFLGGSRVTLLASKT
+# SQRYRIQSEQFEDLWLITNELIIRLQEYFEKQGIKDFACSFSGSMPLQEYFELIDHHFELRINGEKLEELLSERAVQFRAIQRRLLTRFKDKTPAPLQ
+# HLDTLLDGTYKQKCSMETFPVNPLQEIYADYKVKRRVIPDFSFQAKRPRHNFSRNLTRREVWVIRVKDPPITSQCHFLNRCRICICIMKHN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/12
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 180
+#     RM: 180 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	gene	321938	368132	1	+	.	g3
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	transcript	321938	368132	.	+	.	g3.t1
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	start_codon	321938	321940	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	321941	341086	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	341270	364094	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	intron	364318	368070	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	321938	321940	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	341087	341269	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	364095	364317	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	CDS	368071	368132	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+F6XCD9_CANLF|ENSCAFG00000003161|F6XCD9	AUGUSTUS	stop_codon	368130	368132	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MVIALADAVEENQDNLFQSFTKLRSATHLVILLIGLWQKLSPDQVAILEAAFLPLQQDTQELGWEETVDAAISHLLKT
+# CLSKSSKEQALNLSSQLNIPKDTSRLKKHITLLCDRLAKGGRLCLSTDATAPQIMVMPGDTLLPKKQRGLEMAHRMEA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 95
+#     RM:  95 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/F6XCD9_CANLF.fasta

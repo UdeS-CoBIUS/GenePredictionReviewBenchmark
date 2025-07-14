@@ -1,0 +1,269 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/V9EKV4_PHYPR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 13421, name = V9EKV4_PHYPR|F443_15244|V9EKV4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	gene	2	833	0.06	+	.	g1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	transcript	2	833	0.06	+	.	g1.t1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	2	689	0.3	+	1	transcript_id "g1.t1"; gene_id "g1";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	2	833	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	stop_codon	687	689	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tts	833	833	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [GCKCSLGNCHTQACPCWNSGRECDPDYCFTCGASDAAVAAFHSEFKSWSSHNLNICQNVNMLRGSIQKNVGVAFSATH
+# GWGAYALEPIQKDEFVLEYTGELITDEEAERRGAIYDRKSVSYLFGVNSEYVVDAARKGNKAKFANHKAKEVANLDVRIISSNGEDRIGLFANESIAV
+# GEELFFDYGYTHDSAPKWSQHDKPKQLEKRVYDVVDDENEWECVACCCMGFL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	gene	1076	2340	0.13	+	.	g2
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	transcript	1076	2340	0.13	+	.	g2.t1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tss	1076	1076	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	1076	2340	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	start_codon	1202	1204	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	1202	2266	0.91	+	0	transcript_id "g2.t1"; gene_id "g2";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	stop_codon	2264	2266	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tts	2340	2340	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSTDNATSAKMTYRFLGNSGLLVSKMALGSWMLFNEKHTVDAWYEMMKIAFQHGVNFYDNAEVYGNGQAEEVMGAAIQ
+# RGIADGIWTREDLVVTTKIFMGAKGWEESGPNAQGISRKHIVEGTKASLRRLQLDYVDVLFCHRPEPYTPIEETVRAMNYAINQGWAFYWGTSEWNAS
+# DIVEACEIADRLGLIRPIVEQAQYSLMERSKVEFEFEPLYKKYKLGLTTWAPLANGILTGKYSGGVTEGTRFADPFFKNIFGDTFEDRVAKADKLKVI
+# ADEIGCSLAQLAMAWCISNENVSTVLVGASRPSQLEENLKAIEFVDKLTPEVKTRMNEIATFIPQAPKQDPLATFRARWL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	gene	2364	4930	0.08	-	.	g3
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	transcript	2364	4930	0.08	-	.	g3.t1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tts	2364	2364	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	2364	4930	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	stop_codon	2428	2430	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	2428	4764	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	start_codon	4762	4764	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tss	4930	4930	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MIKSWATAALTLALLKGEHLVIADEWDAQVDAIMINFTNVDLVGQMTQIAAYGLINATYQLNEDAVLEYAKAHVGSYF
+# ETPMTIRGEINGSWGWTTTQMREFVGGIQRIAMEENGGHPMIYGTDAVHGNALLLDTVFFGQQINGAASFNTELVYEQGRITARDTLAAGIPWVFGPV
+# LDIAHNPLWPRTYETFGEDPHLAAVMGDATIRGMQSNNQTAGCMKHWIGYSWNPTGHDKDGVTISDFDLLNTFGPSFKAGIDAGVLTGMQNYISVNGV
+# PTVESTRLLKTLLRNDFEFDGMMVTDYGEIDALEDFHRVARTTAEATKFTLERTSIDMSMVGVGTTFTNGTYALIGEELTILDRLKDSVRRIIKLKLQ
+# LGLYDNLLPGEENLALVGNDNDVAAALNLARESAVLLQNDDNVLPIKKDALVFLTGHSADNVGYQCGGWTIQVQGVSGNDMFSHGSSVKQGIEEIVGN
+# DSFSYFNGLNVNGSYSDNDLNTAKKLASEAEYTVVVIGEEPYEEKTGDIDDLTLPVGQIQYVKELASIGTKVIVVLFEGRPRLLGDLPEHVYAVINGF
+# LPCELGGKAIAEIIYGDVNPSGRLPITYPKHSGNVMIPYRHRVSTQCATGDYCEPQWTFGHGLSYTNFTYSDMSISTSNVTSSSDSVNVSVTVTNSGS
+# VAGKETVMLFLTQPYRSISVPEVKQLKKFSKISLDAGASQTVTFELTAADWSVYYPQIGQGLKLVAEDADYVVAIKPETDCDVYNETAAANPLCATFT
+# LSTGEYPFGSLIAE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	gene	5390	5970	0.09	-	.	g4
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	transcript	5390	5970	0.09	-	.	g4.t1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tts	5390	5390	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	5390	5970	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	stop_codon	5419	5421	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	5419	5898	0.4	-	0	transcript_id "g4.t1"; gene_id "g4";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	start_codon	5896	5898	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tss	5970	5970	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MASSRECLAVLQPMGEVFVNGLASSYDDEYPESERLRALMTREDFDKSMAIINDALMDHWPCMPCKGFGYGCCICTLG
+# LSLYCAGTQVQEAESRLQLQLRRMNEKKKFKDKGIQWRLERSWWKRSSYIEISVDTQSSETASGSDKEGAIRDESMSDRLV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	gene	6066	7443	0.1	+	.	g5
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	transcript	6066	7443	0.1	+	.	g5.t1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tss	6066	6066	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	6066	7123	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	start_codon	6099	6101	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	intron	7124	7190	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	6099	7123	0.99	+	0	transcript_id "g5.t1"; gene_id "g5";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	7191	7371	1	+	1	transcript_id "g5.t1"; gene_id "g5";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	7191	7443	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	stop_codon	7369	7371	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tts	7443	7443	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MSEPSARNWYLHRLYLRSEFKECLRVIEGVLREHQGLSEYPLYVKALILRQSGRIQESLQLFQAAACLNPENKENLKQ
+# VGRSLYLLGKHTAAIEVYEEILTMGRVDDWEIYHSMGLCHMYLKDYDRAAQNFQRANTINRHDATFLQLGKVHTLREDFKAAINVYLEALEFSPENPE
+# ILTTLGLLYLRVGENFRAFDYLGNSLTHDPRNPKTILAAGSIIQDHGDMDVALVKYRVAAAQTPNSAQLWNNIGMCFFGKQRYVASVACLKRALYLDP
+# FEWITSYNLGLVHLNTGQYASAFHFFSAAINLKPDFPSSYMYLAITLSRLDDFENACSAFDKAIEMERDHMFHLNYAITLYNNDEMERAKVQFDRFEE
+# IFEGLDEEARSADPEVQEQRQALLNALVD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	gene	7455	8510	0.12	-	.	g6
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	transcript	7455	8510	0.12	-	.	g6.t1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tts	7455	7455	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	7455	8510	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	stop_codon	7559	7561	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	7559	8434	1	-	0	transcript_id "g6.t1"; gene_id "g6";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	start_codon	8432	8434	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tss	8510	8510	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MTETTELDSAANADGAATATAAAAPTSVRAIEGFFAPKPPANSSESVSLFKRFQLEPPSWDEFQRKIAQLEKPDAESA
+# NVPRRVKVVYFVRHAEGIHNATANEVGAELWESDLAFREKYLDADLTPFGINDAQSKGPSSVKAELERGMPPIERVVVSPLSRAIQTAQNFFAKDQIP
+# DTPFVCIESCREILGCHTCDKRRSISELKLKFPGVDFTAIKDDNDLLWTATHRETDEEMQARAKEFLLELFREIPERNVVVVTHSGFMESVCAVVLGI
+# RIHPANCEVIPFVLEAV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 3
+#     RM:   3 
+# end gene g6
+###
+# start gene g7
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	gene	8576	9230	0.21	-	.	g7
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	transcript	8576	9230	0.21	-	.	g7.t1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tts	8576	8576	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	8576	9230	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	stop_codon	8614	8616	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	8614	9057	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	start_codon	9055	9057	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tss	9230	9230	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MNTVVDTVESRSRSPTYCAKKKASHTETVYSCLLFRPKLLSPARRHRHLQSEACCLVGGLCSSLGLRDRQVVDVEAQS
+# SAGCRRSLSSASVSNRHCHGGESPHARLIPRMQRYRSASKALHQRQQLLRCSSKAASTSLSARKWCTTS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g7
+###
+# start gene g8
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	gene	9356	10154	0.24	+	.	g8
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	transcript	9356	10154	0.24	+	.	g8.t1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tss	9356	9356	.	+	.	transcript_id "g8.t1"; gene_id "g8";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	9356	10154	.	+	.	transcript_id "g8.t1"; gene_id "g8";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	start_codon	9414	9416	.	+	0	transcript_id "g8.t1"; gene_id "g8";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	9414	10103	1	+	0	transcript_id "g8.t1"; gene_id "g8";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	stop_codon	10101	10103	.	+	0	transcript_id "g8.t1"; gene_id "g8";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tts	10154	10154	.	+	.	transcript_id "g8.t1"; gene_id "g8";
+# protein sequence = [MTQDLIKKKLDPNSDSTAPEQKRVRLSPPILPSVSTITPPSLPPLPPLRDVTSPKLVTTSVSPKTSVTEKSNAHKLAE
+# LRRKYLGDIGMVIQELKAVLTYGPGSASPDAPVSPSVVLKLVRTVQTLEKLQALLLMNPARLRRVSVAQLEIVEQQIKMNLLPLATLLRSFDNEEKGK
+# HSRVTSPLASIKKVDQGWTSSDTDSPRSPSGVSVSAPPQHDWRFLSMALSLQL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g8
+###
+# start gene g9
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	gene	10184	12660	0.05	-	.	g9
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	transcript	10184	12660	0.05	-	.	g9.t1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tts	10184	10184	.	-	.	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	10184	10733	.	-	.	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	stop_codon	10267	10269	.	-	0	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	intron	10734	10801	1	-	.	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	intron	11132	11212	0.49	-	.	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	intron	11262	11391	0.44	-	.	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	intron	11675	11729	0.99	-	.	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	10267	10733	1	-	2	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	10802	11131	0.51	-	2	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	10802	11131	.	-	.	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	11213	11261	0.45	-	0	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	11213	11261	.	-	.	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	11392	11674	0.46	-	1	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	11392	11674	.	-	.	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	11730	12598	0.71	-	0	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	11730	12660	.	-	.	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	start_codon	12596	12598	.	-	0	transcript_id "g9.t1"; gene_id "g9";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tss	12660	12660	.	-	.	transcript_id "g9.t1"; gene_id "g9";
+# protein sequence = [MAVRRRSPLLLLVLALLTFVSDVHAFGFNFGFDGGHHEHHHEHEHEHVDFYETLGLTMEASEAQIKKAYRKLSLKYHP
+# DKNKGDEEAESRFHEISRAYEVLSDPQKRQVYDLEGFEGLEREEKSGGRPSSPFDAFFGGGGKQRGPDAAVDMPVTLEELYNGAKKQAQFARNVICRK
+# CRGTGAKGGKTTTCKTCGGSGHVLVEQKMGPGFTVQMQQPCPKCGGRGKTFKEACPFCHGNKVVKEDKVLAAEIERGMPSTHQIVFERESEQRPGMVP
+# GDVIFRLHQVPHNRFRRAGDDLHYDLEISLEEALLGYKKPMKHLDDRTVVLKNSKVTTPFEVRTVEGEGMPVHNYPSQHGNLHVHHEIQFPTKLSAEQ
+# KDLVKKLLPEDPMASVEDTSAVTREQWETEQLELKQQLMETDVVLWQLQSDTDCATPSDETSSCKLLRRVAGVDISFLKGSDEHACASIVVLDFPSLT
+# VLYEAFTYVSLPAPYIAGFLAFREVPALTKLYDDLRRRRPDLLPDVTLVDGNGILHPQGFGLASHFGVLENIPTIGVGKTFLHVDGLTKPDVKGLMAK
+# AREEDRDLVKLTGKSGKIWGAALCGTAGVKNPVYVSVGHMLSLDTSVAIAQACSQYRVPEPIRQADLRSREVIRKWENAGTVDITLDMYHAYPPSGA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g9
+###
+# start gene g10
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	gene	12714	13370	0.17	-	.	g10
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	transcript	12714	13370	0.17	-	.	g10.t1
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tts	12714	12714	.	-	.	transcript_id "g10.t1"; gene_id "g10";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	12714	13090	.	-	.	transcript_id "g10.t1"; gene_id "g10";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	stop_codon	12753	12755	.	-	0	transcript_id "g10.t1"; gene_id "g10";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	intron	13091	13157	1	-	.	transcript_id "g10.t1"; gene_id "g10";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	12753	13090	0.98	-	2	transcript_id "g10.t1"; gene_id "g10";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	CDS	13158	13281	0.81	-	0	transcript_id "g10.t1"; gene_id "g10";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	exon	13158	13370	.	-	.	transcript_id "g10.t1"; gene_id "g10";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	start_codon	13279	13281	.	-	0	transcript_id "g10.t1"; gene_id "g10";
+V9EKV4_PHYPR|F443_15244|V9EKV4	AUGUSTUS	tss	13370	13370	.	-	.	transcript_id "g10.t1"; gene_id "g10";
+# protein sequence = [MERMEVFIEKHLSNVGSHPFLAGLRAALQWNLESSTVVAWKLSDAVFVESGDSEFTHNALALLVLALNFSHCESAASG
+# TPGTAKNPHVKTRDWYLDPYMSDHDIRQLIRLFPSAKRLEGRPTGTKMLTKMDRTNVHGQLDESPKFFNRWCVVL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g10
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/V9EKV4_PHYPR.fasta

@@ -1,0 +1,47 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/W5Q7L6_SHEEP.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 29767, name = W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	gene	3388	29609	1	+	.	g1
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	transcript	3388	29609	.	+	.	g1.t1
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	start_codon	3388	3390	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	intron	3454	8298	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	intron	8361	13401	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	intron	13497	20224	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	intron	20355	24236	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	intron	24293	29583	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	CDS	3388	3453	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	CDS	8299	8360	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	CDS	13402	13496	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	CDS	20225	20354	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	CDS	24237	24292	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	CDS	29584	29609	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+W5Q7L6_SHEEP|ENSOARG00000017430|W5Q7L6	AUGUSTUS	stop_codon	29607	29609	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MCSTSAGKPSSIREQDYKEVLQAQSQDIVPTIGFSIQKFKSSREGQAIIFVIDSSDKLRMVVAKEELRTLLNHPDIKH
+# RRIPILFFANKMDLRDALTSVKVSQLLCLEDIKDKPWHICASDAIKGEGLQEGVDWLQDQIQAVKT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 36
+#     RM:  36 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/W5Q7L6_SHEEP.fasta

@@ -1,0 +1,122 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W4FRY5_9STRA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5045, name = W4FRY5_9STRA|H257_15002|W4FRY5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	gene	156	903	0.05	+	.	g1
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	transcript	156	903	0.05	+	.	g1.t1
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	tss	156	156	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	exon	156	903	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	start_codon	254	256	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	CDS	254	748	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	stop_codon	746	748	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	tts	903	903	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MVLYVLYVKADLDAIDLWEFPVNHRWCLDIKEPTSEEKREAVWVCDDELLEVSGGRGEAHFLMKWPGAKKESQLTIVR
+# DVKKLTRPIKGEDSGEFVPVVGFECRGLEPVVWYPEGGYTLTSAGGTATFHDVNLAEDWSEYDEDGEQAVGIYSIEHKFVVVKEKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	gene	966	1830	0.12	-	.	g2
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	transcript	966	1830	0.12	-	.	g2.t1
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	tts	966	966	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	exon	966	1289	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	stop_codon	1060	1062	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	intron	1290	1345	0.75	-	.	transcript_id "g2.t1"; gene_id "g2";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	CDS	1060	1289	0.75	-	2	transcript_id "g2.t1"; gene_id "g2";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	CDS	1346	1736	0.56	-	0	transcript_id "g2.t1"; gene_id "g2";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	exon	1346	1830	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	start_codon	1734	1736	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	tss	1830	1830	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MTFWADLVYPKMSDADEKATPRSSRGSAKGGKDDKDDMDLQMQDINSDDKGVPPKRTSGWGDTTHADTSRSSTAASEG
+# GSGDAAESKRGRRRKEEKAEAAYVCQSMYPIMHPCLSRKPKNKHFDDDGETTELMEIPDLEEEEREPDITTQSTVRHRHAISSCLCSCRCATQHDSCG
+# AVAQGTRTRRQVLIANGTLTFFLASCDHVL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	gene	1936	3013	0.06	+	.	g3
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	transcript	1936	3013	0.06	+	.	g3.t1
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	tss	1936	1936	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	exon	1936	2273	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	start_codon	2055	2057	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	intron	2274	2474	0.73	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	intron	2529	2598	0.85	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	intron	2674	2733	0.92	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	CDS	2055	2273	0.95	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	CDS	2475	2528	0.85	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	exon	2475	2528	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	CDS	2599	2673	0.97	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	exon	2599	2673	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	CDS	2734	2880	0.88	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	exon	2734	3013	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	stop_codon	2878	2880	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	tts	3013	3013	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MGLFKKLANSLGMKKQSVRILVVGLDNSGKTTLVNHLKPKKLQSHEVAPTVGFQVEEFTKYNLSFTVFDMSGQAIIFV
+# MDSTDTIRMCVAKDELEQIIQHKDLCSKKIPILFFANKMDLAHSLTPVECMGHLELDKLTNKTWHITYSSIIVGFEVLYADPVISP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	gene	3196	5045	0.06	+	.	g4
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	transcript	3196	5045	0.06	+	.	g4.t1
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	tss	3196	3196	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	exon	3196	3644	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	start_codon	3522	3524	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	intron	3645	3775	0.49	+	.	transcript_id "g4.t1"; gene_id "g4";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	intron	4261	4321	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	CDS	3522	3644	0.52	+	0	transcript_id "g4.t1"; gene_id "g4";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	CDS	3776	4260	0.55	+	0	transcript_id "g4.t1"; gene_id "g4";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	exon	3776	4260	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	CDS	4322	5045	0.69	+	1	transcript_id "g4.t1"; gene_id "g4";
+W4FRY5_9STRA|H257_15002|W4FRY5	AUGUSTUS	exon	4322	5045	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MEYASECTLVITFCDFDDRFTSFASRLTSCRADSSSRWKFMLQIKSKTGARWIMLDDDVRENVEHTLRRIERQHARAE
+# KKEQDARKAYLLREAARRSLELRRCSEMAVEDKWSQLAAVQRQIEEKREMELRRKAEGDKLLVLLATARKTAKSAGAALSTPGLRGLERLAELTARVV
+# AVEEDKVVKQAEITAKLRLRYNVKRAQRMIGNYAEHHAVDLMNAAILGRKWDAMLHLVAVGGLSPDFETVEGGFTPVIMALSWRKPSVARRLLDAGAS
+# IDVESAHGKTGLLAAILADDVDGVRLCIARGADLARESPKTGVTPLLLAVDKGRTKLVRVLLEAHVDPNAFNSHGISPLIQATLSQQTDVTKLLFHHG
+# ATLSARGKDDRTCVEWARRCIFHGFADALETLNFEVGGARDEEDDHRDVLESSVEDIGLVIRQVERGEISPN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W4FRY5_9STRA.fasta

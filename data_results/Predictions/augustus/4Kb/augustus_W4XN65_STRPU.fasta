@@ -1,0 +1,84 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# strongylocentrotus_purpuratus version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.251), CTG(0.478), TTG(0.271)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/W4XN65_STRPU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 27154, name = W4XN65_STRPU|SPU_004844|W4XN65) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	gene	1	4700	0.27	-	.	g1
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	transcript	1	4700	0.27	-	.	g1.t1
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	1	617	0.68	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	868	4436	0.39	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	618	867	0.71	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	4437	4700	0.46	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	start_codon	4698	4700	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [LPRPGAGLPNHPAILPSNPKSPLSDSPITHIHLLDTIASLHAPFVKPTMRQWSTLLESVPTWWTISAPSGFHQQSQGM
+# PHGLSHLFKPGENDEIDVVSMDTKPPGTREEAAKSPEEDIVLEAMVDDDGEDDEESHVTITHEEEEGVKEENVDVEEEDEAEGAQCYCEGKGE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	gene	6237	23154	0.19	+	.	g2
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	transcript	6237	23154	0.19	+	.	g2.t1
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	start_codon	6237	6239	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	6270	8979	0.36	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	9108	10761	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	10957	11567	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	11763	12794	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	12850	13129	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	13271	14750	0.57	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	14892	15663	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	15820	20034	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	20191	21267	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	intron	21373	23031	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	6237	6269	0.36	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	8980	9107	0.67	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	10762	10956	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	11568	11762	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	12795	12849	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	13130	13270	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	14751	14891	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	15664	15819	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	20035	20190	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	21268	21372	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	CDS	23032	23154	0.98	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4XN65_STRPU|SPU_004844|W4XN65	AUGUSTUS	stop_codon	23152	23154	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [LVVVRKYMYTRAGELGLNDHHHTTVVNYMRFGSYKRTQNLRSVEVCFQDLKDSRLTDDTFTVDEVTDMLDGLEAVVRG
+# EVESELINTSHTNVLLLRQLFQQAEKWHLKLQADISELENRLTDDTFTVDEVTDMLDGLEAVVRGEVESELINTSHTNVLLLRQLFQQAEKWHLKLQA
+# DISELENRELIEMIAKFEESNFSGSAATSKPTFELKRLDPMEAGGVQLLQNEIERLNEENNKLKDRLKQVESQATSKPTFELKRLDPMEAGGVQLLQN
+# EIERLNEENNKLKDRLKQVESQATGALQDRSKLESDLRRTQDELGSERNKQPIFSADLGDVEGKMSALKSQMEQATGALQDRSKLETDLRRTQDELGS
+# ERNKQPIVSADLGDVEGKMSALKSQMEQNMKLTTDRANTMEGDLISSKHRLLEVQEQLEMKEKELEKKFSQTGAYKNLKSMLSKKNDQIKDLRGRLKK
+# FEGDD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/11
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 44
+#     RM:  44 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=strongylocentrotus_purpuratus --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/W4XN65_STRPU.fasta

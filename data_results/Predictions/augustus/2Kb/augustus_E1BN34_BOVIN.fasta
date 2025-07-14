@@ -1,0 +1,76 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/E1BN34_BOVIN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18510, name = E1BN34_BOVIN|ENSBTAG00000020147|E1BN34) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	gene	6062	9270	1	+	.	g1
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	transcript	6062	9270	.	+	.	g1.t1
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	start_codon	6062	6064	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	intron	6376	6685	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	intron	6759	8320	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	intron	8453	9159	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	6062	6375	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	6686	6758	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	8321	8452	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	9160	9270	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	stop_codon	9268	9270	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MASHEPRTPALAIASGPCVYVYKNLKPYFKFSLPSLPTNPLEQDLWNQAKEVSGMGDESKKAEVAAAGGPHSLPGSGA
+# HRLYLLPMVAQDQIDPLTLKEMLEGIRFLPLELSEMEAFVNQHKSKSIRRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPEAFTILAKMSL
+# PSVPAFLEASGQFDVEFRLAAACRNGSIYILRR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	gene	11126	16423	1	+	.	g2
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	transcript	11126	16423	.	+	.	g2.t1
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	start_codon	11126	11128	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	intron	11261	12388	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	intron	12459	13029	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	intron	13189	14065	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	intron	14200	15127	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	intron	15263	16031	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	intron	16119	16336	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	11126	11260	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	12389	12458	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	13030	13188	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	14066	14199	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	15128	15262	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	16032	16118	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	CDS	16337	16423	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+E1BN34_BOVIN|ENSBTAG00000020147|E1BN34	AUGUSTUS	stop_codon	16421	16423	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MPAAILAMNLLEQHSRGLQAVMAALANEEVRIYHDKVLLNVIRTPEAVTSLCFGRYGREDNTLIMTTLGGGLIIKILK
+# RTAVFAEGGGEAGPPPSQAIKLNVPRKTRLYVDQTLREREAGTAMHRTFQADLYLLRLRAARAYVQALESSLSPVSLTAREPLKLHAVVQGLGPTFKL
+# TLHLQNTSTARPILGLVVCFLYNEVLYALPRAFFKVPLLVPGLNYPLETFVKSLSDKGISDIIKVLVLREGQSTPLLSAHINMPMSEGLAAD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/E1BN34_BOVIN.fasta

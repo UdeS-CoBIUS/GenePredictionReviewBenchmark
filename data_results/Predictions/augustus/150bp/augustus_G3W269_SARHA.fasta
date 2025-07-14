@@ -1,0 +1,55 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G3W269_SARHA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 23247, name = G3W269_SARHA|ENSSHAG00000008240|G3W269) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	gene	151	22870	1	+	.	g1
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	transcript	151	22870	.	+	.	g1.t1
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	start_codon	151	153	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	intron	154	7294	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	intron	7420	10297	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	intron	10493	11580	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	intron	11642	13863	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	intron	13939	15598	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	intron	15677	16471	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	intron	16649	18652	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	intron	18757	22779	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	CDS	151	153	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	CDS	7295	7419	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	CDS	10298	10492	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	CDS	11581	11641	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	CDS	13864	13938	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	CDS	15599	15676	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	CDS	16472	16648	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	CDS	18653	18756	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	CDS	22780	22870	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3W269_SARHA|ENSSHAG00000008240|G3W269	AUGUSTUS	stop_codon	22868	22870	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAELGLNDHHQNEIINYMRFARSKRGLRLKTVDSCFQDIKESRLVDETFTMDEVTEVLNELQAVVHSEVESELINTSC
+# TNVLLLRQLFSQAEKWYLKLQTDISELENRELLEQVAEFEKAEFATSNKKTNSENMKPSRLVPLNEGGTSELLNKATNALDEKSKLERALRDLQIVQG
+# DTKAIIRSKDISDLENTVAALKNEFQKTLNDTSENQKTLEENLVSTKHDLLKVQEQLSVAEKELEKKFQQTAAYRSLKEILTKKNEQIKDLRKRLANF
+# PNLTASTLKGQGFCSVVMTQTSVDRINK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 54
+#     RM:  54 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G3W269_SARHA.fasta

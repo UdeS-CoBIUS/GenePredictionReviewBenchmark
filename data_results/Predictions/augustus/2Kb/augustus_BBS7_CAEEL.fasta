@@ -1,0 +1,104 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# caenorhabditis version. Using species specific transition matrix: /usr/share/augustus/config/species/caenorhabditis/caenorhabditis_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/BBS7_CAEEL.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 15395, name = BBS7_CAEEL|WBGene00003892|Q9XW70) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	gene	1	630	0.59	+	.	g1
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	transcript	1	630	0.59	+	.	g1.t1
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	terminal	432	553	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	1	431	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	432	553	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	stop_codon	551	553	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	3'-UTR	554	630	0.59	+	.	transcript_id "g1.t1"; gene_id "g1";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	tts	630	630	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [TTPAAPAQESTESSAAQKREFLPEHDEDEAQDPKRPRLE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g1
+###
+# start gene g2
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	gene	1836	13475	0.02	+	.	g2
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	transcript	1836	13475	0.02	+	.	g2.t1
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	tss	1836	1836	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	5'-UTR	1836	2000	0.56	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	initial	2001	2099	0.94	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	internal	2387	2449	0.78	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	internal	3130	3384	0.93	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	internal	4618	5055	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	internal	5108	5192	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	internal	6070	6160	0.96	+	2	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	internal	6311	6725	0.1	+	1	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	internal	10949	11039	0.1	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	internal	11109	11250	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	internal	11758	11849	0.57	+	1	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	internal	11913	12016	0.86	+	2	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	terminal	13123	13395	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	2100	2386	0.78	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	2450	3129	0.78	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	3385	4617	0.93	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	5056	5107	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	5193	6069	0.96	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	6161	6310	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	6726	10948	0.1	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	11040	11108	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	11251	11757	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	11850	11912	0.57	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	intron	12017	13122	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	2001	2099	0.94	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	2387	2449	0.78	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	3130	3384	0.93	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	4618	5055	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	5108	5192	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	6070	6160	0.96	+	2	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	6311	6725	0.1	+	1	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	10949	11039	0.1	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	11109	11250	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	11758	11849	0.57	+	1	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	11913	12016	0.86	+	2	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	CDS	13123	13395	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	stop_codon	13393	13395	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	3'-UTR	13396	13475	0.24	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS7_CAEEL|WBGene00003892|Q9XW70	AUGUSTUS	tts	13475	13475	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MQNYSRTDFAQVGTTNRGCMRVIPSDKEKEHDLIVVGGQNGSLICLSRKSNDTTIIFKTQPGYPVQSLALGGPASSKK
+# KDKIFVASQNTVRGVNRKGKTFFSMETNMAEVANRMFVRGLDVVLTGRKSYSRYHDTVDSNSYLCTEDIHDVVSLVFEEAWGSREYTSILACGNSTLQ
+# IIEGNNFAYDVRLDSVPFTVSLFMGDGGHTKLLVLYGTKTGRLGLVSVPQGGGKILWEIDTTSGACVTTIVCFNVTGGQFPDIIVGKEDGLIEIYVID
+# ETDHAHLFGTFSCDESITGISCGHVSSKSEIDIIICTFTGWLFSLAKTSRPMIENLPVAANFSVKMQQLRSEVEELQTKVNEERLRYEEITKRQGSGT
+# GSTFFHSFQVHENFEYSAAHGAYNLTIELVIPIDFVVVQSQLPIRLMEVEKNASVVSEVRQDALNPWPLLASYRCQANVCRLELRVQANEGDSGVINL
+# YVCPKVMPKCAQITTHYIKALSSHMRSHDFDLYRPMNTLQFTGNFSIAEAHAWLHNLLPNVPSKCPPADTITNNYQCSVNGGTQLQVVYSKGSAVFRS
+# DCMTTICIIRDKVSEQTMKMQIQLNQDSVNHCLKLIDPKITSMLNIEKNKLYAAALKELESNNDDVFSFLSAANAKILKDHDAIYEKSEGVSIEDSGV
+# LAILENLMVARGKLTGRSSKGRGDAIRDLISTDYSLENMQTLFKNAMND]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 32
+#     RM:  32 
+# incompatible hint groups: 3
+#     RM:   3 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=caenorhabditis --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/BBS7_CAEEL.fasta

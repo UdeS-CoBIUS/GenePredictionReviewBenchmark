@@ -1,0 +1,58 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# strongylocentrotus_purpuratus version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.251), CTG(0.478), TTG(0.271)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/W4Z3R7_STRPU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 6909, name = W4Z3R7_STRPU|SPU_022767|W4Z3R7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	gene	151	6691	0.17	+	.	g1
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	transcript	151	6691	0.17	+	.	g1.t1
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	start_codon	151	153	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	intron	216	831	0.61	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	intron	915	1404	0.48	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	intron	1471	2047	0.48	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	intron	2098	2691	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	intron	2820	3525	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	intron	3662	4096	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	intron	4193	4858	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	intron	4922	5385	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	intron	5608	6559	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	CDS	151	215	0.47	+	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	CDS	832	914	0.97	+	1	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	CDS	1405	1470	0.48	+	2	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	CDS	2048	2097	0.98	+	2	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	CDS	2692	2819	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	CDS	3526	3661	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	CDS	4097	4192	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	CDS	4859	4921	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	CDS	5386	5607	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	CDS	6560	6691	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+W4Z3R7_STRPU|SPU_022767|W4Z3R7	AUGUSTUS	stop_codon	6689	6691	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSSTVLDALWEDRDVRFDINPSQMNMRPGESIIDKLDSIEDTKGNNGDRGRLLVTNLRVIWHSTSLPRVNLSVGLNCI
+# INITVRTANSKLRGPTEALYLLTKCNNTRFEFIFTNLVPGSPRLFTTVISVHRAYETSKLYRDVKLRGAIISNKSLRMLPLEQVYDKVGGVWNLSSDQ
+# GNLGTFYITNVRLVWHAVMNEAFNVSVPYLQMRTVKIRDSKFGLALVVETSVQSGGYVLGFRLDPAEKLQEVVKEIQSLHRVYSTNPILGVEFEVDDV
+# PATAEELVVENIQDDIDIVNDDEQSDAFAAYFADGDKQKDRPPVFSEELGLAIEKLKDSFTLSNLWEVVDHK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 13
+#     RM:  13 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=strongylocentrotus_purpuratus --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/W4Z3R7_STRPU.fasta

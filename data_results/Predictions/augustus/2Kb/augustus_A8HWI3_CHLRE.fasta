@@ -1,0 +1,113 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chlamy2011 version. Using species specific transition matrix: /usr/share/augustus/config/species/chlamy2011/chlamy2011_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/A8HWI3_CHLRE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 7623, name = A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	gene	1	1695	0.78	-	.	g1
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	transcript	1	1695	0.78	-	.	g1.t1
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	1	130	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	256	800	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	958	1029	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	131	255	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	801	957	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	1030	1293	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	start_codon	1291	1293	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	5'-UTR	1294	1695	0.79	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	tss	1695	1695	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLHQISAKRCGASGVVRGAAGLQAFSTKLVAPLPARRVACQVVSTETEAPTIVLDRPGRTVQPELSIPAALNQEIREG
+# HYEAALVKEQANKADASQAAIASVLKPADTTVTADVTIVGAGPAGLFLAAELGKRGMSVNVLGLDVPIVNNYGVWTDEFEALGLTHTLECSWPDAVCY
+# FGEGNQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	gene	1876	5527	0.12	+	.	g2
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	transcript	1876	5527	0.12	+	.	g2.t1
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	tss	1876	1876	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	5'-UTR	1876	2297	0.35	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	start_codon	2298	2300	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	2421	2859	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	3026	3279	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	3448	3699	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	3885	4127	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	4221	4365	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	4423	4632	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	4719	4950	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	2298	2420	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	2860	3025	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	3280	3447	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	3700	3884	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	4128	4220	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	4366	4422	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	4633	4718	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	4951	5131	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	stop_codon	5129	5131	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	3'-UTR	5132	5527	0.33	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	tts	5527	5527	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MADLFGARPEPNLCWQDREIRFDCNANDINLRQGEELITLMDSVEDTKGNNGDLGELRVSNLRLCWVNKKNRRTNICI
+# GHNCITTVNVRAATSRIKGSTQSLYVLTKYHNQRFEFIFTATASESATDSLFASMQGVFRAYDSSRLYRDLKLRGALIMDRELRLLPLEQTYSRVNGV
+# WNLSAEQGNLGTFFISNVRVVWYANLAENFNVSIPYLQIRSVKVRESKFGQALVIETSPASGGYVLGFKVDPKETLDYVFKEISSLWQVYAANPVFGV
+# EYRPDASGLAGAASGILPSEQDVEIVEPADRGDALAQYYADGAGGKGADRDPTYCAELGLAVEGLKEGLTVEQLWSVL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g2
+###
+# start gene g3
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	gene	5666	7623	0.41	+	.	g3
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	transcript	5666	7623	0.41	+	.	g3.t1
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	tss	5666	5666	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	5'-UTR	5666	5789	0.88	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	start_codon	5790	5792	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	5841	5963	0.52	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	intron	6122	6811	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	5790	5840	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	5964	6121	0.52	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	CDS	6812	7217	1	+	1	transcript_id "g3.t1"; gene_id "g3";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	stop_codon	7215	7217	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	3'-UTR	7218	7623	0.89	+	.	transcript_id "g3.t1"; gene_id "g3";
+A8HWI3_CHLRE|CHLRE_06g267550v5|A8HWI3	AUGUSTUS	tts	7623	7623	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MSIFSYNGAAIVAMAGKECVAIGSDLRFGVQLQTMTCDTPKVYKIHDKLYLGLSGLQTDATTLHQKLQFRHNLYKLRE
+# ERDMKPSTFGHMLSNALYERRFGPYFAAPVVAGLEPDGTPYLCGMDTIGAIESAKDFMITGTSPESLYGMCESMWRPDMEPDELFETVAQCLMSGCDR
+# DALAGWGAVVHVITKDKVVSRTLKTRMD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chlamy2011 --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/A8HWI3_CHLRE.fasta

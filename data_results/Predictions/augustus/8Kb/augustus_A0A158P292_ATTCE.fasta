@@ -1,0 +1,110 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# camponotus_floridanus version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/A0A158P292_ATTCE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 31488, name = A0A158P292_ATTCE|LOC105627223|A0A158P292) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	gene	1	4324	0.1	+	.	g1
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	transcript	1	4324	0.1	+	.	g1.t1
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	1	2756	0.29	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	2966	3057	0.94	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	3333	3950	0.37	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	4146	4203	0.67	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	2757	2965	0.54	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	3058	3332	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	3951	4145	0.37	+	1	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	4204	4321	0.94	+	1	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	stop_codon	4322	4324	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [YSYEPYRIPSRIITLMLLLTSLSLYAAYTANIVALLQTPTDSIKTLSDLLHSPLNLGVQDIVFNRNYFKAFQDPIRKA
+# IVEQKVEPKGHKPNWMSLEEGVHRIRNEPFAFHGIRSPMYQLMQHTYQEEEKCGLTEIDYLNEIYPVIAIVKKSPYLEIIKNGALKLREYGLMYRDEY
+# RIYIKKPTCSSQTGFITIGFTECYFAIITMGYGVLFSIIIFAFELLWHKRQSMNTLEETIPTMIEERKSGIIDAREYNKLDLREKYVLI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 17
+#     RM:  17 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	gene	8001	14194	0.73	+	.	g2
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	transcript	8001	14194	0.73	+	.	g2.t1
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	start_codon	8001	8003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	8276	8841	0.92	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	8931	13898	0.94	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	8001	8275	0.96	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	8842	8930	0.9	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	13899	14191	0.8	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	stop_codon	14192	14194	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSLFKTNEWWRTQCGVNESFDKHSLLITPLFGADRKDIIVIGSHSGYLRIYSPFSQWIEETKSPSGYKSSDLIVETQI
+# SDCIIDMKAGKFVSGSSDTRLAILTPKKLVIYSIILSQGSVEHGNHCDLEIAYEHLLPRFPASLTTGPFGGVRGRDFLCIQCLDGTLLFYEQETPTFS
+# LVLRNRLLPEPIVYISRNDIFVTPSSSWILECYRQVVPLCHSK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 21
+#     RM:  21 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	gene	14644	23488	0.48	+	.	g3
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	transcript	14644	23488	0.48	+	.	g3.t1
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	start_codon	14644	14646	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	14882	15139	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	15271	17400	0.96	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	17579	17902	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	18149	18394	0.89	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	18638	20118	0.95	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	20403	20984	0.76	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	21156	22877	0.76	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	23016	23251	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	14644	14881	0.79	+	0	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	15140	15270	0.98	+	2	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	17401	17578	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	17903	18148	0.89	+	2	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	18395	18637	0.87	+	2	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	20119	20402	0.95	+	2	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	20985	21155	0.76	+	0	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	22878	23015	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	23252	23485	0.99	+	0	transcript_id "g3.t1"; gene_id "g3";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	stop_codon	23486	23488	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MAEFGSKDRSEESKNLEPDWTYNIGEAVLDIDAVILSSFEVGILILGEKSLYCLKDNCVTLKYSKRLEYKALCFQPFV
+# IEPDGKLMVLVIADTNTLMIYEGTTLRWSAQLPFTPVAVTRAHFQHLDGVIVILSEEGQLEACYLGSEPSLFIAPPLHRRGYDYVAAEDELIELRKLA
+# KKNKASGNQLSDVTMDAELIISVTVSADLEPCPRGNQDDSKDDSEDRNLMCRITIELSTYMTLRDVQVCVDVSKPFVADKDRHVITNLCDRHVLRAMI
+# YPTMDLPAISSDVRITASYETADHGSLRVLQKTTQLPLKMMLRACPPENTSTFTATIKCSESLVAFSQLFPEFTGEVQRKNWNVLGLQHLQTGSVVTI
+# VSGATSNRYRVQSNDGLSMALVVQQLMNRLKDKATGNFTTAIAQNHIQLIQSQMEAHYHSRQKVDKIASEIKLLSTQLRNIERRMLRAVRERNTRSLG
+# TTGLPFLLESTYRAIFALLDDLAIARVERERAGHGLRCVMRLLLLLLRLNVNDDKYAMLEAAIGFDPQLCDELDWEEIADVSLSAFLRSTSRKSTSHL
+# DTKPTTLTKMTSTKEFSKLKKHLVHAIERLDSCREADIVENEQLEAAGDHASS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 25
+#     RM:  25 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=camponotus_floridanus --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/A0A158P292_ATTCE.fasta

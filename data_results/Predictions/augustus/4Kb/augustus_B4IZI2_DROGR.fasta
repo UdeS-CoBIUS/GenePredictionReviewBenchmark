@@ -1,0 +1,162 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/B4IZI2_DROGR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10167, name = B4IZI2_DROGR|FBgn0121990|B4IZI2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	gene	1	3715	0.7	-	.	g1
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	transcript	1	3715	0.7	-	.	g1.t1
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	1	1622	0.75	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	1684	1751	0.96	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	1837	1896	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	2385	2449	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	3044	3116	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	3296	3417	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	1623	1683	0.78	-	1	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	1623	1683	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	1752	1836	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	1752	1836	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	1897	2384	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	1897	2384	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	2450	3043	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	2450	3043	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	3117	3295	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	3117	3295	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	3418	3519	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	3418	3715	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	start_codon	3517	3519	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	tss	3715	3715	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MTTRENELQIFNRGEKVLCYEPDKSKARVLYDSKVLAVYERKDATNWCYFDYKIHFQGWNSSWDRNVRATSLLKDNEE
+# NRKLQRELAEAAQLQKSGGYSYKDTKTPTVPAAKKKRMTRGGVYADELSADPLDIFQAQLPSTPDPELPMQQKKGSLSRDDSGSRSRNNSGSRKNLTE
+# TNSEPEPKRSRLTMHSTPKSKGVVNAESHMHMEDRVVLRLSERLREYMEYDYNMITKFEKQHNLPSRMPIVAILENFVKQRAVELAISIKQDSSRARN
+# TQSRNARMEREYDRVMSNVCMLKEVVDGLRLYFEFHLDDLLYQEEKGHVLRYLFVDNMNNSRGTGLNKSYEFINPNGENLRIVQDDDMDDLHATNGVD
+# DAILGDIEFEKQLQKCLFYISKNNNNIAHAYDQRTSPYTAAYKLPMEMRGFLCETFSWSLLSAESPPEKSMVFGAPHLARLLVMLPEYLNDLPISNEK
+# LEDLLPHLESFINYLENHKEWFDKDNYVHPTTW]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	gene	3866	6030	0.13	+	.	g2
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	transcript	3866	6030	0.13	+	.	g2.t1
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	tss	3866	3866	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	3866	4280	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	start_codon	4001	4003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	4281	4343	0.83	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	4531	4650	0.73	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	5486	5558	0.49	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	4001	4280	0.86	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	4344	4530	0.7	+	2	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	4344	4530	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	4651	5485	0.33	+	1	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	4651	5485	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	5559	6008	0.47	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	5559	6030	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	stop_codon	6006	6008	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	tts	6030	6030	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MATASASNWLHVDIGDESPQVLSTLSSCLTLSDVQCDGYVRLLAVDISLEEDDEISAKLKVFRGLKLKQEQSLPGIPT
+# AIESLYVDESEPKTPVIAVAIAESVLFYRHFKPYFKFTIPALDAEELELELWRKLPVMKPETHQELLQLLKDVDHAKFTHKDSPVGRIGNIVAMCCLR
+# RVSSNVNPPSHLVLAVDTGRVFVLEPQGFNLIYQAKTCSYEAAVPSLISVHGTYETDFCIVIGTRNGGVYLLRKSSSEGQEIIKLSTPLTGLILLPVD
+# QTIVITSMEPRYLCYSKRGKLLYQVQLDAAPVCILPLTLTHLGITLVAVAMQGGRVSFFLQRHVVDEFMMSQTVAAMLYGRMGMEDHVLTLITQTGEI
+# NFKILRRVTHFEPDNKVLALTSKGSTKSHPIVDSSILDKSKKSSIFVEQAAREKHQAKCKLNVELWRLRHTAARATLDAINSSESTISGDLTHAPVKL
+# SAEVCGSGPAFRLYLTVQNLSTFKMASNLVVLLHADRRHYTIQQSVARLPSVLPGIPLRVDFEVVAVLDAVDKLPPASLTPDNSQIRVMLLKTGQTKP
+# LIAAVVAMPQSEAAF]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	gene	6048	6395	0.3	-	.	g3
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	transcript	6048	6395	0.3	-	.	g3.t1
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	tts	6048	6048	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	6048	6395	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	stop_codon	6112	6114	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	6112	6366	0.85	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	start_codon	6364	6366	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	tss	6395	6395	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MVNFEQASELAKNFSKKPTDAEFLEFYGLFKQATVGDVNIEKPGLLDLKKKAMYEAWSSHKGLSKDAAKEAYIKVYEK
+# YAPKYA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	gene	6856	7693	0.1	+	.	g4
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	transcript	6856	7693	0.1	+	.	g4.t1
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	tss	6856	6856	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	6856	7238	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	start_codon	7230	7232	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	7239	7314	0.94	+	.	transcript_id "g4.t1"; gene_id "g4";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	7230	7238	0.94	+	0	transcript_id "g4.t1"; gene_id "g4";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	7315	7554	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	7315	7693	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	stop_codon	7552	7554	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	tts	7693	7693	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MLTFEEIVEKAKNFTKTVSKEDFLEFYGYYKQATVGDCNIEVPTDAEKKARYDAWKSKAGLTAEDAKKHYIEVYKKYA
+# AKYQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	gene	8796	9364	0.17	+	.	g5
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	transcript	8796	9364	0.17	+	.	g5.t1
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	tss	8796	8796	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	8796	8850	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	start_codon	8842	8844	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	intron	8851	8919	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	8842	8850	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	CDS	8920	9156	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	exon	8920	9364	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	stop_codon	9154	9156	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+B4IZI2_DROGR|FBgn0121990|B4IZI2	AUGUSTUS	tts	9364	9364	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MLNFEEIVEKAKKLDITITKEDVLEFYGYYKQATVGDCNIEEPEDPEKKARYNAWKSKAGLTIEDAKKHYIEVYKKYV
+# TKE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/B4IZI2_DROGR.fasta

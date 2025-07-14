@@ -1,0 +1,127 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/B4QVM9_DROSI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18851, name = B4QVM9_DROSI|FBgn0191240|B4QVM9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	gene	544	1895	0.05	-	.	g1
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	transcript	544	1895	0.05	-	.	g1.t1
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	tts	544	544	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	544	1470	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	stop_codon	619	621	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	619	1455	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	start_codon	1453	1455	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	1834	1895	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	tss	1895	1895	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MKFRALMQDPLYMKEFQAIVATLTKLAKDCVMILGSRQMHFIVNEDQSSAASPLVWAGIAAEEYFPEYRMEAAHPDQE
+# YIVLGVSSANLGRALSVLRGGGVNSCKLKLQRIQFPCISVIASVLTSSSTEAREVVHDVPVTIIPGSDWSAYVVPRVPNSQLALGLPSLRLLKSLIDK
+# LKNISPSLEFQANLDGELNVIATSEMSTVTSRFQKLLIRTVAGSQQEASCSVDSRKASAFFGALQLPNEELTIGIDREHSIHLQIDVRQDVVLHSILP
+# AVCM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	gene	5706	9614	0.16	+	.	g2
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	transcript	5706	9614	0.16	+	.	g2.t1
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	tss	5706	5706	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	5706	6029	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	start_codon	5856	5858	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	intron	6030	6300	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	intron	6836	7209	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	intron	7607	7658	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	intron	7684	8116	0.67	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	intron	8254	8311	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	intron	8461	8519	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	intron	8716	8774	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	intron	9013	9088	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	5856	6029	0.77	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	6301	6835	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	6301	6835	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	7210	7606	0.99	+	2	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	7210	7606	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	7659	7683	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	7659	7683	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	8117	8253	0.67	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	8117	8253	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	8312	8460	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	8312	8460	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	8520	8715	0.99	+	2	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	8520	8715	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	8775	9012	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	8775	9012	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	9089	9556	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	9089	9614	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	stop_codon	9554	9556	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	tts	9614	9614	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MCGNPAVGNGMRALILVGGYGTRLRPLTLSTPKPLVEFANKPILLHQLEALVDAGCRQVILAVSYRAEQMEKELKVEA
+# KKLGVELIFSHETEPLGTAGPLALAKTILAASSEPFFVLNSDVICDFPFKQLVQFHRNHGKEGTIVVTKVEEPSKYGVVLYDENGCIKNFIEKPQEFV
+# SNKINAGIYIFNPSVLDRIEVKPTSIEKEVFPAMAQQQELYAMDLTGFWMDIGQPKDFLTGMCLYLSSLRQKQSPKLYTGPGVVGNVLVDPTAKIGEG
+# CRIGPNVTIGPDVVIEDGVCIKRSTILKGAIVRSHSWLDSCIVGWSSTVGRWVRIEGITVLGEDVIVKDELYINGGQVLPHKSIAASVPEPQIIICAV
+# SVFYKWINTPTKTLVVSEKMLKSLAPIEGNQQPLLQLLWEDKEVKFDVPQLHKNLRSGERVLDYIYHIEDSKGNPGDTGRLMVTNLRIIWHSLVHKKY
+# NLSIGYARIGNTNTRVVHMHSKARIASQALYILAVSNETRFEFLFTDVSGETSRRDQPIFASVFDVYHLYQRTYLYRDLKLRGAIVQAGQLVILPDEQ
+# VFSHVQGVWNLSSDQGNLGSFVVTNIRLVWFADANETFNISLPYLQIESLRVRESKYGPALVIQTAETGGGYVLGFRVDPAERLNELFKELSSLHTIY
+# GEQPNFGIQYNANDARRRLEAAAEEAAQASQFKVDNFEELDERQEREINTKLNSYLAEGCLGKVPSQGERAPVYCKELGFAMEPIRDGYKLQDLWNVM
+# PTKMETME]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	gene	9839	12785	0.11	-	.	g3
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	transcript	9839	12785	0.11	-	.	g3.t1
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	tts	9839	9839	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	9839	11587	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	stop_codon	10957	10959	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	intron	11588	11643	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	intron	11764	12143	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	10957	11587	1	-	1	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	11644	11763	1	-	1	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	11644	11763	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	CDS	12144	12730	0.81	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	exon	12144	12785	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	start_codon	12728	12730	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4QVM9_DROSI|FBgn0191240|B4QVM9	AUGUSTUS	tss	12785	12785	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MLLAAAGLPAYDAAKLSSNAGSGSSNVGSGGVGTPTASSSRPSAASALMKTLSVRLHRGTEFIKDTVHKALVMSAPTP
+# VAPATAPAPKIVDHSLKRKLSGAGGLMGCSSMGSMTSSIASSSRSHHYAVTSQGASSQVIPLPSQVPTAAFLRTYTVAPTALHRSAAARKRNPSTDSL
+# LMDLCLFKPIRPMPITPIKIHKFRGFELKKPKFVPAANPDSEEDEDDDDEDEVVRKPKPSNLTLPTNADSAFVPMPYIETTNTAINATTTTNSRSRSR
+# SLNTLTSGSAQAITKPKRRRRAPMLTAKRRRKALDTKLTNSADGGTEDKAPAVRKATTARGGSKRSRGESITAPTPADPIKSPVAIKAPTKSKSTSRS
+# EAAKRSRVAVAQNATVLTATSATSADSISKTATKRKAANEKVAKRSRGSAALSVRPSPPMTRQRARQQISAST]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/B4QVM9_DROSI.fasta

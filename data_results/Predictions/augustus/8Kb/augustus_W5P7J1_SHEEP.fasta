@@ -1,0 +1,88 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/W5P7J1_SHEEP.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 31851, name = W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	gene	1	6113	1	+	.	g1
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	transcript	1	6113	.	+	.	g1.t1
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	1	3071	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	3235	5961	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	3072	3234	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	5962	6113	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	stop_codon	6111	6113	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [VLKSTGDVAGGRALYEGYAAVTDAPPECFLSLRDTVLLRKEARKLIVQPNTRLEGSEVQLLEYEASAAGLIRSFSERF
+# LEDGPELEKILTQLATADAQCWKGPQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 17
+#     RM:  17 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	gene	11734	23851	1	+	.	g2
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	transcript	11734	23851	.	+	.	g2.t1
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	start_codon	11734	11736	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	12001	12113	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	12161	12470	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	12544	14128	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	14261	15005	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	15113	16959	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	17081	17244	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	17404	18544	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	18615	19185	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	19243	19724	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	19830	21045	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	21180	22552	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	22688	23456	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	intron	23544	23764	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	11734	12000	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	12114	12160	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	12471	12543	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	14129	14260	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	15006	15112	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	16960	17080	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	17245	17403	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	18545	18614	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	19186	19242	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	19725	19829	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	21046	21179	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	22553	22687	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	23457	23543	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	CDS	23765	23851	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5P7J1_SHEEP|ENSOARG00000005964|W5P7J1	AUGUSTUS	stop_codon	23849	23851	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGDLGPDGRQPRLKVLKGHTLVSQKPLPDLPAAAVTFLVGSHEPRTPALAIASGPCVYVYKNLKPYFKFSLPLLPTNP
+# LEQDLWNQAKEDQIDPLTLKEMLEGIRFLPLELSEMEAFVNQHKSKSIRRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPEAFTILAKMSL
+# PSVPVFLEVSGQFDVEFRLAAACRNGSIYILRRDSKCPKYCIELSAQPVGLVRVHKVLVVGSNQDSLHGFTYKGKRLWTVQMPAAILAMNRLEQRSRG
+# LQAVMAALANGEVRIYHDKVLLNVIRTPEAVISLCFGRYGREDNTLIMTTLGGGLIIKILKRTAVFAEGGGAQENVFAWEPSKGNVPRKTRLYVDQTL
+# REREAGTAMHRTFQADLYLLRLRAARAYVQALESSLSPVSLMAREPLKLHAVVQGLGPTFKLTLHLQNTSTARPILGLVVCFLYNEVLYALPRAFFKV
+# PLLVPGLNYPLETFVKSLSDKGISDIIKVLVLREGQSTPLLSAHINMPMSEGLAAD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/14
+# CDS introns: 0/13
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 20
+#     RM:  20 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/W5P7J1_SHEEP.fasta

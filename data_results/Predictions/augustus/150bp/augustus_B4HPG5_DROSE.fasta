@@ -1,0 +1,48 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/B4HPG5_DROSE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 1084, name = B4HPG5_DROSE|FBgn0176838|B4HPG5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	gene	147	988	0.23	+	.	g1
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	transcript	147	988	0.23	+	.	g1.t1
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	exon	147	328	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	start_codon	151	153	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	intron	329	381	0.51	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	intron	517	571	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	intron	701	767	0.94	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	CDS	151	328	0.82	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	CDS	382	516	0.51	+	2	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	exon	382	516	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	CDS	572	700	0.94	+	2	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	exon	572	700	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	CDS	768	934	0.94	+	2	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	exon	768	988	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	stop_codon	932	934	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4HPG5_DROSE|FBgn0176838|B4HPG5	AUGUSTUS	tts	988	988	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGMLHNLADLIKIKKDKMTILVLGLNNSGKSSIINHFKKSSEQTSIVVPTVGFMVEQFYTGMSGVSIKAIDMSGATRY
+# RNLWEHQFKNCHGIIYVIDSSDRMRFVVVKDELDLVLQHPDLCNRIVPILFYGNKMDMEDSLSSVKIAAALRLENIKDKPWHICSSSAISGEGLGEGV
+# QWLIQQMRFAMLNNKNAAKSRSKHSK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/B4HPG5_DROSE.fasta

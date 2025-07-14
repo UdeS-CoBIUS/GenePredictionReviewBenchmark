@@ -1,0 +1,64 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/G7PDY7_MACFA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 41498, name = G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	gene	8249	29422	1	+	.	g1
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	transcript	8249	29422	.	+	.	g1.t1
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	start_codon	8249	8251	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	CDS	8249	8365	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	CDS	10192	10246	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	CDS	28185	28259	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	CDS	29256	29422	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	stop_codon	29420	29422	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MFYEAVSKGYNSLRQATHPEPIQHSSLKGFSGRGERESKSHRYPGQQLSSLGRDASVRKNTVSNNSDMAELKSMFREV
+# LPKQGPLFVEDITTMVLCKPKLLPLKSLTLEKLEKMHQAAQNTIHQQEMAEKDQRQITH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 40
+#     RM:  40 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	gene	31691	41498	1	-	.	g2
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	transcript	31691	41498	.	-	.	g2.t1
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	stop_codon	31691	31693	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	CDS	31691	31751	.	-	1	transcript_id "g2.t1"; gene_id "g2";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	CDS	33705	33844	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	CDS	35275	35385	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	CDS	35597	35704	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	CDS	39105	39219	.	-	1	transcript_id "g2.t1"; gene_id "g2";
+G7PDY7_MACFA|ENSMFAG00000042601|G7PDY7	AUGUSTUS	CDS	40138	40235	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [LVGQFIARAVGDGILCNTYIDSYKGTVDCVQARAALDKATVLLSMSKGGKRKDSVWGSGGGQQSVNHLVKEIDMLLKE
+# YLLSGDISEAEHCLKELEVPHFHHELVYEAVIMVLESTGESTFKMILDLLKSLWKSSTITVDQMKRGYERIYNEIPDINLDVPHSYSVLERFVEECFQ
+# SGIISKQLRDLCPSRGRKRFVSEGDGGRLKPESY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 33
+#     RM:  33 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/G7PDY7_MACFA.fasta

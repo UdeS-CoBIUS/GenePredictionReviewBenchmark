@@ -1,0 +1,66 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F6QFV2_MONDO.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18118, name = BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	gene	1307	5262	1	-	.	g1
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	transcript	1307	5262	.	-	.	g1.t1
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	stop_codon	1307	1309	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	intron	1370	2216	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	intron	2346	3098	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	intron	3246	5259	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	CDS	1307	1369	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	CDS	2217	2345	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	CDS	3099	3245	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	CDS	5260	5262	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	start_codon	5260	5262	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MASNYRPSTGLRKKPNVKVELTEGQKQEIKEAFDLFDVDGSGSIDVKELKIAMRALGFEPKKEEIKKMIAEIDKEGFG
+# TINFEDFFAMMSVKMIPCDLAQDLKHQAVFQQTLI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	gene	8001	10118	1	+	.	g2
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	transcript	8001	10118	.	+	.	g2.t1
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	start_codon	8001	8003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	CDS	8001	10118	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS12|F6QFV2_MONDO|ENSMODG00000025411|MONDO	AUGUSTUS	stop_codon	10116	10118	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MVMACRNINRKSHIGLQQISSLTETGRSFLGPVKSSKFIIGEGSQESVLTCSIVRLLKNLDLTCSAGQLLYETVQSQK
+# NVYGTGTNTLLFLAGAWSVAALECLQQDIPISVIVSVMSEGLKSCREEVVSLQIPLCNIFDSIRDTKYPFLGTLTIIPSPLVQIPLEVPWIQRDHDKK
+# DVSSQSSTLTFSSGSSSGLSSKLSYFTTQSLTKKNEAMSQSPKTNIITNSHTRKSRLSHSRHFNRAEHDAYQSSNEGFPNSHFDYKCNDLVQLAVGLS
+# HGDHSSMALVEAAVKCQYQNAHVRNSCRVPFQFDVSKISTCCLPGISESISCVCSGYLTLVSISYKTTIRELQNKPLRVVLIDGDFKENYHHLGFNEP
+# ENVKTVLGDTAYQYQKKLWLENVLEILIQLNVNLVMVRGTVSENLIEKCMLSNLLIIGHVSHHALQDFAEVTGAVQVVYATQLNEGCVGSGAYVSLWR
+# PGQLNAIEQSNKIVVLLKAKGILLVTAVLASPVIAQMQAKEDIFWTCAYRLYHALLEKKVFLGGGAVEVLCLSHLQMMIEQSLKKTDKDCSGWFPATS
+# SWMASSQALYRPAVLKALADGWHKYLSSVVFNTGTCSSESEASTFIQNYLQKITNSGCPLLFLLKEYDKLSSKILNVGIPSRLKVTSKVYDVVTPKFE
+# AWRRALDLVLLVLQTDAEIIIGARNTQLNSQESDEFLLL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F6QFV2_MONDO.fasta

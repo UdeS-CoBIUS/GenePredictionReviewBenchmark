@@ -1,0 +1,111 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chlamy2011 version. Using species specific transition matrix: /usr/share/augustus/config/species/chlamy2011/chlamy2011_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/A8JF99_CHLRE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 6635, name = A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	gene	1	1635	0.29	-	.	g1
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	transcript	1	1635	0.29	-	.	g1.t1
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	1	54	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	295	451	0.97	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	533	711	0.97	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	802	932	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	1008	1158	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	1291	1383	0.44	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	55	294	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	452	532	0.97	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	712	801	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	933	1007	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	1159	1290	0.44	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	1384	1470	0.44	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	start_codon	1468	1470	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	5'-UTR	1471	1635	0.29	-	.	transcript_id "g1.t1"; gene_id "g1";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	tss	1635	1635	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLGNLNFNSLVQGVVSKAKALALNVTEIELKVLEATNEEPWGPHGSAMGEIARAAEDPEKYNLIMNVISERLQMRDEN
+# WRLCYKALLLLEYLVKNGPWRVVDELNRSVSSLERLRDEFEYRDPQGKDHGVNVRQRAGELASLVSNTDRVRQEREKAAKNANKYKGVSSSDMRGFGG
+# GNVGGYGGYGSSGSGFGNGGGGFGSGSGAFGGGGGGGGGYGGDRFGSGSGGFGSSSSRQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	gene	1836	4631	0.61	+	.	g2
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	transcript	1836	4631	0.61	+	.	g2.t1
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	tss	1836	1836	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	5'-UTR	1836	2424	0.9	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	start_codon	2425	2427	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	2476	2574	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	2686	2833	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	2902	3174	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	3298	3574	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	3699	3921	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	2425	2475	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	2575	2685	0.97	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	2834	2901	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	3175	3297	0.99	+	1	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	3575	3698	0.99	+	1	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	3922	4035	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	stop_codon	4033	4035	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	3'-UTR	4036	4631	0.72	+	.	transcript_id "g2.t1"; gene_id "g2";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	tts	4631	4631	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGFFDKLLSLFGMSGKKPWSSSNSPALRITPGQVNVLVVGLDNSGKTTIIERLKPRPRQAAEVAPTVGFTVDEVEKGP
+# LTFTVFDMSGAGRYRTLWEQYYREADAVVFVVDSADKLRMVVARDEMEHMLKHSNMRKVPILYFANKKDLPVAMPPVEIAQALGLDDIKDRPWQIVPS
+# NGLTGEGVDKGIDWLAERLS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	gene	5078	6635	0.82	-	.	g3
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	transcript	5078	6635	0.82	-	.	g3.t1
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	tts	5078	5078	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	3'-UTR	5078	5489	0.82	-	.	transcript_id "g3.t1"; gene_id "g3";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	stop_codon	5490	5492	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	5592	5752	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	5849	6006	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	6169	6375	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	intron	6484	6635	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	5490	5591	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	5753	5848	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	6007	6168	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+A8JF99_CHLRE|CHLRE_16g664500v5|A8JF99	AUGUSTUS	CDS	6376	6483	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [VLSNSQALAGALAKRGFKLVSGGTDNHIVLVDLRPKGVDGSRVERVLELAHIAANKNTVPGDVSALVPGGLRMGSPAL
+# TSRGFVEKDFEQVAEFVDRAVNIAVDLKKKYPKLKEFREAMAKESTPDINALKKDVETFAMRFPTIGFDKAAMRYKN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chlamy2011 --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/A8JF99_CHLRE.fasta

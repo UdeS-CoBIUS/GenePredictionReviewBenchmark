@@ -1,0 +1,131 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/Q66H90_RAT.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 59783, name = Q66H90_RAT|ENSRNOG00000015816|Q66H90) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	gene	1	2466	1	+	.	g1
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	transcript	1	2466	.	+	.	g1.t1
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	1	2323	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	2324	2466	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	stop_codon	2464	2466	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [ELKEIKQDISSLRYELLEDKSQATEELAILIHKLSEKLNPSALRCE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	gene	10282	48663	1	+	.	g2
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	transcript	10282	48663	.	+	.	g2.t1
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	start_codon	10282	10284	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	10318	14336	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	14400	15145	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	15322	17699	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	17887	20009	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	20083	20816	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	20934	22375	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	22507	25016	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	25102	25922	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	26026	28629	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	28823	30041	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	30117	31901	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	31968	40506	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	40647	43994	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	44160	46194	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	46305	46398	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	46503	46637	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	46753	48529	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	10282	10317	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	14337	14399	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	15146	15321	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	17700	17886	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	20010	20082	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	20817	20933	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	22376	22506	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	25017	25101	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	25923	26025	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	28630	28822	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	30042	30116	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	31902	31967	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	40507	40646	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	43995	44159	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	46195	46304	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	46399	46502	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	46638	46752	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	48530	48663	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	stop_codon	48661	48663	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MDLTLSRADYLQVVIGDQDGVVMCFGMKKGEAVSVFKTLPGQKVSRLELGGALNTPQEKIFIAAGSEIRGFTKRGKQF
+# LSFETNLTESIKAMYISGSDLFLSASYIYNHYCDCKDQNYYLSGDKINDVICLPVERLSRVTPVLACQDRVLRVLQGSDVTYEIEVPGPPTVLALHNG
+# DGGDSGEGLLFGTSDGRLGLIQITASKPIHKWEIRNDKKRGGILCLDSFDIMGDGVKDLLVGRDDGMVEVYSFENANEPVLRFDQMLSESVTSVQGGC
+# VGKDGYDEIVLATYSGWVTGLTTEPTHKESGPGEELKLNQEMQNKIASLRTELEHLQLKVLQERENYQQSSQSSQAKSTVPSFSINDKFTLNKDDASY
+# SLVLEVRTAIDNVLIQSDVPIDLLDVDKNSAVVSFSSCDTESNDNFLLATYRCQANTTRLELKIRSIEGQYGTLQAYVTPRIQPKTCQVRQYHIKPLS
+# LHQRTHFIDHDRPMNTLTLTGQFSFAEVHSWAVLCLPEVPEKPPAGECATFYFQNTFLDTQLECAYRKGEGIFKSDNISTISILKDVLSKEATKRKIN
+# LNISYEINEVSVKHTLKLIHPKLEYQLLLAKKVQLIDALKVHEGNTSFLIPEYRCILEEADHLQEEYKKQPAHLERLYGMITDLFIDKFKFKGTNVKT
+# KVPVLLEILDSYDQNTLISFFDAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/18
+# CDS introns: 0/17
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 71
+#     RM:  71 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	gene	51058	56936	1	+	.	g3
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	transcript	51058	56936	.	+	.	g3.t1
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	start_codon	51058	51060	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	51187	51877	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	52122	54126	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	54240	54421	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	54646	55246	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	55455	56045	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	56160	56476	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	intron	56611	56887	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	51058	51186	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	51878	52121	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	54127	54239	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	54422	54645	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	55247	55454	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	56046	56159	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	56477	56610	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	CDS	56888	56936	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+Q66H90_RAT|ENSRNOG00000015816|Q66H90	AUGUSTUS	stop_codon	56934	56936	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MPGNSRQAGSALLSQQEDQENVNPEKVAPAQQPRAQAVLKAGKVAPLKDLPINDEHVPTVPSWKAVSKQPAFTIHVDE
+# AEETQKRPAEQKETQCEDALAFSAAVSLPGARKPLVPLDYPMDGSFESPHAMDISIVLEDEKPVNVNEVPDYHEDIHTYLREMEVKCKPKVSYMKRQP
+# DITNSMRAILVDWLVEVGEEYKLQNETLHLAVNYIDRFLSSMSVLRGKLQLVGTAAMLLASKFEEIYPPEVAEFVYITDDTYSKKQVLRMEHLVLKVL
+# AFDLAAPTVNQFLTQYFLHLQPANCKVESLAMFLGELSLIDADPYLKYLPSLIAGAAFHLALYTVTGQSWPESLVQKTGYTLESLKPCLMDLHQTYLK
+# APQHAQQSIREKYKHSKYHSVSLLNPPETLNV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/Q66H90_RAT.fasta

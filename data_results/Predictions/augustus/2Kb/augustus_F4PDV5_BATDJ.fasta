@@ -1,0 +1,74 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# rhizopus_oryzae version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F4PDV5_BATDJ.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5132, name = F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	gene	1	1020	0.97	+	.	g1
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	transcript	1	1020	0.97	+	.	g1.t1
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	intron	1	130	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	intron	281	358	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	intron	541	632	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	CDS	131	280	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	CDS	359	540	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	CDS	633	1017	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	stop_codon	1018	1020	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [EQEIRLETLRARAISRSGITNTVTELSNDHKEPFGSSSHHRTDSDHRKSKPLHHTTNQELDAEKLAEKKKWERKLTVY
+# LGETRDGKKETPWYADMDYGRSRREKSVRPADLESRSRKDEQKKKQMDPVQDMARYLSKKKKTDVHDHSTFKVSKPKSHESGEISSCSNTLTIEELRK
+# ERLQREAKEKQRTRELLDPLKASRTEPVKHDSDERYYNAQFNPSHIRRPNHKDSDFNSRYRPY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	gene	3192	5079	0.77	-	.	g2
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	transcript	3192	5079	0.77	-	.	g2.t1
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	stop_codon	3192	3194	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	intron	3444	3537	0.98	-	.	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	intron	4002	4077	0.99	-	.	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	intron	4374	4472	0.95	-	.	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	intron	4592	4703	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	intron	4796	4869	0.93	-	.	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	intron	4973	5061	0.99	-	.	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	CDS	3195	3443	0.98	-	0	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	CDS	3538	4001	1	-	2	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	CDS	4078	4373	0.96	-	1	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	CDS	4473	4591	0.98	-	0	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	CDS	4704	4795	1	-	2	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	CDS	4870	4972	0.93	-	0	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	CDS	5062	5079	0.91	-	0	transcript_id "g2.t1"; gene_id "g2";
+F4PDV5_BATDJ|BATDEDRAFT_28390|F4PDV5	AUGUSTUS	start_codon	5077	5079	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MRSSKRKLEIEEEKERRRQYGYNDASSPAPFSPPSMRNDNNQYSDVEDEDAGSMMGSTLAGKNKVLVISRMIRNDQGE
+# LDWKSEVITDGRVINAYLRHRSIIEKIDEGDENFDISLLSEEERRELRQRKTREHVAQLQTKLGNKPISGNPNEAAHSSSVAPDLDANVLAEQQPSRS
+# LAGANPESTSQTQLHLQTQPLKTIPPVILKLNLGNSSSVPTSAQSNASLLPEPTVIAIDQTTISSRKRRTIDFHGTNSQPTKAARRGSPKIELSNILE
+# TIIMKLVGTSGAEPLCQPNKADDYAKMIANPKTLDQIRNDVRNFKYKSHIDFCADIELVLKNCIMYYGSDHPLTAVSRQLVAQVKDYITEHEKDLVFI
+# TSAMAMKLASANIPASSIATGDVLHSEDTTDFDSVIGKPATHQRSSMSTAHVLSAQPETTYSTFDVKNEPDVDIE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=rhizopus_oryzae --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F4PDV5_BATDJ.fasta

@@ -1,0 +1,104 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/K1P4M1_CRAGI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 25317, name = K1P4M1_CRAGI|CGI_10011809|K1P4M1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	gene	1	5340	0.03	-	.	g1
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	transcript	1	5340	0.03	-	.	g1.t1
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	1	3148	0.35	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	3192	3504	0.53	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	3592	3952	0.56	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	4094	5136	0.58	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	3149	3191	0.56	-	1	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	3149	3191	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	3505	3591	0.52	-	1	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	3505	3591	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	3953	4093	0.98	-	1	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	3953	4093	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	5137	5168	0.58	-	0	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	5137	5340	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	start_codon	5166	5168	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	tss	5340	5340	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MQQHAVQDSTGFVTKPTGNIGLYDPAEIHNRHQLKAYMRDNMIKMGVHLIFFFIFLYWMIYSLLKDDTTMFGVPAEKA
+# KLTDDPYELDLDFYNYEMKSFFQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	gene	5936	19428	0.14	+	.	g2
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	transcript	5936	19428	0.14	+	.	g2.t1
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	tss	5936	5936	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	5936	6102	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	start_codon	6001	6003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	6103	6302	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	6485	6939	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	7100	8044	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	8180	8343	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	8430	9919	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	10119	10567	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	10708	14020	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	14193	15290	0.96	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	15414	17631	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	intron	17716	19200	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	6001	6102	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	6303	6484	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	6303	6484	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	6940	7099	0.96	+	1	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	6940	7099	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	8045	8179	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	8045	8179	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	8344	8429	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	8344	8429	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	9920	10118	0.99	+	1	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	9920	10118	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	10568	10707	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	10568	10707	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	14021	14192	0.96	+	1	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	14021	14192	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	15291	15413	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	15291	15413	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	17632	17715	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	17632	17715	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	CDS	19201	19317	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	exon	19201	19428	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	stop_codon	19315	19317	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1P4M1_CRAGI|CGI_10011809|K1P4M1	AUGUSTUS	tts	19428	19428	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MDPLFLAYSYYRRKKYEQCTEICTQLLEKNPYDQASWTLKTRALTGQVYVDEVDVDEEGIAEMVMDDNTIAQVSRPGT
+# SLKQPGTGRGAPSQGVRPMSQSGRPLSGFVRPSTQGGRPGTMEKAIMTPRTAHTARPVTSASGRYVRLGTASMLSTPDGPFINLARLNFTKYAARPNL
+# AKALFEYIFHHENDVRNALELAALATEACQFKDWWWKVQLAKCYYRLGMYRDAEKQLKSSLKQQDHVDTYLYLCKVYCRLDQPLTAIEVFKQGLEKFQ
+# GETTLMTGIARIYEGMNDMDNAVKFYKDVLYYDSMYVEAIACIATNHFYTDQPEVALKFYRRLLQMGVYNAELFNNLGLCCFYAQQYDMTLTCFERAL
+# SLAEEVTLSEVWYNIGHVALGIGDMTLAYQAFRLTLANNNDHAEAYNNLGVLELRKGHVEMARAFFQAALGLAPHMYEPHYNWAALADQLGDLQSSYN
+# AAKRAVDAFPNHVDSKELLKQLKHHFSLL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/11
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 13
+#     RM:  13 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/K1P4M1_CRAGI.fasta

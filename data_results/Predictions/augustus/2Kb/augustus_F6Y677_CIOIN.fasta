@@ -1,0 +1,65 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# ciona version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F6Y677_CIOIN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 11169, name = F6Y677_CIOIN|ENSCING00000009809|F6Y677) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	gene	2056	9169	0.08	+	.	g1
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	transcript	2056	9169	0.08	+	.	g1.t1
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	start_codon	2056	2058	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	2158	2486	0.96	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	2608	3168	0.66	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	3274	4015	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	4129	4536	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	4627	4917	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	4963	5728	0.72	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	5903	6600	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	6713	7147	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	7287	7578	0.93	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	7751	8467	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	intron	8675	9052	0.86	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	2056	2157	0.34	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	2487	2607	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	3169	3273	0.66	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	4016	4128	0.98	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	4537	4626	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	4918	4962	0.72	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	5729	5902	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	6601	6712	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	7148	7286	0.93	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	7579	7750	0.99	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	8468	8674	0.86	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	CDS	9053	9166	0.47	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6Y677_CIOIN|ENSCING00000009809|F6Y677	AUGUSTUS	stop_codon	9167	9169	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MDLMFMALSYFKRRKFEESAELCTKILEKNPYDQAAWALKARSLTEQVYIDEVEAEEQGIAESVMDDVSVAQVSRPGT
+# SLRAVTGASGPSPAVRPVSQSGRPLSGFVRPGTQSGRPGTMEQALRTPRTAHTARPVTSASGRFVRLGTASMLSSPDGPFINVSRLNYSKYAARPNLA
+# KVLFEYIFHHENDVRNALELAALATEQAQFKDWWWKVQLGKCYHRLGMFRDAEQQYKSALKQQVMLDTVLLLGKVYQRMDQPLQSIATYKQGLEKFPD
+# DRSLLVAIARVHDEMGQLDDATKWYKDVLETDGVNVEAIASIAANYFYTDQPEISIRLYRRLLQMGIHNVELFNNLGLCCYFAQQYDMTMNCFDRALS
+# LAEDEQLGDVWYNISHVALGIGDNNLAYQCLRLAIAADNGHTEAYNNLAVLELRRGDVERAKSLLRSAAELAPHAYEHHYNLATLAENAGDLQTSYSS
+# VLKSVAAFPDHMDSKNLLKTLKQHFESL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 25
+#     RM:  25 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=ciona --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F6Y677_CIOIN.fasta

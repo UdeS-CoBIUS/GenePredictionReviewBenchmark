@@ -1,0 +1,52 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/F1SNZ1_PIG.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 28131, name = F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	gene	9031	26495	1	+	.	g1
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	transcript	9031	26495	.	+	.	g1.t1
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	start_codon	9031	9033	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	intron	9034	15207	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	intron	15333	17637	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	intron	17833	19119	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	intron	19181	20797	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	intron	20870	22526	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	intron	22605	24993	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	intron	25171	26387	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	CDS	9031	9033	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	CDS	15208	15332	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	CDS	17638	17832	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	CDS	19120	19180	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	CDS	20798	20869	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	CDS	22527	22604	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	CDS	24994	25170	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	CDS	26388	26495	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F1SNZ1_PIG|ENSSSCG00000011314|F1SNZ1	AUGUSTUS	stop_codon	26493	26495	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAELGLNEHHQNEVINYMRFARSKRGLRLKTVDSCFQDLKESRLVEETFTIDEVSEVLNGLQAVVHGEVESELINTAY
+# TNVLLLRQLFSQAEKWYLKLQTDISELENRELLEQVAEFEKAEFISSNKKPIIDNIRPKLAPLNEGGAAELLNKATNALDEKSKLEKALQDLQLDQGN
+# QKDFVKAQDLSDLENTVAALKSEFQKTLNDQTENQKSLEENLATAKHDLLRVQEQLSMAEKELEKKFQQTAAYRNMKEILTKKNDQIKDLRKRLAK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 41
+#     RM:  41 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/F1SNZ1_PIG.fasta

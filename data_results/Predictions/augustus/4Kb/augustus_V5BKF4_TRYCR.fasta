@@ -1,0 +1,123 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# leishmania_tarentolae version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/V5BKF4_TRYCR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10280, name = V5BKF4_TRYCR|TCDM_03029|V5BKF4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	gene	665	1759	0.91	+	.	g1
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	transcript	665	1759	0.91	+	.	g1.t1
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	start_codon	665	667	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	CDS	665	1756	0.91	+	0	transcript_id "g1.t1"; gene_id "g1";
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	stop_codon	1757	1759	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPEGPRVLLLGGLGMIGRNFLKYIADHELASYVRVADKKVPEMCFLTQVYKDLLALPYVEVVQVDLSQKEHVDRVFAG
+# EPFSIIVNLASETRYGHLDVMYERSILQLRTLCARKAARKGGCQRYVEVSTAQVYESNNKSPSKETGTRLKPWTTMAKYHLEAEGAVSSISQLPWVIV
+# RLPIVYGPGDICGLMPRIVCAAVYEKSGTCMEFLWGKDLRIHTVHVQDVVAAMWHIVCAGAIHEVYNVVDDGDTTQGSLNAVLESMFKVKTGYFGALM
+# SNLASLKLEELVEEANDGHMEPWTKMLREHGISVTPLSPYLEPELLYDNPLAVDGSKLRALGFRCSCPKVAKELLDDSLDYWVSLGLFPR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	gene	2089	2925	0.83	+	.	g2
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	transcript	2089	2925	0.83	+	.	g2.t1
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	start_codon	2089	2091	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	CDS	2089	2922	0.83	+	0	transcript_id "g2.t1"; gene_id "g2";
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	stop_codon	2923	2925	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLCLTRLRANVNKVAFMEMVKDLRFRTEAPIAECGAALKETHGDVEKAMEVLRKKGAARAMKKRSRVTEHGSVVACVG
+# GLFGAAVITVCSETDFAARSAQFQNTCARVKDALQRKIIDSKGDVLTNPMEAHRSLVEATAEDIRSSIAVLGENVTIKSVESLRLAPHVAEHISIGSY
+# THGSLDVPDVGRIAGVVAVSRLDPTKEVQASTLTDVARHFVASSGAEGNYAHQNFFGTEETVGQWLKHHGLCFSSSLVVDFGKEPITHTASQPRNAVK
+# HPEG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	gene	4001	6280	0.62	+	.	g3
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	transcript	4001	6280	0.62	+	.	g3.t1
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	start_codon	4001	4003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	CDS	4001	6277	0.62	+	0	transcript_id "g3.t1"; gene_id "g3";
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	stop_codon	6278	6280	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MIAAPDIQLVRREVTTVASRSPRCMVVYPLGKKSRQRIGVADKNGIMSVFSLRKAMERVAVFETPPQNRPVSCATIYE
+# DQLFFVHGSTLEAYSRKGRRFFSFDTNVTDVIHTLFVSTPFIICCGNFMATGFREASELGFYMAPDRINAMAVFAVSSVANLEERNFDDYRCILGCND
+# RTVRMLRSHKSIDDIRCEAPVTSLGVSDGTRRVYYGTSAGSLGCLDIGNGDSFLSRVFSFAPDDHQAAVTALAVYDINMDEREELLVGRQDGSVQIFY
+# VYAEEGADSGHPVCMWSGNTDESVLSMAAGFITDSRRPGVLVHSFSGRITTFTLKEEEHAAPKEMEAVDAVLECTDAQINEARAEIEGLKRSIEARTR
+# ELAAYSGVKKGDTPLLAVSSTFKTKVTLSQQKDSPALRLIVEVDTPLDCVVLQSELHLHFLEESAEVIVQEEIPRNNPLTKTIAILHPLETRNYSCSV
+# AFWVEDGQWGLLKVTALAAPAPRTAQVKMVQLRPLPLYARVGRVDKAVTEGNASPVLSTMEVRGNFSARDMHSWIFRLLPGTPEMYQEKMSTLSYEDT
+# FFQNPLEVKYGDGSALFTTELLQVLMVTERFIRYCASERSLEVSFSVGIHSEAVRSNLSRIVPRIAACNKGLTSFRLLEALQELQGGQQTDMVCFPKE
+# YQRILSQADETKKEHAQAMVTRGYLQKAFVSLCSSVVDIVPKKPKMSLVTKEALAALTDCSDASEMMSRLDSLLLCDERGEGLKSTVDEGRGR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	gene	6664	8352	1	+	.	g4
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	transcript	6664	8352	1	+	.	g4.t1
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	start_codon	6664	6666	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	CDS	6664	8349	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	stop_codon	8350	8352	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MDLLEVSQPQPPPPPSPEEQQLISFLLHAPVHHATFFSLTLVEELLRHARRVDQEVSFLSLPLPRSRESTRVLSRIVQ
+# ENRYEEYWPNEHPALDEARQSPPSASYLLRIGVLRALGFNTTGVDDFVDDVSLALGRRIVPAAPLPEDTASVPLRYREAAQEELRHVALGEWCEDLIH
+# FTAYRGFSAEQVRCVLLTAMHLMNVVADLSPDATEVEAEKRCTQLLEELLIEQACGLPRKVVETHKSWRTVTSEIPDPQFVAEMEKAISQEKNKKRRS
+# ALKEKLENAPRINYTRQEIQKEGFLTEIVVGPYFTLQELAQILDYFSSSVVRHWRLFRAFLAEPQPVETHDEVQVQWDIHSFCVPPLEEFVRDDMYEM
+# EQERLDLMSACEDAIESAFEEEFIQPLLALQREKDELLECLKERERQAEEDNIRNALDGPGYMQVIRGFTLRLNKCIERNERVGELELNEKSPDSTPP
+# SPEPFSSQMSASLSLANKSRRSVTTRQGLGLAGVAGNHKLAAAAPPSSHSENPADAVFSLEEVEARLEKLENAMRETRWSSHDRGRKKQAGG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	gene	9109	9780	0.93	+	.	g5
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	transcript	9109	9780	0.93	+	.	g5.t1
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	start_codon	9109	9111	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	CDS	9109	9777	0.93	+	0	transcript_id "g5.t1"; gene_id "g5";
+V5BKF4_TRYCR|TCDM_03029|V5BKF4	AUGUSTUS	stop_codon	9778	9780	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MLPRLDNTRNAINKSTSAAASITGNHVGIAYDSNNIFSVEEYSRLEKEHYQPLRGVSRYKVEPINEGDGLTTQRLMLE
+# LEEDTVVGIDAAWWGAVLKDFPSLKKPCTSEFKAEFADFYKQALGVAHDEAAVTALAVPFVRRQMQTKFISFPMFWRVAEKLADALVMAAAGRRHEMR
+# VSRIAVERVTKIALNTIEDEPWAHKDTTSPLLFDVSNFRAWHEAGNW]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=leishmania_tarentolae --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/V5BKF4_TRYCR.fasta

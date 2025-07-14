@@ -1,0 +1,55 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/BBS5_HUMAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 47176, name = BBS5_HUMAN|ENSG00000163093|Q8N3I7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	gene	10075	47176	1	+	.	g1
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	transcript	10075	47176	.	+	.	g1.t1
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	start_codon	10075	10077	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	10075	10133	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	12772	12854	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	14132	14170	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	17590	17655	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	18327	18376	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	18508	18635	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	23395	23530	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	30007	30141	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	33616	33699	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	34824	34847	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	40288	41409	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	45095	45252	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS5_HUMAN|ENSG00000163093|Q8N3I7	AUGUSTUS	CDS	45375	45482	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSVLDALWEDRDVRFDLSAQQMKTRPGEVLIDCLDSIEDTKGNNGDRDSVEDTRGNNGDRGRLLVTNLRILWHSLALS
+# RVNVSVGYNCILNITTRTANSKLRGQTEALYILTKCNSTRFEFIFTNLVPGSPRLFTSVMAVHRAYETSKMYRDFKLRSALIQNKQLRLLPQEHVYDK
+# INGVWNLSSDQSGGYVLGFKIDPVEKLQESVKEINSLHKVYSASPIFGVDYEMEEKPQPLEALTVEQIQDDVEIDSDGHTDAFVAYFADGNKVSHRMD
+# SQRELAEELRLYQSTLLQDGLKDLLDEKKFIDCTLKAGDKSLPCHRLILSACSPYFREYFLSEIDEAKKKEVVLDNVDPAILDLIIKYLYSASIDLND
+# GNVQDIFALASRFQIPSVFTVCVSYLQKRLAPGNCLAILRLGLLLDCPRLAISAREFVSDRFVQICKEEDFMQLSPQELISVISNDSLNVEKEEAVFE
+# AVMKWVRTDKENRVKNLSEVFDCIRFRLMTEKYFKDHVEKDDIIKSNPDLQKKIKVLKDAFAGKLPEPSKNAAKTGAGEVNGDVGDEDLLPGYLNDIP
+# RHGMFVKDLILLVNDTAAVAYDPTENECYLTALAEQIPRNHSSIVTQQNQIYVVGGLYVDEENKDQPLQSYFFQLDSIASEWVGLPPLPSARCLFGLG
+# EVDDKIYVVAGKDLQTEASLDSVLCYDPVAAKWNEVKKLPIKVYGHNVISHKGMIYCLGGKTDD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/13
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 72
+#     RM:  72 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/BBS5_HUMAN.fasta

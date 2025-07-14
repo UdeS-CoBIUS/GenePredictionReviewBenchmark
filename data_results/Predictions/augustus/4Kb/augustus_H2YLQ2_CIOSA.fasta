@@ -1,0 +1,96 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# ciona version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/H2YLQ2_CIOSA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 11863, name = H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	gene	4043	7346	0.42	+	.	g1
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	transcript	4043	7346	0.42	+	.	g1.t1
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	start_codon	4043	4045	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	intron	4077	4285	0.88	+	.	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	intron	4366	5178	0.75	+	.	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	intron	5242	5581	0.85	+	.	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	intron	5763	6540	0.7	+	.	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	intron	6651	7247	0.55	+	.	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	4043	4076	0.92	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	4286	4365	0.82	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	5179	5241	0.77	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	5582	5762	0.69	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	6541	6650	0.55	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	7248	7343	0.89	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	stop_codon	7344	7346	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MVVLRGKCVVVGDPTVGKTAIAQAYHSDGSAFPKSYSMSTGIDLLQKFVQLGDDNKEVVDLFVFDSAGRGIFKDLNEA
+# SYNKVGMFVIVFDLSSSKSFSNCQKWLEELKNFFEPGKNIPGILIGNKCDLKERRQVDGNKANAFAVKHNLLYFECSAKHYEGIDGAFKELANRYHTL
+# HQENPESIQQIE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	gene	7943	10735	0.61	-	.	g2
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	transcript	7943	10735	0.61	-	.	g2.t1
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	stop_codon	7943	7945	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	intron	8211	8930	0.99	-	.	transcript_id "g2.t1"; gene_id "g2";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	intron	9224	10450	0.62	-	.	transcript_id "g2.t1"; gene_id "g2";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	7946	8210	1	-	1	transcript_id "g2.t1"; gene_id "g2";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	8931	9223	0.68	-	0	transcript_id "g2.t1"; gene_id "g2";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	10451	10735	0.62	-	0	transcript_id "g2.t1"; gene_id "g2";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	start_codon	10733	10735	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSSAVSPKRTTFCNEPYYPPGYCGYSPQFQFQYGETYGKATSRLLTDPNVAKSGRLVLADLFPAENEATEAKYDRNDW
+# KRLRKQSWGDKKLNDKMVPGYTGYIPKKEDHFGTRYADICRKATKDFGRAMDFTAEQRRSLAPRKPLVPLRAEPKPYVSLTQAQHSVSPYFMNIKDGA
+# KTFMSGYTGFIPRSRSRFAQVYPKLTNESLKEFTRNQQEFKLVGNRPVNINKTNQLVENPGFLQPIYINGGLLPHYTGYLPGHKFRVGMTFGTSSRYF
+# HAATATS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	gene	11266	11830	0.57	+	.	g3
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	transcript	11266	11830	0.57	+	.	g3.t1
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	start_codon	11266	11268	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	intron	11350	11620	0.58	+	.	transcript_id "g3.t1"; gene_id "g3";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	11266	11349	0.58	+	0	transcript_id "g3.t1"; gene_id "g3";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	CDS	11621	11827	0.57	+	0	transcript_id "g3.t1"; gene_id "g3";
+H2YLQ2_CIOSA|ENSCSAVG00000003737|H2YLQ2	AUGUSTUS	stop_codon	11828	11830	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MKKALVLLADGAEEIEAVVVIDVLRRADIDVTVAGLTGDGIVTCSRKVKIKPDMDIASAAKNAPYDVIILPGGLQGAT
+# ALSKVRATRNTVCLYILKL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=ciona --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/H2YLQ2_CIOSA.fasta

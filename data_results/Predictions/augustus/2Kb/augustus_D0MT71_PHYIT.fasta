@@ -1,0 +1,98 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/D0MT71_PHYIT.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5617, name = D0MT71_PHYIT|PITG_01416|D0MT71) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	gene	1	1700	0.12	-	.	g1
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	transcript	1	1700	0.12	-	.	g1.t1
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	intron	1224	1281	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	intron	1393	1461	0.87	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	CDS	1	1223	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	exon	1	1223	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	CDS	1282	1392	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	exon	1282	1392	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	CDS	1462	1593	0.67	-	0	transcript_id "g1.t1"; gene_id "g1";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	exon	1462	1700	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	start_codon	1591	1593	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	tss	1700	1700	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAIMALTSVSSSYELQTSLPPLPVPSLHATLDKYLRSLDPLVTKEELEQTRKLVQEFGKPGGQGEALQAQLLQRAKEE
+# QNWLAEWWEQVAYLSDPTPNALFVNMVTGFGSFQDFDRPVSQARRAAETIRYTCEYLERLKRQLVPPETMGGHVLCMNMFRRLFSTCRIPDTPTDRFK
+# RVDPATVRHITVFCEDRVFVLRVYDADDELLTIGDLEVQLLHILRHSAYLNSLPATKRDVDLPQFVGALTAMRRDKWAESRQAMVAFDPLNERSLEKI
+# EASLFSLCLESSTPATPSELARQCAAANAGNRWFDKSFQYLVFANGMVGANMEHANADATVLQSMFRWLGERYLNRDGGYETFIESRHQSLEFLPPPE
+# LLRWCLPEEITLDTIPAALADFQRNGSALRMVVVRNKTFGKTKLRAIKLFPDTFVQIGIQLAGYRVFGRVVPTYESGHTRMFVEGRTETIRTVTSEVL
+# AWLKVQDQSGADEAEVVD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	gene	1796	3723	0.02	+	.	g2
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	transcript	1796	3723	0.02	+	.	g2.t1
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	tss	1796	1796	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	exon	1796	3413	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	start_codon	2018	2020	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	intron	3414	3483	0.62	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	CDS	2018	3413	0.39	+	0	transcript_id "g2.t1"; gene_id "g2";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	CDS	3484	3617	0.65	+	2	transcript_id "g2.t1"; gene_id "g2";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	exon	3484	3723	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	stop_codon	3615	3617	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	tts	3723	3723	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MADFDALDQVDPFYMALLRSRQRRYADCIDICTEILAQNPYDQAAWVTKTKAMTMHNYIDDSELEEDGAADLLMDDNV
+# MASMPRPGTSLNRPNSRAGTGDPSLRPMTSTGRPLSGFARPGTSSRPGTGSMSVDRALQGNRPGTSRPATTLGRQVRLGTASMQASDSGVFIDVNRLD
+# FKRYAKRPAIAKALVDYLLYCEHNPRKALELAAESTVAADYKDWWWKARLGKCYYQLGLFRDAEKQFESSLRNQDMIITFLELGKVYLRLDQPNTALD
+# RYEKGKAKFPGDIQLLVSIARVHDMLNDVEKSVSVYKEVLQLDASNVEAIACLASNYFYTDHPEVALRYYRRLLQMDVNTAELWCNIGLCCFYASQYD
+# MTLSCFDRALSLASDDCMADVWYNIGQVAIGIGDLGLAYQAFKIAVSVDSNHAESYNNLGVLELRKGNQDQARANFQLSESLADFMFEPSYNRALLAY
+# KVGDFHDSFTKINRALTTNPTHSDSLELKKQLQQFLTML]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	gene	3934	5050	0.04	-	.	g3
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	transcript	3934	5050	0.04	-	.	g3.t1
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	tts	3934	3934	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	exon	3934	5050	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	stop_codon	3991	3993	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	CDS	3991	4950	0.59	-	0	transcript_id "g3.t1"; gene_id "g3";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	start_codon	4948	4950	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+D0MT71_PHYIT|PITG_01416|D0MT71	AUGUSTUS	tss	5050	5050	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MDSRGEMKALDAQIDRLRRAENLTETEIYELCQKAKEILAGESNVQPVKCPVTVCGDIHGQFYDLLELFRIGGACPDT
+# NYLFMGDYVDRGYYSLESVALLVALKVRHRERITILRGNHESRQITQVYGFYDECLRKYGNANVWKYFTDLFDHLPMTALIENRVFCMHGGLSPSIDT
+# LDHARALDRVQEVPHEGPMCDLVWSDPDDRCGWGISPRGAGYTFGQDITEQFKRSNGLTFIARAHQLVMEGYQWTHNRGVVTIFSAPNYCYRCGNQAA
+# LMEIDEVMADRNGDKVYETCKFIQFDPAPRDSNFNEKKRTPDYFL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/D0MT71_PHYIT.fasta

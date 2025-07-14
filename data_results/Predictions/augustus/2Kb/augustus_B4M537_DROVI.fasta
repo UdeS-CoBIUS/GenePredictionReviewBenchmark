@@ -1,0 +1,61 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/B4M537_DROVI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5813, name = B4M537_DROVI|FBgn0198315|B4M537) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	gene	1	3840	0.32	+	.	g1
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	transcript	1	3840	0.32	+	.	g1.t1
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	intron	189	739	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	intron	1084	1958	0.45	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	intron	2087	2146	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	intron	2296	2794	0.92	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	intron	2991	3049	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	intron	3288	3345	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	CDS	1	188	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	exon	1	188	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	CDS	740	1083	0.45	+	2	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	exon	740	1083	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	CDS	1959	2086	0.45	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	exon	1959	2086	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	CDS	2147	2295	0.99	+	1	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	exon	2147	2295	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	CDS	2795	2990	0.92	+	2	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	exon	2795	2990	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	CDS	3050	3287	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	exon	3050	3287	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	CDS	3346	3813	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	exon	3346	3840	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	stop_codon	3811	3813	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4M537_DROVI|FBgn0198315|B4M537	AUGUSTUS	tts	3840	3840	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [FVSNKINAGIYIFNPTVLDRIEVKPTSIEKEVFPDMALQQELYAMELNGFWMDIGQPKDFLTGMCLYLSSLRQKQSTK
+# LYTGPGVVGNVLVDPSAKIGEGCRIGPNVTIGPDVVIEDGVCIKRSTILKCAIVRSHSWLDSCIVGWRSTVGRWVRIEGITVLGEDVIVKDELYVNGG
+# QVRKAQQIPEIRCGKMLKTLSKTDALPQSLLWEDKEVKFDTPQLQTRLRSGEKILDTIYHIEDSKGNPGDTGRLLVTNLRIIWHSLVHKKFNLSIGYA
+# RIGTTNTRLVHMHTKGRIPSQALYILAIRNETRFEFLFTDVSGETARRDQPIFASVFDVHHLYQRTFLYRDLKLRGAIVQAGQLIIMPDEQVYSQVQG
+# VWNLSSDQGNLGSFVVTNIRLVWFADANETFNLSLPYLQIEALRIRESKYGPALVIQTAETAGGYVLGFRIDPVERLNGLFKELGSLHTIYTEQPNFG
+# VHYDPLDARKRQAAAAEEAAQATQFKIEEYQELDERQEREINTKLNSYLAAGSLAGTEHVTTEPIYCKELGFAMERIPEGYKLQDLWNVMPTKMATLD
+# E]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 12
+#     RM:  12 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/B4M537_DROVI.fasta

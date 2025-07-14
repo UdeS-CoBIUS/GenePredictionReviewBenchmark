@@ -1,0 +1,137 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H3DGV8_TETNG.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 21918, name = H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	gene	1	6283	0.09	-	.	g1
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	transcript	1	6283	0.09	-	.	g1.t1
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	2516	2642	0.93	-	0	transcript_id "g1.t1"; gene_id "g1";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	2839	2962	0.25	-	1	transcript_id "g1.t1"; gene_id "g1";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	6017	6090	0.19	-	0	transcript_id "g1.t1"; gene_id "g1";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	6251	6283	0.19	-	0	transcript_id "g1.t1"; gene_id "g1";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	start_codon	6281	6283	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MYFDEPSCLLQRQPVFITPKSPCKAANKALLARFTNNLWLCRFFVLQCGNFAVLVDLHVLPQGGREDTSWFTADRIEE
+# VTDVVRDSIDQRVKQYEESLHNKRQPKHKKEMAPASEVSVK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	gene	6426	6833	0.4	-	.	g2
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	transcript	6426	6833	0.4	-	.	g2.t1
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	stop_codon	6426	6428	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	6429	6639	0.43	-	1	transcript_id "g2.t1"; gene_id "g2";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	6775	6833	0.67	-	0	transcript_id "g2.t1"; gene_id "g2";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	start_codon	6831	6833	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MRQSLSEKVVTPTDLKISPGVNICGWLVLASELSAVREGLVLIRRDSNGKGQRGGEAGESRSKSTGPVPNLEQRSRED
+# RELSLGERDKGS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	gene	7807	11918	0.31	+	.	g3
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	transcript	7807	11918	0.31	+	.	g3.t1
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	start_codon	7807	7809	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	7807	7883	0.31	+	0	transcript_id "g3.t1"; gene_id "g3";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	10268	10986	0.44	+	1	transcript_id "g3.t1"; gene_id "g3";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	11053	11234	0.97	+	2	transcript_id "g3.t1"; gene_id "g3";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	11314	11424	0.96	+	0	transcript_id "g3.t1"; gene_id "g3";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	11490	11915	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	stop_codon	11916	11918	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MWAHSTTPLQENHIVTFVLISSRVHCDCGLFAAVFCLALIEQTKLSGLRGHVAIGLYKRFLDLCTAYLQQEDCGCKMK
+# LDYNSSHDLIKLASSVISSKPACVLTEPEVLHISRLSVQAFLLTVPCSSTGGLRLGKTATLPVEGLSVKTSAVFPGLLVDMPDSLPPNQAESFAPRPL
+# RVVVFSASLAGDLSEIGDGLIEVNPGADAHSQILDQLLELGKGAVNDEVKLFVCQKVVHPVLQQYLRSQDVVVMERMGVALMEPLLQLTGARPVATVH
+# TSIPAKAYGSVSSLSTLQFGSKKMLHLLPVGDSSVCSMVLCHRNDTLLSELKVVCQKTENVMRLTLKEPYVLLGGGCTETHLAAYVRHKVVDEAAGMA
+# PALGCSGEECLLGVEGFCRALESVAMALEHDGGNCAVDLKHAHHWILPADGGREDTEDSLGVCSCGLVEGGPGEPRAFLNTGYPHFSPAPLRRDAAVQ
+# PRVFDSFTAKINALQVAVETANLALDVRFVIEDTN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	gene	12574	18805	0.36	-	.	g4
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	transcript	12574	18805	0.36	-	.	g4.t1
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	stop_codon	12574	12576	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	12577	12929	0.99	-	2	transcript_id "g4.t1"; gene_id "g4";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	13008	13171	0.73	-	1	transcript_id "g4.t1"; gene_id "g4";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	13835	14322	0.73	-	0	transcript_id "g4.t1"; gene_id "g4";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	17836	17931	0.73	-	0	transcript_id "g4.t1"; gene_id "g4";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	18704	18805	0.67	-	0	transcript_id "g4.t1"; gene_id "g4";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	start_codon	18803	18805	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MGIIEQLDPPSFSNYIKKYRNTICGRHPIGVLLNAVAELRKSGLEMNFSFLNYAQSGQCRNWEQSSLDINGHVQWSCP
+# PSAQASGRFLSGFRAGAFLPPLTRSNKESGWHAFPHGSHRSCRLRLTLFGCKAEASQPEMHCHRTLVDALSLGFVLAGFAHLLHHRKTQLSYGRHMRP
+# TPLLRTVPAPLAWFLQEMPAFLIPLLLTLTPHQASGTGKRLLLGTFVTHYFQRTFIYSFLTRGRPFPLNVMVAGAFFCSLSGFLQGHYLLHCAQYDQH
+# WTAGFRCRTGLLLFYTGMAINIHSDSVLRNLREPGEVVYRIPTGTQTHTLHLSSSRACGDLQARESPAGGFFRYVSGANFFGEITEWMGYAVATWSLP
+# ALSFALFSLCFIGPRALHHHRSDDTLPDL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 13
+#     RM:  13 
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	gene	18868	21918	0.65	-	.	g5
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	transcript	18868	21918	0.65	-	.	g5.t1
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	stop_codon	18868	18870	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	18871	18995	0.73	-	2	transcript_id "g5.t1"; gene_id "g5";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	19094	19236	0.99	-	1	transcript_id "g5.t1"; gene_id "g5";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	19343	19454	0.96	-	2	transcript_id "g5.t1"; gene_id "g5";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	19542	19694	0.92	-	2	transcript_id "g5.t1"; gene_id "g5";
+H3DGV8_TETNG|ENSTNIG00000016645|H3DGV8	AUGUSTUS	CDS	19824	20047	0.93	-	1	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [IPAECTTGRLAFQSPVHKKTCSSNHSTVSISSRLTATFLQRHLVVDTLLFAGMLATPTVALVQLTPTSRWIPLSHDDD
+# DDDDDALPFSRRVFILGPSHHVHLTCCALSSAEIYRTPLYDMRIDQKVYAELWKTGLFDRMNIKTDEDEHSIEMHLPYTAKAMESRKDDFSIVPILVG
+# ALSENKEHEYGKLLSKYLADPSNLFVVSSDFCHWGNRFHYTYYDESQGEIYRSIEHLDKMVACDPTVKLALTEHKP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H3DGV8_TETNG.fasta

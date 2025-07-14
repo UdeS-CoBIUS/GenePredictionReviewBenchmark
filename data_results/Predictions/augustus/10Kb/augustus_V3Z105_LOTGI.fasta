@@ -1,0 +1,189 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/V3Z105_LOTGI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22040, name = V3Z105_LOTGI|LotgiG108201|V3Z105) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	gene	1	3350	0.3	+	.	g1
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	transcript	1	3350	0.3	+	.	g1.t1
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	1	1316	0.32	+	.	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	1459	1681	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	1810	2255	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	2380	2712	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	2781	3047	0.97	+	.	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	1317	1458	0.71	+	0	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	1317	1458	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	1682	1809	0.99	+	2	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	1682	1809	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	2256	2379	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	2256	2379	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	2713	2780	0.99	+	2	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	2713	2780	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	3048	3227	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	3048	3350	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	stop_codon	3225	3227	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	tts	3350	3350	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [TCAVDIFSAGCVIYYVMSGGKHPFGESLRRQANILGGESSLVHIHGDDYVVLRSVVESMIKFNPDERPSAKAVLKHPF
+# FWSREKQLMFFQDVSDRIEKETEDNLVVQRLETDAYMIVKYDWRKNIGPELQEDLRKFRSYKGKSVRDLLRAMRNKKHHYRELPEPVKLSLGSVPDQF
+# VYYFTSRFPHLLMHSYEAIRCCENERLFQAYYDSEHT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	gene	7818	9200	0.02	-	.	g2
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	transcript	7818	9200	0.02	-	.	g2.t1
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	tts	7818	7818	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	7818	9200	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	stop_codon	8083	8085	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	8083	9072	0.66	-	0	transcript_id "g2.t1"; gene_id "g2";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	start_codon	9070	9072	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	tss	9200	9200	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSPVEIPVYKVLTHQKEMPCRSPNNSSTNNSVLTTFETSNRYVQSNLAYDVFQAVENGSLTLVRNVLLSRPDLDLNFH
+# IRDVTPLSLALYKRHFDIFNMLIRHQEKTRRVDLDVSSKDTLGRVEPPIITACRMHFLEGVFILVGAGADINAIDNLGHTALWVAARRQMPDLVDYLI
+# MNGASVNKVNKFLYSPLLASLMYHVSSIIVKMLIINGSNLGAFNSHSPIEHCALFWAAKRGNIEIVRLVLTAGVPLAQIRAVKMALMNSDIEGDILTL
+# LDNDSRTPPLLQHYCKRIIRNYVAVKCSGIYFAKHIDRLPLPSSLKNYLSLTRLN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	gene	9866	12757	0.01	+	.	g3
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	transcript	9866	12757	0.01	+	.	g3.t1
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	tss	9866	9866	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	9866	10037	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	start_codon	10001	10003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	10038	10187	0.95	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	10268	10406	0.84	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	10467	11349	0.33	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	11468	11599	0.99	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	11710	11938	0.83	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	10001	10037	0.95	+	0	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	10188	10267	0.95	+	2	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	10188	10267	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	10407	10466	0.81	+	0	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	10407	10466	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	11350	11467	0.99	+	0	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	11350	11467	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	11600	11709	0.95	+	2	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	11600	11709	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	11939	12040	0.94	+	0	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	11939	12757	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	stop_codon	12038	12040	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	tts	12757	12757	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MPAVIRAKCIVVGDAGVGKSSMCQLFSSDGAHFPKNYTMTIGAEFMIKPVVIPDTQDTVWDHPSMVIVVYDVTNESSF
+# SSCEKWLERVRSQKPDVPFPGVLVANKIDLDQRRLISPKAGKELAHRTGLDYYECSAKEMQNVDTPFYFLASEYYKLYHEKLEMFKACVA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g3
+###
+# start gene g4
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	gene	12784	14700	0.03	-	.	g4
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	transcript	12784	14700	0.03	-	.	g4.t1
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	tts	12784	12784	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	12784	14432	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	stop_codon	12845	12847	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	12845	14401	1	-	0	transcript_id "g4.t1"; gene_id "g4";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	start_codon	14399	14401	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	14478	14700	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	tss	14700	14700	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MEENKKIPKVLEQDEIESDDHKATLNNTSTIESNMPVSVGKQNPESDFPSTGDSKTNPSAVSGMSKRALKKLKRFERI
+# RKKDKERKVEDRGYSQDIFSETEYYFEDGLRKVYPYYFTFTTHAKERWFNKSLIEVFSKEFIAMNSENYRRHIERGKILVNGQKVKADLLLKNGDEIC
+# HKIHRHENPVIGSKIEIIIDTDDVLVINKPSSIPCHPCGKYRHNSIVFILGKEYGYANLRNIYRLDRLTSGVLILGKSVEATKRLEDQIRNREVLKEY
+# VSRVVGKFPDGIVKVDEPLACMRHNLTLWRVQKGGKESQTSFERISYNGTSSVVRCTPHTGRTHQIRVHLQYLGYPIVNDPFYNSEAWGPSRGKGGIM
+# ERDEKDVVSAILQEHNVGQWVKGDNPLYKEKFGGMTNIGSTETGHSLSNEKSPEHQNVTGAENCELTKDIESGEFEPKTKKLKLSEENRFDKDQLSID
+# IDCEECQNTYKNPEPKDLILYLHAYKYEGPGWSYKASAPYWAADDWKN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	gene	14796	22040	0.01	+	.	g5
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	transcript	14796	22040	0.01	+	.	g5.t1
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	tss	14796	14796	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	14796	14989	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	16713	16807	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	start_codon	16749	16751	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	16808	17079	0.6	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	17127	18074	0.65	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	18148	18487	0.88	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	18648	18970	0.98	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	19040	19187	0.94	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	19251	19516	0.72	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	19575	19969	0.64	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	20033	20198	0.88	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	20291	21227	0.91	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	intron	21310	22040	0.79	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	16749	16807	0.7	+	0	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	17080	17126	0.59	+	1	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	17080	17126	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	18075	18147	0.86	+	2	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	18075	18147	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	18488	18647	1	+	1	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	18488	18647	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	18971	19039	0.99	+	0	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	18971	19039	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	19188	19250	0.72	+	0	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	19188	19250	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	19517	19574	0.78	+	0	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	19517	19574	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	19970	20032	0.65	+	2	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	19970	20032	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	20199	20290	0.88	+	2	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	20199	20290	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	CDS	21228	21309	0.84	+	0	transcript_id "g5.t1"; gene_id "g5";
+V3Z105_LOTGI|LotgiG108201|V3Z105	AUGUSTUS	exon	21228	21309	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MEKDNDVLGQYRAVSNKLKKRFLKKPNLSEGIEQFGSLAKNLDQQECPQYSGFCCLAQARCEHTQTNHAGEALALTSA
+# ARSFLKAEIKNQQIKCVSFEEHLIAAINCYGHAIRVHIENKQISLAASLSLELGHALKNLDKPGEAVGHFQRSAELLSQSPLDCLEALDLVSSCKIET
+# KDYEGALAVLTEMTYLAQERGGSTTTGKPLGPYVDMLVKCEIARVLLLMLLQPTPQRIRPEHAQTLEKYAWETTEDNFS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 0
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/V3Z105_LOTGI.fasta

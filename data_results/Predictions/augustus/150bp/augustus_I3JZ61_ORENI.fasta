@@ -1,0 +1,102 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/I3JZ61_ORENI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18808, name = I3JZ61_ORENI|ENSONIG00000011249|I3JZ61) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	gene	1	3126	0.46	+	.	g1
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	transcript	1	3126	0.46	+	.	g1.t1
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	263	334	0.74	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	1123	1262	0.71	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	1770	1911	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	2001	2049	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	2268	2402	0.68	+	1	transcript_id "g1.t1"; gene_id "g1";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	2539	2599	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	2898	2957	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	3061	3123	0.94	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	stop_codon	3124	3126	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [KLLHACFDWFYRRIKQIPERPFSVLGIMASQRPPSSMGRPMSRSGSVVPGAGRPPTAIQPPPTAMRVATGMVPGTSAH
+# PGLRGGIPVATPGVLTAQIKVTDRPVTQQGLSGMKTGMKGPQRQILDKSYYLGLLRSKINELTTETSKLHKEIESYNQENSVYLSYEKRWVVFFFFFS
+# FLKAEGLAAEIKDMQGQLADYNMLVDKLNTNTEMEEMINDYNILKAENDSEAESIDNIFTERRE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	gene	4032	7032	0.34	-	.	g2
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	transcript	4032	7032	0.34	-	.	g2.t1
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	stop_codon	4032	4034	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	4035	4545	0.84	-	1	transcript_id "g2.t1"; gene_id "g2";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	6592	6839	0.88	-	0	transcript_id "g2.t1"; gene_id "g2";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	7030	7032	0.45	-	0	transcript_id "g2.t1"; gene_id "g2";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	start_codon	7030	7032	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLTVNFTNEHLQVIPHNQNVNVTKLVIDGNLITLNDTDKQALACYPRLVELHLDANWITAIPAKYFAVVPNLRVLSLA
+# RNNLSRPSETKNTSPLSPDVGPISYYDDHTVNQSERQHQQRYDIESCRSFSPLKYVNAQMQAYNTISILKPKLDPTPVLGNTWKFTASVAILAVTTSM
+# LIVCAVKGPSWYKLFHNYRHQQLQQEVGEDEDFVSTEFSATGRHPAHQTFSFEQMNRQMQEEQEEQEYFEDPYIRREE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	gene	8190	18395	0.35	+	.	g3
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	transcript	8190	18395	0.35	+	.	g3.t1
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	start_codon	8190	8192	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	8190	8200	0.54	+	0	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	11087	11225	0.99	+	1	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	11389	11451	0.97	+	0	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	11548	11691	0.87	+	0	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	12287	12327	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	12409	12488	0.99	+	1	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	12580	12633	0.96	+	2	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	13120	13217	0.99	+	2	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	13290	13416	0.9	+	0	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	17265	17428	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	17661	17786	0.96	+	0	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	17951	18011	0.96	+	0	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	CDS	18184	18392	0.91	+	2	transcript_id "g3.t1"; gene_id "g3";
+I3JZ61_ORENI|ENSONIG00000011249|I3JZ61	AUGUSTUS	stop_codon	18393	18395	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MNPRREEAIGAIEEEIRRERRVADEVVQAMPAAKQEKYFTMTTTNEELLQELTVLQEELDVLITRKEDYEAELSHSQI
+# KQEVVRLHETLSALEAKRDTMEAEQKSLGSPQEEREKLFKQVKEDNQEIASMERQLTEIRDRTRQITEEIRHLEQDSEAAQGECQQKYKELKRKEEEI
+# DRFLESFEESRAQEEERLKQGQENIVSLLEHCSRNMLRLRQVDTVTASELRNMQEVLVSKETEVVQSESTARGLTTESQRLQQDLEKVQQLEGKITGE
+# LSTLQERVSTMQSELHTYRDLDTLRLTAEEKKKRLQEEQVSLTQRRDAFGQLLEEMNQEYEALKTKLQENETHAQLANLERKWQHLEQNNFVMKEFLK
+# KMQGLSSINLWSLRQQFCELSDFSLTAASVIASKSQESDYASVAKNVSQQVADYNKSLIELLQNNTG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/12
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/I3JZ61_ORENI.fasta

@@ -1,0 +1,52 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/I3MMH3_ICTTR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 250353, name = I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	gene	1	67926	1	+	.	g1
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	transcript	1	67926	.	+	.	g1.t1
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	intron	1	7771	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	intron	7820	10679	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	intron	10740	33463	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	intron	33563	36081	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	intron	36216	39554	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	intron	39747	56244	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	intron	56855	67726	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	CDS	7772	7819	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	CDS	10680	10739	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	CDS	33464	33562	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	CDS	36082	36215	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	CDS	39555	39746	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	CDS	56245	56854	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	CDS	67727	67926	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3MMH3_ICTTR|ENSSTOG00000014213|I3MMH3	AUGUSTUS	stop_codon	67924	67926	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [RDIGVYQYYDKKDLPGTDAKQSVCAEQMEEQICLSGVLVSLSLSGPQLEKVVIDRSLVGKLISDTISDALLTDSFIIL
+# SFLVQNKLCFIQFSKKMDSPDINKRLEKLSALDYKISYYELPGPVNRTAERRLAINCIQDMVVCWWPLVSDDAWPWAPISSEKDRANLLLLGYTQGKL
+# EVLSSVRTEWDPLDVHFGTKQPYQVFTVEQAVSVDKEPMADSCIYECVRNKIHCMSVTRIPLRSKAISCCRSVTEDKLILGCEDSSVVLYETHRRVTL
+# LAQAELLPSLISCHPSGAILLVGSNQGELQIFDMALSPINIQLLAEDRLPRETLQFNKFFDVSSSLVQMQWIAPLVVSQKPENRHIYDLLFLRFDRGP
+# LGVLLFKLGILTQGQLGLVDIVFQYIHCDEIYEAINILSSMNWDTLGQQCFISMSAIVNHLLRQRLTPEREGQT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 152
+#     RM: 152 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/I3MMH3_ICTTR.fasta

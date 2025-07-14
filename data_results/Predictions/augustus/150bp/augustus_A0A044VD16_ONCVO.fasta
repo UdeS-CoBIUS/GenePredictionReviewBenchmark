@@ -1,0 +1,43 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# brugia version. Using default transition matrix.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 3345, name = A0A044VD16_ONCVO|WBGene00246389|A0A044VD16) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	gene	878	3015	0.72	+	.	g1
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	transcript	878	3015	0.72	+	.	g1.t1
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	start_codon	878	880	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	intron	1016	1407	0.89	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	intron	1490	1635	0.89	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	intron	1782	2802	0.92	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	CDS	878	1015	0.88	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	CDS	1408	1489	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	CDS	1636	1781	0.89	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	CDS	2803	3012	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A044VD16_ONCVO|WBGene00246389|A0A044VD16	AUGUSTUS	stop_codon	3013	3015	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGLLSQISIALGVSRKQVNVLMIGLDNSGKSNIINEMKAKDDQVTQVLPSIGCTTEKFIFNNTTFLVHDMSGKGKYRN
+# LWENYYKEVDGVVFVVDSSDRLRIVVARDELQLMLENKEFARRKIPLLIFANKMDEKDAMTTSEITEQMDLNSISNRNWHICAACATTGQGLNEGFQW
+# LLENIQAYMEPKNKNN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=brugia --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/A0A044VD16_ONCVO.fasta

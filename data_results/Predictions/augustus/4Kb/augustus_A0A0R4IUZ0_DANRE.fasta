@@ -1,0 +1,65 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A0R4IUZ0_DANRE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 127519, name = A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	gene	4260	66778	0.4	+	.	g1
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	transcript	4260	66778	0.4	+	.	g1.t1
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	start_codon	4260	4262	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	CDS	4260	4262	0.88	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	CDS	27592	27716	0.93	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	CDS	27813	28007	0.93	+	1	transcript_id "g1.t1"; gene_id "g1";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	CDS	66058	66115	0.9	+	1	transcript_id "g1.t1"; gene_id "g1";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	CDS	66526	66597	0.82	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	CDS	66698	66775	0.71	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	stop_codon	66776	66778	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MADFGFNEHHQHEVINYMRFARSKRALRLKTVDSCFQDLKESRLIEETYTVDEVTDILNGLQVLVRGEVEMELINTAH
+# TNVLLLRQLFSQAEKFYLRLQTDISELENRELLEQVAEFEKTDFKPNIKANQETTKPKLAPLNEGGVSELLQREISRLQEDNDKLKARLRTLESRVKE
+# L]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 37
+#     RM:  37 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	gene	93728	122813	0.83	+	.	g2
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	transcript	93728	122813	0.83	+	.	g2.t1
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	start_codon	93728	93730	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	CDS	93728	93853	0.87	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	CDS	122534	122637	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	CDS	122795	122810	0.96	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A0R4IUZ0_DANRE|ENSDARG00000105010|A0A0R4IUZ0	AUGUSTUS	stop_codon	122811	122813	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MQADFEKTLNTNITSQKDLQDSLVSTKHDLLRVQEQLSLAEKELEKKFQQTAAYRNLKEILNKKNEQIKDLRKRLLRY
+# ESAE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 24
+#     RM:  24 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A0R4IUZ0_DANRE.fasta

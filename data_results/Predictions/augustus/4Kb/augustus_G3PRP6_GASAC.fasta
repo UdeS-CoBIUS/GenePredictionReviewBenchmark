@@ -1,0 +1,52 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/G3PRP6_GASAC.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 12036, name = G3PRP6_GASAC|ENSGACG00000015382|G3PRP6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	gene	688	8314	0.22	+	.	g1
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	transcript	688	8314	0.22	+	.	g1.t1
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	start_codon	688	690	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	688	720	0.48	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	850	1059	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	1142	1291	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	1391	1584	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	2151	2300	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	5366	5519	0.64	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	5682	5743	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	5921	5989	0.95	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	6076	6170	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	6405	6534	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	6617	6672	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	CDS	8304	8311	0.78	+	2	transcript_id "g1.t1"; gene_id "g1";
+G3PRP6_GASAC|ENSGACG00000015382|G3PRP6	AUGUSTUS	stop_codon	8312	8314	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MENGALDSFLRARDGQFTVLQLVGMMRGIAVGMTYLSDMGYIHRDLAARNILVDENLVCKVSDFGMSRVLEDDTEAAY
+# TATGGKIPIRWTAPEAIAYGKFSSVSDVWSYGIVMWEVMSYGERPYWEMSNQDVILSIDEGYRLPAPMGCPVTLHQLMLHCWQKESNQRPRFNTVLSF
+# LDKLIINPSSLLTLVNDLQSYPDSPDDMPDYPLFISIGDWLDSIKMSQYKNNFLAAGYTTLDSISTMSLEQLMGLFDKLAGWLGLKKEVNVLCLGLDN
+# SGKTTIINQLKPANVNMTNIFIGAQAQDIVPTIGFSIEKFKTSSLSFTVFDMSGQGRYRNLWEHYYKEGQAIIFVIDSADKLRMVVAKEELDTLLNHP
+# DVKHRRIPILFFANKMDVRDALSSVKVSQLLCLENIKDKPWHICATDALKGEGLQEGVDWLQGAL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/G3PRP6_GASAC.fasta

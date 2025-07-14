@@ -1,0 +1,62 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# Xipophorus_maculatus version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.957), CTG(0.0224), TTG(0.0202)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/M3ZXJ0_XIPMA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 21802, name = M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	gene	1	16657	0.1	-	.	g1
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	transcript	1	16657	0.1	-	.	g1.t1
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	intron	1	16209	0.32	-	.	transcript_id "g1.t1"; gene_id "g1";
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	CDS	16210	16452	0.3	-	0	transcript_id "g1.t1"; gene_id "g1";
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	exon	16210	16657	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	start_codon	16450	16452	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	tss	16657	16657	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MRSEVPSLAVSLALEAKASQRELTSRLLVDLCGSVLSHSDMESSFDKLLRDLPDLVLDTPGAPQVSFQNLRLKGVLPR
+# VDI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 41
+#     RM:  41 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	gene	18626	21802	0.05	+	.	g2
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	transcript	18626	21802	0.05	+	.	g2.t1
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	tss	18626	18626	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	exon	18626	19132	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	start_codon	18782	18784	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	intron	19133	21802	0.4	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3ZXJ0_XIPMA|ENSXMAG00000006927|M3ZXJ0	AUGUSTUS	CDS	18782	19132	0.2	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [LPFPMRDFRSSSLLLGLVGAMEVPLTTSPLSLRESPLPESLEEFFRSLRLAFAFRRASWMLLLDEDTQLPLISLMTFL
+# LETPDPPLSSSAEMKESLRSTASVKTQKNESVCVCYHQP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=Xipophorus_maculatus --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/M3ZXJ0_XIPMA.fasta

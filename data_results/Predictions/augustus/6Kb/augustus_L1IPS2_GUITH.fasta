@@ -1,0 +1,139 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/L1IPS2_GUITH.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 12960, name = L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	gene	1	3810	0.05	-	.	g1
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	transcript	1	3810	0.05	-	.	g1.t1
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	1	2192	0.56	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	2401	2670	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	2961	3101	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	3176	3513	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	2193	2400	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	2193	2400	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	2671	2960	0.99	-	2	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	2671	2960	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	3102	3175	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	3102	3175	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	3514	3677	0.35	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	3514	3810	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	start_codon	3675	3677	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	tss	3810	3810	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSFELNIVHAMNEIVIVTILESRRERILQISADSEDNEGNGFDLYRAVNRVGPWKAVALLSCLASAAAFAPSAMLPRA
+# TRAARATGPSMQLYKDGSLQGKGVNIIPIFPRPASLDGTAVGDQGFDPFGFSSWVNMKFVREAEIKHGRIAMLAFAGIMVEAAGIKAPGVESVFGPTK
+# GSMGQILLWTGFLEMVIGWPAMNEMLNDPSSKRIPGDFGFDPLGLGKGSMARKQLSEIKNGRLAMLAVS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 10
+#     RM:  10 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	gene	4306	8013	0.02	+	.	g2
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	transcript	4306	8013	0.02	+	.	g2.t1
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	tss	4306	4306	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	4306	4592	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	start_codon	4475	4477	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	4593	5184	0.7	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	5518	5640	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	5901	6015	0.5	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	6491	7388	0.86	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	7505	7579	0.9	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	4475	4592	0.72	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	5185	5517	0.75	+	2	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	5185	5517	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	5641	5900	0.51	+	2	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	5641	5900	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	6016	6490	0.9	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	6016	6490	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	7389	7504	0.87	+	2	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	7389	7504	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	7580	7978	0.91	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	7580	8013	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	stop_codon	7976	7978	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	tts	8013	8013	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLRLRVTDRTLESGTGWEHGRMKRALPDGPWPGRGGTAPREQSRAEQSRAEHRSNKAGPSEDSTAQHSTWQDKADREG
+# IKRQERIGKGKIGQVKKREGKREDKAMKFQMIHVQACRTLRRGFKRRRRAFLKGKIGFEALKFCSLTREDGGKDVSRIRWMRGEETIRCSLPHLASCM
+# HYTHCSSKLSICHASLIPDQLHAGYRLWVSTRASKGACPLGAEVVGRHRRGNHVFVKFDREKILDALGFIKPQCKVLCVGLDNSGKSTVIQHLKPTSH
+# KTEVTPTVGFNVEQFSRSNINFTVFDMSGAGKYRSLWEHYYKDAQAIIFVIDCSDKLRMCVVKEELHALLNHKDTKSLPTLFFANKIDISDHLTPVEC
+# VQYLELDGVKDRPWHITPSNALTALLPSQQDKHQLQLSWRDGRRESRRVPSRFQAHPRAGEMEMWKKQERFRHLTLVTRRRGGEEERRRGGEEERRRG
+# GEEERRRGGEKERRRIRGRTLTYPTGKSFLASEQELKYRFQSDDRRLASWDGTSIAAGSDQLLAISAAHLTFTSPDELGVCSLVRVAQGISAAGLT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 3
+#     RM:   3 
+# end gene g2
+###
+# start gene g3
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	gene	8174	11330	0.02	-	.	g3
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	transcript	8174	11330	0.02	-	.	g3.t1
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	tts	8174	8174	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	8174	8714	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	stop_codon	8444	8446	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	8715	8763	0.86	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	8936	9259	0.32	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	9375	9525	0.76	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	9733	10037	0.9	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	10195	10247	0.96	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	10331	10386	0.96	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	intron	10613	10812	0.84	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	8444	8714	0.91	-	1	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	8764	8935	0.65	-	2	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	8764	8935	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	9260	9374	0.75	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	9260	9374	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	9526	9732	0.77	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	9526	9732	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	10038	10194	0.91	-	1	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	10038	10194	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	10248	10330	0.96	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	10248	10330	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	10387	10612	0.94	-	1	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	10387	10612	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	CDS	10813	11297	0.77	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	exon	10813	11330	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	start_codon	11295	11297	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1IPS2_GUITH|GUITHDRAFT_97017|L1IPS2	AUGUSTUS	tss	11330	11330	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MQTPVSQHHSPSPGKQDFNLLSPSTSFQASELSFIHAPANGSPGDEQHENEKVHQNGGREVEKGSVRRVDNEPSLDVD
+# VLEKTYTSKMLVPEHEVPNQTEMSMEGSEQRVKDRLRSLHNRLKVSQIMYEEMVSENLSLMKDKERIEQELKDLRKNMRNKSGRKSNTAKDNEIKQLN
+# ETIETLEREKQADDEAMQERIHQLKEEKERLEKSLVDHDSVKEELLTQKHENKYLAAELEKIKADFFDSKVVLHEYEKQETEFSNEIASLKDEMNEIS
+# ESNQRMGQKIAVLISENQEKDKDIRKLQEVHEAFASSTRSQMFDLIVTKEATEKRLCKYSIGFEKFVQGLTRLTSAQRIQTLEAQNEGLLTENERYRK
+# QIYLHTKEFPLKLQDKQIARLLRIVSKKDGELYKLRSVWHSLLNAHPDSEWIAKAAAIEEEEERIERMQRSEGEARLESLHDLTCRSVELLGHQEDFS
+# PEKVNLLRSQKMRDNRTPQGLQVTSSGIASIFSELLLVQRPVVSMIEGHENSESKVPMQNPSQQPSGRKDDDMITGESWIDDQRNRALQVPSVDDINS
+# SRP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/L1IPS2_GUITH.fasta

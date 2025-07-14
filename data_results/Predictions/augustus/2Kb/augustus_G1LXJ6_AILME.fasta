@@ -1,0 +1,91 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G1LXJ6_AILME.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 19411, name = G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	gene	1	912	1	+	.	g1
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	transcript	1	912	.	+	.	g1.t1
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	1	739	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	740	912	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	stop_codon	910	912	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [SEVQLLEYEASAAGLIRSFSERFSEDGPELEEVLTQLATADARFWKSPSEAPSGQA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	gene	2001	17411	1	+	.	g2
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	transcript	2001	17411	.	+	.	g2.t1
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	2048	2385	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	2463	2561	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	2597	4819	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	4904	5014	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	5062	5203	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	5243	5360	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	5434	7242	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	7375	8320	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	8428	9741	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	9863	10006	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	10166	11899	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	11970	12417	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	12577	15084	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	15219	16219	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	16355	17028	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	intron	17116	17324	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	2001	2047	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	2386	2462	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	2562	2596	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	4820	4903	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	5015	5061	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	5204	5242	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	5361	5433	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	7243	7374	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	8321	8427	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	9742	9862	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	10007	10165	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	11900	11969	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	12418	12576	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	15085	15218	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	16220	16354	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	17029	17115	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	CDS	17325	17411	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1LXJ6_AILME|ENSAMEG00000011183|G1LXJ6	AUGUSTUS	stop_codon	17409	17411	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAAASSSDCDSGRAESNEASSKWLDAHYDPMANIHTFSACLALADLHGDGEYKNLRPYFKFSLPQLPPNPLELDLWNQ
+# AKEDRIDPLTLKEMLEGIREKAEVPLSVQSLRFLQLELSEMEAFVSQHKSKSIKRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPEAFTIL
+# TKMSLPSVPVFLEVSGQFDVEFRLAAACRDGNIYILRRDSRRPKYCIELSAQPVGLVRVHKVLVVGSTQESLHGFTHKGKKLWTVQMPAAILTMNLLE
+# QRSRGLQAVMAGLANGEVRIYHDKALLNVIRTPDAVTSLCFGRYGREDNTLIMTTRGAGLIIKILKRTAVFVEAGGEAGPPAAQAMKLSVPRKTRLYV
+# DQTLREREAGTAMHRTFQTDLYLLRLRAARAYVQALESSLNPVSVTTREPLKLHAVVQGLGPTFKLTLHLQNTSAARPILGLLVCFLYNEVLYALPRA
+# FFKVPLLVPGLSYPLETFVESLNDKGISDIIKVLVLREGQSAPLLSAHINMPVSEGLAAT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/17
+# CDS introns: 0/16
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 26
+#     RM:  26 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G1LXJ6_AILME.fasta

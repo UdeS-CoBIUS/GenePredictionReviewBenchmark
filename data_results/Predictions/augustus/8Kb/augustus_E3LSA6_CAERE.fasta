@@ -1,0 +1,325 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# caenorhabditis version. Using species specific transition matrix: /usr/share/augustus/config/species/caenorhabditis/caenorhabditis_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/E3LSA6_CAERE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 17794, name = E3LSA6_CAERE|WBGene00085227|E3LSA6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	gene	3846	5170	0.2	+	.	g1
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	transcript	3846	5170	0.2	+	.	g1.t1
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tss	3846	3846	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	5'-UTR	3846	3875	0.42	+	.	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	start_codon	3876	3878	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	initial	3876	3952	0.44	+	0	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	3999	4281	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	4350	4477	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	4521	4824	0.97	+	1	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	terminal	4869	5096	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	3953	3998	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	4282	4349	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	4478	4520	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	4825	4868	0.97	+	.	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	3876	3952	0.44	+	0	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	3999	4281	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	4350	4477	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	4521	4824	0.97	+	1	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	4869	5096	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	stop_codon	5094	5096	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	3'-UTR	5097	5170	0.54	+	.	transcript_id "g1.t1"; gene_id "g1";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tts	5170	5170	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MVDPPSRSTTNQLKNDTEYIKSEYRRISHLPDFNRDPELIQEVMNLTKRYIEKWLREERDEPNMERQGWIERFKTKLR
+# EWETKKETAEDEYYTRRDASSNEEKNREIARRRATDSQMNITGLHDSTRLNQQSYSRSYENRNRRYSSDEDDDENMAPQRRQRSRSPPSFAHHQRRDD
+# TGSYYRSHHTQNSSNQRTHNTDFSSHYRGQYGPSTSQNVGMPSNAQNVRMRSGKSRVTKTRSRKWRPGQRALEEIRKYQKSTDMLIQKAPFARLVHEI
+# MREATSESQDFRIRADALMALQEAAEAFMVEMFEGSVLICNHAKRVTLMPTDIQLYRRLCLRNLS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	gene	5181	5785	0.45	-	.	g2
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	transcript	5181	5785	0.45	-	.	g2.t1
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tts	5181	5181	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	3'-UTR	5181	5233	0.88	-	.	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	stop_codon	5234	5236	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	terminal	5234	5354	1	-	1	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	5402	5547	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	initial	5595	5744	0.58	-	0	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	5355	5401	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	5548	5594	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	5234	5354	1	-	1	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	5402	5547	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	5595	5744	0.58	-	0	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	start_codon	5742	5744	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	5'-UTR	5745	5785	0.52	-	.	transcript_id "g2.t1"; gene_id "g2";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tss	5785	5785	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MKNPPHNLDIAWERRLKHLFRYMLDLEKLMWNLSTLGGAYSAMGDFNTDYAKTAAKITAHQISLAKKYGDPVILARCY
+# LYTALAEAQLGHLTQAVSIVRAVRHWSKQNPNTDIVQRCCEGVYQKLRAIHIFGIAGSNK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	gene	6356	7891	0.68	+	.	g3
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	transcript	6356	7891	0.68	+	.	g3.t1
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tss	6356	6356	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	5'-UTR	6356	6382	0.73	+	.	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	start_codon	6383	6385	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	initial	6383	6395	0.74	+	0	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	6436	6694	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	6738	6948	0.99	+	1	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	6998	7300	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	7354	7438	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	7485	7602	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	terminal	7652	7808	1	+	1	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	6396	6435	0.74	+	.	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	6695	6737	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	6949	6997	0.99	+	.	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	7301	7353	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	7439	7484	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	7603	7651	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	6383	6395	0.74	+	0	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	6436	6694	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	6738	6948	0.99	+	1	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	6998	7300	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	7354	7438	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	7485	7602	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	7652	7808	1	+	1	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	stop_codon	7806	7808	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	3'-UTR	7809	7891	0.94	+	.	transcript_id "g3.t1"; gene_id "g3";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tts	7891	7891	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MASVSYGDYFNRREFAFILADDVHIRYRSYHDELSFFKALTSTNPEKLDIGAVYNHEPINNKRHTDYQAVERELVFDI
+# DLTDYDPIRNCCKNATVCQKCWKFMVLAVKILDFQLDDMFGFKARMWVFSGRRGVHCWVGDKKARMLNNTQRSAIATRLNLFKKNGHCEVTEGRAKMT
+# RVPPIVRDAFNVAMKDGIFEKMVLEQGWLENSDFLDYPYLSEGFRKQMLDLLETFKTPEERWHMLRSVFDEGYRRNLTSNDGLQDVMPVMRDRNFLLY
+# FVLQRCYPRLDVNVSTGTNHLLKSPFCIHPKTGNVAVPLNVEKIDEFDVNSCPRIDRVVEELSSLLAEREADENEDSKNRKFLPYKHGALAPYVENFE
+# KFVYLACIS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	gene	7946	9886	0.76	+	.	g4
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	transcript	7946	9886	0.76	+	.	g4.t1
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tss	7946	7946	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	5'-UTR	7946	8000	0.93	+	.	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	start_codon	8001	8003	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	initial	8001	8069	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	8126	8424	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	8477	8680	0.99	+	1	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	8724	9020	1	+	1	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	9069	9203	0.98	+	1	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	9315	9519	1	+	1	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	9565	9672	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	terminal	9723	9794	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	8070	8125	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	8425	8476	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	8681	8723	0.99	+	.	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	9021	9068	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	9204	9314	0.98	+	.	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	9520	9564	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	9673	9722	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	8001	8069	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	8126	8424	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	8477	8680	0.99	+	1	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	8724	9020	1	+	1	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	9069	9203	0.98	+	1	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	9315	9519	1	+	1	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	9565	9672	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	9723	9794	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	stop_codon	9792	9794	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	3'-UTR	9795	9886	0.85	+	.	transcript_id "g4.t1"; gene_id "g4";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tts	9886	9886	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MEESNKDEIIGTDVLPNEKDDPQPEPLELETKEEVSVKPPDRPPPKIVEVYDCNASNALMYQYFGQRDYVECKSLIGE
+# IQSKYNEKNEAALHVRGLIARNEGELEEAMECFQKAYEVSGKNKRYYYEMGRCNFLLGRHQIAVEQLKKASEVMKNNPKVWYWLARALYHFPTEMMNG
+# KQFNPVESAKTVLMNPDIGRDSALICFLGRLCEELQDTKGAIAAYQSALKLESDNTDVMIRLGLLLLRMGDEQEGFEKLGNCLAYDPSNSQALLTIGS
+# IMQSHFDHDVALNKYRVAADVCDYNGCLWNNIGIALLARNKAAASHSALKKASFINPLDYKISYNLGVLHDIMNLHCSALHYIKLCTELKPQNAKAVG
+# AMAVILSHMGDNKNARLAYKRSIELQPFPSIVLNYAIFEYRMKDYPAVSKAVKLYKELEAAGSKCSLNNKQTANLLDAVLKQYDQQPAEH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	gene	10406	13807	0.56	+	.	g5
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	transcript	10406	13807	0.56	+	.	g5.t1
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tss	10406	10406	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	5'-UTR	10406	10470	0.7	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	start_codon	10471	10473	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	initial	10471	10592	0.99	+	0	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	10642	10766	1	+	1	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	10811	11047	1	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	11094	11162	1	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	11330	12628	0.97	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	12677	12831	0.99	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	12878	12992	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	13038	13123	1	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	13170	13430	0.98	+	0	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	13479	13590	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	terminal	13643	13692	1	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	10593	10641	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	10767	10810	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	11048	11093	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	11163	11329	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	12629	12676	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	12832	12877	0.99	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	12993	13037	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	13124	13169	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	13431	13478	0.98	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	13591	13642	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	10471	10592	0.99	+	0	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	10642	10766	1	+	1	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	10811	11047	1	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	11094	11162	1	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	11330	12628	0.97	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	12677	12831	0.99	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	12878	12992	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	13038	13123	1	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	13170	13430	0.98	+	0	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	13479	13590	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	13643	13692	1	+	2	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	stop_codon	13690	13692	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	3'-UTR	13693	13807	0.88	+	.	transcript_id "g5.t1"; gene_id "g5";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tts	13807	13807	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MQRRTTIWFLLLFQPILVFTQNHSEPYKCKIGSVNPLAVTSLNACYKLYNTPKSYQAARRHCVSLGGQLADKINKDDS
+# SLYSANADLEVTNGTQFWVGASNLKCNIAWENGGEIEFNEMWAPDSRYYGVAIDKMSLGGLWHTIPVAQKLPFVCTFQGKSKDAPAPVHAMRAPAKKR
+# PAKADKTEENEINESLNAAIADEKKKKEESSDSKQDSKKDKEDIDESMNAALSDEKKKSEAMALSATDKKSSSQNDEDSDAEEASMSAQQSMNGSAAM
+# SASMSDSSASSNSSSDESLDEVYDSAEIAMRKEIGKTVVAMKSQEMASQSEDYDKYTEEDLLSAAATLIGGYTVNANWADSRTTNTSSFDSQTDEESM
+# SMSITVADQMAMAMQSANKRESESSSSDSMSESSSDQMSEQAAMAMSAAMSASEKNSKKSESSSKDESEDSASLSMEQKAEDSAKMAAASASESASEK
+# KTSDQEESVEEADVASAASIFGNEKKKSSDPKPTMKPPTTTEDPDIDESLNAAQANQRTTTTIQPDLTTVLSAIKPGNAVAKAAKLTEKQPGCPAEWS
+# QFNTNASAPALCFKRFEKPMNFEDARLFCVSKGGHLASIHNERQLLLLSALLHNNGPDALSDQTWIGLNRIHQKYYVYEDETAMDFTRWLPGAPNIND
+# CTVFTGNELPNYPHKGTQYKFGDFPCEEVQKSVLCEVTLGKDKIKSQPTCEEGWSYYSFDGTAKSGKCYKRVDESKKFSEARDVCKKENSYVASIQNE
+# GEARFVSALVQTDKNYTVDEQTWIGYVKYDRDFGWEDGNKGLQFDPWTEKMPREKKCTVFTGNEIHDDCRSQYRFVSVECNKTQRSILCSKPPMKDGA
+# LFVYKETENTSKKV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/11
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	gene	14196	15219	0.07	+	.	g6
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	transcript	14196	15219	0.07	+	.	g6.t1
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tss	14196	14196	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	5'-UTR	14196	14360	0.26	+	.	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	start_codon	14361	14363	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	initial	14361	14528	0.47	+	0	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	14591	14717	1	+	0	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	internal	14949	15039	1	+	2	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	terminal	15087	15195	1	+	1	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	14529	14590	1	+	.	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	14718	14948	1	+	.	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	15040	15086	1	+	.	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	14361	14528	0.47	+	0	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	14591	14717	1	+	0	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	14949	15039	1	+	2	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	15087	15195	1	+	1	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	stop_codon	15193	15195	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	3'-UTR	15196	15219	0.3	+	.	transcript_id "g6.t1"; gene_id "g6";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tts	15219	15219	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MLKSLLSLVTPSNKDKKKKRSTAGLSSQPPQPMETSFFSEADASTLNETNVTIPIGEGRDDISIVSTSRMLGDLPFSF
+# VERKNRASSFDFCLSDDSPKDIVVHRRSLQPATPTPNQSDAEHSFIENIFDSPGQRNRLHSMIGENIYETGNGSPQKVSNRSSKKS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g6
+###
+# start gene g7
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	gene	15264	16215	0.21	-	.	g7
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	transcript	15264	16215	0.21	-	.	g7.t1
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tts	15264	15264	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	3'-UTR	15264	15297	0.87	-	.	transcript_id "g7.t1"; gene_id "g7";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	stop_codon	15298	15300	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	terminal	15298	15947	1	-	2	transcript_id "g7.t1"; gene_id "g7";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	initial	16094	16169	0.99	-	0	transcript_id "g7.t1"; gene_id "g7";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	15948	16093	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	15298	15947	1	-	2	transcript_id "g7.t1"; gene_id "g7";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	16094	16169	0.99	-	0	transcript_id "g7.t1"; gene_id "g7";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	start_codon	16167	16169	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	5'-UTR	16170	16215	0.28	-	.	transcript_id "g7.t1"; gene_id "g7";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tss	16215	16215	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MIGSTRLLILFCATLATSSAMGWFGGNNNEPTGCESDWPEDFPQEPEGFNFKCKCPCKCKPRSTTAKVESTQGVTTPA
+# STIKSSTVTSTTTRASTPSSTSTSTSPSTSTSASTPTSATTRPTVIETEVKPELHFQDKGASVIGGEVPVVFDESSDNDGVNSETGTTFWIRSPTPPN
+# TPEPVVRGGAAFTVGGPQYVTVKIDAPSAPDAALNPHEIPSGEMDFDIKNVATPKAPRAVVDPDA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g7
+###
+# start gene g8
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	gene	16269	17155	0.08	-	.	g8
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	transcript	16269	17155	0.08	-	.	g8.t1
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tts	16269	16269	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	3'-UTR	16269	16427	0.73	-	.	transcript_id "g8.t1"; gene_id "g8";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	stop_codon	16428	16430	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	terminal	16428	16984	1	-	2	transcript_id "g8.t1"; gene_id "g8";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	initial	17053	17089	0.13	-	0	transcript_id "g8.t1"; gene_id "g8";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	intron	16985	17052	0.45	-	.	transcript_id "g8.t1"; gene_id "g8";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	16428	16984	1	-	2	transcript_id "g8.t1"; gene_id "g8";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	CDS	17053	17089	0.13	-	0	transcript_id "g8.t1"; gene_id "g8";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	start_codon	17087	17089	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	5'-UTR	17090	17155	0.25	-	.	transcript_id "g8.t1"; gene_id "g8";
+E3LSA6_CAERE|WBGene00085227|E3LSA6	AUGUSTUS	tss	17155	17155	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+# protein sequence = [MGFINFGNGGGGGGQVGPPKIKKGDWPARFPQHPAGFDYKCKNRQFGTVTLAPSSGQQVQRDVEEVVTTTTHAPTTTH
+# APTTTHAPTTTTVKPTPTTTLKQILTTPTTTTKKADPPKATGTTFWIRSPTPPNTPVPVVRGGHAFTLGPPQLATVKIIAPFAPDAALDPFGIPSGDL
+# DFDIKPVGTPKAPRAVIDPDA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g8
+###
+# command line:
+# /usr/bin/augustus --species=caenorhabditis --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/E3LSA6_CAERE.fasta

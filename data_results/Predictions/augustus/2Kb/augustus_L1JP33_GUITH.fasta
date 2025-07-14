@@ -1,0 +1,60 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/L1JP33_GUITH.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 6185, name = L1JP33_GUITH|GUITHDRAFT_135519|L1JP33) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	gene	1	6080	0.08	-	.	g1
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	transcript	1	6080	0.08	-	.	g1.t1
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	intron	208	717	0.86	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	intron	806	2216	0.8	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	intron	2719	4815	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	intron	4914	5127	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	intron	5367	5678	0.33	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	intron	5797	5869	0.32	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	CDS	1	207	0.74	-	2	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	exon	1	207	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	CDS	718	805	0.86	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	exon	718	805	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	CDS	2217	2718	0.99	-	1	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	exon	2217	2718	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	CDS	4816	4913	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	exon	4816	4913	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	CDS	5128	5366	0.99	-	2	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	exon	5128	5366	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	CDS	5679	5796	0.31	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	exon	5679	5796	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	CDS	5870	5959	0.33	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	exon	5870	6080	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	start_codon	5957	5959	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JP33_GUITH|GUITHDRAFT_135519|L1JP33	AUGUSTUS	tss	6080	6080	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSREKKEMVGSLKRQEEQIESLQAEKRRREKETAGGAGQGNADVKGAEGEDRGARACEWEVSMCWRDAEEQDGQGHSL
+# PAGGESLAGGESHLCNTGTAAFNLLLMLLWQLMEKTKGIEEELRATKEEKTREGKQFSSEIARISAQLQQEVRDGEDAGGLRQGGAAGEAGEGVCILP
+# AVLMGWDANVEVLRKVGKPHDPHVGKEESSKVALICAEVPNTRNLVEDLTETSGRGQARVTAASEDERTQGKQTRGSESSWNLLLGEQDQLLVLDHRS
+# SQLQVAVELGGVVRSEHSLHRCEEPGALLGEVREDELEAAAVELGQHEKSLRLALEPRVRRADVDVDDAAIADAQISKLPHGACNSVTAVYEDQIVVH
+# VNAYPLGYMETGGPEALHQLCDMLERHGAEAYMLYLGPMENIWELDLLVRTGQAEASLEAMIRSVMRGGGVTERY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 16
+#     RM:  16 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/L1JP33_GUITH.fasta

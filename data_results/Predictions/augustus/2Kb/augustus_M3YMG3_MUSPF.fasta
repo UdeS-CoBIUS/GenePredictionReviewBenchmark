@@ -1,0 +1,48 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/M3YMG3_MUSPF.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22414, name = M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	gene	2603	20258	1	+	.	g1
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	transcript	2603	20258	.	+	.	g1.t1
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	start_codon	2603	2605	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	intron	2637	9003	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	intron	9153	9521	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	intron	9609	12631	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	intron	12750	13698	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	intron	13809	20159	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	CDS	2603	2636	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	CDS	9004	9152	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	CDS	9522	9608	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	CDS	12632	12749	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	CDS	13699	13808	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	CDS	20160	20258	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3YMG3_MUSPF|ENSMPUG00000012614|M3YMG3	AUGUSTUS	stop_codon	20256	20258	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MVKLAAKCILAAFWSESFCGQIGTAVMVFFSNLTGDPAVGKTALAQSFRSDGAHFQKNYTLTTGVDLVVKTVPVPDTG
+# DSVVSGALDPRKWESPNVLCLVYDVTNEQSFINCSKWLEKARSQIPGTFLPGVLVGNKTDLASRRVVDSAQARAWALGQGLECFETSVKETENYEAPF
+# HCLAKQFHHLYREKVEVFHTLV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 23
+#     RM:  23 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/M3YMG3_MUSPF.fasta

@@ -1,0 +1,56 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# tribolium2012 version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/D6WTY1_TRICA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 8945, name = D6WTY1_TRICA|TC015903|D6WTY1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	gene	288	8537	0.51	+	.	g1
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	transcript	288	8537	0.51	+	.	g1.t1
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	start_codon	288	290	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	intron	432	483	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	intron	597	641	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	intron	737	2680	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	intron	2844	3283	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	intron	3438	3488	0.93	+	.	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	intron	3612	7119	0.67	+	.	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	intron	7292	7343	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	intron	7538	8369	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	CDS	288	431	0.87	+	0	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	CDS	484	596	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	CDS	642	736	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	CDS	2681	2843	0.98	+	2	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	CDS	3284	3437	0.92	+	1	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	CDS	3489	3611	0.63	+	0	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	CDS	7120	7291	0.67	+	0	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	CDS	7344	7537	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	CDS	8370	8537	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+D6WTY1_TRICA|TC015903|D6WTY1	AUGUSTUS	stop_codon	8535	8537	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPEPNPLEKLNWLIHFQHVRGEIVQCKNLIKNEIKRSGGRNEFAYFKQGIILREEGKTQEALESFQTCMKLNPENADA
+# IKQVGKCLYEMRRFRLSLEAYLEAEKVSTCPDWQIYYNIGQCLMRLGETAKSKEYAHKAVQLGKHEAAYSLLIKILTSEGDLRSAISVCNAAIESCPD
+# SVNLLTETGLLCLKLGQTQFAFERLSSALALDPVCAKALLGIGCITQSHDEHDVALTKYKVAVSYEPNSVALWNNIGLCFYSKQKYVAAISCLKRALW
+# ISPTNWRVLFNLGLVHLATYQPASAFNFLCAAVNLRPDVPHSFTGLGCALFELNDGENAERAFKQAMALAPDDPVIVVNNVVCLAGMDRKEEAKDLFQ
+# KFNSLLQDGVVSKEVVAIAEKLATVFEVDGNDESYKNEESKDVINKSINETDELASGDLSPRELAADEV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 20
+#     RM:  20 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=tribolium2012 --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/D6WTY1_TRICA.fasta

@@ -1,0 +1,58 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/A0A067C4C7_SAPPC.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 2964, name = A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	gene	30	2533	0.03	+	.	g1
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	transcript	30	2533	0.03	+	.	g1.t1
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	tss	30	30	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	exon	30	455	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	start_codon	125	127	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	intron	456	556	0.39	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	intron	768	880	0.69	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	intron	1113	1420	0.9	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	intron	1541	1602	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	intron	1834	1976	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	CDS	125	455	0.47	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	CDS	557	767	0.65	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	exon	557	767	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	CDS	881	1112	0.72	+	1	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	exon	881	1112	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	CDS	1421	1540	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	exon	1421	1540	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	CDS	1603	1833	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	exon	1603	1833	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	CDS	1977	2456	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	exon	1977	2533	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	stop_codon	2454	2456	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A067C4C7_SAPPC|SPRG_10692|A0A067C4C7	AUGUSTUS	tts	2533	2533	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAPRIGYKIASVHFCTMAEPNAATAVPEKAKAEKSTAQAKGGFTMKLGPWLHAHHNAVAGIKAFSPYDWPARRGCINK
+# RLRSCIKLADVYGDGDYKLLIADADRRLKLYKASSTRVRYIHDACTKRTMRVLDAARPRTPSIAVASGPSIYIYRNMRPYYKFTLPSLDVSPDETKLW
+# GQLAKSRGTPLTQRSRGFLAIDDMEQQAEFVSRYILLIQSDPLEHHLPTRYMDDPLVEHTAITCMTTLSKNMDEKDAIGWYDNGELLKSVIELESPAC
+# ALLQMDKGIIVACMDRKVSSFHLKGKKNWSMIMPQDVVAMEALNLRRTKHSKGILIALRKGEILLYNEKIKVTSFHLDSLLTGMVFGQFGREEASLVL
+# VHKGTSTSSGPPPEQGTPAFQTRHIDKRLDIPLNVPKKTKLYVEQTQRERDHAIEMHRHFQVQDTPKRVVVSTYFLVAGFVQAPSHDRAVIRQGHSRR
+# PGTDSAMSKAYYLVSNYVGPRLVCDGGVDSPQRQSARSRPALQDPAPVAGRRKSRILFVVEPRG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/A0A067C4C7_SAPPC.fasta

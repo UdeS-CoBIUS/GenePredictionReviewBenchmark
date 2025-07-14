@@ -1,0 +1,54 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G1P0F6_MYOLU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 26739, name = G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	gene	158	26460	1	+	.	g1
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	transcript	158	26460	.	+	.	g1.t1
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	start_codon	158	160	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	intron	217	2607	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	intron	2691	7598	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	intron	7665	9457	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	intron	9508	19214	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	intron	19278	20808	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	intron	20944	25198	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	intron	25283	26182	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	intron	26207	26358	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	CDS	158	216	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	CDS	2608	2690	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	CDS	7599	7664	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	CDS	9458	9507	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	CDS	19215	19277	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	CDS	20809	20943	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	CDS	25199	25282	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	CDS	26183	26206	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	CDS	26359	26460	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1P0F6_MYOLU|ENSMLUG00000003551|G1P0F6	AUGUSTUS	stop_codon	26458	26460	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSVLDALWEDRDVRFDVSPQQMKTRPGEVLIDCLDSIEDTKGNNGDRGRLLVTNLRIIWHSLALPRVNLSIGYNCILN
+# ITTRTANSRSIKIRDSKFGLALVIESSQQSGGYVLGFKIDPVEKLQASVKEINSLHKVYSASPIFGVDYEMEEKPQPLEALTVEQIQDDVEIDSDDHP
+# DAFVAYFADGNKQQDREPVFSEELGLAIEKLKDGFTLQGLWEVMS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 69
+#     RM:  69 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G1P0F6_MYOLU.fasta

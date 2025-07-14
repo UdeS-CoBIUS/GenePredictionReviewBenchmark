@@ -1,0 +1,95 @@
+# Warning: Using nonstandard genetic code: TAA coding for GLUTAMINE instead of STOP.
+# Warning: Using nonstandard genetic code: TAG coding for GLUTAMINE instead of STOP.
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# tetrahymena version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/A0A078A2X5_STYLE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 20555, name = A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	gene	10001	10555	1	+	.	g1
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	transcript	10001	10555	.	+	.	g1.t1
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	start_codon	10001	10003	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	CDS	10001	10555	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	stop_codon	10553	10555	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSILRARVIVAGEPTVGKTSLVNQVIKGTFNHNYMMTQGCEYNIKEMPIEGKSYQRVELHLIDIAGQNIFKEITFELL
+# GKANLIMLVYDVTNPDTFHLLRQWLEGIKQQNQGRQLIGVVVANKIDLENRIAVGPQDGHAFAKSIGFEFFEVSTLQGKNIEEPFQCLAEMFHQRYLD
+# RIGALQHM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	gene	10784	11228	1	-	.	g2
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	transcript	10784	11228	.	-	.	g2.t1
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	stop_codon	10784	10786	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	intron	10967	11108	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	CDS	10784	10966	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	CDS	11109	11228	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	start_codon	11226	11228	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MNSMNSFSQQYFMSSLLSAQRGFLTLNNKSSLLQTSTLTQGGSLRDRTFKFHALGFRHLNRNKTNKNLGRKRGRLLHH
+# RADINKAKKYMPYFKSRKSTKL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	gene	11562	15899	1	+	.	g3
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	transcript	11562	15899	.	+	.	g3.t1
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	start_codon	11562	11564	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	intron	11827	12315	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	intron	12419	12893	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	intron	14056	14638	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	intron	14794	14926	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	intron	15338	15394	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	CDS	11562	11826	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	CDS	12316	12418	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	CDS	12894	14055	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	CDS	14639	14793	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	CDS	14927	15337	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	CDS	15395	15899	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+A0A078A2X5_STYLE|STYLEM_5181|A0A078A2X5	AUGUSTUS	stop_codon	15897	15899	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MSQKYANLGDDTFDAESNQVNTEEGKMEESLDMGISSMNSEQLTDIIQNAKRHDNQMEDMGPPQKMEQKDPNAQRLSK
+# IENNPYTQSIMARNYYDFHVYNYFKYVENAIRSWLYRDLCQFHQCSLIFLLADKQTLELGKVFSTLALVGYIFNFSVLYSNYAIEAIYSLKVFDKRIT
+# DVIESSFHKQKLNTTLVEATIIDDDYDPAFQSNRIMKKMAKDQQDRKNAKPYIKMEGIYSQWNVQEDRDTGEDIDNEIQIDHNTQSQYDSVIKEVSFE
+# FNNNEKIAVIGRVGSGKTSLFLTILKELCISKGKLTLNSHDVAYAEQNPLIISGTVRANILFGLPYNQKWYKQVINACCLQEDFQRLSKGDMTKLGEM
+# GTQISGGQRGRISLARALYKQDSKVVLIDGSLSALDSRVARHIMDNVIKGLCKDKIVFLITYDLDQASELDYVMLMEDGQMKKLKRSSEFFDQLEEDN
+# NFLQRLKNDIMRQASIDTDDQTVDSDKKEQIIKDENKTAQKSQSSHLKRWLQIEIWPNVPHQFLDLGHNQWVNNYQSFWKMGIFPSSTVRLNTRDLAL
+# IAVGFQLAVETARHLNTAVRWSAALENDMVSIQRLFEYVNLKSEQKMAFNDKDNELQCEQIEFRNVKMRYSAKLQPALQQLSFSIEKGMKIAIIGRTG
+# SGKSSLLQLIQGFRQPFKGQIFIDGQDISSIDFGSIQENLDPQIKHPNEKIKQALDKACLGEFNPQSPCNTLSAGQIQLLSLAHAFLNTESKLILLDE
+# PTSQIDGQTQKKVLTSIFNQFKKQTILMIAHRLETAVGFCDKVMVLDQGQLVEFDHPFRLLVKKGEDVEITNTNGTFAKMVLSLNSNQQDKILKRARK
+# RYMK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=tetrahymena --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/A0A078A2X5_STYLE.fasta

@@ -1,0 +1,52 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/M3YV44_MUSPF.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 15142, name = M3YV44_MUSPF|ENSMPUG00000015314|M3YV44) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	gene	961	14299	1	+	.	g1
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	transcript	961	14299	.	+	.	g1.t1
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	start_codon	961	963	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	intron	964	3007	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	intron	3133	5953	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	intron	6149	9297	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	intron	9353	9438	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	intron	9517	12159	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	intron	12342	13045	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	intron	13178	14280	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	CDS	961	963	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	CDS	3008	3132	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	CDS	5954	6148	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	CDS	9298	9352	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	CDS	9439	9516	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	CDS	12160	12341	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	CDS	13046	13177	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	CDS	14281	14299	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+M3YV44_MUSPF|ENSMPUG00000015314|M3YV44	AUGUSTUS	stop_codon	14297	14299	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAELGLNEHHQNEVINYMRFARSKRGLRLKTVDSCFQDLKESRLVEETFTVDEVSEVLSGLQAVVYSEVESELINTAH
+# TNVLLLRQLFSQAEKWYLKLQTDISELENRLQEENEKLKSRLKTIEMQATHALDEKSRLERALQDLQLDQGNQKDFIKAQDLNDLENTVAALKSEFQK
+# TLNDKTENQKSLEENLATAKHDLLRVQEQLSMAEKVSNGPMFFTVQELEKKFQQTTAYRNMKEILTKKNEQIKDLRRRLAKYEPED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 24
+#     RM:  24 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/M3YV44_MUSPF.fasta

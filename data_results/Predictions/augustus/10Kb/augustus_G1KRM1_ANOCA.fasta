@@ -1,0 +1,109 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/G1KRM1_ANOCA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 21524, name = G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	gene	1	532	1	-	.	g1
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	transcript	1	532	.	-	.	g1.t1
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	1	532	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	start_codon	530	532	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MIHAMIDSGATNNFIDREYADSLGLQYHDFKNARVVQAIDGRPLKTGPVSQWSEPTRMWIREHMEEISFFVTEVPHFP
+# VILGIPWLTLHDPNISWSNRELQFASPYCQNHCLVAKVCHATDSEPIITLPKKYSEYWDVFNEKEAEKLPPHRPYDCAIDLVEGAPIPRGHLYSLTEP
+# E]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	gene	634	1620	1	-	.	g2
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	transcript	634	1620	.	-	.	g2.t1
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	stop_codon	634	636	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	634	1620	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	start_codon	1618	1620	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSTGAAPAGQPLSYTISKDEVDRIRDRLNAQDGEIKGLRERGVRLPAMALPTKFSGEAAKVHVFRRQCQAYLEARDAE
+# FPQEDIKVAWVYSLLDGPAASWATALFDQASPHLSSAQRFLDHLKETWGIEDNLEAAGHKLRRLLQGDRPMSQYIAEFRVLAHNTGWNDVALRGQFRE
+# GLNIEMLEEISKVDPPQTLEALIDQCLRAEVMIANRKQWVRGQGGRAGAKPPAPASVQPRPVWRPPPPTPYPRGGEEVPMQLGNVRPRLDAAEKARRQ
+# RLNLCWYCGNGGHFARECPAKGKPAARLAAASSTESKASEPTGTQPAGEANDRV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	gene	9986	11524	1	+	.	g3
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	transcript	9986	11524	.	+	.	g3.t1
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	start_codon	9986	9988	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	intron	10026	11360	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	9986	10025	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	11361	11524	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	stop_codon	11522	11524	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MSEPKFREVLPKQGMLAVEDVTTMVLCKPKLLPLKSVTLEKLEKMQREAQETIRQQELAQQSSKSIE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	gene	13724	21524	1	-	.	g4
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	transcript	13724	21524	.	-	.	g4.t1
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	stop_codon	13724	13726	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	intron	13785	14693	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	intron	14834	16276	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	intron	16385	16801	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	intron	16917	17729	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	intron	17828	19480	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	intron	19703	20304	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	intron	20419	21524	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	13724	13784	.	-	1	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	14694	14833	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	16277	16384	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	16802	16916	.	-	1	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	17730	17827	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	19481	19702	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+G1KRM1_ANOCA|ENSACAG00000015813|G1KRM1	AUGUSTUS	CDS	20305	20418	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [GNCVYETVVPPLDERGFEKTLTPIIQEYFEHGDTNEVAEMLKDLNLGEMKYSVPVLSISLALEGKASHREMTSKLLAD
+# LCGTVVSMKDVEKSFDRLLRDLPELVLDTPKAPQLVGQFIARAVGDGILCISYIDGYKGTVDCVHARAALDRATVLLSMTKGGKRIDNVWGSGGGQQP
+# VKHLVKEIDMLLKEYLLSGDVSEAERCLQELEVPHFHHELVYEGYERIYREIPDINLDVPHSYSVLERFVEECFSAGIISKPLRDLCPSRGRKRFVSE
+# GDGGRLKAESY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 11
+#     RM:  11 
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/G1KRM1_ANOCA.fasta

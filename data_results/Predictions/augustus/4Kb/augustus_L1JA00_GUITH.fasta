@@ -1,0 +1,133 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/L1JA00_GUITH.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 8911, name = L1JA00_GUITH|GUITHDRAFT_175448|L1JA00) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	gene	44	1823	0.03	+	.	g1
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	transcript	44	1823	0.03	+	.	g1.t1
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	tss	44	44	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	44	539	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	start_codon	108	110	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	540	589	0.77	+	.	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	942	996	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	1392	1443	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	108	539	0.79	+	0	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	590	941	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	590	941	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	997	1391	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	997	1391	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	1444	1710	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	1444	1823	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	stop_codon	1708	1710	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	tts	1823	1823	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLFLIYIIFAAVAVQLFGLTRSGVRIGPTANFDTLGSSFVTSLQILTGDEWQEMLEDLSILPPFCTYQFSSDYIVGYS
+# GKNYSFGDCGFYKTGTAIYFVCFKLICEGMLINLFVGMILDNFSFVIQEASTDVDEEVEESEGINQVQHYADIFRRYDKGTGRLPVNCLEPFMRDLPV
+# PMGFASLSARRQTNQRMNRTYLKFIRAELHLIMRERNSSKGNKGKNSFISYITPQSSGALNPDVAALKQFDFNFAWKKTEEFQNAVSWEDLMFTIALW
+# RMPSIIPQKLRDARKARILEIQEIKHALVIRDFLRGATLQGKSQKHLNDEVEVKERKQEAEEEKIEKEEQDEYVQNQEGKEKEGAESQGQKQKEDKEE
+# VEQSSNEINQSGQESEEFNSSVHLPETVLTTLLARESRGNQKLVKEGGLTMQTDDKGMQESHEETPQDSQTLREGLIRLSFLHSILDDSPWRLFAMEP
+# ADLAMWHVRAL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	gene	1854	4440	0.02	-	.	g2
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	transcript	1854	4440	0.02	-	.	g2.t1
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	tts	1854	1854	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	1854	2276	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	stop_codon	1923	1925	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	2277	2320	0.66	-	.	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	2440	3859	0.4	-	.	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	1923	2276	0.82	-	0	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	2321	2439	0.68	-	2	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	2321	2439	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	3860	4229	0.29	-	0	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	3860	4440	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	start_codon	4227	4229	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	tss	4440	4440	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MRTNNATICSTVDCLWSCCIAEDSATLCCETSAQSRSSQPQHRLMCASNRKANESMLDHRQRSLCIARGLRSWQNSLR
+# LIFQRSLRMLFSARRSEKILPYVSPAKENVNHVSWKKHFSLLKLFRLFQSFQEYALKDGHMYSNKMKCKVFKATIEDICSSVEMNDNLGFLMDKCLET
+# EKCTQYVRLPNLLSTSMKHQLNDREKRVIALVSRCKLQQIHSSDFFRQGIPIQKRVRCKFSIKKQKLGRFQSALCEDCKKYACILCEDISTCSTCATS
+# KCSSCR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	gene	5067	8860	0.04	-	.	g3
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	transcript	5067	8860	0.04	-	.	g3.t1
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	tts	5067	5067	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	5067	5872	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	stop_codon	5264	5266	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	5873	5925	0.86	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	6061	6126	0.85	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	6744	7541	0.19	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	7815	7882	0.26	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	7984	8051	0.11	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	8197	8247	0.14	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	intron	8677	8730	0.88	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	5264	5872	0.97	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	5926	6060	0.85	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	5926	6060	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	6127	6743	0.19	-	2	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	6127	6743	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	7542	7814	0.2	-	2	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	7542	7814	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	7883	7983	0.11	-	1	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	7883	7983	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	8052	8196	0.11	-	2	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	8052	8196	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	8248	8676	0.14	-	2	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	8248	8676	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	CDS	8731	8800	0.88	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	exon	8731	8860	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	start_codon	8798	8800	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JA00_GUITH|GUITHDRAFT_175448|L1JA00	AUGUSTUS	tss	8860	8860	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MQWLSSALSKAPPIKAEILDAGTELKGGRILWKIHEGKLKENGAQVSVFSWEMTANSSDSELAAAKNALRRIKTCRHP
+# HVLQYIDGHDPGDSAKAGSKVLIVTEHVKLLDTSTFQEHASQNKEGIVWGLYGVANAIQFINEDCKLIHGNVHRGSIFVSKCGDWKLGGFDLCGEAND
+# SNSIFRRCEQFRVKRILPPEVAKGNWESLQEAGYAVDTCLRHPTDIAMVTAGVQRHAGPTRGSQEHNATTPGEHAESRSRPTTPRESGTCGWVGGCRQ
+# EADDEADADESLLQVSDGTSEQKSHRAGSHGERWPCLLHALMLVEGFRAKGGFLLEVVREPRPPAXQVPALRELSVKSLVLLVPKLSDRVINSQVKRN
+# RGEQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQPAAAAAAGRASLRRVAGVEVHRAAPTGSRGVDQM
+# QHDDLPGQDFGQPHPLHQRQGPSLPPSTPAETFDRCRSSCRPSTALFTIPSRLLASLLSCHLPLRWSSILPRISLVLPAVGMLTVDPQKDVRDQALTC
+# LQGAVSRLAAESSKMSDDLALQGGGPVTSPVMNEAGVMSWAATAAASTLTKKIWGSIDSAETKASSSNKSPAQPNKEEKGGGQEKHADSNKDTFADWE
+# DDKAGTSSGWDDGMLDDGLDEPFDVPQPPAKGGKPQGKAGGKAQQDDWGALIDDVPTSTKLEAVKSKMSAGKSSGGAKADDWSSLLDDKPGKGAGKAA
+# TKTSDDDFESLFDTSRKRMREEEELTRL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/L1JA00_GUITH.fasta

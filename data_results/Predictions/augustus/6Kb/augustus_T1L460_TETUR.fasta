@@ -1,0 +1,142 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/T1L460_TETUR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 12730, name = T1L460_TETUR|tetur37g00890|T1L460) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	gene	2	4394	0.32	+	.	g1
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	transcript	2	4394	0.32	+	.	g1.t1
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	intron	159	2070	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	intron	2134	2211	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	intron	3575	3663	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	intron	3815	3944	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	2	158	0.76	+	1	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	2	158	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	2071	2133	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	2071	2133	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	2212	3574	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	2212	3574	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	3664	3814	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	3664	3814	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	3945	4167	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	3945	4394	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	stop_codon	4165	4167	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	tts	4394	4394	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [DSEGQGCPFCRAEIKGTELIVVDPFDPNPRSATKEANRDQNLVDIEEDENFEDPNAWISSLEPCNRLSEKTNKVERSP
+# INSPHASPKNRRKPEMAPLLLQCQPSINILPNQQASLASVTCTSLTICTSSVSTTQSTSQTTTVQSSSTIPPPIPPRRVSPTNTPSQSPTSSPLHHIS
+# GYSSSCTLKPSSTNLSPLIPISPPNSNRQQVSLSGLTSTSINLTTSNETLIDSISPLPNGSTNISIPTGNLITIKSETSLLSTVSPLTRKDSRPNKIH
+# PGENHHRSPCRPTTSLPSSSPSLSSSSSVTSSISSLVSPSNRGIGVSPLICPSTGSTTTTINIPSINNTTSNQNSCKTNLIGQQTLLSSTIPSLMTST
+# SPSSSKLLLNIDESNSSISSISPVGPTIDRVKSPKPTPVNTQQSTLNNSKNIFNSLDDSHSHIISQHHRSPIHPQNVTQSATTHLSTVKSDNHCQVSS
+# EIDLFDFGSHNSQPLTAQSTSSSSSLASSNSASTAKHDDLSNLNLNNEPDYANTDLRGPSERTPKDLLRVQSLTSTSSSSVSNLHSITPSSSSSSLFN
+# TNSFSHSVRKSKSTSAKYALGTSLSDNKENEAKASYENLQMDYIAILTGEGYSNQSVIRALGIAKNNLEMAREILHEFASKRK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	gene	5126	6871	0.03	+	.	g2
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	transcript	5126	6871	0.03	+	.	g2.t1
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	tss	5126	5126	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	5126	5297	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	6104	6871	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	start_codon	6167	6169	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	6167	6730	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	stop_codon	6728	6730	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	tts	6871	6871	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSLFSRLLSYLGLKKKEVNILVVGLDNSGKTTILNNFKKDEDKSQEIVATIGFNVESFHVNNLTFSAFDMSGQGRYRN
+# LWEHYFKGIHAIVFVIDSSDSLRLVVAKDELDLMLKHDEIASKPNLPLLIFANKMDLRDALSSVRISQALGLESLQERPWHIQASNAITGQGLQEGIQ
+# WLTEQLINQKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	gene	7011	8650	0.08	-	.	g3
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	transcript	7011	8650	0.08	-	.	g3.t1
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	tts	7011	7011	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	7011	7567	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	stop_codon	7103	7105	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	intron	7568	7726	0.89	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	7103	7567	0.89	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	7727	8476	0.85	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	7727	8650	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	start_codon	8474	8476	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	tss	8650	8650	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MALLFKIININLLQYFLLAVVIFTSAICSPSQPLTSSANGRTLVTISNPNCGDYQSCLKLTPKPDLVYTHSTDNDTSI
+# HFISSTLGGFPGFFITRTATPTILQINWDSLLNNCSDSFNLPSIPDDSIGVLLLSFFNIDHKDIHWTLDKNGSINCDSSTCKFGYTSSEQSSLNETIS
+# ISLEMKNKQSSFEDLPHLLFSPSSMHIDLQITNLDKSQMNKSDGIKLLVFSSFNEYKETLERTIDDENSPGVFTKRTFLFSQDNENNTNFLQWKPVAY
+# NSKERVMSKTMEINSSHLTDAELPRLNYPLYCFHKQFYSNYSVHKFNASFVQEGKSSATKIDLITWSLIFGLDQPPKEKLSTFLQLMLFVGVGMSFVV
+# MFVSLIYVVAKKWQKSRATNEPTLINEDILDY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g3
+###
+# start gene g4
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	gene	9576	12380	0.07	+	.	g4
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	transcript	9576	12380	0.07	+	.	g4.t1
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	tss	9576	9576	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	9576	10100	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	start_codon	9698	9700	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	intron	10101	11362	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	intron	11450	11526	0.94	+	.	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	intron	11820	12065	0.99	+	.	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	9698	10100	0.92	+	0	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	11363	11449	0.94	+	2	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	11363	11449	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	11527	11819	0.96	+	2	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	11527	11819	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	CDS	12066	12305	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	exon	12066	12380	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	stop_codon	12303	12305	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+T1L460_TETUR|tetur37g00890|T1L460	AUGUSTUS	tts	12380	12380	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MSAENKGARIRLLFMLVLTTSFFFVELIVGYITNSMALVADSFHMLSDVIALIIAYISVMMSPKKWAKNTFGWARAEV
+# LGALVNAVFLVALCFSILVESIKRFYNPEELHAPILILGVGFAGLVVNVIGLFLFHGSGGGHGHSHGGGGGHGHSHGDGHSHGEKDKSSKQAPQSSEQ
+# MNMRGVFLHVLADALGSVIVCISALIIMFTNWSIKEYVDPTLSVLLVCLIMYSTWPLLVESAMILLQTVPTHIEVDDLRKKLTREINGVIAVHEFHVW
+# QLAGDRIIASAHIRCHNLTDYMQIAEKVKEFFHNEGIHSTTIQPEFVDIDYQVSFVEIDQEACKTK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/T1L460_TETUR.fasta

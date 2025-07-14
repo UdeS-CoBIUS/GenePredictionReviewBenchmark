@@ -1,0 +1,100 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G3N7I2_GASAC.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 14732, name = G3N7I2_GASAC|ENSGACG00000000976|G3N7I2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	gene	2796	5019	0.74	+	.	g1
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	transcript	2796	5019	0.74	+	.	g1.t1
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	start_codon	2796	2798	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	2796	2924	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	3797	3938	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	4050	4098	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	4236	4334	0.9	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	4447	4507	0.9	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	4767	4826	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	4954	5016	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	stop_codon	5017	5019	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MASQRPPSGIGRPLSRSGSVVPGPGRPPTAIRPPPTAIRVATGMVPGTSGHPGMRGGIPMATPGVLSAQIKVTDRPVT
+# QQGLSGMKTGVKGPQRQILDKSYYLGLLRSKINELTTETSKLLKEIDNFNQENSVYLSYERRAEGLALEIKDLQGQLADYNMLVDKLNTNTEMEEMIN
+# DYNAIKAHNDSEAKSIDSIFTERRE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	gene	6048	8454	0.51	-	.	g2
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	transcript	6048	8454	0.51	-	.	g2.t1
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	stop_codon	6048	6050	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	6051	6352	0.99	-	2	transcript_id "g2.t1"; gene_id "g2";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	6456	6656	0.99	-	2	transcript_id "g2.t1"; gene_id "g2";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	7083	7170	0.99	-	0	transcript_id "g2.t1"; gene_id "g2";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	7266	7377	0.99	-	1	transcript_id "g2.t1"; gene_id "g2";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	7515	7765	0.68	-	0	transcript_id "g2.t1"; gene_id "g2";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	8350	8454	0.67	-	0	transcript_id "g2.t1"; gene_id "g2";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	start_codon	8452	8454	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGEQMSLCRHLGCVLPFISDAAVLLQTETRSFFTSQVRNLTSQRLHVIPAGSRGSSVTELVIEASRITLSGSDRLALA
+# SYPRLVELHLDGNLVSRIPGRYFSVAPRLRVLTLSRNRISSLHPDSFSGLDALTELDLSHNLLTGVHPQLFRPLTNLQVLKLQGNPWNCSCVLLSGIG
+# EVQAAGLTVGGTQTTCASPEKQAGRDLLQAAAACYQSPRSVRDTEPQKPVNSKKSLASSTTPQTTWTSSQTHNTDKVQTPVLGNTWKFAACVAALALS
+# TSVLIVCAVKGPSLYKLFHNYRHRRLHQEEDDAVPTVFSETERHLNRQTFTFQHEDGQMEMEEEEEDGYFEDPYIKREE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	gene	8918	12063	0.16	+	.	g3
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	transcript	8918	12063	0.16	+	.	g3.t1
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	start_codon	8918	8920	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	8918	9034	0.77	+	0	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	9257	9319	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	9808	9951	0.98	+	0	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	10033	10132	0.51	+	0	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	10431	10502	0.51	+	2	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	10848	10901	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	11173	11306	0.54	+	2	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	11430	11493	0.61	+	0	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	11592	11755	0.98	+	2	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	CDS	11905	12060	0.52	+	0	transcript_id "g3.t1"; gene_id "g3";
+G3N7I2_GASAC|ENSGACG00000000976|G3N7I2	AUGUSTUS	stop_codon	12061	12063	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MEEEIRRERRVADEVVQAMPAAKQEKYFTMTTANEELLQELTVLQEELDILMTRKEDYDAELAHSHIKQEVVRLHETL
+# SALEAKRDAMEAEHKSRGSPQDEREQLFKQAEKAQEPNGVVSCISCVRSQTGRYYAGLISMFAEIRDRMGQITEDIRQLEQDSEDAQGECQQKYKELK
+# RKEEEIDRYLQSFEESRAHEQDRMTQSQEDIVSLLEHCSRVRGKNTRGGGVIVLVSKETEVVQSKSTAKGLTTESQRLQLDLEKVQQLEGKITGELST
+# LKERVTAMEAELVTYRDLDALRHTAEQKKRRLQEDRVLLTRRRDSLRQLLEEKNQKYEALKAALQENETHAQVPAAYTHAAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G3N7I2_GASAC.fasta

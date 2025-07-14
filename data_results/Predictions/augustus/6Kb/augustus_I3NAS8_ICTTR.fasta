@@ -1,0 +1,50 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/I3NAS8_ICTTR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 24583, name = I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	gene	2643	18181	1	+	.	g1
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	transcript	2643	18181	.	+	.	g1.t1
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	start_codon	2643	2645	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	intron	2651	6549	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	intron	6759	11599	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	intron	11677	11977	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	intron	12038	14730	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	intron	14849	15666	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	intron	15777	18082	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	CDS	2643	2650	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	CDS	6550	6758	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	CDS	11600	11676	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	CDS	11978	12037	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	CDS	14731	14848	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	CDS	15667	15776	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	CDS	18083	18181	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3NAS8_ICTTR|ENSSTOG00000026779|I3NAS8	AUGUSTUS	stop_codon	18179	18181	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLSSRSPSPAQEVQAPSRRVPTGPRAQGTSPPRFRRPGRETHPPTPLAAALHSESVVVVVTMVKLAAKCILAGDPTVG
+# KTALAQLFRSDGVHFQNYTLTAGVDLVVKTVPVPDTGDSVWESPNVLCLVYDVTNEQSFNSCGKWLEKVRAQAPGTTLPGVLVGNKTDLAGRRAVDSA
+# QAQAWALGQGLECFETSVKEMESYEAPFHCLAKQFHQLYRERVDAFHTLV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 17
+#     RM:  17 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/I3NAS8_ICTTR.fasta

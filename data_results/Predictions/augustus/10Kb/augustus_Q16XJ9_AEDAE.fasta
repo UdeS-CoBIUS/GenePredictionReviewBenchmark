@@ -1,0 +1,106 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# aedes version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/Q16XJ9_AEDAE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 47070, name = Q16XJ9_AEDAE|AAEL008840|Q16XJ9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	gene	3981	4985	0.98	+	.	g1
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	transcript	3981	4985	0.98	+	.	g1.t1
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	start_codon	3981	3983	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	4823	4885	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	3981	4822	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	4886	4985	0.98	+	1	transcript_id "g1.t1"; gene_id "g1";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	stop_codon	4983	4985	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MDDQGCPRCKTTKYRNPSLKLMVNVCGHTLCESCVELLFLKGSGSCPECNVALRRSNFRVQLFEDSNVDKEVQIRKRI
+# LKDFNKKEDDFATLGEYNDYLEMIEELVFNLCNNIDIINTNKRIEQYKKENRDVILKNKTKLSRDELELETLIEIEKEQTDQRKKELAMIEAENRKQK
+# AKNKEDLIDSLMESYEDASAIVDKFAQRAEQQQIPLPKPMAPPAPPKQTHFSTGIKFQSQHGFLPVPKIEEGPTYVYEAQIYPKEGPGQPTLADIDSK
+# GYIKHIRSETQAERAGGFRTNISCLRAIQEALVGLYHGC]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	gene	6670	9852	0.21	-	.	g2
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	transcript	6670	9852	0.21	-	.	g2.t1
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	stop_codon	6670	6672	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	7084	9849	0.21	-	.	transcript_id "g2.t1"; gene_id "g2";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	6670	7083	0.41	-	0	transcript_id "g2.t1"; gene_id "g2";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	9850	9852	0.24	-	0	transcript_id "g2.t1"; gene_id "g2";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	start_codon	9850	9852	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MRHWPADTSPVAALLGTSCPFITQGERFCGHGNRKVVITAASSRTKPSRDSCWRPVYANDKSAGHHSPTSHQQQPIPE
+# SKNHHVDVASYPVHLAPPDPDWFHHPEYTAHCLRRSLTMSDELKKFDKSRQNSVLAKPSK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	gene	10001	37070	0.71	+	.	g3
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	transcript	10001	37070	0.71	+	.	g3.t1
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	start_codon	10001	10003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	10127	11136	0.92	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	11321	11600	0.98	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	11721	18091	0.97	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	18202	18262	0.99	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	18669	26714	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	27267	28350	0.89	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	28452	28566	0.92	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	28780	28888	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	29053	29956	0.99	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	intron	30106	36969	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	10001	10126	0.87	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	11137	11320	0.92	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	11601	11720	0.98	+	2	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	18092	18201	0.99	+	2	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	18263	18668	0.99	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	26715	27266	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	28351	28451	0.89	+	2	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	28567	28779	0.98	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	28889	29052	0.99	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	29957	30105	0.99	+	1	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	CDS	36970	37070	0.99	+	2	transcript_id "g3.t1"; gene_id "g3";
+Q16XJ9_AEDAE|AAEL008840|Q16XJ9	AUGUSTUS	stop_codon	37068	37070	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MDISIKPVFSFSLSYKVFEKLVTCGKYDGIHSCLTVVTNADKILIHTPHKRYGLQNSKLSISEIKNDIAMLNMNFPIR
+# AIVAGKLKKDDDRDILVIGSSSHFLAYHVDENYNLFQRDFPEGVRSLLIGSFGGFAGNTLIVGGNAIIKGYDGEGNEILWLITAGGVNSLLLMDIDKD
+# GQNELIVGTDDGCIKMYKRDSLLHEFTEGNEIQNLMAVSPSQFMFSVKNGTIGVFDESVRMWRIKSKTRVTAMAMYDILGCEGKQIIVGWKSGKIDVR
+# DAQNGDVLFKMKLNDFVYGITCNDYRGIGVLDLVIITADGEIRGYTTPSVNLLNLHNVADEEMNNLLSQKQKLLLELKHYENNIKFNKDIQANNDSHL
+# AQSVPDNVGVIPSNTRLQIGISTSYDSNDMNIDITVSTNNATTIRAVLIFADQLFKEETLIAHLTKDASRILIPLKTLKDNAQDIHIKAFVGYPTSVQ
+# FHVFELTRQLPKFAMYTIPHSLTGSPKSIAYINGLAVKYAPGDSYVEFRITERLKRICIWINQNFLLPSDIEYMTSSDSDATELKLNLISLRTGKNVC
+# LHFNNDGKTRFYTEDIGLAGDLIQSLVQFLNIENMNSIACFPVVYEEIKELFNKLQGLQETEKQINSEIVDNVNQIKSHLIRAEDARYYNGDDVIKYH
+# NEMMNTNEDLVKNYKIRLVNTNEVQLALKRIHSILYSASKLRVGTFAASIISKFKDALKTNNIEAVVKIIELGEM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/11
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 42
+#     RM:  42 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=aedes --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/Q16XJ9_AEDAE.fasta

@@ -1,0 +1,76 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/B4J623_DROGR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 9198, name = B4J623_DROGR|FBgn0127669|B4J623) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	gene	3246	4841	0.13	+	.	g1
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	transcript	3246	4841	0.13	+	.	g1.t1
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	tss	3246	3246	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	3246	3615	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	4236	4364	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	start_codon	4238	4240	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	4365	4422	0.95	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	4552	4609	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	4238	4364	0.47	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	4423	4551	0.99	+	2	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	4423	4551	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	4610	4782	0.98	+	2	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	4610	4841	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	stop_codon	4780	4782	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	tts	4841	4841	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGVSIKAIDMSGATRYRNLWEHQFKNCQGIIYVIDSSDRMRFVVVKDELDLVLQHPDLCNRIVPILFYGNKSDLDDSL
+# SNVKIAAALGLENIKEKPWHICSSNAVSGEGLDEGVQWLVQQIRFAIMSNRKGGKLKSSQKNKY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	gene	5259	9198	0.34	-	.	g2
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	transcript	5259	9198	0.34	-	.	g2.t1
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	tts	5259	5259	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	5259	5451	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	stop_codon	5324	5326	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	5452	5703	0.99	-	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	6002	6076	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	6209	9198	0.38	-	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	5324	5451	1	-	2	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	5704	6001	0.99	-	0	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	5704	6001	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	6077	6208	0.52	-	0	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	6077	6208	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [AIAKKTPKIKRDPAKNPMRDLHIRKLCLNICVGESGDRLTRAAKVLEQLTGQQPVFSKARYTVRSFGIRRNEKIAVHC
+# TVRGAKAEEILERGLKVREYELRRDNFSANGNFGFGIQEHIDLGIKYDPSIGIYGLDFYVVLGRPGYNVSHRKRKSGTVGFPHRLTKEDAMKWFQQKY
+# DGIILNSKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 15
+#     RM:  15 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/B4J623_DROGR.fasta

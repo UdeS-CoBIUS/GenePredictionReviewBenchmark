@@ -1,0 +1,187 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/D0NIV2_PHYIT.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 21977, name = D0NIV2_PHYIT|PITG_11472|D0NIV2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	gene	2949	4440	0.01	-	.	g1
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	transcript	2949	4440	0.01	-	.	g1.t1
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	2949	3337	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	stop_codon	3084	3086	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	3338	3514	0.5	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	3809	3870	0.74	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	4002	4049	0.81	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	3084	3337	0.98	-	2	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	3515	3808	0.34	-	2	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	3515	3808	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	3871	4001	0.67	-	1	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	3871	4001	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	4050	4228	0.81	-	0	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	4050	4440	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	start_codon	4226	4228	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	tss	4440	4440	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSSHSWRYLLAGRCYEATKAITNSTLIQAFEQGFLDFYQTHTVSATFKKPKSLSFGGTERRPQPLKLDQNGQTPLLPP
+# LISSFHAGYQEIGSQQPDNESVLLLALDFVDLLGEHSDSSEESLILGNSNKTGQSDKLKAIPAQSKDSSETKPQNYETWFAKDIRKECTRRGLRLKTT
+# MRKKERIEALKRFDAATTVYREKLPGDTATRAELDSKRINEMSQVWFEIETTFVDECTDDHGWNSMTTISLSESPLLWSKTTTLPPVNVEESQQKLHH
+# CGGQDLFVGAE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	gene	4626	8793	0.01	+	.	g2
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	transcript	4626	8793	0.01	+	.	g2.t1
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	tss	4626	4626	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	4626	4908	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	start_codon	4721	4723	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	4909	5556	0.87	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	5703	6462	0.53	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	6601	7561	0.04	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	7733	8140	0.44	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	8363	8426	0.44	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	4721	4908	0.82	+	0	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	5557	5702	0.85	+	1	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	5557	5702	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	6463	6600	0.06	+	2	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	6463	6600	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	7562	7732	0.03	+	2	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	7562	7732	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	8141	8362	0.23	+	2	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	8141	8362	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	8427	8542	0.46	+	2	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	8427	8793	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	stop_codon	8540	8542	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	tts	8793	8793	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MRPQRTESCDAPAQSGYDPQLIPIGKGYRPPLLKKINSDRTGQPAVAISVHSGHLGDLCSVPSADLYRDTGIDAPHCI
+# SLSNVVRMLSEVKYRGINPLRAVHPSFCGIPTVAQYSVGTHTLLDKCMLAPQRARLKAERQEEARLLDSHQAAVDPFLKAFRRLYPADSLRGFRNLCK
+# SMRHLADCDYRIDVAVHDVLKKILYVEISQGSHYELLASLLTTADHCDLEIIYTPERRTDFEYLTKFQAKAKIAACSSDVSDTADSPSSTRYSALVSS
+# SFFAYHPVGPGDVRNDAREELAVPCVLRHVLLFVLVDDIQPMPMIDKISRTA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g2
+###
+# start gene g3
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	gene	10046	12003	0.17	+	.	g3
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	transcript	10046	12003	0.17	+	.	g3.t1
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	tss	10046	10046	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	10046	12003	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	start_codon	10073	10075	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	10073	11977	0.97	+	0	transcript_id "g3.t1"; gene_id "g3";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	stop_codon	11975	11977	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	tts	12003	12003	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MSRPGTSSGQRPGTGGGLAPVGGLPSGRPGTGQGLNPITGARPGTGQRGMLTSASGGRPLTGRLGTGQQVPATPGQTA
+# GYGISLNTEVNVSDRPVTQQGMMGMRVGSAGPGRQVQDASFFKGKLHSKTAEITSEIEKLQREVEQDAKDKAQCAQLERKYEKMALEVRDLEGQLADY
+# NLAMDKMRSATDPAEIRQVQEQLHQRNAKEAEDVDRVFLMHKEQEKSVRNMETEMTEIHGKHQDKINQLAPQKLQRYKELLEEHHQSEVEIEARSQEL
+# ELVMHAIHQKEAELSSDRYRDEYEALERQARRLQKERDAAAEDAKTAQMDPNEARAVLLAKVKDDKAKMEALEGVLQSAGAEKQELVKVVADVQSELD
+# ERASGSDPAHKYEALFAKDKEMSTFLEQFPAKKEAEMQAQRATQGVIVQLLEHISAGMAKEDKLPGTNAANLEEMRGDLTFKERQLESSVTTKQRLTM
+# ELQKRQAELDKVNTLDAKIALELSSLLQKMDTMTTDMTEFGKIDALQEVHAQTKQHLLRLKKQYIGRRDAMRQQVTSLSTQLENLVHETAQQETAKNL
+# DALEQKLRHHEQNIFHLKEYIDSKSREVDYEHLKQDCFRTLQELNTLHVAQQQRQQQLHLGIAGGL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g3
+###
+# start gene g4
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	gene	12014	14070	0.15	-	.	g4
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	transcript	12014	14070	0.15	-	.	g4.t1
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	tts	12014	12014	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	12014	14070	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	stop_codon	12037	12039	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	12037	14004	0.9	-	0	transcript_id "g4.t1"; gene_id "g4";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	start_codon	14002	14004	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	tss	14070	14070	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MNALRLAFWRKPLHVETSSHSVQESDNAPEMERTLGLFDLIMIGIGGTVGSGVFATAGLIASSYAGPAATLSWLLAGI
+# GCLLSGLSFMELACLIPSAGSTYAYAYHALGELPALIAGFLLTLEYGVSSAGGARSWSDKLTQWMDSQLGVQGPDWMKPKDSTIDLYAGLLMTGITAI
+# VLCGMQAGKLVVNVVTMTKITVVMFIIVFGLANFSVDKISPFVPDQSVVEVHGKETVAFGWPGVLLGASASFYGYIGYDEVCCLAGEAKDPARNIPRA
+# VVGTIIGAATLSILATFALVGMQKYTEIDAEESYGNAFTSVGMDWAASFVATGEVLTMPITSFIGFMAQPRVQYAMAKDGLLPAVFSKVDSKGNLFRG
+# TLLCGTVVTLLAIFVPFHVLWNFISLGILVAFNLTNGSLLLVRVSGSSKTEGSDGKQSQGAMIAGYLVSSLVAAFHWQKGVVASVPLSATSDISLFDS
+# YMRTVGPFVAALFTVIAIGLMFALSDAEKKQTVASAAAKEKSKEQNGAVEIVLTAKKQDNCKPGCRHRSRSLEDEEDGAREEDDEPKDTDRPLSTVAS
+# ESDEDTIEPSSSNLDEEKEESTFRAPFVPFAPCVAIFFNWFLFAQMDGMSVLLILLWLLLAVVVYFSYSRHQSLAFQQTQYHQLAQQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	gene	14376	20783	0.01	+	.	g5
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	transcript	14376	20783	0.01	+	.	g5.t1
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	tss	14376	14376	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	14376	14625	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	start_codon	14554	14556	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	14626	14790	0.48	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	14884	15435	0.79	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	15560	17617	0.4	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	17930	19318	0.98	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	19455	19651	0.46	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	intron	20257	20322	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	14554	14625	0.48	+	0	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	14791	14883	0.8	+	0	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	14791	14883	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	15436	15559	0.95	+	0	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	15436	15559	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	17618	17929	0.66	+	2	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	17618	17929	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	19319	19454	0.45	+	2	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	19319	19454	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	19652	20256	0.99	+	1	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	19652	20256	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	CDS	20323	20582	0.99	+	2	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	exon	20323	20783	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	stop_codon	20580	20582	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+D0NIV2_PHYIT|PITG_11472|D0NIV2	AUGUSTUS	tts	20783	20783	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MIISVGNGRINDRGYMRWNVGNKSALGLSPYSNFYKSQVLFNHKDGTVPDKHLWKFDLLPVSPAQHGIAIAKSMEGSF
+# PVALALGWIVIAVITDDSDSRSDVYLTGDLTWDLKMNGEFKHFFNLEATRAPAGWSVEKMNREANDGASVDVEVEPAEPVEVAPEDAEVEPAEPVEDI
+# VSTELLFEQARQRLAYDVVPVPRRGVGNHRCQIYLKMNAPNEKPFNRLRRELSKAGWKARKPQGLSADFTAPKGKDAAYELARGRVPVEQMVPAEEQA
+# APTLEVMPTPPTPPSSFPPRTSASPPSTQAGQAIQQDTEQEGGSSTTSMEDPEYDARSGHERVDESKSESDDFNGFDEFDGENFIDALCGEKLFGSVA
+# EDDVNLCDEAEGDSDSIGCVFDDEMDVPVSPREDYESEVESDSVCEEASELFVQVDEDMRRLGTSGWNIYDELHSGDLTLEAAQLYDGNWGPTRSAAA
+# FAESSLGMFFYFLPKKLWVVIQKETNLYREACIPLVARPQREEQLQAQAKGRRKKVDSVQEIE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/D0NIV2_PHYIT.fasta

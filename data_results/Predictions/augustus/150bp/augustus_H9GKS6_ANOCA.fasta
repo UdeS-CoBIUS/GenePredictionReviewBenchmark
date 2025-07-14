@@ -1,0 +1,55 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/H9GKS6_ANOCA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 11903, name = H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	gene	1090	11903	1	+	.	g1
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	transcript	1090	11903	.	+	.	g1.t1
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	start_codon	1090	1092	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	intron	1093	2198	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	intron	2324	3717	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	intron	3913	4292	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	intron	4354	5307	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	intron	5377	6024	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	intron	6091	6189	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	intron	6268	7974	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	intron	8149	9372	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	intron	9477	11903	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	CDS	1090	1092	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	CDS	2199	2323	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	CDS	3718	3912	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	CDS	4293	4353	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	CDS	5308	5376	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	CDS	6025	6090	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	CDS	6190	6267	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	CDS	7975	8148	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9GKS6_ANOCA|ENSACAG00000014164|H9GKS6	AUGUSTUS	CDS	9373	9476	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAELGLNEHHQNEIISYMRFARSKRGLCLKTVDSCFQDLKESRLVEDTFTIDEVTDILDGLQTVVHSEVESELINTAY
+# TNVLLLRQIFFQAEKWYLKLQTDISELENRNLLEQVAEFEKSEFTSSNKKPNPELVKPKLTPLHDGASELLQKEIARLQEENEKLRSRLKTIEVQATS
+# ALDEKSKLEKALRELEIIQGDQKLNPTQDLCELESNMADLKYKLEKTLHDSTASQKTLEENLISTKHDLLKVQDQLAMAEKELEKKFQQTAAYRNMKE
+# ILSKKNDQIKELRKKLS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 16
+#     RM:  16 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/H9GKS6_ANOCA.fasta

@@ -1,0 +1,138 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/L1JV64_GUITH.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10688, name = L1JV64_GUITH|GUITHDRAFT_84730|L1JV64) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	gene	1090	3180	0.01	-	.	g1
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	transcript	1090	3180	0.01	-	.	g1.t1
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	1090	1339	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	stop_codon	1121	1123	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	1340	1407	0.04	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	1450	1723	0.03	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	1895	1946	0.55	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	2034	2097	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	2219	2377	0.72	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	1121	1339	0.03	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	1408	1449	0.04	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	1408	1449	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	1724	1894	0.02	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	1724	1894	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	1947	2033	0.61	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	1947	2033	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	2098	2218	0.97	-	1	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	2098	2218	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	2378	3039	0.55	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	2378	3180	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	start_codon	3037	3039	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	tss	3180	3180	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSNFTNLNIGEWAAQNPSCVTLSNIDLGVRTFELCWGIMCACQAVFFALRYPRGTWEFVLVPLTECFVYGLGYSEIGY
+# ILLWDGRQVLWTRTVLWLATVPIILNQINGMAAVRIYGVDLNVMQMYFSTLMICFGHTAALTHNQSLKWLFFIIAMAIFGLICFINYHTFTAAEKHYK
+# ESGSEIDLIIAKRIRLLAVIFFTSWTMYPLFFVLSVEGACVASERLWNLQDGKWSSYGTVTFFKTTDSVTKTAISTAMEEEFAKQKASRSDNPPAQYP
+# FALPDAENSIEQELSQLKQMNHTMMATRQFSSLDHLNDFEHSDQRYAPGVNAMPNGSPGSAGLTSRERCRSAHTEQCWVYAANRLDGQGCTMSTLHQC
+# FIPSRETLLLEIVRRSLQPLSTSDDLNPLTLTQHVNECYQRSASCAAMRCLCSSPYSSLTS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	gene	4146	9033	0.02	+	.	g2
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	transcript	4146	9033	0.02	+	.	g2.t1
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	tss	4146	4146	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	4146	5359	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	start_codon	4217	4219	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	5360	5405	0.82	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	5730	5788	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	5888	6008	0.38	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	6204	7837	0.24	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	8060	8396	0.7	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	8578	8624	0.59	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	4217	5359	0.48	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	5406	5729	0.96	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	5406	5729	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	5789	5887	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	5789	5887	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	6009	6203	0.37	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	6009	6203	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	7838	8059	0.69	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	7838	8059	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	8397	8577	0.74	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	8397	8577	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	8625	8968	0.45	+	2	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	8625	9033	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	stop_codon	8966	8968	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	tts	9033	9033	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MMHEKEEERDRRRMVGQSRQVVMICRRVDPTGVGLKRVAGPPLAPSAGFGMQPGLMGPPGTVMRPPTGARLGTSMRMG
+# TAMRPGSRAGLGPLNTNIQVAERPVTQQGMMGMKATVQGPGRQIADKTYYMGELRKKCDEMQSEIRKMNTEVEQYNKDNQMYNQMERKYEVLIKDVRK
+# LQGDLADLNLIVDKSRNNTDPQDIANAFQALKGKNDADRKRVDYLFLECQAKENEIRSIEQQCSEFQKKAEEKLNSLPAEQRMQYAQLQDDYKRLLAD
+# VEQKQLTYDNLCRQLSAGEEALMAEPLKQRLNSIQEQKLKQLEQKRNLEAELNKPVMSEEEEREMLLSQVKEDNKQIKITERNMEEINSRVRQVHQDL
+# EELEKGGGVKESEDAKKYQKLREKDQEMTEFIENFDQKHSKELTTVKEIETRIFKLLEHISKDLQRQQQLPSKENFQDLQDEVAVKQRGLENSQSTAE
+# RLRQEKKNRDAELEKIVNLDQKINVELTSLREKSEQMKQELEVFSDMNKLKKDAESNRVAMTAKKAQLDSRRKALKQQVPSLFHLLVPSWSLAGFRFS
+# SSPPTSTSASRTLRPTSSQIARRAADGNNQDKITLWGRKEYRQMKARTGKKNGRILSVYINPPAPSSRLPPQLSLTRKQKESSHHGSWESTREAIATS
+# SIRENRTGELSQPPRWQPMSSTAIVRPSDKIALMAAVATTLMTAERLENFLQESSTRRRLEQPAQPTLIGRRWQRTRELRREPRIAPDVFISASLVAE
+# SNKSSHLEPGRKSKVDKDGGIRVGQRSAAVEQEMELIHESEKMPTCIGGQPGSSKQRQSKLKRSSRTVKGT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	gene	9274	10470	0.01	-	.	g3
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	transcript	9274	10470	0.01	-	.	g3.t1
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	tts	9274	9274	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	9274	9574	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	stop_codon	9368	9370	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	9575	9632	0.7	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	9703	9755	0.81	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	9824	9878	0.91	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	intron	9996	10118	0.91	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	9368	9574	0.7	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	9633	9702	0.7	-	1	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	9633	9702	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	9756	9823	0.8	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	9756	9823	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	9879	9995	0.91	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	9879	9995	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	CDS	10119	10331	0.96	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	exon	10119	10470	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	start_codon	10329	10331	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+L1JV64_GUITH|GUITHDRAFT_84730|L1JV64	AUGUSTUS	tss	10470	10470	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MLELEQSRSTRNASSHTQFLPKVHNITRACKDSFGLIERPVRVCTGKVEVQGTVPKKGDFKLILDLYGEIKAGATEAR
+# LLPRSLRLKIRKLHQGETWKSLQKLHIPKPAQERKDFDYFVDSDEDDEDEDEDEDLGGGIDEETKKQIKELREGKGMTMSKEQSRSVLFGLFPEPDEW
+# DWIVFFVACELPLLVSSLSDPARSVTNLHEPFHKGRGIFQCPGEFPMP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/L1JV64_GUITH.fasta

@@ -1,0 +1,45 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/B1WC73_RAT.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 46126, name = B1WC73_RAT|ENSRNOG00000001689|B1WC73) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	gene	15215	30583	1	+	.	g1
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	transcript	15215	30583	.	+	.	g1.t1
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	start_codon	15215	15217	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	intron	15338	23889	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	intron	23952	25160	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	intron	25256	26993	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	intron	27124	30498	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	CDS	15215	15337	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	CDS	23890	23951	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	CDS	25161	25255	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	CDS	26994	27123	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	CDS	30499	30583	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+B1WC73_RAT|ENSRNOG00000001689|B1WC73	AUGUSTUS	stop_codon	30581	30583	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGLLDRLSGLLGLKKKEVHVLCLGLDNSGKTTIINKLKPSNAQVQDIVPTIGFSIEKFKSSRDGQAIIFVVDSSDKLR
+# MVVAKEELDTLLNHPDIKHRRIPILFFANKMDLRDAVTSVKVSQLLCLENIKDKPWHICASDALKGEGLQEGVDWLQGIPQAAACL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 26
+#     RM:  26 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/B1WC73_RAT.fasta

@@ -1,0 +1,109 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/T1ELR8_HELRO.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 7843, name = T1ELR8_HELRO|HelroG156123|T1ELR8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	gene	1	1500	0.08	-	.	g1
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	transcript	1	1500	0.08	-	.	g1.t1
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	intron	870	963	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	intron	1119	1213	0.46	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	1	869	0.95	-	1	transcript_id "g1.t1"; gene_id "g1";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	1	869	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	964	1118	0.68	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	964	1118	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	1214	1291	0.46	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	1214	1500	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	start_codon	1289	1291	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	tss	1500	1500	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MFGGVDGKSGPECLAGYNGQYASTIWYKNLCDHFTNNFPVGTHWRYFKKYKNCFSACDAVTWLTSELTTKYFKANADR
+# KKTTALLKMMHRMHEVFEDVRGAEFNSEPFEDNARLFRFKHFEFITFYDGLLAINTADPTATTMTNNPPGVISIPLHRNLNQSKSESSLKISRKSEYT
+# PTSSLSSKDDNSPKKFSNSTGDLSMKDDAVKMCKVPDNSTTPLEGVAHPAVGMNISSSKNINEGNEMMNDDDVEMSDGFTTVIVADYTTSSSVTLTER
+# NLINKSKNNLSLIEHSTTKDQIHPIRKSRSAENFQLVQHSNIGIVTTTENNLNLNTNDSNIKSFPIDINHNNSNDNNQNNDSSILPPRICWGK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	gene	1976	4416	0.08	+	.	g2
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	transcript	1976	4416	0.08	+	.	g2.t1
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	tss	1976	1976	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	1976	2102	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	intron	2103	2163	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	intron	2343	2441	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	intron	2602	2924	0.47	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	intron	3032	3237	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	intron	3437	3933	0.4	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	intron	4121	4225	0.52	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	2001	2102	0.95	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	2164	2342	0.98	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	2164	2342	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	2442	2601	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	2442	2601	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	2925	3031	0.57	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	2925	3031	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	3238	3436	0.63	+	1	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	3238	3436	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	3934	4120	0.88	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	3934	4120	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	4226	4362	0.27	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	4226	4416	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	stop_codon	4360	4362	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	tts	4416	4416	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MDPFFLAVSNFRRRKFVHCVDICTDILKKNPYDQATWALKMQGLTEQVYVDEIDMEDESMADILMDDNAIANVSRPGT
+# SLKRPNSQMGTSQGVRPMTNSGRPVTGFVRPGTQSGKSNSLDQALKTPRTARTARPVSSATSRFVRLGTMNKSFTKALELASLATKASSFKDWWWKVQ
+# IGKCYHRLGLYRDAERQFQSALTSQPIIDTYLYLAKVYIKIDQPLSALQTLKLGLEVYSNDLSLLIGQARIFERSLALAPTIFTRINRKSLSSFLGCN
+# DDDVVDDDNDVVVDDDDDKDGDDDYRLTTKQASIADGSLTTMRWCNGRVSGTAIALTVFICMEIPAYYALFRVSLQTLCVCC]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g2
+###
+# start gene g3
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	gene	6472	7843	0.42	-	.	g3
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	transcript	6472	7843	0.42	-	.	g3.t1
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	tts	6472	6472	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	exon	6472	6752	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	stop_codon	6544	6546	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	intron	6753	7843	0.48	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1ELR8_HELRO|HelroG156123|T1ELR8	AUGUSTUS	CDS	6544	6752	0.71	-	2	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [RCGYVKTLPAKEAVEQISKWLTKEDSAVSEISEISSIIESIDSDEDTSTPLQTAIINFEEYETESSKC]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/T1ELR8_HELRO.fasta

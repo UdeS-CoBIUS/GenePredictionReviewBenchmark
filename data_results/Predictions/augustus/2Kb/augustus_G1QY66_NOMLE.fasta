@@ -1,0 +1,45 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G1QY66_NOMLE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 29485, name = G1QY66_NOMLE|ENSNLEG00000026730|G1QY66) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	gene	2377	29485	1	+	.	g1
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	transcript	2377	29485	.	+	.	g1.t1
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	start_codon	2377	2379	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	CDS	2377	2435	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	CDS	5068	5150	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	CDS	9871	9936	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	CDS	10609	10658	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	CDS	10790	10917	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	CDS	15524	15659	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	CDS	22043	22177	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	CDS	25650	25733	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G1QY66_NOMLE|ENSNLEG00000026730|G1QY66	AUGUSTUS	CDS	27153	27176	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSVLDALWEDRDVRFDLSAQQMKTRPGEVLIDCLDSIEDTKGNNGDRGRLLVTNLRIIWHSLALSRVNVSVGYNCILN
+# ITTRTANSKLRGQTEALYILTKCNSTRFEFIFTNLVPGSPRLFTSVMAVHRAYETSKMYRDFKLRSALIQDKQLRLLPQEHVYDKINGVWNLSSDQSG
+# GYVLGFKIDPVEKLQESVKEINSLHKVYSASPIFGVDYEMEEKPQPLEALTVEQIQDDVEIDSDGHTDAFVAYFADGNK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 67
+#     RM:  67 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G1QY66_NOMLE.fasta

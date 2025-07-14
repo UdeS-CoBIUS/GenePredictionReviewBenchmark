@@ -1,0 +1,67 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/I3KHB5_ORENI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 12773, name = I3KHB5_ORENI|ENSONIG00000016292|I3KHB5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	gene	3561	4037	0.93	+	.	g1
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	transcript	3561	4037	0.93	+	.	g1.t1
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	start_codon	3561	3563	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	3561	4034	0.93	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	stop_codon	4035	4037	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MVILEDVAGSRAFSTASPNSVTSVTCAQCEPAFICEEHRAPVVKMPILVFSGKCQTSCTVLGCKHNPHLWMSDPRTTL
+# IESVSDRLSRHMHICGLLEVILQGAPPFPPCTKAEVLLLGFYPPMAFSSSPDVLACLLVEPPCSGHYADRHSKPSCHSSH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	gene	6681	12687	0.11	-	.	g2
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	transcript	6681	12687	0.11	-	.	g2.t1
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	stop_codon	6681	6683	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	6684	6729	0.2	-	1	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	7843	7854	0.84	-	1	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	7949	8088	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	8181	8291	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	8507	8614	0.93	-	0	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	9108	9222	1	-	1	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	10828	10925	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	12042	12263	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	12422	12554	0.68	-	1	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	CDS	12656	12687	0.63	-	0	transcript_id "g2.t1"; gene_id "g2";
+I3KHB5_ORENI|ENSONIG00000016292|I3KHB5	AUGUSTUS	start_codon	12685	12687	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MKETPTMMKISAILLRQENCVYETVVPPLDERDFEKTVTPIVQEYFEHGDTNEVAELLAELNLGPMRSVVPSLAVALA
+# LEAKASHRELTSRLLADLCGPVLSHSDMEKSFDKLLRELPDLVLDTPGAAQLVGQFIARAVSDQILSKTYIEGYKGKVDCEYARAALDRAAVLLKMSM
+# GGLRIDSQWGTGGGQQPVIQLIKEMNLLLKEYILSGDSKEAERCLRDLEVPHFHHEFVYEAIVMVLESNGEKTFKMVLQLLKSLSVSSIITVDQMRRG
+# YQRVYMDIAEINIDVPRAYFILEQFVDKSFGMGIIDVKLRDLCPCRGRKSLLSLHLHFLQFLKGD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 10
+#     RM:  10 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/I3KHB5_ORENI.fasta

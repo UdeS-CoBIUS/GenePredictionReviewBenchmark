@@ -1,0 +1,52 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H0VBK0_CAVPO.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 33123, name = H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	gene	9909	22686	1	+	.	g1
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	transcript	9909	22686	.	+	.	g1.t1
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	start_codon	9909	9911	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	intron	9974	14135	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	intron	14331	15295	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	intron	15357	17564	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	intron	17631	17711	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	intron	17790	21126	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	intron	21304	21901	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	intron	22009	22667	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	CDS	9909	9973	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	CDS	14136	14330	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	CDS	15296	15356	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	CDS	17565	17630	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	CDS	17712	17789	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	CDS	21127	21303	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	CDS	21902	22008	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	CDS	22668	22686	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+H0VBK0_CAVPO|ENSCPOG00000008100|H0VBK0	AUGUSTUS	stop_codon	22684	22686	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MRMRRLASSEHFLSRDLEYQSKLAEETFTADEVADMLGGLQAVVHSEVESELIHTAHTNVLLLCQLFEQAERWYLKLR
+# TDASELENRELLEQVAEFEKAEFISSRKKEILRLQEENEKLKSRLKVIEAQATTALDEKAKLEQALWDLQLDKGKQEDLIKAQDLSDLESKVAALKSE
+# FEKTLSDRVENQKSLEETLVTAKHDLLRVQGQLSLAEKQELEKKFQQTAAYRNLKEMLTKKNDQIKELRRKLAKYEPED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 17
+#     RM:  17 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H0VBK0_CAVPO.fasta

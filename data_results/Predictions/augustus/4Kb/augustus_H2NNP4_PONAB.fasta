@@ -1,0 +1,51 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/H2NNP4_PONAB.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 58746, name = H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	gene	3744	58746	1	+	.	g1
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	transcript	3744	58746	.	+	.	g1.t1
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	start_codon	3744	3746	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	3744	3830	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	3927	4024	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	4661	4803	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	27243	27322	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	29771	29834	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	32907	33018	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	34412	34484	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	42144	42271	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	45779	45833	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	47442	47510	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	49121	49273	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	49371	49542	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2NNP4_PONAB|ENSPPYG00000006620|H2NNP4	AUGUSTUS	CDS	52788	52915	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MYRPRRGVLGASRDKGSEWLRIPSPTLSEPYGFRLPRRLGNRRLPAAQQWAEPKWLRRESRRVGFESLFCPFVRMILG
+# IRNLLSLEKRPGKQYNSSLWLFYNLVLAKQQAPEFPILEKQNWLIHLHYIRKDYEACKAVIKEQLQETQGLCEYAIYVQALIFRLEGNIQESLELFQT
+# CAVLSPQSADNLKQVARSLFLLGKHKAAIEVYNEAAKLNQKDWAQDQLHNALNLNRHDLTYIMLGKIHLLEGDLDKAIEIYKKAVEFSPENTELLTTL
+# GLLYLQLGIYQKAFEHLGNALTYDPTNYKAILAAGSMMQTHGDFDVALTKYRVVACAVPESPPLWNNIGMCFFGKKKYVAAISCLKRANYLAPFDWKI
+# LYNLGLVHLTMQQYASAFHFLSAAINFQPKMGELYMLLAVNLNYAVLLYNQGEKKNALAQYQEMEKKVNLLKDNSSLEFDSE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/13
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 105
+#     RM: 105 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/H2NNP4_PONAB.fasta

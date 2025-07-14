@@ -1,0 +1,55 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/T0QVK2_9STRA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 2646, name = T0QVK2_9STRA|SDRG_04460|T0QVK2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	gene	19	2343	0.12	+	.	g1
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	transcript	19	2343	0.12	+	.	g1.t1
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	start_codon	19	21	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	intron	93	268	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	intron	1087	1139	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	intron	1329	1385	0.97	+	.	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	intron	1801	1911	0.67	+	.	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	CDS	19	92	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	exon	19	92	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	CDS	269	1086	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	exon	269	1086	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	CDS	1140	1328	0.97	+	2	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	exon	1140	1328	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	CDS	1386	1800	0.65	+	2	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	exon	1386	1800	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	CDS	1912	2200	0.73	+	1	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	exon	1912	2343	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	stop_codon	2198	2200	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+T0QVK2_9STRA|SDRG_04460|T0QVK2	AUGUSTUS	tts	2343	2343	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MKIKSTFVASGICHFEGIDAESERTPAHGATVVGRAAAYESARDRRRAGHARAVGGLRRESQHRSPSDGSPRDAARDD
+# GHAHWHCGSRAPGPRRVVLYGQTAPKDIGNYGRNRQDHKGDRPRRQGQEPVCAGRSNLVTSALDIRIIAVAREEVRAARGRSPGPRGPARRLQPRHGQ
+# APQRDGRLMQLKTGVACSNVGPGRDSPSARAAAQPQHQGGRRSRSGTLLSCLVEKVIEKGLDLYHAPRRRTHDQAPRERDPSDPHEAARQDQPARTAE
+# TRKVPRASRREPPRRSRARGQVAGARHAHASHSRQRRRAELGQVPGGVRAPRAPSNASQEGVQDGPRRPRNRADGPERSAEPPPRPHDKIKMEQVEKQ
+# IVAIDDENGWNIMSSFWCSIAIKLGGLKKALSEGKTELEERKNEGADGNTTSHKYDMLYQRDQEMTLFMETFEEKKLKELEGQRQSQAMVVRLLEHIS
+# LGRFEPNCLLVSCTRQGWAARTRCRRRPKLSMELGKRQAELEKVNTLDAKISVELGSLNTKMDTMQSDMEGFKNIDEMKDTHANTKQLLLRYKQQYIR
+# RRDAMKSQVILLVRPRFILLVVDDVY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/T0QVK2_9STRA.fasta

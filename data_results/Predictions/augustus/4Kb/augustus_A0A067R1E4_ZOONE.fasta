@@ -1,0 +1,148 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A067R1E4_ZOONE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 14581, name = A0A067R1E4_ZOONE|L798_13549|A0A067R1E4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	gene	1	3080	0.04	-	.	g1
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	transcript	1	3080	0.04	-	.	g1.t1
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	217	684	0.71	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	833	2415	0.26	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	2532	2635	0.9	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	2725	2797	0.94	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	1	216	0.44	-	1	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	1	216	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	685	832	0.26	-	2	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	685	832	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	2416	2531	0.52	-	1	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	2416	2531	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	2636	2724	0.94	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	2636	2724	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	2798	2860	0.94	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	2798	3080	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	start_codon	2858	2860	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	tss	3080	3080	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSPGEQKGSPYFNEKLFGPNRRRPRREAHNSPPSSIKTKKFIPVVPLDSDKEAADSCLHRNQWKEGGKSLQSVASNAL
+# SGVVGVCSIPVAPNVPTSLHGVVSQNDIAIFSAARTSNLTFLQKYLCRELLFFKVATREEQNQNAGYVHTHGHCSLQAVVPWTSEVIRIGNVKVKEVS
+# SSLPETVAVVLQPFPNICKDFGIEVVAVIKTMMM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	gene	4186	11353	0.01	+	.	g2
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	transcript	4186	11353	0.01	+	.	g2.t1
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	tss	4186	4186	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	4186	4532	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	start_codon	4335	4337	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	4533	5616	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	5806	6101	0.83	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	6285	6503	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	6727	6948	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	7170	7492	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	7604	7676	0.55	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	7734	7819	0.72	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	8003	8274	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	8425	8648	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	8862	9093	0.56	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	9399	9917	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	10067	10877	0.92	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	4335	4532	0.61	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	5617	5805	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	5617	5805	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	6102	6284	0.83	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	6102	6284	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	6504	6726	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	6504	6726	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	6949	7169	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	6949	7169	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	7493	7603	0.63	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	7493	7603	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	7677	7733	0.71	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	7677	7733	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	7820	8002	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	7820	8002	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	8275	8424	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	8275	8424	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	8649	8861	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	8649	8861	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	9094	9398	0.56	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	9094	9398	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	9918	10066	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	9918	10066	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	10878	11236	0.92	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	10878	11353	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	stop_codon	11234	11236	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	tts	11353	11353	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGLAVGRVVPSDANKELALLNINQSVMSICAGQLSLTEERDTLVVGTPTTLLAYDVENNTDVFYKEVSDGASVVVIGK
+# LGSIPNPLAIIGGNCSLQGFDYEGNDPFWTVTGDNVCSLALLDFDQDGENELIVGSEDFDIRVFKEDNIVNEQTETEAVTALTAFRGNKFGYGLANGT
+# VGVYEKLQRLWRVKSKNRAVAIYGYDLNGDGVEELITGWSNGKIDARSSRTGEVIFKDNLNHSVAGIVEGDYRLSGKNDLICCSVEGEVRGYNLSRQV
+# NVRSDVYGGSVNAETEAIRDLFTKKQALMLELRNYELNSHFSEISVGEMGQQLAVANQHVGIIPAQTRLQTGIAVNMGTEDKPVCTDCLTCMCCYITT
+# FSYGPSGCLGLQSQSLSTYEITPHVEISLSTNNETVICAVMVFAEGIFEGETHVLHPKESEVTSRLDVALYPPRDVPVDIHIKALVGYEGSQHYHVFE
+# LTRQLPRFSMYAVLVERTQDVGSFLSFVINERLQRIAMWVNQNFLLLTDYEVVGDLNVTFLSLRDNTEVTLSMESNGRMEIITKNMALAGDIVQSLAT
+# FLNLEELQILSFKHTCFNFCTNRKLSCEESFVNLYLNSWLDNSSPRINSSVMWQVSANFPEEQEKIGELIQKVSALQDVRLRLGAEMADHSGLIRSLV
+# VRAEDARHLDDMKSMRKWYLELNEVNTDLIRGYNIRCKNHQELLDALKELNVIIQKAARLRGKNMSLLYVKGIAVDTGSQIDNLEFVTCGIIQMHVLH
+# IVNIYSIVRFEVFTAVSMKISVFWVVALCSLVDVNQRFRGHTASVIRAMNDPDDGGSMTSETLVNIDQTTQCNNPEDRNLHI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/12
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	gene	11426	14370	0.02	-	.	g3
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	transcript	11426	14370	0.02	-	.	g3.t1
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	tts	11426	11426	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	11426	11709	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	stop_codon	11563	11565	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	11710	12251	0.46	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	12437	13128	0.82	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	intron	13322	13933	0.96	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	11563	11709	0.47	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	12252	12436	0.86	-	2	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	12252	12436	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	13129	13321	0.83	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	13129	13321	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	CDS	13934	14065	0.92	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	exon	13934	14370	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	start_codon	14063	14065	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A067R1E4_ZOONE|L798_13549|A0A067R1E4	AUGUSTUS	tss	14370	14370	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MCMSAFQNDHSETVPIHRITHTEESQNEDEVHSISTTHYTSVTKPSNKHAKNHESPTSKATVAYMIIFGDALHNFIDG
+# MSIGAGYSKDLNAGLSISIAIACEEFPHELGDFAILINSGMPLKKALLYNFLSACTAFGGLILGIMIRDLETSVYVFAFAGGLFLYVSLADMMPELNK
+# MVEEELKNSKASALVVLLLQNTGIFIGVSILYLITKYPVTIS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A067R1E4_ZOONE.fasta

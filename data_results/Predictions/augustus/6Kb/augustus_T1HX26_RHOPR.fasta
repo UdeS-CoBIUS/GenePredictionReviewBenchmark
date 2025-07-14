@@ -1,0 +1,152 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# rhodnius version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/T1HX26_RHOPR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 19785, name = T1HX26_RHOPR|RPRC008596|T1HX26) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	gene	2222	4585	0.13	-	.	g1
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	transcript	2222	4585	0.13	-	.	g1.t1
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	tts	2222	2222	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	2222	2583	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	stop_codon	2383	2385	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	2584	3467	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	3667	3767	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	3821	4006	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	4267	4336	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	2383	2583	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	3468	3666	0.99	-	1	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	3468	3666	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	3768	3820	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	3768	3820	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	4007	4266	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	4007	4266	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	4337	4502	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	4337	4585	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	start_codon	4500	4502	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	tss	4585	4585	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSGDQKTVIEGKPSQYVKLNIGGSLHYTTIGTLTKHDTMLRAMFSGRMEVLTDSEGWILIDRCGKHFGSILNFLRDGL
+# VPLPDSCKETAELLAEAKYYCISELVSACEQALLKKERDAEPICRVPLITSPKEEQLLINSTSKPVVKLLINRHNNKYSYTSTSDDNLLKNIELFDKL
+# SLRFSGRVLFIKDVIGSSEICCWGFYGHGKKVAEVCCTSIVYAPDKKHTKVEFPEARIYEETLNILLYENRVGPDQELMQATSSRGAVAGMSSYTSDE
+# EEERSGLARLRSNKQNNQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	gene	5936	13529	0.07	+	.	g2
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	transcript	5936	13529	0.07	+	.	g2.t1
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	tss	5936	5936	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	5936	6266	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	start_codon	6001	6003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	6267	7155	0.94	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	7245	7342	0.9	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	7608	8301	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	8526	8603	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	8732	8806	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	8988	9919	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	10118	10198	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	10439	11661	0.91	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	11949	12020	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	12186	12269	0.86	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	12414	12505	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	12696	13334	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	6001	6266	0.94	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	7156	7244	0.84	+	1	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	7156	7244	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	7343	7607	0.98	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	7343	7607	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	8302	8525	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	8302	8525	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	8604	8731	0.99	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	8604	8731	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	8807	8987	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	8807	8987	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	9920	10117	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	9920	10117	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	10199	10438	0.99	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	10199	10438	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	11662	11948	0.92	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	11662	11948	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	12021	12185	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	12021	12185	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	12270	12413	0.85	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	12270	12413	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	12506	12695	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	12506	12695	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	13335	13429	0.94	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	13335	13529	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	stop_codon	13427	13429	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	tts	13529	13529	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSLFKARDLWSVTFGEQETFEPTALLTADLNGQGFDHIIVGSHEGILRIFNPFSERDLASTKGFTPTDLLIEVDLSQP
+# ILQVACGKLVSGSKNICLAILHPRSVAVYNFITISGSTEHGDQSQVIMVYEHNLKRTAYCILVGGFGGVAGRDFLCIQSLDGTLLFYEQETLTLSRQL
+# PNFLLPSPIIYVPHTDSFVVLTSNWFLHSYRYQSLGEETSVQLMPSWEYNLGENVLEMNYLSLTTTEAAIFLMTDSNMYCFSETGILKFFKRLQLTPL
+# CSHIYSRGEPLLMSLIVSDTNTLMVYENATLQWSAQLLITPIAVSRANFQGLYGCVVVLSDNGSLQVCYLGTEPTLFVPPPLQENVKNMSEMETKLAA
+# LQHQIATYSQSAKNLLGAPLNRPDVKISLKVWPILEGESSCKIEISIQAVTLVHNVHATVAVHSPLTALPNSHVLQNLSDSSELYSEIHVEPSHTVVS
+# DLEISVMVVYLCSDLTSGSVSASTTLPAHFVLELSPPANDLDVNLNLSVSNSVILPTLFPEFSASSWNETGSNENLAGFRYRHSPDIGFTITLIRSQQ
+# KYKIETNTISCLTLPLSILNKKLFNKQLRTSQYSLAMNELLEATDNNVELRNQIRDLQLALKQGTSQMRVCQKRLLSIMRDKTPSDLTALTELINFTH
+# EHVMDTAYKMETAQKDLQENGNRLASLLKLTLCLVKLSGSALPEDLKNVIEAVSYTNLFSENQGWAEVSEIGLNHLLRTSLARSIKDQYMPPTPDDLV
+# VTNSSTLKKYITATVERLVAQNALDDNRPVSPILEGEDESGGIADTVHSSKPALYQEFG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/12
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 21
+#     RM:  21 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	gene	16622	19785	0.29	-	.	g3
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	transcript	16622	19785	0.29	-	.	g3.t1
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	tts	16622	16622	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	16622	16686	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	17122	17309	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	stop_codon	17168	17170	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	17310	17396	0.99	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	17894	18023	0.82	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	18212	18295	0.95	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	intron	18456	19785	0.86	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	17168	17309	1	-	1	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	17397	17893	0.87	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	17397	17893	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	18024	18211	0.93	-	2	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	18024	18211	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	CDS	18296	18455	0.91	-	0	transcript_id "g3.t1"; gene_id "g3";
+T1HX26_RHOPR|RPRC008596|T1HX26	AUGUSTUS	exon	18296	18455	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [DGEIWAVDQCRSCVCRQGTVHCAAQLCPQTNRPCPPNHKLVTEPGQCCPKCVESDGVCTVFGDPHYRTFDGKFFSFQG
+# PCKYQLAADCTNHTFSIRVTNDARATKTSSWTKTVSIKIAGIKINLGEKRRVKINGERIQVPLESNEVSVSETEESVLVEAKTVGLRLLWDGNSFLEV
+# SVPAAYKGKLCGLCGNFNSVSRDDLMTRTGRIVMDADKFGWSWRVGGRKACSRGKGFAPDIPPLQENHRCSKYLPHRRFRERLCKPLKSDIFAACHKH
+# LNYLMYFKSCLVDMCECPSRRCYCESFTAYAHECARLGVSLPNWRSVTGCLARH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/3
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=rhodnius --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/T1HX26_RHOPR.fasta

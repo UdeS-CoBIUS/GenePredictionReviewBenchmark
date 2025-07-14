@@ -1,0 +1,50 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/D2HVB4_AILME.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 40555, name = D2HVB4_AILME|ENSAMEG00000005571|D2HVB4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	gene	10001	35152	1	+	.	g1
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	transcript	10001	35152	.	+	.	g1.t1
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	start_codon	10001	10003	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	intron	10156	14929	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	intron	15018	17885	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	intron	17951	27019	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	intron	27116	30404	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	intron	30541	34322	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	intron	34417	35006	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	CDS	10001	10155	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	CDS	14930	15017	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	CDS	17886	17950	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	CDS	27020	27115	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	CDS	30405	30540	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	CDS	34323	34416	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	CDS	35007	35152	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+D2HVB4_AILME|ENSAMEG00000005571|D2HVB4	AUGUSTUS	stop_codon	35150	35152	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAKDLDELLDEVESKFCRPDPPRLGLVERPRGCGGGILSNDRNGAEAKENLRSAETFEREDDLDSLINEIFEEPTFDK
+# KPFKLKSKSSGNTSVRASIQGLGKRACDHLRCIACDFWVVSYDDHMWDKSCDYLFFRNNMPEFHKLRTKLVKKKGTRAYACQCSWRTVEDLTDLQTDQ
+# QLRWFLVRVSEFADFSGYQVFFVFFHLYSDYILLSDTVGTKTVGTAAIMLIGTGIVEAPGATGGGESGNPGGQIPDGSAGIPM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 44
+#     RM:  44 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/D2HVB4_AILME.fasta

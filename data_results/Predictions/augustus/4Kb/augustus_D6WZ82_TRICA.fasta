@@ -1,0 +1,136 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# tribolium2012 version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/D6WZ82_TRICA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10598, name = D6WZ82_TRICA|TC012625|D6WZ82) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	gene	1	921	0.99	-	.	g1
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	transcript	1	921	0.99	-	.	g1.t1
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	1	921	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	start_codon	919	921	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MATLNPVQWEKPLSLDRQSPSLHVLEVPLPSLQNPSFLHSQKLRENLIESRKAFLRNLNEDEKLEPNNEPRKTPTKKI
+# SFKIKKTASIYRHNQKMSTISASKVAELTMKFNMINEKNSLLEQPKFRKLVKRVNSQRSLDSDKVTKHSVKNVVTRKPSVKTKPYEDKEIVIVRRKPT
+# IKRKPSRANLEKPVLVTEQNRPTTLPLDEPQPPSTGTVRAAIEIFERRNSSPVPKPKVPEKPTKLKPDKTDEDLVQIVNIPAVLPQRRCDSMYETLNV
+# TKTPLLKPTKSEETIVRPKPNTSFLWSINQDKS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	gene	4578	6572	0.76	+	.	g2
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	transcript	4578	6572	0.76	+	.	g2.t1
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	start_codon	4578	4580	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	intron	4589	4633	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	intron	5304	5352	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	intron	5596	5639	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	intron	5869	5912	0.91	+	.	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	intron	6338	6383	0.88	+	.	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	4578	4588	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	4634	5303	0.97	+	1	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	5353	5595	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	5640	5868	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	5913	6337	0.81	+	2	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	6384	6572	0.98	+	0	transcript_id "g2.t1"; gene_id "g2";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	stop_codon	6570	6572	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSRGELNISRWLEAHSDRSAGLNTFARNAILADVCGDGDFRLVLTDVRLEADKRSRLKVYKGTLLTSDQVLPDIPSSL
+# ISFYSDELEPRVPSIAVACGSDLLIYKNNKPFYKFCVPPSPITPLEEETWKRFGEPNCDFAQVMTDLKSVRFNQLSARSQELLTLPPEQVPEYITRFT
+# GLTPLKTSPIVSMTTLNRFSEDKSAIACPVLGTESGIIYILDSQTFTILHQADVCNVRTTPAIIKTAGMFDVEYRIVIACRENSICVLRRGWLEGKSL
+# IQMTEDIVDMVLVPGDNFIVVATASKFLHCYTKRGQRVWSAPVFSPVTCLCLVPLKHLSTHLIAVGLKGGSVHLYHGRQPVDYTNSPDSPSALVFGQL
+# GQEEHVMVVITMAGTINFKILKRTADFNLSNQDKLAAPTLQTKPLPLPKRSKLFIEQSMRERQNPIEMHQSFQEDLVRLRLTAARALVHSLTDQSGAG
+# NAQEEIKLSAQVLGLGPKFTLILTLENMNAEKPIYNFLVVFHAKPSVYKLSTYVVFVPLIPPSLSYKMETKVTEVLTNEGVPQPPQAIRVFVMRKEQA
+# NPVLAASINMPPTDMTGLLL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	gene	6667	7009	0.56	+	.	g3
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	transcript	6667	7009	0.56	+	.	g3.t1
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	start_codon	6667	6669	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	intron	6682	6725	0.98	+	.	transcript_id "g3.t1"; gene_id "g3";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	intron	6841	6881	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	6667	6681	0.96	+	0	transcript_id "g3.t1"; gene_id "g3";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	6726	6840	0.98	+	0	transcript_id "g3.t1"; gene_id "g3";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	6882	7009	0.58	+	2	transcript_id "g3.t1"; gene_id "g3";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	stop_codon	7007	7009	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MSLDEKFKSACDQIRQFTKRPSDSDMLEVYSLYKQATVGDINTPKPSEAKAKAKWEAWSGKKGLNANVAKEQYVAKIK
+# ALAPTYA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	gene	8226	8596	0.58	+	.	g4
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	transcript	8226	8596	0.58	+	.	g4.t1
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	start_codon	8226	8228	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	intron	8241	8293	0.99	+	.	transcript_id "g4.t1"; gene_id "g4";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	intron	8409	8456	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	8226	8240	0.58	+	0	transcript_id "g4.t1"; gene_id "g4";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	8294	8408	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	8457	8596	1	+	2	transcript_id "g4.t1"; gene_id "g4";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	stop_codon	8594	8596	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MSLDERFKKAADDVQKLKSKPSNDDLLEIYALFKQGSVGDCNTDRPGMLDLKGKAKWDAWNGKKGMSQDKAKEEYIAK
+# VESLIQSIGLQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	gene	8932	9477	0.94	+	.	g5
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	transcript	8932	9477	0.94	+	.	g5.t1
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	start_codon	8932	8934	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	intron	9145	9189	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	8932	9144	0.99	+	0	transcript_id "g5.t1"; gene_id "g5";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	CDS	9190	9477	0.95	+	0	transcript_id "g5.t1"; gene_id "g5";
+D6WZ82_TRICA|TC012625|D6WZ82	AUGUSTUS	stop_codon	9475	9477	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MPPLKISKCMSDVAQARIDNLFLTKLPSETSHNTQHTCRSYVSKVLNNLNELRRHNRFCDVEIIAEDKIFQAHRAVLA
+# ASSPYFQAMFTGGLCEKDQQSVELHGITSYVFEILLNFIYSGEVNITQNNVQELMVAADMVGLSEIVLGCTEFLIKELHPLNAIGIYR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=tribolium2012 --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/D6WZ82_TRICA.fasta

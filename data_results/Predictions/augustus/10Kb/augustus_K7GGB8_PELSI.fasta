@@ -1,0 +1,109 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/K7GGB8_PELSI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 62126, name = K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	gene	1	4440	1	+	.	g1
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	transcript	1	4440	.	+	.	g1.t1
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	1	411	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	525	4355	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	412	524	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	4356	4440	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	stop_codon	4438	4440	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [NNQADLENATEVLSGYLERDISQDSLQDIKQKVQDKYRYCESRRRVLLQHVHEGYEKDLWEYIED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 10
+#     RM:  10 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	gene	20520	52126	1	+	.	g2
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	transcript	20520	52126	.	+	.	g2.t1
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	start_codon	20520	20522	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	20536	30662	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	30743	32460	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	32525	33493	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	33606	34324	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	34398	36950	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	37005	41351	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	41480	42815	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	42871	44192	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	44262	45705	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	45859	46009	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	46182	46460	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	46531	49623	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	49766	50265	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	50477	51986	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	20520	20535	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	30663	30742	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	32461	32524	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	33494	33605	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	34325	34397	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	36951	37004	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	41352	41479	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	42816	42870	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	44193	44261	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	45706	45858	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	46010	46181	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	46461	46530	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	49624	49765	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	50266	50476	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	51987	52126	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	stop_codon	52124	52126	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSPVAVPELPILERRNWLIHLHYIRKDYDACKIAIKEQLQETQGMCEYAVYVQALLFRLEGKIQESLELFQTCSILNP
+# LSADNLKQVARSLFLLGKHKAAIEVYNEAAKLNQKDWEICHNLGVCSMYLKHFNKAKDQLNNALQLHRHDLTYAMLGKIHLLEGDTDKAIEVYKKAVE
+# FSPENTELLTTLGLLYLQLGAYQKAFEHLGNALTYDPSNYKAILAAGSMMQTHGDFDVALTKYRVVAHTMPESPPLWNNIGMCFFGKKKYVAAISCLK
+# RANYLAPFDWKILYNLGLVHLTMQQYASAFHFLSAAVNFQPRMGELYMLLAVALTNLEDVENAKRSYEQAVALDKCNPLVTLNYAVLLYNQGDQKGAL
+# GQYHEMEKRVNTLKESSTLDFDPEMVDMAQKVGAALQVGESLVWTKPVKDSKLKQRATAPSKPSSTQQPLGSNQALGQAMSSAAGYGKTLQLSTGAGA
+# SAPLTKPPSLPLEPEPGPEETTSPTESQERRREKRKSRLATE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/15
+# CDS introns: 0/14
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 45
+#     RM:  45 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	gene	60465	62126	1	-	.	g3
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	transcript	60465	62126	.	-	.	g3.t1
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	stop_codon	60465	60467	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	intron	61014	62126	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+K7GGB8_PELSI|ENSPSIG00000017062|K7GGB8	AUGUSTUS	CDS	60465	61013	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [VFPLVNSVGLNEQELLFLTQSASGPHASLASWNEVPDVGIVSDILFWILKKHGRTMDKASNLTRIHFHTLAYHILATV
+# DGYWGNQVAAVASGARVAGTQACATETIDTDRVFLKAPLEFVTSRTEAPSRISFSPDDPVVQWHREGISFHFTPVLVCKDPIRTVGLGDAISAEGLLY
+# SELYPQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/K7GGB8_PELSI.fasta

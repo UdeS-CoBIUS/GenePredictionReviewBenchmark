@@ -1,0 +1,69 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# ciona version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F6RWY1_CIOIN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 7974, name = F6RWY1_CIOIN|ENSCING00000012001|F6RWY1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	gene	1	5513	0.16	+	.	g1
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	transcript	1	5513	0.16	+	.	g1.t1
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	intron	1	2915	0.29	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	intron	3111	3278	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	intron	3406	3733	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	intron	3878	4236	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	intron	4381	4957	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	intron	5086	5494	0.5	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	CDS	2916	3110	0.98	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	CDS	3279	3405	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	CDS	3734	3877	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	CDS	4237	4380	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	CDS	4958	5085	0.91	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	CDS	5495	5510	0.5	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	stop_codon	5511	5513	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [LYEDTYTTDEVTEMLDGLLSVVRGEMEAELLNASHTSVLQLRQILSQAEKWHLKLCSDISELENRELLEQIADFEEQE
+# LSLSGSSDFKPLPKLEPLNESGGVALLQMEIERLKEENERLNERSRSFEKHATKCVEDNKAMQKQIKELGAKPVAAVDNSSVSELETKLKAMTADFSE
+# SMDSKSALNEALAADLTSTKHDLLKVQEQLEMAEKDLEKKFRETGAFRNLRDMLAKKNEQLKELRKKLGKYEQTD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	gene	7182	7875	0.42	+	.	g2
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	transcript	7182	7875	0.42	+	.	g2.t1
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	start_codon	7182	7184	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	intron	7398	7689	0.66	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	CDS	7182	7397	0.42	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	CDS	7690	7872	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6RWY1_CIOIN|ENSCING00000012001|F6RWY1	AUGUSTUS	stop_codon	7873	7875	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MPEYSHTESTALSTDVNNNPVVESAGHGNASDEVAPPQRFNIALALAKPFKGLSSASENNLHKASRCGDCNWILRCLL
+# QNCRNDENDDESPRDGGSTAPDINERNRLGASPLWLASLMGHADAVELLIKHGAE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=ciona --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F6RWY1_CIOIN.fasta

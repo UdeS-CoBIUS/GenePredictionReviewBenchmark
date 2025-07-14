@@ -1,0 +1,55 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/W2YZ86_PHYPR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 1211, name = W2YZ86_PHYPR|F442_12310|W2YZ86) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	gene	24	1193	0.01	+	.	g1
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	transcript	24	1193	0.01	+	.	g1.t1
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	tss	24	24	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	24	192	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	start_codon	151	153	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	193	257	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	369	434	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	561	620	0.96	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	739	797	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	intron	914	974	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	151	192	0.45	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	258	368	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	258	368	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	435	560	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	435	560	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	621	738	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	621	738	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	798	913	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	798	913	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	CDS	975	1061	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	exon	975	1193	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	stop_codon	1059	1061	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W2YZ86_PHYPR|F442_12310|W2YZ86	AUGUSTUS	tts	1193	1193	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSALRSMETTHKSTTVLRCKVAIVGDATVGKTALLQVLKSNGHEYPKNYVMTSDVELSTKSIPIPDTNVVVELYLFDC
+# AGQSIFNQLDFGTVHYKGASMALVVFDVNNKESFKSCSKWYQDVRDASPNHNIPGVLLANKTDLRYNNRDAISTKEAEEFAKRNDLKYFECSAQQNSG
+# VEAPFAYIADWFHKKYQAATQRA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/W2YZ86_PHYPR.fasta

@@ -1,0 +1,95 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# nematostella_vectensis version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.849), CTG(0.0827), TTG(0.0678)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/A7RIW9_NEMVE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 37316, name = A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	gene	1198	1872	0.63	-	.	g1
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	transcript	1198	1872	0.63	-	.	g1.t1
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	stop_codon	1198	1200	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	CDS	1198	1872	0.63	-	0	transcript_id "g1.t1"; gene_id "g1";
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	start_codon	1870	1872	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [LCSICLEEVQKETSAELECGHGNHLKCVLRLRSATCPVCSRPLVSDKLCVCDLDIMSIGYKELSDEESFDYEDHRREC
+# ESFHACCLSVGSRFREKALEFMMETGIQQAIDESRNEYDLPTVRDFPREVKFLVYLGLFGGENDTETRREIFPLIDEGGDVFASFLRGKTFVVDRDFV
+# RELDYQMYLMMGTEEERLGTRCETFERSRWDSLPFVDWFLTPHTTNRP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	gene	5311	6090	0.54	-	.	g2
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	transcript	5311	6090	0.54	-	.	g2.t1
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	stop_codon	5311	5313	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	CDS	5311	6090	0.54	-	0	transcript_id "g2.t1"; gene_id "g2";
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	start_codon	6088	6090	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [LDMSLLDVISSFLEDAPIFLLQTYIVLLTRREFTWTFAEIKLVFNTFKSVVMLAKALKAYRFNLHFFDISRAPLPMCA
+# SLGLFAWSFFILIARVLVLALFATTFKAWIALVFALDIMISYLILFNQDCNYFPNSKLKLNLFKLFLAYVHLFAFFHLEGRQMRRFAYPYYAFVFFEN
+# VILMLLWGLWTNQSMVFIIVASSIAGLTFPVGLLVMMLYYACPGCCHPLSRTEEDEPEHNCEPEVDGGSTGTEMQPIMTTAAV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	gene	7142	7480	0.78	-	.	g3
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	transcript	7142	7480	0.78	-	.	g3.t1
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	stop_codon	7142	7144	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	CDS	7142	7480	0.78	-	0	transcript_id "g3.t1"; gene_id "g3";
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	start_codon	7478	7480	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [LDSCRGIFNPVLRKIHTLLDEQPTKIPVGEKALQWHERARCSRISLVMPLVSILLYLSDFGMDASVAYDFYKAGDVVW
+# CAIMVGILLISSVSLQAVSAFRLQEDNTNPDRYS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	gene	34932	35528	0.99	-	.	g4
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	transcript	34932	35528	0.99	-	.	g4.t1
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	stop_codon	34932	34934	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	CDS	34932	35528	0.99	-	0	transcript_id "g4.t1"; gene_id "g4";
+A7RIW9_NEMVE|NEMVEDRAFT_v1g159317|A7RIW9	AUGUSTUS	start_codon	35526	35528	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MGEEKIRRLIPDRSDGKYYWPLEQNYDVGKAYKFTSKDIAQNWYPTTPEDIGVSGEMSIIEENPMPNMFAELQAIARD
+# RVEDIWPNIIEEGKFVRGDDYLNHHSTGILRCNRANLDCYPDPGEHRVGERRILINNKYDFPLQAIDHNLPVMPEDEDVLVVLGLGRPMPDRNDPSLP
+# GRCYILATGLLTERKLQNHPQA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=nematostella_vectensis --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/A7RIW9_NEMVE.fasta

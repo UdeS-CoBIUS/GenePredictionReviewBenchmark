@@ -1,0 +1,102 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W5KI70_ASTMX.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 63244, name = W5KI70_ASTMX|ENSAMXG00000007072|W5KI70) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	gene	1	7710	0.62	+	.	g1
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	transcript	1	7710	0.62	+	.	g1.t1
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	4617	4744	0.79	+	2	transcript_id "g1.t1"; gene_id "g1";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	4925	5060	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	5472	5520	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	5865	5963	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	6075	6135	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	7488	7547	0.92	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	7645	7707	0.88	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	stop_codon	7708	7710	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [SIMASQRPPSGRPMSRGSLVPGAGRPPTAIRPPPTAIRVGTGMVPGTGRPGTRGGPIATPGVLSAQIKVTDRPVTQQG
+# LSGMKTGGKGPQRQILDKSYYLGLLRGKINELTTETSKLQKEIDVFNQENSVYLSYEKRAEGLAGEIKDFQGQLADYNMLVDKLNTNTEMDEVMNDFN
+# MLRAQNDREAQSMDVIFTERRE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 19
+#     RM:  19 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	gene	9780	15146	0.32	-	.	g2
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	transcript	9780	15146	0.32	-	.	g2.t1
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	stop_codon	9780	9782	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	9783	10171	0.92	-	2	transcript_id "g2.t1"; gene_id "g2";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	13097	13457	0.58	-	0	transcript_id "g2.t1"; gene_id "g2";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	15099	15146	0.66	-	0	transcript_id "g2.t1"; gene_id "g2";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	start_codon	15144	15146	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MATALATATVPSPKDMLDESNKTLTGIPLTYSSSITKLILHHNSITMNSSDTKSLSKLTNLKELDLSYNHIEVLADGA
+# FSGLEKLEVLNLSGNRLKTVKKEALTGLNHLKKLDLQENPWQCDCLFLQWMNESGVQIDSLTDTDKTGKQEPGVSNTWKFLAGVIVIALCTSMFIVCA
+# VKSPSWYKMLFNYRHQRLREVEEPNVFSTGRYSNFSLDTEQTETSAYELDQGPEQPLEDEDGFIEDRYIQPEDYKEHTEDYKDHSDADEV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	gene	19577	61244	0.17	+	.	g3
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	transcript	19577	61244	0.17	+	.	g3.t1
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	start_codon	19577	19579	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	19577	19581	0.28	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	20474	20612	0.7	+	1	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	26303	26365	0.95	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	29008	29151	0.99	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	29257	29297	0.96	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	29963	30042	0.96	+	1	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	33125	33178	0.85	+	2	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	33835	33932	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	34052	34178	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	48049	48212	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	57147	57272	0.94	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	59463	59523	0.94	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	CDS	61129	61241	0.85	+	2	transcript_id "g3.t1"; gene_id "g3";
+W5KI70_ASTMX|ENSAMXG00000007072|W5KI70	AUGUSTUS	stop_codon	61242	61244	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MKKEDMIQAVEEEIEREKQAADDIVKKMSPEKQAKYAEMKAANEELLQELDARQEELDTLMTRKETFEAELLHSQVKQ
+# EAVLLYERLQELEQRRDAMQAEEKNTTSPQEERERLLKQVKEDNQEIASMERQLTETREKITQLNEELRQLHMDMEDHQGERTQKYKELQKKEEEIDA
+# YLETFDNNKAQECQQIRDTQTSIVSLLEHSSRMMNRLNLLSSVSPHELKSMQEDLSFKETEMQKSQSTAKGLSSESERLQQDLLKVEQLEGKVIAEMN
+# SLKEKIEQMSDGLKTYRDLDALKAAGEQKKKRLQEDRVSLTERRDTFKKIMQKMNQEYETLAAQLQENETHAQLRNLERKWQHHEQNNFVMKEFIASK
+# GMESDYRPVMKNVTKQLGDYNKILIDTLQGPRS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/12
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 42
+#     RM:  42 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/W5KI70_ASTMX.fasta

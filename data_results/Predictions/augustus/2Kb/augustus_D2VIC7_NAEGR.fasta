@@ -1,0 +1,75 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/D2VIC7_NAEGR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5147, name = D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	gene	2	3203	0.15	+	.	g1
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	transcript	2	3203	0.15	+	.	g1.t1
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	intron	1765	2122	0.91	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	intron	2630	2741	0.95	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	CDS	2	1764	0.71	+	0	transcript_id "g1.t1"; gene_id "g1";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	exon	2	1764	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	CDS	2123	2629	0.88	+	1	transcript_id "g1.t1"; gene_id "g1";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	exon	2123	2629	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	CDS	2742	3147	0.95	+	1	transcript_id "g1.t1"; gene_id "g1";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	exon	2742	3203	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	stop_codon	3145	3147	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	tts	3203	3203	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [TTTPTYTPTTPPPPPPAALKQRRISMAAYTQKPSTTTINTANDDNNNDNNINSPPSITTTSSSVTNIDITNNNTTPMD
+# LLTTIDCKQNNIEVGSSSVPSTPTTTTGSNVSTPTGTKPTTATATAGNRKSQKPAEVLNPQDFYSVDLSQLTYTPDPDSSIVIQENQIEHASLNKLIE
+# ELTSHTNYDIHFLHTFMLTFRNFTDKETILKKLEERFNYPPNCPPEEFATFKREILDKVRLRIINSIKYWIENFFVFDFDSEMMQFLSKFIEMVRKSN
+# QNALAKVIENTLERVKNNDSGKVITKVECPEILKLKKKVFSKKKTYSILDYPLQEVARQMSLIDYTMFKKIEPKECLNQAWNKEHRVTKAPNISRMIQ
+# HFNQFSGFVATEILKQEDHEKRVKCVEKFIELANHCKGLNNFNAVFSVMSGLNSSSIHRLSKTWEAISEEAKKTREELLSITNTNGNFANLRNMLKTV
+# NPPCVPYNGVFLTDLTFIEDGSPKYINGLINFGKCRLFAKVIRDIQTYQNTRYNFEEYKELKDQIEAVEKLSDDELFNMSLQVQPRAQKKKKVATSTA
+# NASASSLKEDDEENEKKPENDLSLKKGEFEIDVLDNVEDTKGNNGEKGKCIVTNLRMIWICTRNPKINLSIGYNTMVNIKIQSSNSRLKGTNQSLYLL
+# TKYHGSRFEFIFSNMVKTNPRLFSTIQAVFKAYQSSKMYREIRLRSAIIKNKCLDLLPKEQIYTSLSGVWNLSADQGNLGTFIVTNIRIVWESKFGKA
+# FVVETNRTSGREFVLGFRVDPIEKFNDLYKEVSSLHQLFSSNPILGVEYQAEEKQASLEQLMVPKTSETMKYVGNKDTSDPLAPYYVDSSERVANTSI
+# GFSNELGLACEELKDGMTIKKLWQCIYKV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	gene	3256	4980	0.04	+	.	g2
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	transcript	3256	4980	0.04	+	.	g2.t1
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	tss	3256	3256	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	exon	3256	4980	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	start_codon	3441	3443	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	CDS	3441	4814	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	stop_codon	4812	4814	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D2VIC7_NAEGR|NAEGRDRAFT_34252|D2VIC7	AUGUSTUS	tts	4980	4980	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSSSTTPKLIGNTPLSQADPELFDLIEKEKERQWKGLELIASENFTSQAVMDCLGSCLTNKYSEGQVGARYYGGNEYI
+# DEIEKLCKTRALEAFSLNSEDWSVNVQPYSGSPANFAVYTGLLQPHDRIMGLDLPSGGHLTHGYYSGKKKISATSIYFESLPYTVDQQGLIDYDGLEK
+# SARVFRPKLIICGGSAYPRDWDYARLRKIADEIEAYLMCDMAHYSGLVATGEHNSPFQYCDVVTSTTHKSLRGPRAGIIFAKKALMPKIDFAVFPGIQ
+# GGPHNHQIAAIATQLKEVKTPEFKQYIQQVKANAKTLAKALIEKGYTLATGGTDNHLVLWNLRPQGITGSKMEKLFDAVSITSNKNSIAGDANALSPF
+# GVRLGTPALTTRGFKEVDFEKVAEFLHRGVQIGLKLQEQAVSTKLADFLALFENNEELTQLKSEVESFAKQFGIPGWNIETQRYH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/D2VIC7_NAEGR.fasta

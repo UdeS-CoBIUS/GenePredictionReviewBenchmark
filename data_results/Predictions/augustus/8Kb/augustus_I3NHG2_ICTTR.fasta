@@ -1,0 +1,113 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/I3NHG2_ICTTR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 33152, name = I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	gene	1	6994	1	+	.	g1
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	transcript	1	6994	.	+	.	g1.t1
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	1	4750	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	4914	6821	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	4751	4913	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	6822	6994	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	stop_codon	6992	6994	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [VLKSTGDVAGGRALYEGYAAVTDAPPECFLSLRDTVLLRKESRKLIVQPNTRLEGSEVQLLEYEASAAGLIRSFTERF
+# LEDGPELEEVLTRLATADARFWKSPSEAQSGQA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 23
+#     RM:  23 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	gene	8016	23083	1	+	.	g2
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	transcript	8016	23083	.	+	.	g2.t1
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	start_codon	8016	8018	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	8063	8345	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	8423	8528	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	8564	9577	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	9854	10377	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	10425	10659	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	10733	13164	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	13297	14578	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	14686	15952	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	16074	16228	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	16388	17464	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	17535	17996	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	18156	20871	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	21018	21903	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	22039	22664	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	22752	22996	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	8016	8062	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	8346	8422	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	8529	8563	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	9578	9853	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	10378	10424	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	10660	10732	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	13165	13296	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	14579	14685	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	15953	16073	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	16229	16387	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	17465	17534	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	17997	18155	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	20872	21017	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	21904	22038	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	22665	22751	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	22997	23083	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	stop_codon	23081	23083	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAAASSPDSDSGLAESNEANSKWLDAHYDPMANIHTFSACLALADLHGDGEYKLVVGDLGPAGKHPRLKVLKGPTVLA
+# ENPLPALPAAAAAFLMEEQHETRTPALALASGPCVYIYKNLRPYFKFSLPPLSLNPLEQDLWNQAKEDRIDPLTLKEMLEGIRFLHLELSEMEAFVNQ
+# HKSKTIKRQTVITTMITLKKNLADEDAVSCLVLGTENKEILVLDPEAFTILAKMNLPSVPVFLEVSGQFDVEFRLAAACRNGNIYILRRDSKRPKYCI
+# ELSSQPVGLVRVHKILVVGSTQDSLHGFTHKGKKLWTVQMPAAILTMNLLEQRSRGLQAVMAGLANGEVRIYRDKALLNIIRTPDAVTSLCFGRYGRE
+# DNTLVMTTRGGGLIIKILKRTAVFVESTGEVGPPPAQATKLNVPRKTRLYVDQTLREREAGTAMHRSFQTDLYLLRLRAARAYVQALESSLSPVSATA
+# WEPLKLHAVVSTQVQGLGPTFKLTLHLQNTSTVRPVTGLLICFLYNEALYALPRAFFKVPLLVPGLSYPLETFVESLSNKGISDIIKVLVLREGQSAP
+# LLSAYINMPVSEGLEAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/16
+# CDS introns: 0/15
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 22
+#     RM:  22 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	gene	31865	32324	1	-	.	g3
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	transcript	31865	32324	.	-	.	g3.t1
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	stop_codon	31865	31867	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	intron	32161	32245	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	31865	32160	.	-	2	transcript_id "g3.t1"; gene_id "g3";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	CDS	32246	32324	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+I3NHG2_ICTTR|ENSSTOG00000022467|I3NHG2	AUGUSTUS	start_codon	32322	32324	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MQAAAICLVPSTGWTEQRNEACFVVEGRVSLAQFTLAFVMDTCVAGALLCGAGLLFHGMLLLRGQTTWEWARGQHSYD
+# LGPCHNLQAALGPRWALVWLWPFLASPLPGDGITFHTTADVGLMAS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/I3NHG2_ICTTR.fasta

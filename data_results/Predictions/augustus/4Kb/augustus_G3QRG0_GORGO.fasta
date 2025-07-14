@@ -1,0 +1,51 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/G3QRG0_GORGO.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 33135, name = G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	gene	4111	33135	1	+	.	g1
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	transcript	4111	33135	.	+	.	g1.t1
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	start_codon	4111	4113	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	4111	4169	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	6750	6832	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	8109	8147	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	11555	11620	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	12291	12340	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	12472	12599	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	17267	17402	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	23743	23877	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	27353	27436	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	28548	28571	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3QRG0_GORGO|ENSGGOG00000005322|G3QRG0	AUGUSTUS	CDS	32244	33135	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSVLDALWEDRDVRFDLSAQQMKTRPGEVLIDCLDSVEDTKGNNGDRDSVEDTRGNNGDRGRLLVTNLRILWHSLALS
+# RVNVSVGYNCILNITTRTANSKLRGQTEALYILTKCNSTRFEFIFTNLVPGSPRLFTSVMAVHRAYETSKMYRDFKLRSALIQNKQLRLLPQEHVYDK
+# INGVWNLSSDQSGGYVLGFKIDPVEKLQESVKEINSLHKVYCASPIFGVDYEMEEKPQPLEALTVEQIQDDVEIDSDGHTDAFVAYFADGNKVSHRMD
+# SQRELAEELRLYQSTLLQDGLKDLLDEKKFIDCTLKAGDKSLPCHRLILSACSPYFREYFLSEIDEAKKKEVVLDNVDPAILDLIIKYLYSASIDLND
+# GNVQDIFALASRFQIPSVFTVCVSYLQKRLAPGNCLAILRLGLLLDCPRLAISAREFVSDRFVQICKEEDFMQLSPQELISVISNDSLNVEKEEAVFE
+# AVMKWVRTDKENRVKNLSEVFDCIRFRLMTEKYFKDHVEKDDIIKSNPDLQKKIKVLKDAFAGKLPEPSKNATKTGAGEVNGDVGDEDLLPGYLN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/11
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 67
+#     RM:  67 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/G3QRG0_GORGO.fasta

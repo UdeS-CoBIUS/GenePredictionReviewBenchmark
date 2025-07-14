@@ -1,0 +1,90 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/D4A8B1_RAT.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 41005, name = D4A8B1_RAT|ENSRNOG00000026171|D4A8B1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	gene	5129	5759	1	-	.	g1
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	transcript	5129	5759	.	-	.	g1.t1
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	stop_codon	5129	5131	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	5370	5700	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	5129	5369	.	-	1	transcript_id "g1.t1"; gene_id "g1";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	5701	5759	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	start_codon	5757	5759	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAPSRNGMILKPHFHKDWQHLLLRKKGDNSAEELKLATQLTGPVIPIRNVYKKEKARAITEEENFKAFASLRMARANA
+# RLFGIRAKRAKEAAEQDVEKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	gene	12873	35645	1	+	.	g2
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	transcript	12873	35645	.	+	.	g2.t1
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	start_codon	12873	12875	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	12880	15003	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	15084	16612	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	16677	17900	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	18013	19035	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	19109	22089	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	22103	24717	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	24918	27428	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	27557	29806	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	29862	31218	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	31288	32185	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	32339	32435	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	32608	34205	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	34276	34799	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	intron	34942	35243	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	12873	12879	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	15004	15083	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	16613	16676	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	17901	18012	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	19036	19108	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	22090	22102	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	24718	24917	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	27429	27556	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	29807	29861	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	31219	31287	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	32186	32338	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	32436	32607	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	34206	34275	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	34800	34941	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	CDS	35244	35645	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+D4A8B1_RAT|ENSRNOG00000026171|D4A8B1	AUGUSTUS	stop_codon	35643	35645	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MTAPEFPIVEKLNWLIHLYYIRKDYEACKAVIKEQLQETQGLCEYAIYVQALIFRLEGNIQESLELFQTCAVLSPQCA
+# DNLKQVARSLFLLGKHKAATEVYNEAAKLNQKDWKNLHESQAFVNTKILECNEWFKGHTLLNSAVFGLLRSGAHSGPTPNSAFFRMQEICHNLGVCYT
+# YLKQFSKAQDQLHSALQLNKHDLTYIMLGKIHLLQGDLDKAIEIYKKAVEFSPENTELLTTLGLLYLQLGVYQKAFEHLGNALTYDPANYKAILAAGS
+# MMQTHGDFDVALTKYRVVACAIPESPPLWNNIGMCFFGKKKYVAAISCLKRANYLAPFDWKILYNLGLVHLTMQQYASAFHFLSAAINFQPKMGELYM
+# LLAVALTNLEDIENAKRAYVEAVRLDKCNPLVNLNYAVLLYNQGEKKGALAQYQEMEKKVHFLKDNNPLEFDSEYSSSSCWYQQALVIGQSVAFGERP
+# KVADLALLVNSFLSSPFGHKMVEMAQKLGAALQVGEALVWTKPVKDPKSKHRTNSGSKSATLQQPLGSFQALGQAMSSAAAHRKIPSGRRKNSEDLVG
+# ISYLYQQRSQL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/15
+# CDS introns: 0/14
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 42
+#     RM:  42 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/D4A8B1_RAT.fasta

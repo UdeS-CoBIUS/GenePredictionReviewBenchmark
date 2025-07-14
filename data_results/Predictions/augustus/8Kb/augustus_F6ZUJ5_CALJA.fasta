@@ -1,0 +1,52 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F6ZUJ5_CALJA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 125443, name = F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	gene	8230	116644	1	+	.	g1
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	transcript	8230	116644	.	+	.	g1.t1
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	start_codon	8230	8232	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	8230	8301	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	30320	30379	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	31795	31856	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	55757	55895	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	58338	58400	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	63545	63688	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	66280	66320	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	81389	81468	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	98359	98412	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	100813	100910	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	110059	110205	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	110748	110873	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	CDS	116549	116644	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6ZUJ5_CALJA|ENSCJAG00000018308|F6ZUJ5	AUGUSTUS	stop_codon	116642	116644	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MCTASGRTYGIHELGLRPPYALAELVDKLNTNTEMEEVMNEYNMLKAQNDRETQSMDVIFTERQAKEKQIRSVEEEIE
+# QEKQAADDIIKNMSLENQVKYLEMKTTNEKLLQELDTLQQQLDSQNMKKESLEAEIAHSQVKQEAVLLHEKLYELESHRDQMIAEDKSIGSPIEEREK
+# LLKQVKDDNQEIASMERQLTDIKEKMNQFNEEIRQLDMDLEEHQGEMNQKYKELRKREENMDTFIETFEETKNQELERKAQIEASIVALLEHCSRLDL
+# QKMEVLESKMTEEQHSLKSKIKQMTTDLEIYNDLAALKSSGEEKKKKLHQERMILSTRRNAFKKIMEKLNIEYEALKTQLQENETHSQCDYRKQQAAV
+# ENMYCGVVTNIFFKVVSCSLL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/12
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 157
+#     RM: 157 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F6ZUJ5_CALJA.fasta

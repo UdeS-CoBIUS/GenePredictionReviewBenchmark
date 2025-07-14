@@ -1,0 +1,104 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/A0A0G4IPH3_PLABS.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5379, name = A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	gene	1	1900	0.01	-	.	g1
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	transcript	1	1900	0.01	-	.	g1.t1
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	intron	172	275	0.08	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	intron	824	875	0.92	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	intron	1129	1392	0.96	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	CDS	1	171	0.08	-	2	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	exon	1	171	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	CDS	276	823	0.21	-	1	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	exon	276	823	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	CDS	876	1128	0.89	-	2	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	exon	876	1128	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	CDS	1393	1495	0.98	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	exon	1393	1900	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	start_codon	1493	1495	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	tss	1900	1900	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MTKKTRKAIIGKPEDEEFDENYGVNDPTKWQVDPRGPYAEADREGTVETRYDLRLFDSMPGVEHHVSSEDLHHDFEMA
+# VEGAIELYRKERDCEGLTSEHPGIHAVFVAFRAYPLIALQLATGNGPVRAYSSTSQCQRLQIELQQAKVKKCPEEEEKAVLQSELTTLEEEFSKTFKT
+# LYDYLRPDISRPMEDRLDFNHAEHGPRAKPAPFDLAIQGRLVPPATEGPGSGKTILDSETAKAARQRPNRHHIVISDISESKKGGAVKVVVREKDASL
+# RHPSRNELERATQIEKAVPRSVHIRYQMQAVPQKGQLPLQVFPQQRTWRHDDAARRWSKHIGASERSMRSAPARRTLDDYKRIK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	gene	2056	3463	0.04	+	.	g2
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	transcript	2056	3463	0.04	+	.	g2.t1
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	tss	2056	2056	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	exon	2056	2325	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	start_codon	2124	2126	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	intron	2326	2377	0.87	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	intron	2785	2848	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	intron	3047	3107	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	CDS	2124	2325	0.54	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	CDS	2378	2784	0.86	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	exon	2378	2784	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	CDS	2849	3046	0.97	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	exon	2849	3046	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	CDS	3108	3395	0.83	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	exon	3108	3463	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	stop_codon	3393	3395	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	tts	3463	3463	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MCRPGEVHVDSINSVEDTKGNNGEKGVLIVTNLRLLWIAQQNQKTNLSIGYHCIISINIRLAHSRLRGNTEALYVMTK
+# FNGTRFEFIFTSLVRRSPRLFSTVQAVFRLVLCNRCRTSGLLTLGRRRSYETTKLYRDLKLRGAIIRDKQLIILPDEHVYSQVTGVWNLSSEQGNLGI
+# FVISNVRLVWFATMAENFNVSIPYIQILEVRIRDSKFGKALVLTTTNSSGGYVLGFRIDPPERLQEVFQEICSLHQVFSENPIFGVRHQLEEKALPLD
+# QLIVKRQVDDVEIVSVSDGEDAFGAYYADAGKVVDREPGNPPVATTANLGPTYDLVCQFTIRTLVSRSRSHSKASQQSSCGTSPRDTTHV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	gene	3491	5270	0.15	-	.	g3
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	transcript	3491	5270	0.15	-	.	g3.t1
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	tts	3491	3491	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	exon	3491	5270	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	stop_codon	3595	3597	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	CDS	3595	4953	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	start_codon	4951	4953	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+A0A0G4IPH3_PLABS|PBRA_005699|A0A0G4IPH3	AUGUSTUS	tss	5270	5270	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MRECITIHIGQAGVQTGNACWELFCLEHGIQPDGQMPSDKTIGGGDDAFNTFFSETGAGKHVPRTVMVDLEPTVVDEV
+# RTGTYRQLFHPEQLISGKEDAANNYARGHYTIGKEVIDLVLDRLRKLADNCTGLQGFMIFHAFGGGTGSGFGSLLLERLSVDYGKKSKIEFAVYPSPQ
+# VSTAVVEPYNSVLCAHAMMEHSDVAFMVDNEALYDICRRNLGIERPTYTNLNRLIAQCISSVTASLRFDGALNVDLTEFQTNLVPYPRIHFPLCALAP
+# VISAEIAYHEQLSVAEITNSVFEPANQMVKCDPRHGKYMACCMMYRGDVVPKDVNAAIGTVKTKRTIRFVDWCPTGFKVGINYQPPTVVPGGDLAKVQ
+# RSVLMISNTTAIAEVMGRMDHKFDLMYAKRAFVHWYVGEGMEEGEFSEAREDLAAMEKDYEEVAQESADDDAEGDEGDEY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/A0A0G4IPH3_PLABS.fasta

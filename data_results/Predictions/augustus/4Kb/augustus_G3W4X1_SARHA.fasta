@@ -1,0 +1,111 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/G3W4X1_SARHA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 13820, name = G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	gene	1	1078	1	+	.	g1
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	transcript	1	1078	.	+	.	g1.t1
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	1	301	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	465	905	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	302	464	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	906	1078	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	stop_codon	1076	1078	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [VLKSTGDVAAGRALYQGYSAVTDAAPENFLALRETVLLRKEARKLIVQPNTCLEGSQVQLLEYDASAAGLIRSFSERF
+# PEDGPLLEDVLTGLAKADAHFWRNPTVVAAPRA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	gene	4094	9820	1	+	.	g2
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	transcript	4094	9820	.	+	.	g2.t1
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	start_codon	4094	4096	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	4128	4333	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	4369	4994	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	5268	5904	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	5952	6032	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	6072	6534	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	6608	6696	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	6829	6904	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	7012	7188	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	7310	7633	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	7712	7791	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	7862	8579	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	8714	9328	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	9464	9551	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	9639	9733	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	4094	4127	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	4334	4368	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	4995	5267	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	5905	5951	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	6033	6071	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	6535	6607	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	6697	6828	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	6905	7011	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	7189	7309	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	7634	7711	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	7792	7861	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	8580	8713	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	9329	9463	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	9552	9638	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	9734	9820	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	stop_codon	9818	9820	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MANIHTFSACLALADLHGDGEYKLVVGDLGANGRHPRLKVLKGPSVLTESPLPTLPSAAAAFLMEPHEPRTPALALAS
+# GPCVYVYKNLRPYFKFSLPPLPPNPLEQDLWNQAKEDRIDPLTLKEMLEGIREKAEVPLSVQSLRFLHLELGEMEAFVAQHKNQPIKRQTVITAMTIL
+# KKNLADEDAVSCLVLGTENRELLVLDPEAFTVLTKMSLPSVPVFLEVSGQFDVEFWLTAACRDGNIYILRRDSKRPRYCIELSSQPVGLVRIHKTLVV
+# GSTQDMLPSFTHKAVMAGLANGEMRIYRDKALLNIIRTPDAVTSICFGRYGREDNTLIMTTRAMHRAFQMDLYLLRLRAARAYVQALESSLNPVSATL
+# REPLKLHAVVQGLGPTFRLTLHLQNTSAVRPAIGLLVSFLYNESLYALPRAFFKVPMLVPGLSYPMETFVECLSDKGISDIIKVLVLREGQSAPLLSA
+# HINMPVSEGLVAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/15
+# CDS introns: 0/14
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 13
+#     RM:  13 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	gene	11079	13820	1	-	.	g3
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	transcript	11079	13820	.	-	.	g3.t1
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	stop_codon	11079	11081	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	11315	12204	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	intron	12483	13820	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	11079	11314	.	-	2	transcript_id "g3.t1"; gene_id "g3";
+G3W4X1_SARHA|ENSSHAG00000009043|G3W4X1	AUGUSTUS	CDS	12205	12482	.	-	1	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [YCYQCQSQVPPRSGHCPACRVCVLRRDHHCLLLGRCVGFSNYRPFLCLLLHGAGLLLHVTALLGPALGLLLRAHSQLH
+# AVTLLLLPWLMLLTADTCVAGALLCGAGLLFHGMLLLRGQTTREWAHGQRLYDLGPRRNMEAALGSRWLLVWLWPFLSSPLPGDGITFQTAD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/G3W4X1_SARHA.fasta

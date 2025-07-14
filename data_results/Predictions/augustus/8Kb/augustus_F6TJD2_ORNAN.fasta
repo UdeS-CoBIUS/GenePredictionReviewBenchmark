@@ -1,0 +1,54 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F6TJD2_ORNAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 38033, name = F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	gene	14927	36691	1	+	.	g1
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	transcript	14927	36691	.	+	.	g1.t1
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	start_codon	14927	14929	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	15050	17265	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	17328	18808	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	18878	20453	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	20549	21920	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	22051	23290	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	23347	31808	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	31880	32485	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	32560	36600	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	14927	15049	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	17266	17327	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	18809	18877	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	20454	20548	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	21921	22050	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	23291	23346	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	31809	31879	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	32486	32559	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	36601	36691	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	stop_codon	36689	36691	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGLLDKLSSLLGLKKKEVHVLCLGLDNSGKTTIINKLKPSHAQTQDIVPTIGFSIEKFKTSSLSFTVFDMSGQGRYRN
+# LWEHYYKEGQAIIFVIDSSDKLRMVVAREELETLLNHPDIKHRRIPILFFANKMDLRDAVTSVKVSQLLCLESIKDKPWHICASDAIKGEGLQEGVDW
+# LQDALETSQQSSNDTLIPVAQQTFLLGTDGFILNKTEVPESGMPSNKLIDXDSLGLENPLPIGPGGFENSYRYGLSRAFI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 39
+#     RM:  39 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F6TJD2_ORNAN.fasta

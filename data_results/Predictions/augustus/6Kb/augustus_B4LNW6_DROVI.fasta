@@ -1,0 +1,138 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/B4LNW6_DROVI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 12802, name = B4LNW6_DROVI|FBgn0207608|B4LNW6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	gene	1	1982	0.66	+	.	g1
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	transcript	1	1982	0.66	+	.	g1.t1
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	intron	1	600	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	601	1887	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	601	1982	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	stop_codon	1885	1887	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	tts	1982	1982	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [FWEIISDEHGIDATGAYHGDSDLQLERINVYYNEASGGKYVPRAVLVDLEPGTMDSVRSGPFGQIFRPDNFVFGQSGA
+# GNNWAKGHYTEGAELVDSVLDVVRKEAESCDCLQGFQLTHSLGGGTGSGMGTLLISKIREEYPDRIMNTYSVVPSPKVSDTVVEPYNATLSVHQLVEN
+# TDETYCIDNEALYDICFRTLKLTTPTYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVNMVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQM
+# FDAKNMMAACDPRHGRYLTVAAIFRGRMSMKEVDEQMLNIQNKNSSYFVEWIPNNVKTAVCDIPPRGLKMSATFIGNSTAIQELFKRISEQFTAMFRR
+# KAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADEDAEFEEEQEAEVDEN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	gene	3116	6994	0.22	+	.	g2
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	transcript	3116	6994	0.22	+	.	g2.t1
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	tss	3116	3116	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	3116	3308	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	3377	3588	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	start_codon	3386	3388	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	intron	3589	5994	0.58	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	intron	6180	6237	0.88	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	intron	6367	6420	0.63	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	intron	6550	6626	0.88	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	3386	3588	0.75	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	5995	6179	0.62	+	1	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	5995	6179	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	6238	6366	0.73	+	2	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	6238	6366	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	6421	6549	0.79	+	2	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	6421	6549	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	6627	6802	0.91	+	2	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	6627	6994	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	stop_codon	6800	6802	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	tts	6994	6994	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MDEQRSDKIYGGCEGPDAMYVKLISSDGHEFIVKREHALTSGTIKAMLSGPGQFAENEANEVHFREIPRNMGMLHNLS
+# DLIKVKRDKMTILVLGLNNSGKSTIINHFKKSSEQSAVMVPTVGFLIEQFYNMGVNIKAIDMSGATRYRNLWEHQFKNCQGIIYVIDASDRMRFVVVK
+# DELDLVLQHPDFCNRIVPILFYGNKSDLEDSLSNVKIAAALGLENIKEKPWHICSSNAVSGEGLDEGVQWLVQQIRFAILSNKKKGKKLKLTSKDNK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	gene	7329	9115	0.09	-	.	g3
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	transcript	7329	9115	0.09	-	.	g3.t1
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	tts	7329	7329	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	7329	7525	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	stop_codon	7398	7400	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	intron	7526	7764	0.95	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	intron	8063	8124	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	intron	8257	8428	0.8	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	7398	7525	0.94	-	2	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	7765	8062	0.99	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	7765	8062	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	8125	8256	0.8	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	8125	8256	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	8429	8434	0.8	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	8429	8780	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	start_codon	8432	8434	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	8946	9115	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	tss	9115	9115	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MAAVAKKEPKIKRDPAKNPMRDLHIRKLCLNICVGESGDRLTRAAKVLEQLTGQQPVFSKARYTVRSFGIRRNEKIAV
+# HCTVRGAKAEEILERGLKVREYELRRDNFSATGNFGFGIQEHIDLGIKYDPSIGIYGLDFYVVLGRPGYNVAHRKRKSGTVGFQHRLTKEDAMKWFQQ
+# KYDGIILNSKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 3
+#     RM:   3 
+# end gene g3
+###
+# start gene g4
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	gene	9576	12406	0.09	+	.	g4
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	transcript	9576	12406	0.09	+	.	g4.t1
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	tss	9576	9576	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	9576	9630	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	10813	11256	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	start_codon	10824	10826	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	intron	11257	11313	0.66	+	.	transcript_id "g4.t1"; gene_id "g4";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	10824	11256	0.48	+	0	transcript_id "g4.t1"; gene_id "g4";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	CDS	11314	11942	0.66	+	2	transcript_id "g4.t1"; gene_id "g4";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	exon	11314	12406	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	stop_codon	11940	11942	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+B4LNW6_DROVI|FBgn0207608|B4LNW6	AUGUSTUS	tts	12406	12406	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MSSNMYELLVHVEQIVLELISSITSFENVTLKIPRICRDWYDPINFEDNIGVFDNVKAILNCRKIMYNNRRSRHRFCL
+# IVYLLAEIHNLHLSGGSCTIRGLYYRDTHVVRSQSYIVAAKLDVCRMLNTAPVNLGILSASKGLIAGDIKLLMSNGDILDCNVYCGAITLPTDFENVE
+# RIVTNAEMVLIVEKESVFESLLACNACNTIGLRFILLTGKGYPDCTTRRIVHRLSVECNLPAYILVDADPFGIEIMLTYRHGSQAMSFSSKSLATPML
+# RWLGLHPSEIDSISKRAVALTKYDNKKILDILSRSYISLGVRQELQTLQRIQFKAEIESVIDFLSPYYIPTKINRNLFL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/B4LNW6_DROVI.fasta

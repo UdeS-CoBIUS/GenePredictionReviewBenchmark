@@ -1,0 +1,110 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# ciona version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/F6QE09_CIOIN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 9745, name = F6QE09_CIOIN|ENSCING00000015355|F6QE09) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	gene	246	731	0.78	-	.	g1
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	transcript	246	731	0.78	-	.	g1.t1
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	stop_codon	246	248	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	249	731	0.78	-	0	transcript_id "g1.t1"; gene_id "g1";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	start_codon	729	731	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPKRRIVSKTSQNAAPPKCNIPVATETAFDNVKFQKELNWCVEQLRMGMLTKSPNQKQIKESTAIIKTLLSTKAPLVK
+# KRQVMRQTFGDYRQKVEQDDIKWQKDAIKLSQAIKILKVPSEKETGNFLKASQNLNCQKHQQPMDESNLVDLFQFNFKIEDEI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	gene	1866	3458	0.96	+	.	g2
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	transcript	1866	3458	0.96	+	.	g2.t1
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	start_codon	1866	1868	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	1866	3455	0.96	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	stop_codon	3456	3458	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MKSQGLFLHVRVLFLLVDATQGVQAQTLANYLLSMEHGLPVIPVINKIDMPRANIAKVEKEMLNLLDVHTSEIIHISA
+# KLGQNIDQVLEAIVKQLPSPNLDCKSSYNSSSLLKALLFDSTYEKFRGVIANVAILDGTMKKGDIISSVYLQQKDGNSKSAYEVKEVGILRPEHVSTD
+# VLYAGQVGYIVCGMKTVADAQIGDTLYHHKHPVQGLPKFKKARPVVFGEMFPLDQSQFKNLDAALNRLMLNDRSVTKLNSKSFLLGSGFRIGFLGLLH
+# MDVFCQRLEQEFGTNVVMTSPTVPYKAILNPNKRLQIKEEKEITITTPEDYPSQNLVKDFLQPMIIGTVITPLQYSQDIMELCTAKNGTAVGNSYISE
+# TSLMLQYRLPLDEIVVDFYDKLKSLSSGYASFDYEDDGYESVNLSKVDILLNGEIVQELSKICTLEKSRKIGAKTCAKLKDLIPRQPFPVSIQAVIGK
+# SVIARQTLPAAKKDVLAKTGGGDYTRKLKLLRREADLQKHLRAIGKIKVPKNLFIKMMKE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	gene	4039	5562	0.21	+	.	g3
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	transcript	4039	5562	0.21	+	.	g3.t1
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	start_codon	4039	4041	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	intron	4215	4567	0.98	+	.	transcript_id "g3.t1"; gene_id "g3";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	intron	4732	5231	0.32	+	.	transcript_id "g3.t1"; gene_id "g3";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	intron	5290	5483	0.76	+	.	transcript_id "g3.t1"; gene_id "g3";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	4039	4214	0.59	+	0	transcript_id "g3.t1"; gene_id "g3";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	4568	4731	0.69	+	1	transcript_id "g3.t1"; gene_id "g3";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	5232	5289	0.32	+	2	transcript_id "g3.t1"; gene_id "g3";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	5484	5559	0.9	+	1	transcript_id "g3.t1"; gene_id "g3";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	stop_codon	5560	5562	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MNKLFGWLKGKKKEANVLCVGLDNSGKTTIINYLKPNDAQQVDIVPTVGFNVEKVTMTNLSFTVFDMSGQGRYRVLWS
+# HYYKETQGVIFVVDSADKLRMAVAKDELDQLLKHQIKCSQLLGLENIKEKPWHICASNAKTGEGLSDGMHWLSDQLQTVK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	gene	7017	8647	0.23	-	.	g4
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	transcript	7017	8647	0.23	-	.	g4.t1
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	stop_codon	7017	7019	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	intron	7182	7577	0.3	-	.	transcript_id "g4.t1"; gene_id "g4";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	intron	7723	7893	0.81	-	.	transcript_id "g4.t1"; gene_id "g4";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	intron	8058	8479	0.92	-	.	transcript_id "g4.t1"; gene_id "g4";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	7020	7181	0.47	-	0	transcript_id "g4.t1"; gene_id "g4";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	7578	7722	0.33	-	1	transcript_id "g4.t1"; gene_id "g4";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	7894	8057	0.85	-	0	transcript_id "g4.t1"; gene_id "g4";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	CDS	8480	8647	0.76	-	0	transcript_id "g4.t1"; gene_id "g4";
+F6QE09_CIOIN|ENSCING00000015355|F6QE09	AUGUSTUS	start_codon	8645	8647	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MFAGVVALFLNLVLVGIDNILLYSDKVFIEAGISPDKATFATIGVFAMQLLASLVGSKLVDRFGGFKVHVASNILIIF
+# AHVTYTVSQVATPAAPNAMPYVAIFAVGVFLIAWSGGTNLTTFALLGEITSEPTRSTAYGYSAVIFWVVAWTVGFVPPYLQIHLGPYALTIWLGCAIL
+# FLIYFIIFIPRLKRLRHKDDDLFMESKNDMEIKKLNC]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=ciona --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/F6QE09_CIOIN.fasta

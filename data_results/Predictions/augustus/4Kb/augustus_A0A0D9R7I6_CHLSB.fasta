@@ -1,0 +1,75 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A0D9R7I6_CHLSB.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 35155, name = A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	gene	1	2573	1	+	.	g1
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	transcript	1	2573	.	+	.	g1.t1
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	2401	2573	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	stop_codon	2571	2573	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [SDVQLLEYEASAAGLIRSFSERFPEDGPELEEILTQLATADARFWKGPSEAPSGQA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	gene	4147	31530	1	+	.	g2
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	transcript	4147	31530	.	+	.	g2.t1
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	start_codon	4147	4149	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	4147	4193	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	4497	4573	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	4690	4724	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	8991	9263	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	10122	10168	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	10276	10314	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	10451	10523	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	16470	16601	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	18752	18858	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	20843	20963	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	21051	21269	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	23235	23304	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	23767	23925	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	26982	27127	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	28045	28179	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	28880	28966	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	CDS	31519	31530	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A0D9R7I6_CHLSB|ENSCSAG00000008318|A0A0D9R7I6	AUGUSTUS	stop_codon	31528	31530	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAAASSSDYNGCGAESNEANSKWLDAHYDPMANIHTFSACLALADLHGDGEYKLVVGDLGPGGQQPRLKVLKGPLVMT
+# ESPLPALPAAAATFLMEQHEPRTPALALASGPCIYVYKNLRPYFKFSLPQLPPNPLEQDLWNQAKEDRIDPLTLKEMLESIREMAEEPLSVQSLRFLQ
+# LELSEMEAFVNQHKSNSIKRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPKAFTILAKMSLPSVPVFLEVSGQFDVEFWLAAACRNGNIYI
+# LRRDSKHPKYCIELSAQPVGLIWVHNILVVGSTQDSLHGFTHKKLFFPLKALSPPQTLAVSCQGKKLWTVHMPAAILTMNLLEQHSRGLQAVMAGLAN
+# GEVRIYRDKALLNVIHTPDAVTSLCFGRYGREDNTLIMTTRGGGLIIKILKRTAVFVEGGSEVGPPPAQAMKLNVPRKTRLYVDQTLREREAGTAMHR
+# AFQTDLYLLRLRAARAYLQALESSLSPVSATAREPLKLHAVVSIWVQGLGPTFKLTLHLQNTSTARPVLGLLVCCLYNEALYSLPRAFFKVPLLVPGL
+# NYPLETFVESLSNKGISDIIKNSS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/17
+# CDS introns: 0/16
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 51
+#     RM:  51 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A0D9R7I6_CHLSB.fasta

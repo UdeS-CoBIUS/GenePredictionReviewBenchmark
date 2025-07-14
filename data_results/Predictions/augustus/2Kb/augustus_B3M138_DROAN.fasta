@@ -1,0 +1,63 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/B3M138_DROAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 5369, name = B3M138_DROAN|FBgn0095928|B3M138) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	gene	8	3392	0.43	+	.	g1
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	transcript	8	3392	0.43	+	.	g1.t1
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	start_codon	8	10	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	intron	18	81	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	intron	607	990	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	intron	1388	2146	0.52	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	intron	2296	2352	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	intron	2549	2603	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	intron	2842	2892	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	CDS	8	17	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	exon	8	17	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	CDS	82	606	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	exon	82	606	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	CDS	991	1387	0.68	+	2	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	exon	991	1387	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	CDS	2147	2295	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	exon	2147	2295	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	CDS	2353	2548	0.99	+	2	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	exon	2353	2548	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	CDS	2604	2841	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	exon	2604	2841	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	CDS	2893	3369	0.83	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	exon	2893	3392	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	stop_codon	3367	3369	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B3M138_DROAN|FBgn0095928|B3M138	AUGUSTUS	tts	3392	3392	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSSAVSYRAEQMEKELKVEADKLGVELIFSHETEPLGTAGPLALAKSILSASTEPFFVLNSDVICDFPFKQLVQFHRN
+# HGKEGTIVVTKVEEPSKYGVVLYDENGCIKNFIEKPQEFVSNKINAGIYIFNPSVLERIEVKPTSIEKEVFPAMAQQQELYAMDLTGFWMDIGQPKDF
+# LTGMCLYLSSLRQKQSSKLYTGPGVVGNVIVDPTAKIGEGCRIGPNVTIGPDVIIEDGVCIKRSTILKGAIVRSHSWLDSCIVGWRSTVGRWVRIEGI
+# TVLGEDVIVKDELYINGGQVLPHKSIAASVPEPQIIMHKNLRSGERVLDYIYHIEDSKGNPGDTGRLMVTNLRLIWHSLVHKKYNLSIGYARIGNTNT
+# RIVHMHSKGRSPSQALYILAISDGTRFEFLFTDVSGETARRDQPIFASVFDIYQLYQRTYLYRDLKLRGAIVQAGQLVILPDEQVFSQVQGVWNLSSD
+# QGNLGSFVVSNIRLVWFADANETFNISLPYLQIESLRVRESKYGPALVIQTAETGGGYVLGFRIDPAERLNELFKELCSLHAIYGEQPNFGIQYNAQD
+# ARERLAEAAEEAAQAAQFKVENFEELDERQEREINTKLNSYLAEGCMAKTSSASSREEGDPVYCKELGFAMERIRDGYKLQDLWSVMPTKMETFE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/B3M138_DROAN.fasta

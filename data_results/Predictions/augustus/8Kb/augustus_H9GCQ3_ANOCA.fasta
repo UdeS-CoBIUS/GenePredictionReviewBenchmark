@@ -1,0 +1,124 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/H9GCQ3_ANOCA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 40961, name = H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	gene	1135	6200	1	-	.	g1
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	transcript	1135	6200	.	-	.	g1.t1
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	stop_codon	1135	1137	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	1389	1464	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	2112	6087	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	1135	1388	.	-	2	transcript_id "g1.t1"; gene_id "g1";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	1465	2111	.	-	1	transcript_id "g1.t1"; gene_id "g1";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	6088	6200	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	start_codon	6198	6200	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MEFEREKHVKRKKAHQANHLETNVLIAKEVRIKNRSLDDVDRLYLPRRSGGRGLLQVKQAVKEEEHALAEYVKQSEEP
+# ALIEVKNQKLLKTQQTKNQYKKTALQTRADSWRSKALHGKFLDKIEGKVDKEKTWLWLTNGTLKMETEGLILAAQEKAIRTKAIQAKIEKSADDSKCR
+# LCKETDKTMDHILSCCKKIAQTDYKQRHNYVAQMIHWNLCLKSHLPAAKNWWDHKPAEVLENEHAKILWDFRIQTDKSDSRIDEKQQEKLSRYQDLKI
+# ELQRLWQKPVQVVPVVMGTLGAVPKDLSRHLETIDIDKITICQLQKATLLGSVRIIRKYITQS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	gene	8001	32961	1	+	.	g2
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	transcript	8001	32961	.	+	.	g2.t1
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	start_codon	8001	8003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	8118	9704	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	9933	11241	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	11368	12423	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	12487	14057	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	14136	18850	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	18956	19634	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	19722	20337	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	20474	21382	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	21523	22430	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	22579	24167	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	24340	25963	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	26094	29476	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	29615	29722	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	29836	31934	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	32084	32854	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	8001	8117	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	9705	9932	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	11242	11367	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	12424	12486	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	14058	14135	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	18851	18955	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	19635	19721	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	20338	20473	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	21383	21522	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	22431	22578	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	24168	24339	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	25964	26093	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	29477	29614	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	29723	29835	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	31935	32083	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	32855	32961	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	stop_codon	32959	32961	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLVPVFTLKLSHKILPRMVALGKYDGVHPCLTAATQAGKVFIHNPHARSQRVNANRLVLSTQDADISLLNINEAVSCL
+# TAGVLNPDLDCDSLLVGTRTSLLAYDVHNNADLFYAGVPDGANTIVLGTLGDMPSPLAIIGGNCSLQGFNHEGKDLFWTVTGDNVRSLALCDFDADGK
+# KELLVGSEDFDIRVFKEDEIVAEMSETETVTSLTSMCSSHFGYALSNGTVGIYNRTSRYWRIKSKNQAMSIHAFDINSDGVCELITGWSSGKIDARSD
+# RTGEVIFKDNFASSVAGIVEGDYRMDGNTQLICCSVDGEVRGYLPGSQESKGKLLDTSVDQDLIRELSQKKQNLLLELRNYEENAKQVELNTQVNEAD
+# GQKGVIPANTQLQTALSVNLGSDSESAHVELRISTSNDTIIRAVLIFAEGIFEGESHVIHPSLQNLSSCIRVPLTPPKDVPVELNIKAFVGYRNSTQF
+# HVFELSRQLPRFSMYTLSSPDSAPGPLSFVRFTLNERVQMISINTDNVDLAGDIVQSMASFWAIEDLQVEADFPAYFEEMRKALVVVDNSHAVCQKLT
+# ANMADSSNLIRSVLVRAEDSRLMGDMKNMKRRYMELYDLNRDLLSQYKIRCSNHTELLNNLKAINQAIQRAGQLRVGKPKAQVIAACRDAIKNNSVNM
+# LIKIMRVGTLSS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/16
+# CDS introns: 0/15
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 38
+#     RM:  38 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	gene	34737	39086	1	-	.	g3
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	transcript	34737	39086	.	-	.	g3.t1
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	stop_codon	34737	34739	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	34899	35904	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	35964	36179	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	intron	36303	38863	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	34737	34898	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	35905	35963	.	-	2	transcript_id "g3.t1"; gene_id "g3";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	36180	36302	.	-	2	transcript_id "g3.t1"; gene_id "g3";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	CDS	38864	39086	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+H9GCQ3_ANOCA|ENSACAG00000007409|H9GCQ3	AUGUSTUS	start_codon	39084	39086	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MELFRSEALFLLLSNFTGLKLHFLAPEEEEEEGRAAGVSSSESTGQCSQGESSSIDNTEDTGEIPENGSAVQETGSSV
+# PLCAGELRHWTQGCYTLVHDTEATEFALDLLFFCGCQDWDAESGGFTSYIAKGEDEELLTVNPEDNCLALVYRDRETLKFVKYINHQSLNQETTQPEH
+# TGFWDFSFVYYE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/H9GCQ3_ANOCA.fasta

@@ -1,0 +1,60 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H3AVK0_LATCH.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 36902, name = H3AVK0_LATCH|ENSLACG00000012032|H3AVK0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	gene	1	36902	1	+	.	g1
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	transcript	1	36902	.	+	.	g1.t1
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	1	12644	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	12728	14114	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	14165	15663	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	15792	17803	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	17940	20740	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	20837	20944	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	21008	21186	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	21322	22209	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	22294	25699	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	25724	33432	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	intron	34600	36902	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	CDS	12645	12727	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	CDS	14115	14164	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	CDS	15664	15791	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	CDS	17804	17939	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	CDS	20741	20836	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	CDS	20945	21007	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	CDS	21187	21321	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	CDS	22210	22293	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	CDS	25700	25723	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3AVK0_LATCH|ENSLACG00000012032|H3AVK0	AUGUSTUS	CDS	33433	34599	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [QMKTRPGEVLIDCLDSIEDTKGNNGDRAVGYNCIISITTRTANSKLRGQTEALYILTKCNNTRFEFIFTNVVPGSPRL
+# FTSVIAVHRAYETSKMYRDLKLRGALIQNKQLRLLPQEQVYDKINGVWNLSSDQGNLGTFFISNVRIVWHANMNDSFNVSIPYLQIRSIKIRDSKFGL
+# ALVIESSHQSGGYVLGFKIDPEEKLQEALKEINSLHRVYSSSPIFGVDYEMEEKPQPLEELTVEQVQDDVEIEPDEQTDAFVAYFADGNKTCVLKRTT
+# GFISSRTHPSYTMDSPNDLKEDLRLYQSTLLQDGLKELLDEKKFVDCTLKVGDKSFPCHRLILSACSSYFRECFSEEPSEKKQEIVLENVDPNVMEMI
+# INYLYSAVIDLTDDNVQDIFAVANRFQIPSVFTVCVSYLQRKLTVSNCLAIFRLGLLLDCPRLTATARDYASDHFELLYKEDDFLQLAPHELTVIISN
+# DTLNVEKEEMVFEAVMKWVRSEKENRVKNLEDIFDCIRFRLMPEKYFKEYVEKNDIIKSNPVLLKKVQIIKDAFAGKLPEPAKQKGESGEGVVNGDVG
+# DEDLLPGFLNDIPRHGMFIKDLILLINDTATVAYDPMENECFLAGLAEQIPRNHVSVVTKQNEIYAIGGLYVDEENQDNPLQCYFYQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 90
+#     RM:  90 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H3AVK0_LATCH.fasta

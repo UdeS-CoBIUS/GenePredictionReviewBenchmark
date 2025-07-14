@@ -1,0 +1,99 @@
+# Warning: Using nonstandard genetic code: TAA coding for GLUTAMINE instead of STOP.
+# Warning: Using nonstandard genetic code: TAG coding for GLUTAMINE instead of STOP.
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# tetrahymena version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/Q3SCY0_PARTE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 12981, name = Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	gene	1234	1506	1	+	.	g1
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	transcript	1234	1506	.	+	.	g1.t1
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	start_codon	1234	1236	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	1234	1506	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	stop_codon	1504	1506	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLQEKYWLDKHAEVMAVVQKEVNNLPYILKSELDRKLSEKEMEYYDRPHLDADSIYFEQRLRTLPEEEAINFELAQRL
+# FRIAQDRLAQNE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	gene	4579	8492	1	+	.	g2
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	transcript	4579	8492	.	+	.	g2.t1
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	start_codon	4579	4581	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	intron	5275	5512	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	intron	5690	5855	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	intron	5948	6029	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	intron	6897	7486	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	intron	7610	8224	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	4579	5274	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	5513	5689	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	5856	5947	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	6030	6896	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	7487	7609	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	8225	8492	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	stop_codon	8490	8492	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MRSVVVLHEQPVEWRDIRGYMLPDDLAYVNGELSITGTWRGQNGLSADQLVHITGVDDFQIARIELLGMIEQVFETAQ
+# PESLDPICRDKKHDIGDCDDLLKDIAGMQLQEEEEQMIEQESDVSYEDLDKEFEEEAQKKREQFEIVHRDTEDLDYEDEVEYGVEVKLRERYDQYQGL
+# KNIRTSEFDPLTFLPDEAEKIYNFRFLKKIKSDVLEEMKQSEQIKPGQRIKITLKNNCSKTKYVKEIKDDTFYLASFYFYNSFPQQPVIFWQNDFDFR
+# GGEIMGVGDIQRCDTFQGNILEPLGTHGLMKCMFNNFVKPNDVVSLQFIHFDITVSKLNMLKGEKTLFMWQDVEDIKGNPDQLGRLIISNVRILWWSE
+# RNSSVNLSIGLGTIFHIEQKVTNNNRTFGTLFRTKLATGQKYEFNFHSSDKKLYESLVNIYRLYTQTLLHREIKVQFAMISQKKLNLSEKEQIINQYI
+# NTISVANDQQDVSGTLIFTNVRFVWYSATNDLFNISIPWIAVKKISKKTTKGFYTMIVETYQEFGGYFVGYRNNEIDSMIKECIKLHSFYIENPIYGI
+# EIQEKLQPTVQKFEEKVQVVQSLYNQAARYRANESNDTQNDIVLIEIRALVDPAHTDDERQYDVCMDVIQKNIVIAIIYGLHEXTHAEVNHGWVQILF
+# VDDVIDLFRELLNSVKIVLVLGILSFDEIHVGSAKTDVVEILLTEQEGEVEGKHISLLLIFLSPNLLLNDNLKQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	gene	9301	11721	1	+	.	g3
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	transcript	9301	11721	.	+	.	g3.t1
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	start_codon	9301	9303	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	intron	9532	9646	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	intron	9838	9916	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	intron	10316	11630	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	9301	9531	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	9647	9837	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	9917	10315	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	CDS	11631	11721	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+Q3SCY0_PARTE|GSPATT00036912001|Q3SCY0	AUGUSTUS	stop_codon	11719	11721	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MFLIGITLSKIQTYSSSHSKAIEGFSLCKHDTRKYSFGGSSDQLSQLKNILGGLMAFCDWEKEFKYVKHIKNNQKCQN
+# PEELQALKLIQKHPHPNVLGFNSYYIDDLNCYLAMDYLSQGTLYDLQKMYNNKLPMHIIQEIIDIKYDNIMIASINPLKIRIIDFGLCMINQSPFSRA
+# GTGGYIAPEVFLSTRINEKIDVFSAGAVFHKLLVGKPIYEDLGQNQAGNIRISSHIQNENALDLLHQMLNFDPKLRYSAYDCIAHPFFTDESDQLSSN
+# IDSCTLQTGSRMAIEFNKSTVCSYFYQAQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=tetrahymena --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/Q3SCY0_PARTE.fasta

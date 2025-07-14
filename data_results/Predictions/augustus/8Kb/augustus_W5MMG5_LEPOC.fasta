@@ -1,0 +1,120 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/W5MMG5_LEPOC.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 26159, name = W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	gene	1	1409	0.35	-	.	g1
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	transcript	1	1409	0.35	-	.	g1.t1
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	573	690	0.94	-	1	transcript_id "g1.t1"; gene_id "g1";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	1231	1409	0.37	-	0	transcript_id "g1.t1"; gene_id "g1";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	start_codon	1407	1409	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MDAEGFGELLQQAEQLAAETEAISELPHVERNLQEIQQAGERLRSRTLTRASQETADVKASILLGSRGLDIFHISQRL
+# ESLSAATTFEPLEPVKDTDIQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	gene	8046	18159	0.44	+	.	g2
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	transcript	8046	18159	0.44	+	.	g2.t1
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	start_codon	8046	8048	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	8046	8314	0.82	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	9791	9983	0.82	+	1	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	10384	10611	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	11836	11961	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	12770	12832	0.84	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	12955	13032	0.95	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	13165	13269	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	14031	14117	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	14281	14416	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	14555	14724	0.88	+	2	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	15066	15210	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	15655	15826	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	16100	16229	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	16328	16447	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	16710	16847	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	17296	17408	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	17750	17898	0.89	+	1	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	18053	18156	0.91	+	2	transcript_id "g2.t1"; gene_id "g2";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	stop_codon	18157	18159	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [LGERGVRACVGPARWRRRGEALAGTRLAVHPGVPSGSRKRRCAEPRRRARGGSRPSCRVREPEPRVSVLVTSQLSLHA
+# PQCVRRLRRVVRCCVSVVWSVLPARWLSCLVFVQGAAMLVPVFTLKLNHRINPRMVAVGRFDGVHPCLTAATQAGKVFIHNPHTRSQRLFSSRVSQSA
+# QDSDISLLNINQAVSCLTTGTLAPGSSCHALLVGSQTSLLAYDVHNNADIFYREITDGANAIVLGNLGDIPSPLAVIGGNCALQGFDHEGNDLFWTVT
+# GDNVRSLVLCDFTGDGKNELLVGSEDFDIRVFKEDELLAEITENETVTSLCHMHGSRFGYSLANGTVGVYDRTARYWRIKSKNHAMSIHAFDLNADGV
+# VELITGWSNGKMDARSDRTGEVIFKDNFSSSVAGVVEGDYRMDGQTQLICASIEGEDEVSLILIFSVRGYLPASKEMKGNLMDTSVEQDLIRELSQRK
+# QNLLLELRNYEENSKCVAGCLTSEVDAQGGVIPANTQLQTALSVKAGTESQRPHIELCISTPNETIIRAVLIFAEGIFEGESHVVHPSVQNLSGCVRV
+# PIIPPKDIPVDLHIKAFVGSKNSTQFHVFEITRQLPRFSMYELCKDDTAPRPKGKVTFQINDRPQRVIMWLNQNFLLPASLESPDVTFTALRAGGLLC
+# IRMQPSGEIQLNTDDIDLAGDLVQSLASFLAIDDLQVEADFPAYFEDIRMTLTEVDEFHSVHQKLTAVMADHSNAIRHMLVQAEDARLMGDLKTMKKR
+# YIELYDLNRDLINEYKIRSNNHTALLSCLKAVNQAIQRAGRLRVGKPKTQVVTACRDAIKNNNVNALFKIMRAGTPSS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/18
+# CDS introns: 0/17
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 10
+#     RM:  10 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	gene	21509	22732	0.92	+	.	g3
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	transcript	21509	22732	0.92	+	.	g3.t1
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	start_codon	21509	21511	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	21509	22729	0.92	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	stop_codon	22730	22732	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MKVRLKGDVICTVFLLLLFGIVLYSQFDFTATWGIWHPAKTMPSSRALLGSLAEGQTAGQASPPLPDRLECQPAAEEE
+# RSTGPTGPVLLTRPPFDFQLYLRNKDCRDFQLLLNQPGKCSGHPFLLIAVKTLADEFDKRQVVRHTWGKEGVLGGAVVRTVFLLGVPKNRTALPLWER
+# LLQYESRAFRDILLWDFADTFFNLTLKEIHFLKWVDAFCPSVKFIFKGDADVYVNVDNIVELLRDTEATQDVFIGDIIYHAQPIRSKTSKYFIPEIIY
+# GQGVYPAYAGGGGFVMSGFTARRLYRACKEVELFPIDDVFMGMCLLRIGLKPEPHRGFRTFGIVKPSAAPHLQVFDPCFYRDLMVVHSLTVPQIWLMW
+# NLLHDPELQCSARVAPNRPFRWQRKMRTPRPGGST]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	gene	25191	25577	0.66	+	.	g4
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	transcript	25191	25577	0.66	+	.	g4.t1
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	start_codon	25191	25193	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	CDS	25191	25574	0.66	+	0	transcript_id "g4.t1"; gene_id "g4";
+W5MMG5_LEPOC|ENSLOCG00000007883|W5MMG5	AUGUSTUS	stop_codon	25575	25577	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MFGNLCCGDSRVNETTGGTMDRWLPTPTSARLPPEGERCRGGGRNVTIGLCQAPVTKAAMKSERTRVMLSHMIVAAIE
+# GTLYCSRSVVLQVDGSVAAALSGPGALRPGRGCWACMGRTGSQTLCGCFA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/W5MMG5_LEPOC.fasta

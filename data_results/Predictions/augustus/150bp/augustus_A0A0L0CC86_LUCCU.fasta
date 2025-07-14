@@ -1,0 +1,47 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/A0A0L0CC86_LUCCU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 3910, name = A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	gene	141	3910	0.16	+	.	g1
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	transcript	141	3910	0.16	+	.	g1.t1
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	exon	141	226	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	start_codon	151	153	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	intron	227	292	0.74	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	intron	422	488	0.8	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	intron	657	715	0.57	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	intron	725	3910	0.28	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	CDS	151	226	0.74	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	CDS	293	421	0.8	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	exon	293	421	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	CDS	489	656	0.6	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	exon	489	656	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	CDS	716	724	0.51	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A0L0CC86_LUCCU|FF38_13487|A0A0L0CC86	AUGUSTUS	exon	716	724	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGTPGNWLQVIVDENEKPKLTTLPSYEEPPAAKLKVFRGIDLESEHELKGIPAAIESLYIDESEPKTPILAVAISESV
+# LFFRHMKPYFKYTLPELEVLEEEKEIWRKLNIVRTDDHEALIEELKGQG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/A0A0L0CC86_LUCCU.fasta

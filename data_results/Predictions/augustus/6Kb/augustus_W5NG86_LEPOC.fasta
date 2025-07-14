@@ -1,0 +1,67 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/W5NG86_LEPOC.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 18684, name = W5NG86_LEPOC|ENSLOCG00000015954|W5NG86) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	gene	1	10341	0.14	+	.	g1
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	transcript	1	10341	0.14	+	.	g1.t1
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	CDS	6406	6610	0.31	+	2	transcript_id "g1.t1"; gene_id "g1";
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	CDS	7595	8313	0.46	+	1	transcript_id "g1.t1"; gene_id "g1";
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	CDS	8533	8714	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	CDS	9913	10338	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	stop_codon	10339	10341	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [SSVTMGLRSAWKNYKVLIVMGTGLGLVHWGWYSIKSNPIFHKKEDSYMPEPGVVSYVSQQQSHPKGKHDCGLFAAILS
+# CALIENAQRLNIETGITLKVYRHLLCLCKDYLNQEECGCRVRIDFGNSQSLLSLARSVIASKPACMLTYKEVQHVSSLVVQAFLQTVPCEAEGSVCLG
+# KVVFVSVEGHRAMDSALFPGLLVEMPEMLSASDLKWLDHRAITLALFNTSLSGDLSETGDGTLEVSCGLSPEAAVLELLLRMGKQIISDGVALLACQK
+# VVHPVLKQYLKEHHVIVIERLGISLMEPLSQMTGALPIASFQSPVPSKCYGQLSNILVKSFGSRQMLNLIPAGDSTVCSLGLCNRNETTLNELKCSSG
+# VDGTLLGPGCSPTQFQMAADSFCRALESVGRSLEHDGGESLVDLRCGHRWSGPGGAAPDVPWKDVVSLCGCGRLDRHEGLQWVILGGKGPSFSPTLPA
+# ESCAQHLVLDSFPAKLNALQVAVETANLILDLKYVIQDVN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 10
+#     RM:  10 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	gene	12140	18684	0.04	-	.	g2
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	transcript	12140	18684	0.04	-	.	g2.t1
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	stop_codon	12140	12142	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	CDS	12143	12386	0.25	-	1	transcript_id "g2.t1"; gene_id "g2";
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	CDS	15594	15720	0.59	-	2	transcript_id "g2.t1"; gene_id "g2";
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	CDS	16285	16386	1	-	2	transcript_id "g2.t1"; gene_id "g2";
+W5NG86_LEPOC|ENSLOCG00000015954|W5NG86	AUGUSTUS	CDS	16765	16928	0.7	-	1	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [TFIYALLNKGQPFPLRIMISAAIFCTVNGFFQGHYMLYCAQYDDAWLTDIRLILGLILFGLGMAINIHSDHILRNLRK
+# PGEDHYKIPRGANFFGEILEWFGYAVATWSLPAFSFAFFTTCSIGPRAYHHHRTLLPLPNIVLHYCSLSLDTTCLCFLLVTLEKGYPLVTSTLAVLKK
+# HNKTPFIGDDFLCLQPLLCGCPAAKLECVVVYSSIY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/W5NG86_LEPOC.fasta

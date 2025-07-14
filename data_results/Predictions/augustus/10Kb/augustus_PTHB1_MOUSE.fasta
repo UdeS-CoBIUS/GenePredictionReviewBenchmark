@@ -1,0 +1,167 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/PTHB1_MOUSE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 432566, name = PTHB1_MOUSE|ENSMUSG00000035919|Q811G0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	gene	14358	14792	1	-	.	g1
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	transcript	14358	14792	.	-	.	g1.t1
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	stop_codon	14358	14360	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	14358	14792	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	start_codon	14790	14792	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MVLQQPSKTPKGKKAKGKKVAPAPAVIKKQEAKKVVNPLFEKRPKNFDIGQDIQPKRDLTRFVKWPHYIRLQGQRAIL
+# YKRLKVPPTINQFTQALDRQTATLLLKLAHKYRPETKQEKKQRLLARDERKTAGKGNVPTKRPPVH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	gene	25115	114021	1	+	.	g2
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	transcript	25115	114021	.	+	.	g2.t1
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	start_codon	25115	25117	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	25227	30994	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	31146	38330	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	38396	48265	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	48380	53642	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	53714	74089	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	74168	74770	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	74815	91272	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	91338	101990	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	102166	109396	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	109482	112922	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	113107	113935	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	25115	25226	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	30995	31145	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	38331	38395	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	48266	48379	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	53643	53713	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	74090	74167	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	74771	74814	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	91273	91337	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	101991	102165	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	109397	109481	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	112923	113106	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	113936	114021	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	stop_codon	114019	114021	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSLFKARDWWSTVLGEKEEFDQGCLCLADVDNSGNGHDKIIVGSFMGYLRIFSPHSVKAGGGPQAEDLLLEVHLRDPV
+# LQVEVGKFVSGTEMLHLAVLHSRKLCVYSVSGTLGNVEHGNQYQIKLMYEHHLQRTACNMTYGPFGGVKGFSIKNPVALEYQALPNPAAFESTHLLVS
+# IPEDVNEVDLYHEGIQRKSQGMRNEDVKHSLPGTCCEMESTEHVSNESFTKKDSFDTCRDLICIQSLDGMLMVFEQESYAFGRFLPGFLLPGPLAYSP
+# RTDSFITVSSCRQVESYKYQVLAFATDADKKQEMEQQKLGSGKRLVVDWTLNIGEQALDICIFPLNQSASSVFVLGERNFFCLKDNGQIRFMKKLGYN
+# PSCFLPYCSALDGFELTMFLPQPLHLALIKYLSQGIL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 188
+#     RM: 188 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	gene	160580	200084	1	+	.	g3
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	transcript	160580	200084	.	+	.	g3.t1
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	start_codon	160580	160582	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	160621	163227	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	163407	169896	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	169974	173015	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	173070	178030	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	178134	180249	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	180355	189510	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	189652	193335	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	193432	200049	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	160580	160620	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	163228	163406	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	169897	169973	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	173016	173069	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	178031	178133	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	180250	180354	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	189511	189651	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	193336	193431	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	200050	200084	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	stop_codon	200082	200084	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MIRVALGHVGVEMIDLKGVIVTLSDDGHLQCSYLGTDPSLFQAPKVESRELNYDELDVELKELQKIIKDVKLQGVWPL
+# TEQEDDLKVSASVSSTLDSVSQATNVEPGADSVPSITVKITLQNRVVLQKVKLSIYVQPPLQLTCDQFTFDFTVPDMTSSVAFSVYLKRNYTPSELEG
+# NAVVSYSRPTGIPRVVQCKFRLPLKLICLPGQPSKTASHKLTIDTNKSPVSLLGLFPDFANPSDDDQVNVMGFRLLGGARVTLLASRTSHTWEKEVTS
+# KE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 66
+#     RM:  66 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g3
+###
+# start gene g4
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	gene	204020	204397	1	-	.	g4
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	transcript	204020	204397	.	-	.	g4.t1
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	stop_codon	204020	204022	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	204020	204397	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	start_codon	204395	204397	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MSMNEVDEQMLNVQNKNSSYFVEWIPNNVKIVVCDIPPQGLKMSATFIGNSTTIQELFKGISEQFTAMFPCKAFLHWY
+# TDEGMDEMEFTEAESNMNDLVSEYQQYQDATAEEEGEFEEEAEEEVA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	gene	325527	372782	1	+	.	g5
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	transcript	325527	372782	.	+	.	g5.t1
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	start_codon	325527	325529	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	325614	328036	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	328220	346606	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	346830	371297	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	371350	371722	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	intron	371861	372679	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	325527	325613	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	328037	328219	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	346607	346829	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	371298	371349	.	+	2	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	371723	371860	.	+	1	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	CDS	372680	372782	.	+	1	transcript_id "g5.t1"; gene_id "g5";
+PTHB1_MOUSE|ENSMUSG00000035919|Q811G0	AUGUSTUS	stop_codon	372780	372782	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MLLLPEAFQAQLELGCSSLNLQHDYSLKQVIALADAIEENQDRLLQSFSGLKSATHLLILLIRLWQRLSADQTAILEA
+# AFLPLQEDTQELGWEETVDAAIAYLLKTCLSKSSKEQALNLSSQLNIPKDTSRLKKHITLLCDRLAKGGRLCVSTDAAAPQAMVVPESKKSQCNTKKN
+# DCMRHKSQKSRWFLSSLDPGFSEPPLEQHCPFDHFLLLGYSCSWSLGSGILSYICGPNLDESLASDQQVCIETQRRAFFDKIKSS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 66
+#     RM:  66 
+# incompatible hint groups: 0
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/PTHB1_MOUSE.fasta

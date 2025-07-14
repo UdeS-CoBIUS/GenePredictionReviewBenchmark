@@ -1,0 +1,116 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F2TWK2_SALR5.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 8518, name = F2TWK2_SALR5|PTSG_00470|F2TWK2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	gene	1	3300	0.02	-	.	g1
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	transcript	1	3300	0.02	-	.	g1.t1
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	intron	1	583	0.06	-	.	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	intron	730	862	0.06	-	.	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	intron	992	1185	0.06	-	.	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	intron	1442	1998	0.04	-	.	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	intron	2162	2635	0.26	-	.	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	CDS	584	729	0.06	-	1	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	exon	584	729	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	CDS	863	991	0.06	-	1	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	exon	863	991	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	CDS	1186	1441	0.06	-	2	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	exon	1186	1441	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	CDS	1999	2161	0.14	-	0	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	exon	1999	2161	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	CDS	2636	2827	0.32	-	0	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	exon	2636	3300	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	start_codon	2825	2827	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	tss	3300	3300	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MDKRKGCKRQPLKLTWNAGHGVLVQHNLSKALLLQFCLVDAHIFCQAARLQIPRRLVSVEANDSEVGIEQGINPFHRC
+# LLLSVGVAAVSASQCIRFNVAASVHNCQTTAERFCQLSTSAEHVRACSRACDGLKANPQTPALAHTRTNAHVPTLNRYPTGEDDKPYVNEIDEMKERD
+# ETTMFVNYNHVVNFNEELANTILTHYYRYETFLRGAVRDFIISKYPQLERDDKDHPRQFYVAFHSLPIVDKCAAAFQSLQLTGADAAAFQLLCRSLLF
+# PFHFSIRALKTDKVGRLTCIY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	gene	3636	4843	0.06	+	.	g2
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	transcript	3636	4843	0.06	+	.	g2.t1
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	tss	3636	3636	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	exon	3636	4843	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	start_codon	3927	3929	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	CDS	3927	4328	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	stop_codon	4326	4328	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	tts	4843	4843	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MCRSPEPIATFAISPPLTPPPTPPPTPPLTPPPAILGFCYHRLNLFRDAEKQLKSSFKQTPSILACMLLAKVYIRMDQ
+# PQNAIQCYREGLEKFPDEPVLLAGIARVFEGIGDLTKSVEEYKKLLKVDRSVTTP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	gene	4884	6350	0.02	-	.	g3
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	transcript	4884	6350	0.02	-	.	g3.t1
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	tts	4884	4884	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	exon	4884	6350	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	stop_codon	5164	5166	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	CDS	5164	5703	0.88	-	0	transcript_id "g3.t1"; gene_id "g3";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	start_codon	5701	5703	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	tss	6350	6350	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MTPRLLYASPLVLSHVTASTSACTQACVTSVLATQVDMRQNRTDLPDMHTYRYKHRHRHRHRHRHRHRHRHRHSRTRT
+# ACKTTSLSHPPALHEGVWADLASKLDVSERHANKGDVVPDVGHGLVVSHRQRPLKASERHVVLVVMVSVVSVMAVVVIGGGQRDGGGGGHGGGGGGRV
+# ESG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	gene	6446	8518	0.01	+	.	g4
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	transcript	6446	8518	0.01	+	.	g4.t1
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	tss	6446	6446	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	exon	6446	7650	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	start_codon	6955	6957	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	intron	7651	8518	0.64	+	.	transcript_id "g4.t1"; gene_id "g4";
+F2TWK2_SALR5|PTSG_00470|F2TWK2	AUGUSTUS	CDS	6955	7650	0.42	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MGVRDKGVNSVCACTCGCVLVASLCVLKEVRLLWLTRACSHVQRFSIHPSSHAFAPLSAVVGHLHNDFILTVFQSAES
+# ATNSAFASPPWSFSSRVARLGFVDEPFGHGCLHWPLRRRVHDRVLAVPHVHQRQQACHQISNSHIVPQSLPLRPLLHPPSACHMCLRFTEKKPDVQPP
+# PAPKPTQLSRDSSSWLAQFDRDLEPAADPLKVLAQHADQCASLTIRASPRRDAHAS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/F2TWK2_SALR5.fasta

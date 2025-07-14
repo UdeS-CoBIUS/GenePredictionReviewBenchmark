@@ -1,0 +1,56 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/G3NM06_GASAC.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 21061, name = G3NM06_GASAC|ENSGACG00000004804|G3NM06) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	gene	7688	19713	0.31	+	.	g1
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	transcript	7688	19713	0.31	+	.	g1.t1
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	start_codon	7688	7690	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	7688	7690	0.62	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	8013	8137	0.91	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	8258	8452	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	10423	10480	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	10911	10982	0.93	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	11078	11143	0.92	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	11240	11317	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	11604	11780	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	11921	12024	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	15404	15606	0.67	+	1	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	16700	16773	0.78	+	2	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	CDS	18640	19710	0.91	+	0	transcript_id "g1.t1"; gene_id "g1";
+G3NM06_GASAC|ENSGACG00000004804|G3NM06	AUGUSTUS	stop_codon	19711	19713	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAEFGFNEHHQKEVVNYMRFARSKMVLRLKTIDSCFEELKDSRLVEETFTVDEVKEMLDGLQAVVHGEVETELINTAH
+# TNVLLLRQLFSQAEKFYLRLQSDISELESRELLEQVAEFEKTDFKSTNKKNQETSKPKLAPLNEGGVSELLNKEIARLQEENDKLKTRMRTLESQAMS
+# ALDERTKAERALKDLQKVQGDQQVAAQSQDISSLEDTVAALKGEYERSLSANSASQKGLQENLVSAKHDLLRVQEQLSLAEKELDKKFQQTAAYRNMK
+# EILTKKNEQIKDIRKRLQSSFPEGERSSDHDAAVSLCLAEQNRERQPAFGGNLRRSPLHNMSPGGVTEKTEPHTLVRYKGQNSPHKNNMEDTFTTYMT
+# AGTDFDGADFNGTDSSEYDYGSDPTESSGMCDRGWVRDFRGQWEPPLFWIIFLLGAVGNLLVVWIYTTVRHRLKTMTDVYLLNLAVADLLFLCMLPFL
+# AVDSIKGWNFGISLCKIVSAVYKINFFSGMLLLTCISVDRYIAIVQVTKAQNLKKKRLFYSKLACLGVWTFSALLALPEFIFAQVTDRNGQVLCTLVY
+# WNNAFNRTKILVLSLQICVGFFLPLLVMLFCYSVIIRTLLQAKSFEKHKALRVVFVVVFVFVLSQLPHNALLVVEATQAAKTTITKCDVIAAVDIAGQ
+# IAKSLAFTHACLNPFLYVFIGVRFRQDLVRIVKDTGRTHRIVCSASLGKGGLSKMHAVPKRPSVMSDTDTTPALSI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 9
+#     RM:   9 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/G3NM06_GASAC.fasta

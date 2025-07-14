@@ -1,0 +1,65 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/F6QP01_XENTR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 23945, name = F6QP01_XENTR|ENSXETG00000013020|F6QP01) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	gene	1	5882	1	-	.	g1
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	transcript	1	5882	.	-	.	g1.t1
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	intron	1	4325	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	intron	4489	5602	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	CDS	4326	4488	.	-	2	transcript_id "g1.t1"; gene_id "g1";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	CDS	5603	5882	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	start_codon	5880	5882	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MHVYVRKMPKHKNSRGAASRLLPLADQIEQEGEIRPSFRNKRKGKPTDDAEDDGYVDEKLSRRILEQARIQQEELEAE
+# YSLGNVTPKERTTVLDSKNRAEGSDSEDDEWPSLEKAASLEKGTLNEEVQINPEDEKAMEMFMNKNPPL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 10
+#     RM:  10 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	gene	6026	17724	1	+	.	g2
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	transcript	6026	17724	.	+	.	g2.t1
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	start_codon	6026	6028	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	intron	6040	11379	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	intron	11535	13746	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	intron	14001	17511	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	CDS	6026	6039	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	CDS	11380	11534	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	CDS	13747	14000	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	CDS	17512	17724	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F6QP01_XENTR|ENSXETG00000013020|F6QP01	AUGUSTUS	stop_codon	17722	17724	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGVTCVSQVPLAEGKSVQQTVEILTCKLEQLGAEKQGTFYVDCETYHTAGASMGTPGQAGKLLYVMHNSEYPLSTFAL
+# FENGPCLVADLNLDVLMVKLKGFFQNAKANKMETRGTRYQYCDFLVKIGTVTVGQSGRGITVEVDYCPCAVPGDCWNLMVEFMQSFMGSHAPSVPPVF
+# SAKHDPLYTPADTMVQYMELLNKIRKQQVTVAGMR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 25
+#     RM:  25 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/F6QP01_XENTR.fasta

@@ -1,0 +1,65 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/K7FSX8_PELSI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22751, name = K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	gene	10022	12530	1	+	.	g1
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	transcript	10022	12530	.	+	.	g1.t1
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	start_codon	10022	10024	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	intron	10068	12360	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	CDS	10022	10067	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	CDS	12361	12530	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	stop_codon	12528	12530	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPEGKSPLREVLPKQGQLSVEDVATMVLCKPKLLPLKSVTLEKLEKMQRDAQETVRQQEMAQREHQQQSQQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	gene	14977	22151	1	-	.	g2
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	transcript	14977	22151	.	-	.	g2.t1
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	stop_codon	14977	14979	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	intron	15038	17326	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	intron	17467	19745	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	intron	19857	20836	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	intron	20945	22070	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	CDS	14977	15037	.	-	1	transcript_id "g2.t1"; gene_id "g2";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	CDS	17327	17466	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	CDS	19746	19856	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	CDS	20837	20944	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	CDS	22071	22151	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+K7FSX8_PELSI|ENSPSIG00000010086|K7FSX8	AUGUSTUS	start_codon	22149	22151	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MTKGGKRIDNVWGSGGGQQPVKNLVKEIDMLLKEYLLSGDVSEAERCLQELEVPHFHHELVYEAIIMVLESTGETTFK
+# MMLDLLKSLWTSTVITLDQMRRGYERVYREIPDINLDVPHSYSMLERFVEECFQAGIISKPLRDLCPSRGRKRFVSEGDGGRLKLESY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 15
+#     RM:  15 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/K7FSX8_PELSI.fasta

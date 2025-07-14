@@ -1,0 +1,96 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/T1EEF4_HELRO.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 21394, name = T1EEF4_HELRO|HelroG108097|T1EEF4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	gene	6922	11510	0.17	-	.	g1
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	transcript	6922	11510	0.17	-	.	g1.t1
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	tts	6922	6922	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	6922	7156	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	stop_codon	7049	7051	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	intron	7157	7215	0.39	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	intron	7416	7563	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	intron	7771	11380	0.55	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	7049	7156	0.4	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	7216	7415	0.39	-	2	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	7216	7415	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	7564	7770	0.61	-	2	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	7564	7770	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	11381	11465	0.78	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	11381	11510	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	start_codon	11463	11465	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	tss	11510	11510	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MARPNLESFTLTSIYEKLKHSMTAEWETSMEKLQIIVSKLDFERERKDINKTEFMVISKSKTASICSIIIYGKRETSQ
+# QLQLSYMHVDNDEDIQILAFIHMGANNKADVFKLGDKPLKNLEEEKDLGVEWNDKVAWQCIEAAKSANRALKRRDMIVILNFYKALRKASRMIKECCG
+# MPCEDRLKVCGLTTLKKEEQEKI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 11
+#     RM:  11 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	gene	11706	19988	0.02	+	.	g2
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	transcript	11706	19988	0.02	+	.	g2.t1
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	tss	11706	11706	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	11706	12117	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	start_codon	12027	12029	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	intron	12118	13252	0.44	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	intron	13287	16799	0.51	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	intron	16997	17289	0.89	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	intron	17365	17574	0.86	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	intron	17818	19473	0.41	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	intron	19501	19630	0.73	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	intron	19850	19929	0.54	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	12027	12117	0.45	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	13253	13286	0.85	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	13253	13286	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	16800	16996	0.66	+	1	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	16800	16996	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	17290	17364	0.92	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	17290	17364	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	17575	17817	0.84	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	17575	17817	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	19474	19500	0.76	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	19474	19500	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	19631	19849	0.92	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	19631	19849	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	CDS	19930	19946	0.54	+	2	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	exon	19930	19988	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	stop_codon	19944	19946	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+T1EEF4_HELRO|HelroG108097|T1EEF4	AUGUSTUS	tts	19988	19988	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAESKQNSSKFSDDAEVYEDHGEHSDVFAVGYTLSDLWDVMKSMSYGGSHKPSLNSLELCKADCEVSDSCKAVEWTSD
+# NQCFHFTTADRPTNFNVDGVTHYVCQSFNSPWPMNPIDFMPGPWSGFPNSFTTGVTHFTHTDQWEEFKNKLVYGGELHPAVNVEECKRVCLQQPGCKS
+# FDWDTGRAQCFTFKTSPPNENMVEAPGVNHFVYRASGGESDAPSNPADGWIEFPNQAISGGLPDGAKTLESCKNACNAKSGCQSIDWNTQYSQCYIFP
+# TFDISRKTEMAFGVNHYVNQADKWIG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 27
+#     RM:  27 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/T1EEF4_HELRO.fasta

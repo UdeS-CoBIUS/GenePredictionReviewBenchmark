@@ -1,0 +1,79 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/A3QK09_DANRE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 40178, name = A3QK09_DANRE|ENSDARG00000059657|A3QK09) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	gene	1	4538	0.41	-	.	g1
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	transcript	1	4538	0.41	-	.	g1.t1
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	2171	2290	0.98	-	2	transcript_id "g1.t1"; gene_id "g1";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	2372	2492	0.98	-	0	transcript_id "g1.t1"; gene_id "g1";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	4283	4376	0.94	-	1	transcript_id "g1.t1"; gene_id "g1";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	4465	4538	0.58	-	0	transcript_id "g1.t1"; gene_id "g1";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	start_codon	4536	4538	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MNLGAILRSAYYLGVDRIVSSINNSCPLTPTVSKASAGVMEVMDVFGCSNLKRMIKVKVEEGWQVVGTVGLEEGSSQS
+# NVLSCSDFKMSRPTLLLMGGEGDGLSSELRQLCDVLITIPPRRHMHPGVESLNVSVAT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 15
+#     RM:  15 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	gene	6215	34006	0.44	+	.	g2
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	transcript	6215	34006	0.44	+	.	g2.t1
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	start_codon	6215	6217	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	6215	6291	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	8560	8681	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	10847	10899	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	11013	11168	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	13938	14035	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	14280	14408	0.98	+	1	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	14880	14988	0.97	+	1	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	18528	18584	0.97	+	0	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	18911	18953	0.79	+	0	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	19061	19123	0.68	+	2	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	22391	22461	0.8	+	2	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	22532	22601	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	22701	22808	0.8	+	2	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	24735	24868	0.97	+	2	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	24963	25045	0.96	+	0	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	25127	25224	0.96	+	1	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	CDS	33903	34003	0.95	+	2	transcript_id "g2.t1"; gene_id "g2";
+A3QK09_DANRE|ENSDARG00000059657|A3QK09	AUGUSTUS	stop_codon	34004	34006	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MADGWCSDNGESVYRSRDAVKNFRIRVRIQRVTSTAALSEHLHQQVLSQQERGVIELETFSTQTASSTDEEELVVAWQ
+# EKFFSQYEVDLYQTESNCQTPLERQYHTDIMAMERSKRRQNQRIFTYTDFDRFSKWEEQAQSLVIPAQPTPTFLAERMANVRHRRQERRPAESNVPKS
+# RLITWEPSEEFVKNSHIINTPVQTMYIMADLGPTGKLETEGEKREVWRLYLENASSDIQAEEKDREQRMYRDLYTRHKDYLNSLVGQDFEMPPPGILR
+# LIVNGEIVSAQGYEYDNLYVHFFVDLPNNWSSVSSHCLSGVTQTCRTRSIEKEDVAFFSYPFSFETFFHKEDESDGSLPQWPVLYFKVLSLDFWQRFR
+# TEGYGYLVIPSTSGRHRMTCRTWRAVQRGTVAELRRFFIGGAPELEDISYVRIPGTFKGERLSRFGFRTQTTGSVTFTLNCIQHARAFIDASTLKKRR
+# QTVLDQLGGHSQQGSVYNVLEAFQRAHKRMQEARETLPRDLINTSALLNSESSA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/17
+# CDS introns: 0/16
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 53
+#     RM:  53 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/A3QK09_DANRE.fasta

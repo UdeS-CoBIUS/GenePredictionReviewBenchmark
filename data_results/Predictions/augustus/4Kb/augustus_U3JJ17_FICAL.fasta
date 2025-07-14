@@ -1,0 +1,55 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/U3JJ17_FICAL.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 19207, name = U3JJ17_FICAL|ENSFALG00000002654|U3JJ17) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	gene	4272	15417	1	+	.	g1
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	transcript	4272	15417	.	+	.	g1.t1
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	start_codon	4272	4274	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	intron	4275	6231	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	intron	6357	6809	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	intron	7005	7506	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	intron	7568	8423	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	intron	8493	10050	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	intron	10129	12479	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	intron	12654	13155	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	intron	13260	15353	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	CDS	4272	4274	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	CDS	6232	6356	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	CDS	6810	7004	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	CDS	7507	7567	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	CDS	8424	8492	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	CDS	10051	10128	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	CDS	12480	12653	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	CDS	13156	13259	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	CDS	15354	15417	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+U3JJ17_FICAL|ENSFALG00000002654|U3JJ17	AUGUSTUS	stop_codon	15415	15417	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAELGVNEHHQKEVVSYMRFARFKRGMCLKTVDSCFQDLKDSRLVEETFTVDEVIDMLDGLQSVVHSEVESELINTTY
+# TNVLLLRQLFSQAEKWYLKLQTDVSDLENRELLDQVAEFEKSEYTSSNKKSTADPIKPKLAPLNEGGSELLNKATAALDEKSKLEKSLRDLQMIQGDQ
+# KNNANQDITELENKVAALKSQFEKTLNDTTANQKFLEEDLVTTKHDLLKVQDQLSTAEKELEKKFQQTAAYRNMKEILTKKNEQIKDLRRRLSKHVPK
+# TFLACVCSERQKYLSG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 9
+#     RM:   9 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/U3JJ17_FICAL.fasta

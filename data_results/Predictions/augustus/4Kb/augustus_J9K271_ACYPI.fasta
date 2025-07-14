@@ -1,0 +1,142 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/J9K271_ACYPI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 13282, name = J9K271_ACYPI|ACYPI006862|J9K271) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	gene	1	3880	0.17	-	.	g1
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	transcript	1	3880	0.17	-	.	g1.t1
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	1	1776	0.51	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	1907	2897	0.87	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	3035	3123	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	3327	3400	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	3587	3641	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	1777	1906	0.53	-	2	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	1777	1906	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	2898	3034	0.87	-	1	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	2898	3034	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	3124	3326	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	3124	3326	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	3401	3586	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	3401	3586	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	3642	3743	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	3642	3880	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	start_codon	3741	3743	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	tss	3880	3880	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MRLTDCLRDFKKVGELTKKYANFPDSYIKRSMEKVVWKTPQNNPRYLPRTVKKKKYHFSEHRPWSMPFSSQNNFGDLK
+# PKAFLEPIKEWSIFKGDRVEILVGPDKGKQGIVGHVIQERNWVIVDGLNCEIDEVAHYKGHLSMVQMKEIPLLVTSEVSLVDPSDLQGCTIEWRFTES
+# GDKVRVSSRSGKIIPIPSLAKQTYDYKTPNTYKESEKDTTGDDIKKITFLPLLKTFEMDVMDEMDIKEDRVPAPTY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 10
+#     RM:  10 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g1
+###
+# start gene g2
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	gene	4116	8894	0.02	+	.	g2
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	transcript	4116	8894	0.02	+	.	g2.t1
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	tss	4116	4116	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	4116	4529	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	start_codon	4447	4449	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	4530	4656	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	4793	4854	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	5036	5096	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	5395	5526	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	5630	5691	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	5917	6496	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	6757	7470	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	7680	7795	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	7920	7987	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	8328	8388	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	8516	8624	0.9	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	4447	4529	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	4657	4792	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	4657	4792	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	4855	5035	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	4855	5035	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	5097	5394	0.99	+	2	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	5097	5394	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	5527	5629	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	5527	5629	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	5692	5916	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	5692	5916	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	6497	6756	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	6497	6756	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	7471	7679	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	7471	7679	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	7796	7919	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	7796	7919	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	7988	8327	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	7988	8327	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	8389	8515	0.9	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	8389	8515	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	8625	8707	0.9	+	2	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	8625	8894	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	stop_codon	8705	8707	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	tts	8894	8894	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLTFVCECHYWTLRNDLTVSYTDFSHFKYNEKKETETSSDKIIKKKYVEAIGCNWSVSNKRPLKLRDSLKYFETELND
+# HHLIAVEWIKKDRIAFIVSNGSTIFVTFDPATCDLIEIVTDKFLQSKFQCDQLINVSYAKQVLVCSFSDHKLGIIHFGRSFDRTLNKWSFLDPKIGLS
+# DFSNSTTNRKNERKITFNVSSTMVATWSKSSLNEVYPWNPLVKDEHRANVHVYKIIGPRLELCCYYHTKQDPLIVSFSKTISNIIFILEQKNCNDSRF
+# DFSTFEVTNTKLHLVKVVTISPFDWCSAAIINAWLNKDDTRLCFSYNDSILFIHDFKLSITCSVKTAFPVEYLDWHPDGNLIAVSDSNGRIQCYDSCL
+# SCIRLQPLTEEANSSAWLDFQSKVGNKKLFSVKWMPCETTKHAVNQSDAILHLIFEKGPVIAIKVLGVGKLCVNQLVSMYLNENDVDHALNFLLGLDW
+# HSDGPLCLTTLQQITNYLFRLSFTPVREVQLQSAIGSFYQPVIPLSEDAKHEYFEPVRNIARRFFHHLVRYELYEKAYSLAIDLNDRDLFMDLYWATK
+# SGIGTRAMATMALEKANQIVSSESDDSHSSQSSDCNCTDCHSNSPSSSLRPPLPNVPITTSSPSLFIPSIPNNRSLNNVTTISVPYTGSHVEHVQTKN
+# IELPTTSLDSVPHLKYPFEQQLLTQNTRLENNNQQSQITTKPQPDKTIKVVHFGIV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/12
+# CDS introns: 0/11
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 4
+#     RM:   4 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	gene	10288	10950	0.16	-	.	g3
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	transcript	10288	10950	0.16	-	.	g3.t1
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	tts	10288	10288	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	10288	10580	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	stop_codon	10389	10391	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	10581	10644	0.98	-	.	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	intron	10748	10814	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	10389	10580	0.93	-	0	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	10645	10747	0.98	-	1	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	10645	10747	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	CDS	10815	10837	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	exon	10815	10950	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	start_codon	10835	10837	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+J9K271_ACYPI|ACYPI006862|J9K271	AUGUSTUS	tss	10950	10950	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MDLEVSDGWALPPQTINVKRLVPNSENVEAQYTLNVYERNIQVVDIPTTKLSLLIEVIEDSLPAGVKASIHKHTDEHE
+# ILRYIPDNELKTLKIQLEEMGGSKKKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/J9K271_ACYPI.fasta

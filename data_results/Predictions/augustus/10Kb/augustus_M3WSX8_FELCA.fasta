@@ -1,0 +1,107 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/M3WSX8_FELCA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 37216, name = M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	gene	1	8708	1	+	.	g1
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	transcript	1	8708	.	+	.	g1.t1
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	1	5393	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	5557	8535	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	5394	5556	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	8536	8708	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	stop_codon	8706	8708	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [VLKSTGDVAGGRALYEGYAAVTDAPPECFLTLRDTVLLRKESRKLIVQPNTRLEGSEVQLLEYEASAAGLIQSFSERF
+# PEDGPELEEILTQLATADARFWKCPSEAPSGQA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 28
+#     RM:  28 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	gene	14088	27216	1	+	.	g2
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	transcript	14088	27216	.	+	.	g2.t1
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	start_codon	14088	14090	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	14241	14355	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	14403	14544	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	14584	14702	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	14776	17407	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	17540	18275	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	18383	19735	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	19857	20022	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	20182	21589	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	21660	22144	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	22304	24926	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	25061	26063	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	26199	26815	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	26903	27129	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	14088	14240	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	14356	14402	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	14545	14583	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	14703	14775	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	17408	17539	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	18276	18382	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	19736	19856	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	20023	20181	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	21590	21659	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	22145	22303	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	24927	25060	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	26064	26198	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	26816	26902	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	27130	27216	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	stop_codon	27214	27216	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MEQHEPRTPALALASGPCVYVYKNLRPYFKFSLPQLPPNPLEQDLWNQAKEDRIDPLTLKEMLEGIREKAEVPLSVQS
+# LRFLQLELSEMEAFVSQHKSKSIKRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPEAFIILAKMSLPSVPVFLDVSGQFDVEFRLAAACRN
+# GNIYILRRDAKRPKYCIELSAQPVGLVRVHKVLVVGSTQDSLHGFTHKGKKLWTVQMPAAILTMNLLEQHSRGLQAVMAGLANGEVRIYRDKTLLNVI
+# RTPDAVTSLCFGRYGREDNTLIMTTRGGGLIIKILKRTAVFVEGGGEAGPPPAQALKLNVPRKTRLYVDQTLREREAGTAMHRTFQTDLYLLRLRTAR
+# AYVQALESSLNPVSVTAREPLKLHAVVQGLGPTFKLTLHLQNTSAARPILGLLVCFLYNEVLYALPRAFFKVPLLVPGLSYPLETFVESLSDKGISDI
+# IKVLVLREGQSAPLLSAHINMPVSEGLAAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/14
+# CDS introns: 0/13
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 27
+#     RM:  27 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	gene	35571	37216	1	-	.	g3
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	transcript	35571	37216	.	-	.	g3.t1
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	stop_codon	35571	35573	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	intron	35867	37216	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+M3WSX8_FELCA|ENSFCAG00000024650|M3WSX8	AUGUSTUS	CDS	35571	35866	.	-	2	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [RVSLAQFALAFVTDTCVAGALLCGAGLLFHGMLLLRGQTTWEWARGQHSYDLGPCHNLQAALGPRWVLVWLWPFLASP
+# LPGDGITFQTAADVGLTAS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/M3WSX8_FELCA.fasta

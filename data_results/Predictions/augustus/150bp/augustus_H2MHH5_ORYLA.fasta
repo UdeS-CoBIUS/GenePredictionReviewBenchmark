@@ -1,0 +1,59 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/H2MHH5_ORYLA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10283, name = H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	gene	467	8653	0.21	+	.	g1
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	transcript	467	8653	0.21	+	.	g1.t1
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	start_codon	467	469	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	467	543	0.65	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	617	738	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	865	917	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	998	1165	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	1564	1661	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	1866	1994	0.98	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	4850	4958	0.9	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	5074	5130	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	5564	5606	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	5689	5751	0.93	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	5826	5896	0.99	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	6959	7028	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	7098	7205	0.52	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	7324	7457	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	8027	8109	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	8195	8292	0.71	+	1	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	CDS	8478	8650	0.64	+	2	transcript_id "g1.t1"; gene_id "g1";
+H2MHH5_ORYLA|ENSORLG00000014432|H2MHH5	AUGUSTUS	stop_codon	8651	8653	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MADGWNTDTGEAVYRSQDVVKNLKIKVRIERVTSTAALSQHFQQQVLSQQEGGDIELKTLSSPAQKGDNEDEVVVGWQ
+# EKIFSQYEMELFQTEAVCQTPLDRQYHKEVKALIKAKSRRSRRIFTYTDHDRYTNCLPLHQLEHTDLLTTTKTGPTFLAERMATVKNRRQERRTMDSS
+# IPKTRIINWEPTEEFVRTSRVVNNAMQTMHIMGDLGPPGRIVAEGENREIWRLTFENVSKSMKPEEKNKEQNMYKDLYVRHKEFLSGLVGQDFEMPPA
+# GTLRYLMNGEIVSAQGFEYDNLYIHFFLELPNNWSSLPSQSLSEVTQTCRTKSLEKEDVAFFSYPFTFEALYMKQKDGEEGIPQWPVIYFKVLSLDFW
+# QRYRTEGYGYLLFPATPGKHTMTCHTWRPVQTGTVSAMKRFFIGGSAELEDDSYVRTPGTFKGDRLSRFGFCTVTTGSVTFNLHCIQQARAFVDAAVL
+# KRRRQKVFEHLGGFSQQGAVCNILGFSESEEKDAGGQRKFSERRNKHWFPTPTGILSMRLKTKLSVGLSGRRSWHRLRILQR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/17
+# CDS introns: 0/16
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 17
+#     RM:  17 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/H2MHH5_ORYLA.fasta

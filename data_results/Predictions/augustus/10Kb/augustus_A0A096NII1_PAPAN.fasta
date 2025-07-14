@@ -1,0 +1,77 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/A0A096NII1_PAPAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 52719, name = A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	gene	1	9928	1	-	.	g1
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	transcript	1	9928	.	-	.	g1.t1
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	2979	3063	.	-	2	transcript_id "g1.t1"; gene_id "g1";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	6080	6214	.	-	2	transcript_id "g1.t1"; gene_id "g1";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	9703	9928	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	start_codon	9926	9928	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MRSAETLPAGPSRLTPDARQSGTNPSTYRLLLLRLRRPVRSFCGCAVEPRRLVRLRGGTPAGLRLQLIPTAVIYPXII
+# GSSEETRVILTSVRAGTPKDLGLEGGRRVESCRALGRQHYIADPSSLSSVLVYAKKANCGRFHGPFPCTI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 22
+#     RM:  22 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	gene	10001	42719	1	+	.	g2
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	transcript	10001	42719	.	+	.	g2.t1
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	start_codon	10001	10003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	10001	10117	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	20451	20576	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	20830	20892	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	21672	21749	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	24270	24374	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	24458	24544	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	27698	27833	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	28044	28183	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	28999	29143	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	29228	29399	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	30654	30783	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	32710	32847	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	33502	33614	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	41751	41899	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	CDS	42613	42719	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A096NII1_PAPAN|ENSPANG00000024569|A0A096NII1	AUGUSTUS	stop_codon	42717	42719	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLLPVFTLKLRHKISPRMVAIGRYDGTHPCLAAATQAGKVADGANAIVLGTLGDISSPLAIIGGNCALQGFNHEGRDL
+# FWTVTGDNVNSLALCDFDGDGKKELLVGSEDFDIRVFKEDEIVAEMTETEVVTSLCPMYGSRFGYALSNGTVGVYDKTARYWRIKSKNHAMSIHAFDL
+# NSDGVNELITGWSNGKVDARSDRTGEVIFKDNFSSAIAGVVEGDYRMDGHMQLICCSVDGEIRGYLPGTAEMKGNLMDTSVEQDLIRELSQKKQNLLL
+# ELRNYEENAKAELASPLNEADGHRGIIPANTRLHTTLSVSLGSETQTAHTELCISTSNDTIIRAVLIFAEGIFTGESHVVHPSIHNLSSSICIPIAPP
+# KDVPVDLHLKAFVGYRSSTQFHVFELTRQLPRFSMYALTSLDPASEPISYVNFTIAERAQRITINTDDIDLAGDIIQSMASFFAIEDLQVEADFPVYF
+# EELRKVLVKVDEYHSVHQKLSADMADHSNLIRSLLVGAEDARLMRDMKTMKSRYMELYDLNRDLLNGYKIRSNNHTELLGNLKAVNQAIQRAGRLRVG
+# KPKNQVITACRDAIRSNNINTLFRIMRVGTASS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/15
+# CDS introns: 0/14
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 65
+#     RM:  65 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/A0A096NII1_PAPAN.fasta

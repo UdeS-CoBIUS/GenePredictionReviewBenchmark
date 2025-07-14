@@ -1,0 +1,93 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/G5BWY4_HETGA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 30848, name = G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	gene	1	4920	1	+	.	g1
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	transcript	1	4920	.	+	.	g1.t1
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	1	2740	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	2904	4747	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	2741	2903	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	4748	4920	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	stop_codon	4918	4920	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [VMKSTGDVAGGRALYEGYAAVTDAPPECFLTLRDTVLLRKESRKLIVQPNTHLEGSEVQLLEYEASAAGLIKSFSERF
+# PEDGPELEAVLTQLATADAQFWKSSSEAQSSQA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 16
+#     RM:  16 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	gene	6100	23289	1	+	.	g2
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	transcript	6100	23289	.	+	.	g2.t1
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	start_codon	6100	6102	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	6147	6462	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	6540	6694	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	6730	7782	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	8056	8609	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	8657	9884	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	9958	13070	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	13203	14088	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	14196	17095	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	17217	17284	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	17465	18477	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	18548	18952	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	19112	20558	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	20693	21643	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	21779	22870	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	intron	22958	23202	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	6100	6146	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	6463	6539	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	6695	6729	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	7783	8055	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	8610	8656	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	9885	9957	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	13071	13202	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	14089	14195	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	17096	17216	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	17285	17464	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	18478	18547	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	18953	19111	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	20559	20692	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	21644	21778	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	22871	22957	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	CDS	23203	23289	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G5BWY4_HETGA|ENSHGLG00100007000|G5BWY4	AUGUSTUS	stop_codon	23287	23289	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAAKSSSDFDSGRAESNEANSKWLDAHYDPMANIHTFSSCLALADLHGDGEYKLVVGDLGPGGQNPYLKVLKGATVLT
+# ESPLPSLPAAAATFLMEQHEPRTPALALASGPCVYVYKNLRPYFKFNLPQLPPNPLEQDLWDQAKEDRIDPLTLKEMLESIRFLQLELSEMESFVNQN
+# KSKTIKRQTVITTMTTLKKNLADEDAISCLVLGTENKGLLIIDPEAFTILAEMDIPSVPVFLEASGQFDVEFQLAAACRNGTIYILKRDSKHPKYSIE
+# LSAQPVGLVQVHKILVIGSTQDSLHGFTHKTLAISCQGKKLWTVQMPAAILTMNLLEHRSRSLQAVIVGLANTEVRIYRDKVLLNVIRTPDTVTSLCF
+# GRYGREDNTLIMTTRGGGLIIKILKRTAVFVEGTGEVGSPPAQAMKLNVPRKTRLYVDQTLREREAGTGMHQIFQTDLYLLHLRAARAYVQALESSLS
+# PMSVTAREPLKLHAVVQGLGPTFKLTLHLQNTSTARPVLGLLVCFLYDEALYALPRAFFKVPLLVPGLNYPLETFVQSLSSKGTSDIIRVLVLREGQG
+# VPQLSAHISMPVSEGLMAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/16
+# CDS introns: 0/15
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 35
+#     RM:  35 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/G5BWY4_HETGA.fasta

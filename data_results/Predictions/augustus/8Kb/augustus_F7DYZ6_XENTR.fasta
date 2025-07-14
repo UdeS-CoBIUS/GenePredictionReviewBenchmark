@@ -1,0 +1,93 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F7DYZ6_XENTR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 34436, name = BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	gene	2712	4693	1	+	.	g1
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	transcript	2712	4693	.	+	.	g1.t1
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	start_codon	2712	2714	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	2836	4535	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	2712	2835	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	4536	4693	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	stop_codon	4691	4693	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MYDGYSTVTDADPYQFLTLRDIIISRKEERKSFVQINTRITGDSVDTLQYESSPSGLILSVLQRFPDDEEELEREMLE
+# LSCADSHFWEQQGSR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	gene	8258	25240	1	+	.	g2
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	transcript	8258	25240	.	+	.	g2.t1
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	start_codon	8258	8260	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	8293	10886	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	10961	11485	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	11521	11627	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	11901	12478	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	12526	13396	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	13436	13594	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	13668	14185	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	14318	14893	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	15001	16779	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	16901	19802	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	19962	21026	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	21097	21372	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	21532	22214	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	22349	23505	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	23641	24660	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	intron	24748	25153	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	8258	8292	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	10887	10960	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	11486	11520	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	11628	11900	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	12479	12525	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	13397	13435	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	13595	13667	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	14186	14317	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	14894	15000	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	16780	16900	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	19803	19961	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	21027	21096	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	21373	21531	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	22215	22348	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	23506	23640	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	24661	24747	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	CDS	25154	25240	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS1|F7DYZ6_XENTR|ENSXETG00000026165|XENTR	AUGUSTUS	stop_codon	25238	25240	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSSSSDSSSREGESRSKWLDAHYDPVAGLNTLSSCIALADLHGDGDFKMVVGDMGHGPYNMKLKVYKGTARMSENALL
+# DLPTGVAAFLMDQNEPRTPAIAVASGPFIYVYKNLRPYFKFTLPAMEVNALEKEVWDQAKEDKIDPVTLKEMLESIRDKAEIPLSVRSLRFLMLELQE
+# MEAFVNTYKQQPLKRQTVITCMGTLKKNMADEDAVCCLVIGTESGELFILDPEAFTILTRVSLSSVPTLLDVTGQYDIEYRITVACRNGNVYILRRDS
+# KRPKYCIELSAQVVGLVRVQKNIMIGTSHETLHGYSQKGKRLWTVTLPASIMTMSLMEQKSRGIQAVLVGLKNMEVHLYRDKNLLSVINTPDIVTGLC
+# FGRYGREDDTLIMTTQGGGLLIKILKRTAQFEDKDTAPGPPTGQSIKLNVPKKTKLYVDQTLRERENAVAMHRVFQMDLYRLRLSAARAYVKALDASL
+# APVSSTMQEPLTLNAAVQGIGPQFKLILNLQNTSVNRPSMQLLISFLYDEKLYKIKPAFFKVPLLVPGLNYPIETFVECCSDKGISDIIKVFVLREGK
+# STPLLTAHINMPVSEGLAAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/17
+# CDS introns: 0/16
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F7DYZ6_XENTR.fasta

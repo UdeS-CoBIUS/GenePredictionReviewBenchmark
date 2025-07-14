@@ -1,0 +1,144 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/Q295Y8_DROPS.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 22477, name = Q295Y8_DROPS|FBgn0070928|Q295Y8) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	gene	940	4475	0.06	-	.	g1
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	transcript	940	4475	0.06	-	.	g1.t1
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	tts	940	940	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	940	1862	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	stop_codon	1023	1025	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	1023	1862	0.75	-	0	transcript_id "g1.t1"; gene_id "g1";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	start_codon	1860	1862	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	4389	4475	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	tss	4475	4475	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MKFRALMQDPLYMRELQNIIATLAKLAKDCIMILGAQQMHFIVNEDQSSTSSPLVWVSIAARDYFPEYKMEAARADQE
+# YIVLTMSSANLGRALSVLRGGGVNSCKLKLQRIQFPCISVIASVLSTSSTEAREVVHDVPVTIIPASDWPTYVVPRVPASQLALSLPSLRLLRSLIDK
+# LKNVSPSLEFQASYDGELNVVATSEMSTVTSRFRRLLPRFLSADEDREASCSVDSRKASAFFGALQLANEELTIGIDREHSIHLQIDVREDVVLHSIL
+# PAVCA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	gene	6125	6945	0.13	-	.	g2
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	transcript	6125	6945	0.13	-	.	g2.t1
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	tts	6125	6125	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	6125	6945	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	stop_codon	6390	6392	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	6390	6848	0.91	-	0	transcript_id "g2.t1"; gene_id "g2";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	start_codon	6846	6848	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	tss	6945	6945	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MDDLKKMCCRICLKDAEPPVDIFVKQKHDESLPYEPEDIPANMIKECIGLNVDEGDVHHQHLCEPCFKALRKAYRFKR
+# RYSRSMQSNAPVKREPTDEQTSIIPNDAAQEQTVNVKNEIDVDAVDSTAPVFNEAENDNTAAEYFEIIETDDWT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	gene	7366	11545	0.06	+	.	g3
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	transcript	7366	11545	0.06	+	.	g3.t1
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	tss	7366	7366	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	7366	7478	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	7544	7820	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	start_codon	7641	7643	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	intron	7821	7878	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	intron	8414	8726	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	intron	9124	10170	0.38	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	intron	10320	10380	0.99	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	intron	10577	10637	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	intron	10876	10937	0.99	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	7641	7820	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	7879	8413	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	7879	8413	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	8727	9123	0.48	+	2	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	8727	9123	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	10171	10319	0.9	+	1	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	10171	10319	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	10381	10576	0.99	+	2	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	10381	10576	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	10638	10875	0.99	+	1	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	10638	10875	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	10938	11411	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	10938	11545	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	stop_codon	11409	11411	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	tts	11545	11545	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MCGSPNTTVGNGTRALILVGGYGTRLRPLTLSTPKPLVEFANKPILLHQLEALVDAGCRQVILAVSYRAEQMEKELKV
+# EADKLGVELIFSHETEPLGTAGPLALAKSILSASPEPFFVLNSDVICDFPFKQLVQFHRNHGKEGTIVVTKVEEPSKYGVVLYDEDGCIKNFIEKPQE
+# FVSNKINAGIYIFNPSVLERIEVKPTSIEKEVFPAMAEQQELYAMDLTGFWMDIGQPKDFLTGMCLYLSSLRQKQSPKLYTGPGVVGNVLVDPTATIG
+# EGCRIGPNVTIGPDVIIEDGVCIKRATILKGAIVRSHSWLDSCIVGWRSTVGRWVRIEGITVLGEDVIVKDELYVNGGQVLPHKSIAASVPEPQIIMH
+# TRLRTGEKVLDYIYHIEDSKGNPGDTGRLMVTNLRVIWHSLVHKKYNLSIGFARFGNTNTRIVHMHSKGRMPSQALYILAISNETRFEFLFTDVSGET
+# ARREQPIFASVFDVYQLYQRTYLYRDLKLRGAIVLSGQLIILPDEQVYSQVQGVWNLSSDQGNLGSFVVSNIRLVWFADANETFNISLPYLQIESLRV
+# RESKYGPALVIQTAETGGGYVLGFRIDPADRLNELFKELCSLHTVYIEQPNFGIHYDAQDARQRLADAAEEAAQATQFKIENFEELDERQEREINTKL
+# NSYLAEGCVSNSNTDQSDREPVYCKELGFAMERIREGYKLQDLWNVMPTKMETFEE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	gene	12766	15035	0.14	-	.	g4
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	transcript	12766	15035	0.14	-	.	g4.t1
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	tts	12766	12766	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	12766	14070	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	stop_codon	13371	13373	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	intron	14071	14133	0.98	-	.	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	intron	14251	14325	0.99	-	.	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	13371	14070	0.95	-	1	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	14134	14250	0.99	-	1	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	14134	14250	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	CDS	14326	14939	0.61	-	0	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	exon	14326	15035	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	start_codon	14937	14939	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+Q295Y8_DROPS|FBgn0070928|Q295Y8	AUGUSTUS	tss	15035	15035	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MMLAAAGLPAYDAGKINSNPSNGTAGGVGGTVGTPSAVGASRPSAASALMKTLSVRLHRGTEFIKDTVQKALVMSAPA
+# PVAPAPVPSPAPPPVGSAVPPAKPITLTSQTLKRKLAGAGGLMGCGPSRITSITASSSSGRFILAHANRKPASQVPTEAYLKVYTVAPTELHRSAAAR
+# VRNPSTDSLLMDLCQFKPIRPMPLTPIKINKFRGFELKRPKFVPAVNDSEDEDDDEDDPESLQKPKPSSVILLPHKGSAFVPMPYIASPNTTAAAAIT
+# ATATGTATRSRSRSHNTHTSGTSADEPKPKRRRRGPLLTARRRRTRAAAAFGAPPPVNTSASPEEVAAKPVAPVKRRAATKSGPAKRSRAAAANPTPV
+# VATSTSPDEASKAPGKRKSSTKREPAKRSRAAALAAANPTPVTTSTSPGKAPRARGKRKTAPAEGPQNAKRSCRGSSPARPSPPMTRQRARKQISASS
+# CHSGST]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/Q295Y8_DROPS.fasta

@@ -1,0 +1,70 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/M3WUV2_FELCA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 40888, name = M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	gene	4080	6044	1	+	.	g1
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	transcript	4080	6044	.	+	.	g1.t1
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	start_codon	4080	4082	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	CDS	4080	6044	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	stop_codon	6042	6044	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAAAAAASHLNLDALREVLECPICMESFTEEQLRPKLLHCGHTICRQCLEKLLASSINGVRCPFCSKITRITSLTQLT
+# DNLTVLKIIDTAGLSEAVGLLMCRSCGRRLPRQFCRSCGLVLCEPCREADHQPPGHCTLPVKEAAEERRHDFGEKLARLRELMGELQRRKVALEGVSK
+# DLQARYKAVLQEYGHEERRVQEELARSRKFFTGSLAEVEKSNSQVVEEQSYLLNIAEVQAVSRCDYFLAKIKQADVALLEETADEEEPELTASLPREL
+# TLQDVELLKVGHVGPLQIGQAVKKPRTVNMEDSWAMEAAASAASTSVTFREMDVSPEEVVASPRASPAKQRGSEPAANIQQCLFLKKMGAKGSTPGMF
+# NLPVSLYVTGQGEVLVADRGNYRIQVFTRKGFLKEIRRSPSGIDSFVLSFLGADLPNLTPLSVAMNCQGLIGVTDSYDNSLKVYTLDGHCVACHRSQL
+# SKPWGITALPSGQFVVTDVEGGKLWCFTVDRGAGVVKYSCLCSAVRPKFVTCDTEGTVYFTQGLGLNLENRQNEHHLEGGFSIGSVGPDGQLGRQISH
+# FFSENEDFRCIAGMCVDARGDLIVADSSRKEILHFPKGGGYSVLIREGLTCPVGIALTPKGQLLVLDCWDHCIKIYSYHLRRYSTP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	gene	21038	40888	1	-	.	g2
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	transcript	21038	40888	.	-	.	g2.t1
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	stop_codon	21038	21040	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	intron	21142	25140	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	intron	25321	28418	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	intron	28524	33001	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	intron	33127	35934	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	intron	36035	40888	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	CDS	21038	21141	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	CDS	25141	25320	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	CDS	28419	28523	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	CDS	33002	33126	.	-	1	transcript_id "g2.t1"; gene_id "g2";
+M3WUV2_FELCA|ENSFCAG00000002357|M3WUV2	AUGUSTUS	CDS	35935	36034	.	-	2	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [VPEKMETLDGKVRKHKLAFRSLFSSALCVSSGRENNFIKDFPQLADGLLVIPLPVEEQCRGVLSEPLPDLQLLTGDIR
+# YDEAMGYPMVQQWRVRSNLYRVKLSTITLSAGFTNVLKILTRESSREELLSFIQHYGSHYIAEALYGSELTCIIHFPSKKVQQQLWLQYQKAVTLIHE
+# TFTMIKNSLYEVIYPLATLDKDFLILR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 54
+#     RM:  54 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/M3WUV2_FELCA.fasta

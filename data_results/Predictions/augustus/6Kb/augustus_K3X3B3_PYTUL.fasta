@@ -1,0 +1,240 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/K3X3B3_PYTUL.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 13026, name = K3X3B3_PYTUL|PYU1_G011686|K3X3B3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	gene	1	2870	0.02	-	.	g1
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	transcript	1	2870	0.02	-	.	g1.t1
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tts	1	1	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	1	638	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	stop_codon	254	256	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	intron	639	729	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	intron	960	1054	0.51	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	intron	1382	1464	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	intron	1732	1833	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	intron	2408	2663	0.3	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	254	638	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	730	959	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	730	959	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	1055	1381	0.51	-	0	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	1055	1381	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	1465	1731	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	1465	1731	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	1834	2407	0.3	-	1	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	1834	2407	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	2664	2740	0.65	-	0	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	2664	2870	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	start_codon	2738	2740	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tss	2870	2870	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAAVAASDELPDARHMLVIQENTALNTDDAPFYHTQSAACLLASLSFWCELILAIPIISKNLVIMEKMGDHHTDDLLF
+# DAHTLSELMEIDAMHPHSPSTSASNASPAGDSNDDGDGDSSDAFADAMLFQDIEALLISQTAGDSASALLHPQHHLMEQLQMTPTAHLIDRHHDHSGA
+# VESMDWDMNVTHADESLAARDEENASDHAPDQAPAANEQHTREKELLQRELTFLQAQRDFLQFKADAAAAAVNVLEGSEDAALREQAELEKQNLETVT
+# RQQQMLMELVTQQQKSLHDLELLLVQSPLNHYRMTLMTPMESYIKLGRDPIERRAQLLAMRDEKIDAVRQYIEYQARDIDPQREFFYLDTFEKFGKFY
+# TVDFSVSQLNRTTIADVVDIIQDHFVTSNDGISQMLGCVTNREFFDGMDETFLNARIVDRVDIPKRHLHDRGFVVQESNCVFYRKTVDGDMAVMMCDY
+# VDDDEWHPYRKTGRIRKDISVGITLSPYVNAEGAPCVIMKRFSFIKHHFNSITPTPEILQAISTRVILWGQAMRFCITKRRRGNKKSVFVKYSFPRPP
+# PGAAIRGAAAPSVAPQTASVPDAASAAGSDTGTPSTSPSPSSSSSPCVDAS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	gene	3106	4303	0.03	+	.	g2
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	transcript	3106	4303	0.03	+	.	g2.t1
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tss	3106	3106	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	3106	4303	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	start_codon	3250	3252	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	3250	4182	0.58	+	0	transcript_id "g2.t1"; gene_id "g2";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	stop_codon	4180	4182	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tts	4303	4303	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MFAGGVRDLLLSNEIYGASRYERMAELVKQGAAVTLIFDHAETIRQADAVAAAHGVEFGALVDVNVGQNRCGVDSVDD
+# AVALAQQLQASQYLQLLGIQAYHGSAQHIRSYTEKAKVIDTVAAKAKKVRDAFVKQGLKCDVVTGGGTGTYLLEAQSGVFTEVQPGSYLFNDADYARN
+# LGVDGEKVRQWEQSLFVLTTVMSTNHGANPPRSVVDAGMKAVSLDSGAPLVYSSIDASALPQLEYQGGGDEHGILVPAAGDKSKSEIPMPALGKKLLL
+# TPGHCDPTTNLYDFVVGFRNGTVEHVWEVAARGPGN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	gene	4324	5610	0.13	-	.	g3
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	transcript	4324	5610	0.13	-	.	g3.t1
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tts	4324	4324	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	4324	5610	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	stop_codon	4363	4365	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	4363	5472	0.82	-	0	transcript_id "g3.t1"; gene_id "g3";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	start_codon	5470	5472	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tss	5610	5610	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MGLKEDLLRGIYSYGFEKPSAIQQRAIKPAVQGRDLIAQSQSGTGKTAVFSISILQTLDTSSNETQALVISPTRELAE
+# QTQKVLLALGDFMNVQCHACIGGKSIGEDIRRLDYGVQVVSGTPGRIFDMIRRRNLRTRNIKMLVIDEADEMLNKGFKDQIYDIYRYLPPSTQVLLVS
+# ATLPQEVLNLTNKFMNEPVKVLVKRDELTLEGIKQFFVAVDKEEWKFDTLCDLYDTLTITQAVIFCNTKRKVDWLTTKMRDANFTVSSMHGDMPQKER
+# DAIMQEFRSGGSRVLITTDVWGRGLDVQQVSLVICYDLPNNRELYIHRIGRSGRFGRKGVAINFVKEDDVRILRDIEQYYSTQIDEMPANVADLI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# start gene g4
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	gene	5766	7174	0.12	+	.	g4
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	transcript	5766	7174	0.12	+	.	g4.t1
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tss	5766	5766	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	5766	7174	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	start_codon	6001	6003	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	6001	7041	0.89	+	0	transcript_id "g4.t1"; gene_id "g4";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	stop_codon	7039	7041	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tts	7174	7174	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MEIRTAPESLTWQDREIRFDVSAAAMELRKGEVLIDSINSVEDTKGNNGERGSLEITNLRLLWASHKSVRTNLSIGYI
+# CIQTIKIRTATSKLRGNTQALYVMTKYANSRFEFIFTSLVKASPRLFTTIQAVFRSYETTKLYRELKLRGAIIKEKELALLPHEQVYTRLNGVWNLSS
+# DQGNLGTFFVTNVRIVWHANLAENFNVSIPYMQINSARIRSSKFGPALVIETSPASGGYILGFRVDPEDRLHELFKEIQSLHQVFSTNPIYGVDYEVE
+# EKPASLNVMKQPRKLDDVEIQEDYSSSMDAFAAYYAAVNKNQDRPPTFSRELGLAIERLPDGFTIQDLWYVN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	gene	7326	8232	0.11	+	.	g5
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	transcript	7326	8232	0.11	+	.	g5.t1
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tss	7326	7326	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	7326	7521	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	start_codon	7351	7353	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	intron	7522	7599	0.83	+	.	transcript_id "g5.t1"; gene_id "g5";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	7351	7521	0.83	+	0	transcript_id "g5.t1"; gene_id "g5";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	7600	8190	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	7600	8232	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	stop_codon	8188	8190	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tts	8232	8232	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MSLHHLVLVLLTTALVAVFNVVSAARSTIEDYDRRAFYSQVRSPKSPQDPIVQAAAEFAVEELQSLSDSGIYQTLRLN
+# KIHEASTEVGDFHYMIHLHVALGSPHFESKRAEEDFELIFLEAKEDVRSAARATRANVTRSIAIDEFPVMDEDAIEEFWIEMVEERRRKRAALFQSWL
+# AEDEDNRDEGSRPKAVKPKKKVSMSELRGMSTKQLRKMLLTSEMSTELRAAITQIIDERWEMLVQKEQEQEHHHEEL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	gene	8234	9990	0.1	-	.	g6
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	transcript	8234	9990	0.1	-	.	g6.t1
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tts	8234	8234	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	8234	9119	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	stop_codon	8259	8261	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	intron	9120	9195	0.99	-	.	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	intron	9418	9505	1	-	.	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	8259	9119	1	-	0	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	9196	9417	0.99	-	0	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	9196	9417	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	9506	9877	0.56	-	0	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	9506	9990	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	start_codon	9875	9877	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tss	9990	9990	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MERETRAKWRRTMPLHVHEDTAEEQQDEADSLSDSDAVACETQDEDHDGKRGATTRRGTRYGAPYAKQLRRVKAAPRD
+# AARRGRAAKNGAHDEDDEESMLQRARGDCGVKTKRRKRKATYHVRKDEIEQLQERMEELEHELKALKFHALMGNGTSNGRNGTSATPLQKGKLTEHFL
+# HDAIQSQQVALAGLQAMLSSYTTLQERSPFHVGIYLNKDPKERRHVLAAARTKVLEQTKRFVRERHRGMDMLKLYAEQERFETARGDYCVMGFDIIPL
+# PAAKSAKSVFDNLLFLINNVEITFTDMMGHITIRENDDDSSCSDAAQFRVVSTLADSVYLEANVVRFTEFQPARTRNEGDDDDEGEESDFGIISVDYI
+# DDDELYPFQPDTRVLRETSCVFTVQACPRHQEQQSPRPAAGDGNENERTVVVTRWSLTKLHKSEIVHDFRIMQAMRASIGAWGDKMVQWIYETTQNTR
+# ETPLVCSTAMANNK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g6
+###
+# start gene g7
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	gene	10146	11930	0.1	-	.	g7
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	transcript	10146	11930	0.1	-	.	g7.t1
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tts	10146	10146	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	10146	11073	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	stop_codon	10189	10191	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	intron	11074	11162	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	10189	11073	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	11163	11810	0.5	-	0	transcript_id "g7.t1"; gene_id "g7";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	11163	11930	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	start_codon	11808	11810	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tss	11930	11930	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MTSSFMLPAQLACSVSTMPTASIAAVPDTPFVASSAKELEPAAFCSPPRQSFQLLLHENASESDGDAIFKDEFQLPPR
+# RAPSVTRQQPRPSRDRTSNATKASSSKPIVTRNSSKYASSPSSSSSSTKLGESGQPQKKRPKRKASYLARKEEKEELLKHLDELQTQLNTLKYQTVVH
+# GNFRAQNQARTHLTKNILTDAIQKHQLAVAGLQAMLSKYSSLQEHSPIETTIRLGTELSERRATLLQLKDHKILEAKHFIEERSRGLDVTKTYVEEER
+# FETTHGDFCSLRFDIVPIRGAASVKSVFDTMLYYIGNIEIMLSETMGHVTIREDDDNPDKNISHHRLVTSIGNGLQIETNTVLFSELTETVDGGAMGV
+# IVGDFIDDDELYPYRPHERIRRDVSVMLTASSYIEKAAPSRTFGGNESDGGNSTHQADEATEELIVVLKRWSLGKLHKTELPVPGTVLQDIRDIYAKW
+# SEETVKAVRLNPPPPLPMHMPMLALPLSNEAANGTADIVL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g7
+###
+# start gene g8
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	gene	12053	12940	0.04	-	.	g8
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	transcript	12053	12940	0.04	-	.	g8.t1
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tts	12053	12053	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	12053	12511	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	stop_codon	12350	12352	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	intron	12512	12579	0.54	-	.	transcript_id "g8.t1"; gene_id "g8";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	12350	12511	0.3	-	0	transcript_id "g8.t1"; gene_id "g8";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	CDS	12580	12834	0.48	-	0	transcript_id "g8.t1"; gene_id "g8";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	exon	12580	12940	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	start_codon	12832	12834	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+K3X3B3_PYTUL|PYU1_G011686|K3X3B3	AUGUSTUS	tss	12940	12940	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+# protein sequence = [MAVMHLLHNNARGAGACLTLLRDATEDEATINIALGLQGEKVLLLLLDLLAVEELFNVQYGGGEYIMSRTVLLLITTA
+# HHIVQQDLLYNILYKLEVTKQDTCMLRANCTVSILCDDDRPVEERYVPNSGIHDKTGRKL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g8
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/K3X3B3_PYTUL.fasta

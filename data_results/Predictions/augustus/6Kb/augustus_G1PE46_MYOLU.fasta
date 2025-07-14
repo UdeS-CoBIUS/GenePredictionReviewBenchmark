@@ -1,0 +1,114 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/G1PE46_MYOLU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 58613, name = G1PE46_MYOLU|ENSMLUG00000009605|G1PE46) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	gene	1	1433	1	+	.	g1
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	transcript	1	1433	.	+	.	g1.t1
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	1	1290	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	1291	1433	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	stop_codon	1431	1433	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [ELKEIKQDISSLRYELLEDKSQATEELAVLIHKLSEKLSPSSPRCE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	gene	6001	52613	1	+	.	g2
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	transcript	6001	52613	.	+	.	g2.t1
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	start_codon	6001	6003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	6037	10935	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	10999	12673	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	12850	16771	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	16999	20598	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	20716	22429	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	22561	27570	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	27656	28755	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	28859	31099	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	31293	34784	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	34860	36704	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	36771	43071	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	43212	45016	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	45182	49138	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	49249	49364	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	49469	49607	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	49723	52479	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	6001	6036	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	10936	10998	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	12674	12849	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	16772	16998	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	20599	20715	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	22430	22560	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	27571	27655	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	28756	28858	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	31100	31292	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	34785	34859	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	36705	36770	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	43072	43211	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	45017	45181	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	49139	49248	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	49365	49468	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	49608	49722	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	52480	52613	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	stop_codon	52611	52613	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MDLHLHRADYVQVVIGDHEGVVLCFGMKKGEAVAVFKTLPGQKIARLELGGILNTPQEKIFVAAGSEIRGFTKRGKQF
+# LSFETNLTESIKAMHISGSDLFLSASYIYSHYCDCKDQHYYLSGDKINDVICLPVERLPHLTPVLACQDRLLRVLQVASICIFIIFHLLGDSGEDVLF
+# GTSDGKLGLVQITAPTPAHKWEIQNEKKRGGILCVDSFDIMGDGVKDLLVGRDDGMVEVYSFNNANEPALRFDQALSESVTSIQGGCVGKDGYDEIVV
+# STYSGWVTGLTTEPVHKEGGPGEELRLNQETQHKLSCLRSELEQLQLKVTQERERYQQSSQSSQAKSVVPSFSINDKFTLNKDDASYSLILEVQTAID
+# NVLVQSDVPIDLLDVDKNSAVVSFSSCDAESSDNFLLATYRCQANTTRLELKIRSIEGQYGTLQAYVTPRIQPRTCQVRQYLIKPLSLHQRSHCIDRD
+# RPMNTLTLTGQFSFAEVHSWVVFCLPEVPEKPPAGECVTFYFQNTFLDTQLESTYRKGEGVFKSDNISTISILKDVLSKEATKKKINLNISYEINEMS
+# VKHTLGLIHPKLEYQLLLAKKVQLIDALKVHEGNTDFLIPEYRCILEEAERLQEEYKRQPAHLERLYGMITDLFIDKFKFKGTNVKTKVPLLLEILDS
+# YDQNTLIAFFDAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/17
+# CDS introns: 0/16
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 94
+#     RM:  94 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	gene	56408	58613	1	+	.	g3
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	transcript	56408	58613	.	+	.	g3.t1
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	start_codon	56408	56410	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	56609	57628	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	intron	57870	58613	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	56408	56608	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+G1PE46_MYOLU|ENSMLUG00000009605|G1PE46	AUGUSTUS	CDS	57629	57869	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MLGSSAAREAGSAPLTLQQTAPHEDQENINPEKASPAQQPRTRARLAVLKAGNQRAPAPPQRPKTRRAAPLKDLPVND
+# ERAIVPPWKANSKQPAFTIHVDEPEETQRSPDESQETECEDVLAFNSAIALPEPRKPLVPLDYPMEDSL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/G1PE46_MYOLU.fasta

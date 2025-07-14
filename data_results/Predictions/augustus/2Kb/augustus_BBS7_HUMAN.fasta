@@ -1,0 +1,64 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/BBS7_HUMAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 50058, name = BBS7_HUMAN|ENSG00000138686|Q8IWZ6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	gene	2206	37792	1	+	.	g1
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	transcript	2206	37792	.	+	.	g1.t1
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	start_codon	2206	2208	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	2206	2220	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	9219	9281	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	16937	17054	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	17678	17794	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	19412	19542	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	23570	23673	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	26802	26994	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	28497	28571	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	32802	32867	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	37215	37354	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	37729	37792	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	stop_codon	37790	37792	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MDYLQVVIGDHDGVVMCFGMKKGEAAGSDVMYAVEVPGPPTVLALHNGNGGNQDFIFHKSTMCFNSDSGEDLLFGTSD
+# GKLALIQITTSKPVRKWEIQNEKKRGGILCIDSFDIVGDGVKDLLVGRDDGMVEVYSFDNANEPVLRFDQMLSESVTSIQGGCVGKDSYDEIVVSTYS
+# GKVNDNRNELEHLQYKVLQERENYQQSSQSSKAKSAVPSFGINDKFTLNKDDASYSLILEVQTAIDNVLIQSDVPIDLLDVDKNSAVVSFSSCDSESN
+# DNFLLATYRCQADTTRLELKIRSIEGQYGTLQAYVTPRIQPKTCQVRQYHIKPLSLHQRTHFIDHDRIKKNQIKQLVVIVPFISMPT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/11
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	gene	48870	50058	1	+	.	g2
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	transcript	48870	50058	.	+	.	g2.t1
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	start_codon	48870	48872	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS7_HUMAN|ENSG00000138686|Q8IWZ6	AUGUSTUS	CDS	48870	49082	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLGNSAPGPATREAGSALLALQQTALQEDQENINPEKAAPVQQPRTRAALAVLKSGNPRGLAQQQRPKTRR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/BBS7_HUMAN.fasta

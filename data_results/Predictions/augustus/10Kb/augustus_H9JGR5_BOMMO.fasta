@@ -1,0 +1,77 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# heliconius_melpomene1 version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H9JGR5_BOMMO.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 27103, name = H9JGR5_BOMMO|BGIBMGA008712|H9JGR5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	gene	14483	17103	0.36	+	.	g1
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	transcript	14483	17103	0.36	+	.	g1.t1
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	start_codon	14483	14485	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	intron	14570	15625	0.95	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	intron	15818	16884	0.91	+	.	transcript_id "g1.t1"; gene_id "g1";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	14483	14569	0.43	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	15626	15817	0.91	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	16885	17103	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	stop_codon	17101	17103	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLVTNIRVVWYADVNEAFNVSMPYITIDSISVRASKFGEALVFVIRQTSGGYVLGFRADPRDRLPPLLSELQTLHRAY
+# TEKPIFGVEINWENEAPTTINDEIEELEEIGEPRGEMGPSLYMASQLAKHQEGKDVQPVYSPYLGLAIEPLKEGFTLKSLFEVQSTT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	gene	17806	27087	0.26	+	.	g2
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	transcript	17806	27087	0.26	+	.	g2.t1
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	start_codon	17806	17808	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	intron	17833	17909	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	intron	18093	19124	0.91	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	intron	19294	20057	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	intron	20228	22190	0.88	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	intron	22354	23085	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	intron	23236	26816	0.34	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	intron	26963	27039	0.46	+	.	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	17806	17832	0.94	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	17910	18092	0.88	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	19125	19293	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	20058	20227	0.94	+	2	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	22191	22353	0.89	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	23086	23235	0.75	+	2	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	26817	26962	0.5	+	2	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	CDS	27040	27087	0.46	+	0	transcript_id "g2.t1"; gene_id "g2";
+H9JGR5_BOMMO|BGIBMGA008712|H9JGR5	AUGUSTUS	stop_codon	27085	27087	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MNNQSAAGLRRSAVAERIRLREEWSALKGTQNQLQSRKDCESIAKQKKTHNWTSKVRSVKNNVGIVGKENKNSEIPMT
+# SEALRGIVALVEVGSASKALALRAALTALGASVMPKWSPLVTHLIWSQGGCRSVRRRARALACRLVSPMWVEACATAARRIPETTFPAAARQSDIPSP
+# RTLRQLLKKAEMENVSIMDLLSDKEEREAKQLRFRVSTDSEANSSGDVTVNTSRDQSNDTIDLGTRVNTAPRRALPASASISPRPPVRSRRKLFTQKE
+# PEAESSTDAESDNENKDRQNKTSKKLTQKDRNGLAQAERMARKMLGQRTDITSARSDAEYRIMYLIEPVACDEGLDK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 24
+#     RM:  24 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=heliconius_melpomene1 --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/H9JGR5_BOMMO.fasta

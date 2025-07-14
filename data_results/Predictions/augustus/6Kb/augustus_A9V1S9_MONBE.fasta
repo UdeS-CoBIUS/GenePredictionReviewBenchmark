@@ -1,0 +1,236 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/A9V1S9_MONBE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 14291, name = A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	gene	1	740	0.19	-	.	g1
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	transcript	1	740	0.19	-	.	g1.t1
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	1	510	0.73	-	0	transcript_id "g1.t1"; gene_id "g1";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	1	740	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	start_codon	508	510	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tss	740	740	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPAGARGTRRGASTMGAGAGAVAETIQVAVRVRPFNARELAGAHACVVSMQDNVTTVDTSAGPRPFGFDRCYWSHDNF
+# AESDDGVLIPASDSSPYASQQHIFEDLGATLVTNVLAGYNACAMAYGQTSAGKSYTMIGTPTNPGLVPRLCAALFAAPVPNKVQRQVTLSML]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	gene	1316	4523	0.01	+	.	g2
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	transcript	1316	4523	0.01	+	.	g2.t1
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tss	1316	1316	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	1316	1623	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	start_codon	1557	1559	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	1624	1750	0.77	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	1840	1941	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	2044	2201	0.89	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	2602	2711	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	2947	3332	0.08	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	3446	4167	0.02	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	1557	1623	0.77	+	0	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	1751	1839	0.77	+	2	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	1751	1839	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	1942	2043	0.98	+	0	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	1942	2043	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	2202	2601	0.91	+	0	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	2202	2601	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	2712	2946	0.65	+	2	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	2712	2946	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	3333	3445	0.06	+	1	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	3333	3445	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	4168	4487	0.05	+	2	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	4168	4523	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	stop_codon	4485	4487	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tts	4523	4523	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MATLNGGEEFTWLNFFLNAGIPEAHALSYSDVFEDNRITPAMIDELSREILQELGVAIMGDVIAIQKYAKEYSEARNP
+# PKDSVDVNQFIALQQEYQQLQQTTEMQLSKSRDRENKLLAELKRARSDIQKLREQLGSRKSSGLSAPSAPTSVSIALSELNKVTGDGTKTITAEARKR
+# SLANSNQSSRKSTSKPTIVRSSSVATASPIIVASANPAPKKSKSSIFDRISGSEAGKTASESKNKGQTAPKAKKWVPGLCAHEPRLLMACSHVVGLHG
+# LTINMIDSDMTHAPVAPVGASLRFGMPLFVSNKQETLLPRLKKPNCVQSSKKEMSNEVEAFTLGLRPMTPGGTDKALPGAKRRPSMRISRCFAIESIR
+# QIPPNLTPRNNTKEEEEGEGEGEGEGEGEGEKKKPAASDAVKLGALTYPDHDEKKTYRCHLGPWHAWAP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/7
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	gene	4544	5500	0.07	-	.	g3
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	transcript	4544	5500	0.07	-	.	g3.t1
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tts	4544	4544	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	4544	5500	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	stop_codon	4576	4578	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	4576	5298	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	start_codon	5296	5298	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tss	5500	5500	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MWGGLAAWLCAETFHLAILQLSLRQPHRVHCASTRSMSKLASRLESGNRLFLLCSRFPGRDVKRIASLGSERRTFFAS
+# RQHSRPSPARVRGDLAGLLFLTITPPLVDVKAYILDKAVHVSSCAKLSLSRGARLLLSVLRAQPARGSAPRGMDELEDDAEVLPPTAQLFHGSFAAPQ
+# HAMVTAAQQQQQSRRASPFSTASSSSLASTIVPHSFSAKRSEGFASEFSMTDDEVCRFSGLQVS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	gene	5764	6220	0.05	-	.	g4
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	transcript	5764	6220	0.05	-	.	g4.t1
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tts	5764	5764	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	5764	6220	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	stop_codon	5805	5807	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	5805	6194	0.41	-	0	transcript_id "g4.t1"; gene_id "g4";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	start_codon	6192	6194	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tss	6220	6220	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MRIKMRENDTDFNPLLSIASPLDDMMPPAPYSTLFPCTARCTSPPLALAFSNRIGRTHARLGHLAAARIEIEEIEMKQ
+# PLSEVSEKGFKPVVILEVWIKRLRFGTLIPLFYNKYQSEMSVYAIHKEDDL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	gene	6316	9973	0.01	+	.	g5
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	transcript	6316	9973	0.01	+	.	g5.t1
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tss	6316	6316	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	6316	7108	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	start_codon	6413	6415	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	7109	7444	0.36	+	.	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	7656	8079	0.45	+	.	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	8213	8643	0.83	+	.	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	6413	7108	0.52	+	0	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	7445	7655	0.21	+	0	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	7445	7655	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	8080	8212	0.46	+	2	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	8080	8212	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	8644	9940	1	+	1	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	8644	9973	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	stop_codon	9938	9940	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tts	9973	9973	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MVPRLIALTRGEFVIDHLDQVEDTKGNNGISGAFWPLQGHLNFLASTSSHESLVLPTSPGTLTVTNLRLIWTNKKRSN
+# INLCTGGADGGRLLGRFSLPVIKLTSRPALQQSGCATWSASRSSPSNRSCSAMSKRCGSCASTNRASINSSSRISSQVLPASSPQCLPCTGTLICTDR
+# GFANTASPALISASVGHPVLRAYASSTLYRDVKIRAPALIRDGAIEPLPQEEVYDAGAMMLVQPPEGNGSAQSLGVAYVGVSILPGRRQSHIGGRQSK
+# FGSAVVVKLAGAAGALNLGFRCDPPKRVRVLFKRQFRDNRSRPRFFRGSSDHVSCLLLARRDLTELGVLCWDRDATKRVDLGGGTEANAVVAHVKDGG
+# VGADEDVAKDPEGTLGGGDINASKARDALGLTFGGDLEDVLLSAEGVLDAVDDNGDVGHMGDLVAVNDGLASGDGGGANGLVDLLDNIGGAGQEGGAS
+# VGNGLAVGAVGGVLNGEAGHGELPVAINGDIGPVDGASKVALVVAAKGELTAGDTVGVAVEVEGVHVLLNDLLLNHVVPDGDDVVHGDGGEAHAEDAI
+# KLGSNKGDTGLLKSLSKGLVLDAEIANAGSVGGEEAREGASAVLDGKLGAVGLVGGGGARVVLGVNVASNVGLGALGRGDPEVGAASVEDDLELLGGG
+# ADGDLTKVLGVLVVGQGHVGTGHDVLVLGGQHGALTTEGIAGALHAVQGHLAEGGGGSHQGQQENSGAHHLRWSLEKKNAPASVTFKRCHARWAFCSE
+# IVIRGRPPEAVSVG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	gene	10306	12093	0.08	+	.	g6
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	transcript	10306	12093	0.08	+	.	g6.t1
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tss	10306	10306	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	10306	10793	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	start_codon	10685	10687	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	10794	10847	0.85	+	.	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	11412	11474	0.55	+	.	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	11715	11836	0.96	+	.	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	10685	10793	0.97	+	0	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	10848	11411	0.51	+	2	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	10848	11411	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	11475	11714	0.94	+	2	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	11475	11714	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	11837	12039	0.97	+	2	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	11837	12093	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	stop_codon	12037	12039	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tts	12093	12093	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MVKAPSSPRCLFGRESLGGPGPAMKAHSMIAVLAALGHFQPSIHPEAGARGHQGLGQRCQLGLLRVRTCPCFPGVPDS
+# SSRHLPKSVIWNGKSNDLGVQNVGTSFCLVSSSHTHLSIDALGPCSEGIALQAMDSSHVSLVSLSLRGDELASYRCENQISLGINMNTMTKILKCAEN
+# NDRTIIRADDDADVMVFVFESEGKPAAIQPIAVQPGLRPHFSRPCTCGASTLVFPYVSWLHWTHGTPMSSHSMLTSPRCRSFFLVTPNQWSQEQEYSA
+# TVQMSSKEFSRIVRDLSTIGENVEITVDKEGITFGAKGESGSGTVSLKSNPSVDEGSSNVCSAGCILITWPAQAIRAMPMPPHSPHPAFIPQSSDYD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g6
+###
+# start gene g7
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	gene	12154	12880	0.06	-	.	g7
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	transcript	12154	12880	0.06	-	.	g7.t1
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tts	12154	12154	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	12154	12880	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	stop_codon	12293	12295	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	12293	12601	0.75	-	0	transcript_id "g7.t1"; gene_id "g7";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	start_codon	12599	12601	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tss	12880	12880	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MAADTESMKKSEPQQHNNSKIWFQAKTLLSPQRKKRSQPRGEKKKPKSKQGRQVWHRQDLHGLVSLMEKYPALGQDGK
+# EKLSKQFIPPCPRHRRSWAPGSSG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g7
+###
+# start gene g8
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	gene	13254	13930	0.07	-	.	g8
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	transcript	13254	13930	0.07	-	.	g8.t1
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tts	13254	13254	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	13254	13517	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	stop_codon	13282	13284	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	intron	13518	13634	0.97	-	.	transcript_id "g8.t1"; gene_id "g8";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	13282	13517	0.97	-	2	transcript_id "g8.t1"; gene_id "g8";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	CDS	13635	13794	0.95	-	0	transcript_id "g8.t1"; gene_id "g8";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	exon	13635	13930	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	start_codon	13792	13794	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+A9V1S9_MONBE|MONBRDRAFT_32801|A9V1S9	AUGUSTUS	tss	13930	13930	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+# protein sequence = [MWGHVGIQWIQVASPSALSEELAKHDAKKTRVFVYFSGSKDASGQSWCPDCVAAWPVVDKVCQEQGEEDDVFIYVDVG
+# DRATWKDPNHPYRKDPSFKLTGVPTLLQVQTPKRLVEESLHNPSTVAMLLEED]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g8
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/A9V1S9_MONBE.fasta

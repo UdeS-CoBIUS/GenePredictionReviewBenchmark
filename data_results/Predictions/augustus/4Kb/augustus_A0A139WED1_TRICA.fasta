@@ -1,0 +1,77 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# tribolium2012 version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A139WED1_TRICA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 11626, name = A0A139WED1_TRICA|TC033827|A0A139WED1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	gene	1981	3489	0.9	-	.	g1
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	transcript	1981	3489	0.9	-	.	g1.t1
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	stop_codon	1981	1983	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	2672	2729	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	2934	2985	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	3276	3429	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	1981	2671	0.95	-	1	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	2730	2933	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	2986	3275	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	3430	3489	0.95	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	start_codon	3487	3489	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MEETVAVPATAPQTVENISQEKTRIDAEESHKSPNESEYDSAGSYSDEEEDKARSRNSREHTDSETEGSVGLERESGD
+# GQESLPLRKVDDDEDKKNPQYIPKRGTFYEHDDRTADDEQTADNVELEKEKEQKKKVWQDKKERWSHDRFNDSEQAPKSRAELVAIYGYDIRNEEGPP
+# RARRRRRYGRGPNKYTRNWEDEDAYNKPPPLIRKKKPLRKPNQGEDFPPLNRSSNQEDPQDSRDYEEKTDQYQAETNGNTKNSVCESPQSPPVPPQES
+# NRMQQRVGSGRVVKPKREIKDSDYRGFTTKTRQVRNMKTDQKVVPKSSKKDDFIQSQNFTNKNNNIQELEKDLSKLNVQDGVHKGGKHGGQRQGSVPP
+# RLQSEQKGSKRYSSIRQRSLPESATPPFSQHSNYYSNGRFKL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	gene	3961	7590	0.07	+	.	g2
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	transcript	3961	7590	0.07	+	.	g2.t1
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	start_codon	3961	3963	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	3964	4010	0.77	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	4473	4574	0.81	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	4771	5323	0.3	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	5402	7063	0.26	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	7145	7198	0.44	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	3961	3963	0.77	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	4011	4472	0.72	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	4575	4770	0.62	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	5324	5401	0.61	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	7064	7144	0.21	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	7199	7590	0.57	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	stop_codon	7588	7590	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MKSSFQTVLHLILMVAVPFFVVMVALYLAFAFGAFGPASERCDALCCYLANKTLNIYDKRDREYIEYEFELDALNKRS
+# ISSLSQTFTLAKCKESENPAIAALLGKRYIDAKEGFFKCAVGVIARNWALAVDDCVENLGVLRLGSSWWSFGGVTKRSFTWDRRVDLPLAQRQKFNKL
+# LSFDVRVYQHEDCTGFIKQKHVSCYISSRNEFCGKRVNAPMIDQNYPSFLEEIASKDIEDMERRKRDAATFVNHFKNEEERVTEIVPTVGFSVEKFQN
+# QNLAFTAFDMSGHGRYRDLWEHYYKDCHGIIFVVDSSDRLRLVVVKEELDLLLQHPDICNRKIPVLFFANKMDCKDALSSVKIAAGLGLDKIMDKPWH
+# IAASNALTGEGLQEGVEWLTQQIRDVVLNKS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=tribolium2012 --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A139WED1_TRICA.fasta

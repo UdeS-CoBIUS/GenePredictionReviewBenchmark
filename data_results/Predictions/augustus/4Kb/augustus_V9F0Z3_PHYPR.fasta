@@ -1,0 +1,159 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/V9F0Z3_PHYPR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 8826, name = V9F0Z3_PHYPR|F443_10514|V9F0Z3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	gene	5	687	0.25	+	.	g1
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	transcript	5	687	0.25	+	.	g1.t1
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	start_codon	5	7	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	CDS	5	370	0.86	+	0	transcript_id "g1.t1"; gene_id "g1";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	exon	5	687	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	stop_codon	368	370	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tts	687	687	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSSDDIATDAQSTEEDTYVIVERESEAEATYAGHNLETLGNTDSPDHVIIDHNFGLNPQPILRGNELVRCLLGTENCI
+# HSGSLIADAGIQVSVINQCHRTSQVEPNMPISISAHNSEVKEY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	gene	1286	3010	0.03	+	.	g2
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	transcript	1286	3010	0.03	+	.	g2.t1
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tss	1286	1286	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	exon	1286	3010	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	start_codon	1633	1635	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	CDS	1633	2985	0.94	+	0	transcript_id "g2.t1"; gene_id "g2";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	stop_codon	2983	2985	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tts	3010	3010	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MTTDMMVKLIKAWSSKPVAGVWRKLRTFQLVLGTFVAPNRASALKTALEGAVAAAFQAVREALEDQCDEIVPETPQSS
+# VCSSPVLVSGLEDVPVPSAPSSAISAPADSGGASPTYNAGDASEESFVRSSVIEIVDLASSEEDRELQVASPGDQPSFVSDLKAATYMRAIPNRHARG
+# KIRHQASKKRAQWHVPRSRKRRHLAKCAITRSGNVIYHAKAFKPAKFEALMKSPEVLKEVEKLHARRRSYEEPSSKKGRSLCRAVQWPVEVEQITTCK
+# RNGIKFPDIGSVDRCRCFGDCFLDTRSNVASASSFCTPKYCKLGARCSNAPRTLNTLKLFDTGRVGLGVYTTTALDVGDVIGEYCGELTEFAAVVEGQ
+# PAQARKHNSGYTMLYNAKSVRGKYVYVDALRCGSITRFLSHACQSNAAFVEQQTRSLVRVLVKMIKNVKAGAQVTVHS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	gene	3956	4845	0.21	+	.	g3
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	transcript	3956	4845	0.21	+	.	g3.t1
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tss	3956	3956	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	exon	3956	4575	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	start_codon	4097	4099	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	intron	4576	4665	0.98	+	.	transcript_id "g3.t1"; gene_id "g3";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	CDS	4097	4575	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	CDS	4666	4753	0.98	+	1	transcript_id "g3.t1"; gene_id "g3";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	exon	4666	4845	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	stop_codon	4751	4753	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tts	4845	4845	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MGLFKVLANALGIKKTQVRILVVGLDNSGKTTLVNHLKPKKSQSREVVPTIGFQVEEFTKSNLNFTVFDMSGQSRYRS
+# LWENYYSDVQAIIYVLDSTDTIRMCVAKDELEQLVEHKELSSKKVPILFFANKMDLPNALTPVECMQHLELDSLGSKSWHITASNAVTGRGVEEGIEW
+# LADQFAKGKSRK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	gene	4904	5780	0.13	-	.	g4
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	transcript	4904	5780	0.13	-	.	g4.t1
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tts	4904	4904	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	exon	4904	5574	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	stop_codon	4998	5000	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	intron	5575	5648	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	CDS	4998	5574	1	-	1	transcript_id "g4.t1"; gene_id "g4";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	CDS	5649	5701	1	-	0	transcript_id "g4.t1"; gene_id "g4";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	exon	5649	5780	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	start_codon	5699	5701	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tss	5780	5780	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MFKNTFQSGFLSILYSIGSKPLQIWDKQVRNGHIKRITDQDIQSSVLEIMGTNVSTNFITCPAQPAKTLGIKLPFLVM
+# IIKNLKKYFTFEVQVLDDKNVRRRFRASNYQSSTRVKPFICTMPMRLDEGWNQIQFNLSDFTRRAYGTNYIETLRVQIHANCRIRRIYFSDRLYSEEE
+# LPPEFKLFLPVPKANNATSNEQQKAASPAEQFM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	gene	5876	7234	0.31	+	.	g5
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	transcript	5876	7234	0.31	+	.	g5.t1
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tss	5876	5876	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	exon	5876	7234	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	start_codon	5951	5953	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	CDS	5951	7189	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	stop_codon	7187	7189	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tts	7234	7234	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MSAAVRVLLPSEPAAPSASSPRPTKRRRLDETSDVAIEVCKTPGENGVTMTSEDESTDNLVKCDDDHFEESNAHSVHL
+# NCAECGEQFLLSTELVAHSQSTRHRPFACQHQGCDKYYSKREHLTRHVETVHIRGSTQSLEERKPYKCELCQARFTYNHGLTRHIKRSHRNVNLPFEC
+# SECLKGFKKKSELQAHSYVHTGVLPFECEECGERFLKRFWLTRHQRKHEANKDADTQVFVCDCGEICFDEEELNIHKQTEHGKEEAEDDVGAEAKETP
+# AHLCLVCDQTFSRKQYLRAHLRTHFESLDDRKQYTCPMDGCNKSYTRKSNLMTHYNAVHDKRKSKRFACPREGCTARFGYKTVLKHHIESIHDNPKPP
+# KRRERKSAGILERALGMNQVGEEAKRIKAVSHDEKGKTEQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	gene	7476	8123	0.04	+	.	g6
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	transcript	7476	8123	0.04	+	.	g6.t1
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tss	7476	7476	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	exon	7476	8123	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	start_codon	7695	7697	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	CDS	7695	8093	0.93	+	0	transcript_id "g6.t1"; gene_id "g6";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	stop_codon	8091	8093	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+V9F0Z3_PHYPR|F443_10514|V9F0Z3	AUGUSTUS	tts	8123	8123	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MIADCSGRLWCPDLEKSAGQPIDGFHNSNQPDYPLAADTAQCSPARCVEQEQSLGAWRAARERIFTSALWSSSVCGGA
+# VSTSVLPLTSGKAGLSAALSCWVLARCRPTGNSCGERGSEGLQPARVRTLGLHM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g6
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/V9F0Z3_PHYPR.fasta

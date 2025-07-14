@@ -1,0 +1,43 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/MKKS_MOUSE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 37610, name = MKKS_MOUSE|ENSMUSG00000027274|Q9JI70) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+MKKS_MOUSE|ENSMUSG00000027274|Q9JI70	AUGUSTUS	gene	20734	27124	1	+	.	g1
+MKKS_MOUSE|ENSMUSG00000027274|Q9JI70	AUGUSTUS	transcript	20734	27124	.	+	.	g1.t1
+MKKS_MOUSE|ENSMUSG00000027274|Q9JI70	AUGUSTUS	start_codon	20734	20736	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+MKKS_MOUSE|ENSMUSG00000027274|Q9JI70	AUGUSTUS	intron	21140	23599	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+MKKS_MOUSE|ENSMUSG00000027274|Q9JI70	AUGUSTUS	intron	23776	26683	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+MKKS_MOUSE|ENSMUSG00000027274|Q9JI70	AUGUSTUS	CDS	20734	21139	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+MKKS_MOUSE|ENSMUSG00000027274|Q9JI70	AUGUSTUS	CDS	23600	23775	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+MKKS_MOUSE|ENSMUSG00000027274|Q9JI70	AUGUSTUS	CDS	26684	27124	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+MKKS_MOUSE|ENSMUSG00000027274|Q9JI70	AUGUSTUS	stop_codon	27122	27124	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MVLGKSIIVPLKGQRVTDSTVLPGLLIEASEVQLRRLLPTQKASGLRVALFCTSLSGDFSNAGEGVVVAHYQVSLENA
+# VLEQLLNLGRRLVTDHVDLVLCQKVIHPSLKQFFSERHVMAIDRVGVTLMESLSKVTGATPIGSLNPIVSTTYGSVKDVCSARFGSKHFFHLLPNEAT
+# VCTLLLCSRNDTAWEELKVHHEAEAIVRDDGCTQAKLHVAAEAFCSALESVAGSLEHDGGEILIDTKYGHLWSCQADSASVGNWSDTLSRCGCGLYNS
+# QEELSWSVLRSTYHPFAPQTCLPQAALGSASNLTVDCFTAKLSGLQVAVETANLILDLSYVIEDKN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 9
+#     RM:   9 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/MKKS_MOUSE.fasta

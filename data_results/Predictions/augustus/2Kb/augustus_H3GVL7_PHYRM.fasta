@@ -1,0 +1,126 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/H3GVL7_PHYRM.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 6250, name = H3GVL7_PHYRM|Phyra81419|H3GVL7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	gene	2	673	0.5	+	.	g1
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	transcript	2	673	0.5	+	.	g1.t1
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	intron	60	132	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	CDS	2	59	0.78	+	1	transcript_id "g1.t1"; gene_id "g1";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	exon	2	59	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	CDS	133	615	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	exon	133	673	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	stop_codon	613	615	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	tts	673	673	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [ICSELKRTEKFIAGCAAGKWILKPSYLEACATAEKFVDEAAHEWGTHASDKKNIDQRIWPGASGYWRKERTGGHPGAF
+# AGWRFFIHAKCVPPRDMCERIALAGGGSVIPLTKAADFHTLAKESTLEAPVVALFPPEVPTRDLWLKKLKEHEIQCLKATFLIDYITKKQAPPVKRAD
+# YHL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	gene	684	1890	0.23	-	.	g2
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	transcript	684	1890	0.23	-	.	g2.t1
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	tts	684	684	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	exon	684	1194	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	stop_codon	714	716	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	intron	1195	1318	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	CDS	714	1194	1	-	1	transcript_id "g2.t1"; gene_id "g2";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	CDS	1319	1887	0.36	-	0	transcript_id "g2.t1"; gene_id "g2";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	exon	1319	1890	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	start_codon	1885	1887	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	tss	1890	1890	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MASKPVLTFVTGNANKLKEVVAILGADFPFELRNQALDLPELQGEPADIAKEKCRLAAKQVQGAVLVEDTSLCFNALK
+# GLPGPYIKWFLEKTGHDGLNNMLAAYEDKSAYAQCIFAYAPAGAEPQVFIGQTHGKIVPARGPATFGWDPVFQPDGFDQTYAEMEKATKNQISHRYKA
+# LEALKTHLVKPADNNSNCKSITYTVLETIATRIGVAMELPIGYMQPPRYIEPSALAEILRNPDLSAKRPLIIDVRDSDYAGGHIRTAVNIPEENFMDD
+# DDVDALVDKYKDQDAIVFHCMMSQVRGPSCAKRFKSRMEVVLEEATHTPRILILHGGYERFGMVSMKHWLLLFVI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	gene	1986	4273	0.29	+	.	g3
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	transcript	1986	4273	0.29	+	.	g3.t1
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	tss	1986	1986	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	exon	1986	3919	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	intron	3920	3991	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	CDS	2001	3919	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	CDS	3992	4250	1	+	1	transcript_id "g3.t1"; gene_id "g3";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	exon	3992	4273	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	stop_codon	4248	4250	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	tts	4273	4273	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MLPAFQVHLHQPILERVAQVGKFDGRHPALACGTTAGKVFIHSPNENTFRANSEGDDSEQSSVRFLKINRKVTALAAG
+# KFEAADQGDTLVVGTQSSLLAYDVEKNSDIFYKDVPDGVSAMLFAPAPRAASSLNAPTQMVVVGGNCSLQGFGRDGGELFWTVTGDHVRALAVSDVTG
+# HGRDELVAGSDDFEIRAFQNEEVVFECTETSRVLALAAIKKQMFGYALQNGTVGVYKGKHRAWRVKSKNIPTAIHSFDIDGDGEKEIVMGWSNGKFES
+# RKLANGEAVHKEVLPSPVAALVTADYRMDGKEEIICCSADGEIRGYFTATGDFPAPGSSNTAANDRASQEEKEVAKLSKHRAALQLEIKALEANQAGG
+# SGATAGKGLRIRADTNIKVRSLASKTATSFELEVSTENDAVIKMVVVFESEAGIFEGESLVVRPATMSSTVRIPLNLNKHAAARLDFKVLVGTRGHHT
+# SFHVFESTFKLPKFAAFHHITGESGSQASPEGSVRFATPVKPQQMYSWLDNAFVLAEAIPESSQAQLSFRSLRDNSRLNISVTPQETVFRTDNMELAA
+# ELVQHMCAFLEWRELESMADFPRQMEDFRNLLVRVDESNAIRLKLTGEMADDSNQVKNLIIRVEDSRILNDMPRMRRFYSELFSLNNQLLGEYTKRST
+# NHQALLDALKEVNSMIQLAARLRFGNAKSTVIAACRKAIKNNNIHALFYIVKTGKEEHQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	gene	4287	6170	0.19	-	.	g4
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	transcript	4287	6170	0.19	-	.	g4.t1
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	tts	4287	4287	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	exon	4287	4552	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	stop_codon	4357	4359	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	intron	4553	4632	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	CDS	4357	4552	1	-	1	transcript_id "g4.t1"; gene_id "g4";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	CDS	4633	6032	1	-	0	transcript_id "g4.t1"; gene_id "g4";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	exon	4633	6170	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	start_codon	6030	6032	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+H3GVL7_PHYRM|Phyra81419|H3GVL7	AUGUSTUS	tss	6170	6170	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MLFLPLEEDSLLFRLCLYYGLLVLLLELLVPLLFQRRVRIEIPRLALRGPAVPLSTREFQQRRLALQQQLAALQRALA
+# ETPRRSPQKRRHLLSASSTKSRLAASPSPSSPPLASVKVSRPESSWRISETKQRIDRKLEKNDEEERRRRREDEMHREKAPRHSPMAMGDSLATRAAR
+# HGGFSFDEVIQEGGEMKSDAAQQETVGWEQVMNRRGGRQRESPTFSGRRPFQLVSEGVEGVGYSGPSEAASRLEALIGARRRQRASTSPTYVPPPPPP
+# IETVRNPPARKSPPTRSSIAAVDKSVESSDTHASKLVQQDIPSPLGQREEDPIMDQDEETMGSEQRKPLTDFQAFCASFATGGSIAAQQAAAKRKHHE
+# AFGLENEQTIGDTTAAQREKYKQPRVREDNDEQSDLTASPVATEPQRVKSPKHYEAFGSDDEQAIDEAFADQQVLQKRTHHQAFRTEKEERPHEKTPR
+# IIRRISFTDEVNALAASPPKEAAAEQSNGKRKHQQAFGMIDEDDEDAEWRDSLAFRPHQFG]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/H3GVL7_PHYRM.fasta

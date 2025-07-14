@@ -1,0 +1,228 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/T1JMT6_STRMM.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 10064, name = T1JMT6_STRMM|SMAR015166|T1JMT6) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	gene	1	800	0.24	-	.	g1
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	transcript	1	800	0.24	-	.	g1.t1
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	14	80	0.55	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	310	370	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	559	637	0.9	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	1	13	0.56	-	2	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	1	13	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	81	309	0.68	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	81	309	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	371	558	0.9	-	2	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	371	558	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	638	698	0.9	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	638	800	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	start_codon	696	698	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	tss	800	800	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MTTEKKDTLNSGLQILITKLGHPLEEIRIRSLQNISSKIEYGIITEKDLIADNQMLSHLFNWFNFSFQPEKTTVLKLI
+# SKLANTSLGKDALIKFDGVIFFTTLKKNIETKHHRLIDEILELLCVSADSNNALTSIQANEEPVFTNEVQIYYNLNEITPACEAN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	gene	944	3700	0.02	-	.	g2
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	transcript	944	3700	0.02	-	.	g2.t1
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	tts	944	944	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	944	1679	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	stop_codon	1039	1041	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	1680	1777	0.67	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	2279	2353	0.88	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	2471	2616	0.82	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	2709	2766	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	2865	2929	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	3076	3147	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	3242	3296	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	3434	3487	0.4	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	1039	1679	0.98	-	2	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	1778	2278	0.67	-	2	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	1778	2278	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	2354	2470	0.88	-	2	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	2354	2470	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	2617	2708	0.82	-	1	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	2617	2708	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	2767	2864	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	2767	2864	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	2930	3075	1	-	2	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	2930	3075	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	3148	3241	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	3148	3241	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	3297	3433	0.43	-	2	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	3297	3433	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	3488	3560	0.4	-	0	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	3488	3700	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	start_codon	3558	3560	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	tss	3700	3700	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MIRHILLLTTFLLLLYFIALVSPRRPKIYGNAIPQRDLETTYNNTQKKIVLYHNYFRTKVDPPAENMLQMKWSADAAD
+# GAQRWAEACQLLVHDNITGRWVPEFGSCGQNIFVANVQVPWFFAIQTWYLEKDNFTYDSETNDLEIVGHYTQLAWYSTHKVGCGFYYCNVGSRPYYNY
+# VCNYCPIGNYPDRIGRPYDAGSPCGACNGNCRFKKLCTNACPYADLWMNCKEINATWHDWLCEEDEGANSQFCRATYHLSIFISLKYRYSVTYTSMVY
+# RARYGIPYLFLLCYCDQPYNISAFKIVTLESSCHCCSMTYLQHMMHTLHQLHVVYMTRPAIDRLDWFERRPTVHTFISLYIKFSSQPTYQSFWFSQKY
+# QLNMNKYVTQFVTEQLRKSTVRELKRFGIKAPRMKTYRNKQEQKLKSANIEKAFKTRNLFWVDESSAMPCQIQESIENQRFSDLKNVSVYDLTHVVKQ
+# YFRELPKPLIPKKFQNSLLKVRNMKSDKEKRLKCTLLLCLLLPIQNLNLLRYFMMFLKRLLTFSEWNMMDVHALALILTTHLLHLHDNPKDNKNFFIF
+# VEIFVTLITHADEIGIAHGDIFPEDVKPTKIRYFIQKSLQRCKRCPIPTEANEVDEINEFIEEN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g2
+###
+# start gene g3
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	gene	3926	6126	0.18	+	.	g3
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	transcript	3926	6126	0.18	+	.	g3.t1
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	tss	3926	3926	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	3926	4600	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	start_codon	4001	4003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	4601	4670	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	4856	4916	0.55	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	5032	5085	0.87	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	5424	5481	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	5795	5848	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	4001	4600	0.94	+	0	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	4671	4855	0.87	+	0	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	4671	4855	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	4917	5031	0.55	+	1	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	4917	5031	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	5086	5423	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	5086	5423	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	5482	5794	1	+	1	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	5482	5794	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	5849	6064	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	5849	6126	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	stop_codon	6062	6064	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	tts	6126	6126	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MSSRPKTSGRNAVPAHLRPVTAASKSLLMVPDLPSTARFGTARPGTRTGLTTAQITVIDRPMTQQGLSGMKTSIQRSQ
+# RLVQDKSFFLGLLRTKIKELNNEITRLAKEVDKQNMEQSTYLTYDKRAKALAQEINDLQGELGDYNMLVDKLNTDTDADDVLREYDELKAQNEQESNN
+# VENIFAQRRDKESQIQQLEKEIEEEKGMTGRLVAAMKPEMRDSYLQLKQINAVLQEQMNKFQQEIDAINLKTASLEDEVSMSQVIRRCETVCKYSGIR
+# RKKDNLLEEEKSHGTPAQEQERLLKTVKEDNQEIATMERKTNEFRDKIAKAKEDLLQIEQDLEENQNERSQKYRELRKKDESMTNFLDSFDDNKTKEL
+# KRKRELEDAIVSNLQHNGMNLSHFHHIPSQQELMALKDDLSFKENEMEKSKSTSSSLAYEQQRVNMDLQKIEQLEEKIKNEMLGLEKKMKTMEEELVI
+# YNNVNKLKSSTEEKRRSLTEERTQLSKQKEYVRQVLQEEQVQYDSLKGQLNENETHTQLTNLERKWQHVEQTNFAIKEFIASRLSETDYKSLVKTVNK
+# QVADYNGLLQKKIADAMMKR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g3
+###
+# start gene g4
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	gene	6234	8910	0.19	-	.	g4
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	transcript	6234	8910	0.19	-	.	g4.t1
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	tts	6234	6234	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	6234	6361	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	stop_codon	6266	6268	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	6362	6435	0.99	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	6524	6586	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	6697	6874	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	6937	7000	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	7098	7169	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	7263	7322	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	7440	7493	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	7566	7625	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	7792	7852	1	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	7933	7991	0.99	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	8225	8287	0.87	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	intron	8570	8641	0.99	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	6266	6361	0.97	-	0	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	6436	6523	0.99	-	1	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	6436	6523	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	6587	6696	1	-	0	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	6587	6696	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	6875	6936	1	-	2	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	6875	6936	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	7001	7097	1	-	0	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	7001	7097	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	7170	7262	1	-	0	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	7170	7262	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	7323	7439	1	-	0	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	7323	7439	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	7494	7565	1	-	0	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	7494	7565	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	7626	7791	1	-	1	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	7626	7791	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	7853	7932	1	-	0	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	7853	7932	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	7992	8224	0.89	-	2	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	7992	8224	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	8288	8569	0.97	-	2	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	8288	8569	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	8642	8774	0.99	-	0	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	8642	8910	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	start_codon	8772	8774	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	tss	8910	8910	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MECCILRSVVNNSHANILLKDGETLLLGRGPLTQIKDKKCSRNQVEVKLDLNSKQVELRQIGPNPSSIDGKLLFQNHT
+# VTVHNGQTLCILRNEYPYVVEFVNMGHVVSPPKHKRSSEDLEIDQRKTKLLKGCSNNESSIFSAINDPDEDERLKLVDDELVQLRENSVKHRSSLERN
+# SFKTLYSISNHSTPALQSEWQEPNKNLLVFVSKDLTSSNSICGFDLDGTIIRTKSGKVFPKDFDDWKILCPEVKSKLKKLHDNHSKIVFFTNQKSLGQ
+# LQGSIVGFKRKIENIVKELNLPIQVFVSMGNGIYRKPALGMWEHLLERANDDIPVNLNDSFYVGDAAGREAKWALGKKKDFSVSDRLFAINAGLKFYT
+# PEEFFLGWKTAGFKLPSFDPRSVSSRSLFDSQNENSLIAPNQELVVLVGFPASGKTFFAQSHLIKHGYVHINRDSLKSWTKCIAECKSALSKGNSAVV
+# DNTNPDIDSRKRFVAVAQEFGIPCRCFWFNITLEHAKHNNRFRQLTLHDVVHAHVNDIVLNSYKCVIYEQIF]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/13
+# CDS introns: 0/12
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g4
+###
+# start gene g5
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	gene	9186	10012	0.11	+	.	g5
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	transcript	9186	10012	0.11	+	.	g5.t1
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	tss	9186	9186	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	exon	9186	10012	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	start_codon	9286	9288	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	CDS	9286	9930	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	stop_codon	9928	9930	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+T1JMT6_STRMM|SMAR015166|T1JMT6	AUGUSTUS	tts	10012	10012	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MVCQEEVFSWFKELSGYKRLDVMCGLLNMCLPIELRFFGTCVEELGKKDFHYLRDAENRANNMAELTKLTNLNEDVTR
+# SKLIISLALLESSNHVCSNVIFNILTEFAKVSKALYSDDKIFDEMLLLFTMVLYHPAFTFDQKSAVESQLNAIRQVLKEGAAKVSFSSVTSTYRPKPT
+# SVISVREFKMAGFSAGIYLSNRNFYFLPRHYIIGSYKF]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/T1JMT6_STRMM.fasta

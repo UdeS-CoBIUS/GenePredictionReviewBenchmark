@@ -1,0 +1,67 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/I3LB57_PIG.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 25367, name = I3LB57_PIG|ENSSSCG00000026290|I3LB57) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	gene	4713	7673	1	-	.	g1
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	transcript	4713	7673	.	-	.	g1.t1
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	stop_codon	4713	4715	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	intron	4803	4991	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	intron	5130	5775	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	intron	5905	6291	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	intron	6439	7670	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	CDS	4713	4802	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	CDS	4992	5129	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	CDS	5776	5904	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	CDS	6292	6438	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	CDS	7671	7673	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	start_codon	7671	7673	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MASNYRTSSDQWKKRAAKVELNETQKQEIKEAFDLFDVDGSGTIDVKELKIAMRALGFEPKKEEIKKLIAEIDKEGIG
+# TIGFEDFFAIMSVKMSEKDEKEEILKTFKLFDDDDTGSISLNNIKRVAKELGENLTDDELQEMLDEADRDGDGEINEEEFLRMMKKTTLY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g1
+###
+# start gene g2
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	gene	15704	16990	1	+	.	g2
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	transcript	15704	16990	.	+	.	g2.t1
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	start_codon	15704	15706	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	CDS	15704	16990	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+I3LB57_PIG|ENSSSCG00000026290|I3LB57	AUGUSTUS	stop_codon	16988	16990	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MKLVDEAVRLQCQSSGMQHGSSSRPFLLDISRIFTWCLPGLPETFSCVCPGYITVVSITSTAVIKELQHQPTRVVLIE
+# GDLTENYRHLGFNQSTNIVTVSESTKFQQDSLEELWTSHVLQVLIRFNVNLVLAQGSVSERLIEKCTQSKRLVIGSVNSNVMQAFAEASGAVPVAYVT
+# QVNENCVGSGVYVTFWRNVPFSASVQIQRIAIMLKTEGMNLVTVVLTSPIPAQMQAKEDRFWTCAYRLHCALKEQKVFLGGGTVEFLCLSHLQILAER
+# SLHKGNQGCSEWLRNTSSWLASSVALYRPTVLKCLANGWHRYLSTLLCNTASYSSECEASTLIQQHLQNAVDSGSPLSYILNEYTKLNSGIFNSGISD
+# KLEEIPRVYDIVTPKIEAWRRALDLVLLVLQTDSEIITGLGHTQINSQESEGFLFL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/I3LB57_PIG.fasta

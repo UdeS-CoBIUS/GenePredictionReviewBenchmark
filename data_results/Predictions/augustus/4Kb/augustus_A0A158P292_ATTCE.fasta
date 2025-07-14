@@ -1,0 +1,83 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# camponotus_floridanus version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A158P292_ATTCE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 23488, name = A0A158P292_ATTCE|LOC105627223|A0A158P292) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	gene	4001	10194	0.69	+	.	g1
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	transcript	4001	10194	0.69	+	.	g1.t1
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	start_codon	4001	4003	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	4276	4841	0.93	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	4931	9898	0.96	+	.	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	4001	4275	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	4842	4930	0.93	+	1	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	9899	10191	0.75	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	stop_codon	10192	10194	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSLFKTNEWWRTQCGVNESFDKHSLLITPLFGADRKDIIVIGSHSGYLRIYSPFSQWIEETKSPSGYKSSDLIVETQI
+# SDCIIDMKAGKFVSGSSDTRLAILTPKKLVIYSIILSQGSVEHGNHCDLEIAYEHLLPRFPASLTTGPFGGVRGRDFLCIQCLDGTLLFYEQETPTFS
+# LVLRNRLLPEPIVYISRNDIFVTPSSSWILECYRQVVPLCHSK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 21
+#     RM:  21 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	gene	10644	19488	0.52	+	.	g2
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	transcript	10644	19488	0.52	+	.	g2.t1
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	start_codon	10644	10646	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	10882	11139	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	11271	13400	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	13579	13902	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	14149	14394	0.96	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	14638	16118	0.9	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	16403	16984	0.82	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	17156	18877	0.85	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	intron	19016	19251	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	10644	10881	0.75	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	11140	11270	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	13401	13578	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	13903	14148	0.96	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	14395	14637	0.94	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	16119	16402	0.93	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	16985	17155	0.82	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	18878	19015	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	CDS	19252	19485	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A158P292_ATTCE|LOC105627223|A0A158P292	AUGUSTUS	stop_codon	19486	19488	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAEFGSKDRSEESKNLEPDWTYNIGEAVLDIDAVILSSFEVGILILGEKSLYCLKDNCVTLKYSKRLEYKALCFQPFV
+# IEPDGKLMVLVIADTNTLMIYEGTTLRWSAQLPFTPVAVTRAHFQHLDGVIVILSEEGQLEACYLGSEPSLFIAPPLHRRGYDYVAAEDELIELRKLA
+# KKNKASGNQLSDVTMDAELIISVTVSADLEPCPRGNQDDSKDDSEDRNLMCRITIELSTYMTLRDVQVCVDVSKPFVADKDRHVITNLCDRHVLRAMI
+# YPTMDLPAISSDVRITASYETADHGSLRVLQKTTQLPLKMMLRACPPENTSTFTATIKCSESLVAFSQLFPEFTGEVQRKNWNVLGLQHLQTGSVVTI
+# VSGATSNRYRVQSNDGLSMALVVQQLMNRLKDKATGNFTTAIAQNHIQLIQSQMEAHYHSRQKVDKIASEIKLLSTQLRNIERRMLRAVRERNTRSLG
+# TTGLPFLLESTYRAIFALLDDLAIARVERERAGHGLRCVMRLLLLLLRLNVNDDKYAMLEAAIGFDPQLCDELDWEEIADVSLSAFLRSTSRKSTSHL
+# DTKPTTLTKMTSTKEFSKLKKHLVHAIERLDSCREADIVENEQLEAAGDHASS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/9
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 25
+#     RM:  25 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=camponotus_floridanus --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A158P292_ATTCE.fasta

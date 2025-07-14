@@ -1,0 +1,49 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/I3JGE5_ORENI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 8649, name = I3JGE5_ORENI|ENSONIG00000006294|I3JGE5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	gene	505	7277	0.27	+	.	g1
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	transcript	505	7277	0.27	+	.	g1.t1
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	start_codon	505	507	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	CDS	505	507	0.71	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	CDS	825	949	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	CDS	1081	1275	0.89	+	1	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	CDS	5213	5270	0.98	+	1	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	CDS	5687	5758	0.87	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	CDS	5872	5937	0.56	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	CDS	6030	6107	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	CDS	6399	6575	0.72	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	CDS	6976	7079	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	CDS	7259	7274	0.99	+	1	transcript_id "g1.t1"; gene_id "g1";
+I3JGE5_ORENI|ENSONIG00000006294|I3JGE5	AUGUSTUS	stop_codon	7275	7277	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAEFGFNEHHQNEIINYMRFARSKRVLRLKTIDSCIEELKDSRLVEETFTVDEVKEMLDDLQAVVRGEVEMELINTAH
+# TNVLLLRQLFSQAEKFYLRLQSDISELENRELLEQVAEFEKTDFKTTDKINKETSKPKLAPLNESGVSELLNKEIVRLQEENDKLRARLRTLESQAMS
+# ALDEKSRAERALKDLQRVQGEQQVAAQSKEINSLEDTVAALKEDYERSLSANVATQKDLQENLISSKHELLRVQEQLALAEKELEKKFQQTAAYRNMK
+# EILTKKNEQIKEIRKRLQRYEPNE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 13
+#     RM:  13 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/I3JGE5_ORENI.fasta

@@ -1,0 +1,101 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# fly version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/B4J623_DROGR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 17198, name = B4J623_DROGR|FBgn0127669|B4J623) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	gene	1	4495	0.24	+	.	g1
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	transcript	1	4495	0.24	+	.	g1.t1
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	1	2602	0.93	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	2603	3889	0.93	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	2603	4495	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	stop_codon	3887	3889	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	tts	4495	4495	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [FWEIISDEHGIDATGAYHGDSDLQLERINVYYNEASGGKYVPRAVLVDLEPGTMDSVRSGPFGQIFRPDNFVFGQSGA
+# GNNWAKGHYTEGAELVDSVLDVVRKEAESCDCLQGFQLTHSLGGGTGSGMGTLLISKIREEYPDRIMNTYSVVPSPKVSDTVVEPYNATLSVHQLVEN
+# TDETYCIDNEALYDICFRTLKLTTPTYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVNMVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQM
+# FDAKNMMAACDPRHGRYLTVAAIFRGRMSMKEVDEQMLNIQNKNSSYFVEWIPNNVKTAVCDIPPRGLKMSATFIGNSTAIQELFKRISEQFTAMFRR
+# KAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADEDAEFEEEQEAEVDEN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 9
+#     RM:   9 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	gene	7246	8841	0.2	+	.	g2
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	transcript	7246	8841	0.2	+	.	g2.t1
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	tss	7246	7246	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	7246	7615	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	8236	8364	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	start_codon	8238	8240	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	8365	8422	0.9	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	8552	8609	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	8238	8364	0.42	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	8423	8551	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	8423	8551	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	8610	8782	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	8610	8841	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	stop_codon	8780	8782	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	tts	8841	8841	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGVSIKAIDMSGATRYRNLWEHQFKNCQGIIYVIDSSDRMRFVVVKDELDLVLQHPDLCNRIVPILFYGNKSDLDDSL
+# SNVKIAAALGLENIKEKPWHICSSNAVSGEGLDEGVQWLVQQIRFAIMSNRKGGKLKSSQKNKY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/3
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	gene	9259	17198	0.04	-	.	g3
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	transcript	9259	17198	0.04	-	.	g3.t1
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	tts	9259	9259	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	9259	9451	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	stop_codon	9324	9326	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	9452	9703	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	10002	10076	1	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	intron	10209	17198	0.05	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	9324	9451	1	-	2	transcript_id "g3.t1"; gene_id "g3";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	9704	10001	1	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	9704	10001	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	CDS	10077	10208	0.34	-	0	transcript_id "g3.t1"; gene_id "g3";
+B4J623_DROGR|FBgn0127669|B4J623	AUGUSTUS	exon	10077	10208	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [AIAKKTPKIKRDPAKNPMRDLHIRKLCLNICVGESGDRLTRAAKVLEQLTGQQPVFSKARYTVRSFGIRRNEKIAVHC
+# TVRGAKAEEILERGLKVREYELRRDNFSANGNFGFGIQEHIDLGIKYDPSIGIYGLDFYVVLGRPGYNVSHRKRKSGTVGFPHRLTKEDAMKWFQQKY
+# DGIILNSKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 24
+#     RM:  24 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g3
+###
+# command line:
+# /usr/bin/augustus --species=fly --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/B4J623_DROGR.fasta

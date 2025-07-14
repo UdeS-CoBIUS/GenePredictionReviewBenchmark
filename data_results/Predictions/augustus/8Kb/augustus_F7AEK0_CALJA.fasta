@@ -1,0 +1,43 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F7AEK0_CALJA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 34774, name = F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0	AUGUSTUS	gene	3218	26774	1	+	.	g1
+F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0	AUGUSTUS	transcript	3218	26774	.	+	.	g1.t1
+F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0	AUGUSTUS	start_codon	3218	3220	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0	AUGUSTUS	CDS	3218	3476	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0	AUGUSTUS	CDS	15608	15687	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0	AUGUSTUS	CDS	16077	16136	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0	AUGUSTUS	CDS	19468	19585	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0	AUGUSTUS	CDS	20480	20589	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0	AUGUSTUS	CDS	26676	26774	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7AEK0_CALJA|ENSCJAG00000013961|F7AEK0	AUGUSTUS	stop_codon	26772	26774	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MATAKHCISGAINNQAHVNSGKKNSKGHYQEKAVHQMRQCIIGNCKTERHSRIINLPPRSRHHPSGCSSELVTTESYY
+# VSGVLGTPXDPAVGKTALAQIFCSDGAHFQKSYTLTTGIDLVVKTVPVPDTGDSVWENPNVLCLVYDVTSEQSFSNCSKWLEKARSQAPGICLPGVLV
+# GNKTDLASRRAVDSTEARAWALGQGLEFFETSVKELEDFKAPFHCLAEQFHQLYREKLKVFQALV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 39
+#     RM:  39 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/F7AEK0_CALJA.fasta

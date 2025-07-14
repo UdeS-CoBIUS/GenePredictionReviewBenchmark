@@ -1,0 +1,68 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/BBS12_MOUSE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 16900, name = BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	gene	539	3806	1	-	.	g1
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	transcript	539	3806	.	-	.	g1.t1
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	stop_codon	539	541	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	intron	629	1383	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	intron	1513	1739	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	intron	1887	3803	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	CDS	539	628	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	CDS	1384	1512	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	CDS	1740	1886	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	CDS	3804	3806	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	start_codon	3804	3806	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MASSQRITLDQWKKKAAKVELNDTQKQEIKEAFDLFDIDGSGTIDLKELKIAMRALGFEPKKEEVKQLIAEIDKEGTG
+# TICFEDFFAIMSVKMEMLDEADRDGDGEINEEEFLKMMKKTSLY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	gene	4178	12633	1	+	.	g2
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	transcript	4178	12633	.	+	.	g2.t1
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	start_codon	4178	4180	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	intron	4192	11222	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	CDS	4178	4191	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	CDS	11223	12633	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+BBS12_MOUSE|ENSMUSG00000051444|Q5SUD9	AUGUSTUS	stop_codon	12631	12633	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MEPERTDNSHWISRHDGFLEQLESTPKVLRCNDFGELAVGLSHGDHSSMALAKAAVRLQWQSLCLQQANWMAPFMFDI
+# SRLLTCCIPGLPETFSRVGLGYVTFVTMSSITLIKELQDQPFRVILIEGDLTESYRHLGFNKSVNIKTKLDSGELSEDSAEELWTNHVLQVLIQFNVT
+# LILVQGSVSEHLTEKCMHSKRLVIGAVNGSVLQAFAEATRAVPVAYVTQVNEDCVGSGVSVTFWMSPHDINRSNRIAILLTAEGINLITAVLTSPASA
+# QMETKEDRFWSCVYRLYHALKEEKVFLGGGAVEFLCLSHLQILAEQSLNRGNHACLGWLPDSSSWMASSLSVYRPTVLKSLAGGWHEFLSAIMCNTAT
+# HPSAVEARTFIQQHVQNAIDSGSPSSYILSEYSKLSSGVFHSGISDNLELVPRVYDTVTPKIEAWRRALDVVLLVLQTDSEIITGLVHTEMNSQELDG
+# VLFL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 14
+#     RM:  14 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/BBS12_MOUSE.fasta

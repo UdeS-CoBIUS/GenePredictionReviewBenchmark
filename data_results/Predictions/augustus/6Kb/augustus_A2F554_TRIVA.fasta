@@ -1,0 +1,221 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/A2F554_TRIVA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 12567, name = BBS19|A2F554_TRIVA|TVAG_267160|TRIVA) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	gene	1	1330	0.21	-	.	g1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	transcript	1	1330	0.21	-	.	g1.t1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	CDS	1	1224	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	exon	1	1330	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	start_codon	1222	1224	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tss	1330	1330	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPRKLRKNIRKRKGALKHPIVKLTPQQQLQQQMMNDPTMLQQMSSNPMLLSRVIGAQSGGLRAALLAKMAGYGGAADG
+# TAYNPQSQMNLSSLKNQITDVKKSNIDIQKQISENEKKLEYDRHTKKLNELNVEKKKKEEQLKELSTEEYAKKVSEKAAEVAKMEQDVINLKNHTTQY
+# KVLKDEEIKQKAMKTYMDSDEYKKEVEANVKAEKLLQLQNQTVQYENLAQESKNNDAAMQKAMKSAEYIKANNDWLDAQANAKAAQLIGSIRTKIQAD
+# EDSSNEALMNADFKNAFEALHSKVKLVNDFSSGKKLKSEGFDKELREVAQNMTKITDAATRQAVQSAYDAVRATVVESQEKELQQTKTDLVNAFLKTK
+# SQVGHYAADGTYVPAGGTYIPPNPPREAPAPGLPKT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	gene	2406	3230	0.46	+	.	g2
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	transcript	2406	3230	0.46	+	.	g2.t1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tss	2406	2406	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	exon	2406	3230	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	start_codon	2531	2533	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	CDS	2531	3115	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	stop_codon	3113	3115	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tts	3230	3230	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MTSGVEAEVQEQLNWMQSLLSTPSTNDAASASKNKYQSQIDDLLSSIDCPAQPKSRSFQDSYTDLEIEPRPSYEPSFL
+# TGAVPPPKEVQYRISDPVDSDYDSDCEEYYVEDAEEIRGQEIPSWARAANLIQELEKQKGVDPDKIFVGFDTSCDLNAMFEKKKKTFKVRGDSGWWAA
+# DTVTPDEEAKYKKALGLV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	gene	3254	4210	0.12	-	.	g3
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	transcript	3254	4210	0.12	-	.	g3.t1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tts	3254	3254	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	exon	3254	4210	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	stop_codon	3415	3417	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	CDS	3415	3957	0.71	-	0	transcript_id "g3.t1"; gene_id "g3";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	start_codon	3955	3957	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tss	4210	4210	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MNLFTRFWKWLLSLFWSKNISITIIGLPAAGKTTLVRALANQDTEEYIVPTIGASNSKVTIGRVNIDVHDMSGNKKSR
+# PLWDEYCNRADVILYVIDSSDQEAVTASEIQLSEILHSESLLQKPILVIANKQDLPESLKSDDIMARMKLENIQDRVVKLFCISAKKKTNIDSIINWI
+# VNEF]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	gene	4374	5840	0.03	-	.	g4
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	transcript	4374	5840	0.03	-	.	g4.t1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tts	4374	4374	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	exon	4374	4897	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	stop_codon	4607	4609	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	intron	4898	4946	0.5	-	.	transcript_id "g4.t1"; gene_id "g4";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	CDS	4607	4897	0.9	-	0	transcript_id "g4.t1"; gene_id "g4";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	CDS	4947	5756	0.49	-	0	transcript_id "g4.t1"; gene_id "g4";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	exon	4947	5840	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	start_codon	5754	5756	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tss	5840	5840	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MSNQDIHPNKFIELQSIYKCYIDSYTALYQLKTENEEELNTIYKKIKTELIDSKKCLPRNIIEDILNIIPYNNRYTKS
+# YLSLAKLISDEYHVQEAKRISPLSNFLFYKEYGIKLGKYANFKKIKLENLDIHRENTIYKAIMNDDIKTFIIFTERDGFDENQILQSDLYPEYYLNYS
+# LLELCCYYGAVDCFKLLRSKFSSEITENCLQLSFLSGKPEIMNECLKYQEPDEECMNYAIISHNIDFVTFLINKYNLEIDIRFCGWFHNLESFFRFNI
+# QSLCEYFLSHGANINEKDENGETALHFAALFSNKEMAEFLISHGANINEKDDKGKTALHLAEYYSRKERQNFLFHMAQISMKKMTKEKPHFI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	gene	5936	6881	0.15	+	.	g5
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	transcript	5936	6881	0.15	+	.	g5.t1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tss	5936	5936	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	exon	5936	6881	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	start_codon	6001	6003	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	CDS	6001	6567	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	stop_codon	6565	6567	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tts	6881	6881	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MSHAVLRSKVLVVGPSTVGKTSLIKAFVADPQRPFKTAYQMTLFAESTPKIIVNEEHNTSVEFFMYDISGSSIYEYEY
+# PDVFRDANQIILVFDISRADTLKECSDWLDKVAKYAGKSLPGVLVGNKNDLSEFADVSPEDCTAFGKEKGLVYFDVSAKTNNKVNDPFAYLAEQFISL
+# YENEVDQFVNAD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	gene	7326	8723	0.02	+	.	g6
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	transcript	7326	8723	0.02	+	.	g6.t1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tss	7326	7326	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	exon	7326	8723	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	start_codon	7389	7391	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	CDS	7389	8273	0.48	+	0	transcript_id "g6.t1"; gene_id "g6";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	stop_codon	8271	8273	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tts	8723	8723	.	+	.	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MSAARGNVSETTKRMQKYILDEMNESGSTNKINALYMNEICKAVFNSKNNERLKSKITTKDSKANSIAFQLVQKFLQK
+# YQILDLTKEAFNMEIQQSQLKYGSMGNIQELKLQQTSNPMSELLQWNEEHVEEKRQIEEEEQAKKRAKEEALLAEQARSSQGSGRKAAIIQESAFAER
+# EFAVSTRDVPLSPTGESFNRIRFAPEAQSEMPHTSFRFVRRETQSMLPEGARSPKGGPRSPNGKSYAQIFPRSVVNTPLTNNRSAPSVVSAQTERPRI
+# TPMKSQRERPKPIQTDALSQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g6
+###
+# start gene g7
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	gene	8774	9920	0.06	-	.	g7
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	transcript	8774	9920	0.06	-	.	g7.t1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tts	8774	8774	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	exon	8774	9920	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	stop_codon	8872	8874	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	CDS	8872	9864	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	start_codon	9862	9864	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tss	9920	9920	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MSDEELELSDNEETNHKSELVAKSHNDESDSDPEPPKNDDYQADSYNAISDNDNDTHNDYGYNEEPAKSKSKKKSTKQ
+# KVELTPEQQAIDAEFESLLPRKAKRVVDDNPDEVSKINEARAKSLIEDMDRAYNQDYQSKIVKTTRTFARQMFLTKNLEPVSHDVELTKALIQSGVLD
+# RFKTWIKGFPDGSLPTVTIVELILKCLASYKLDDEQIRTSGVVETVNAIDTKNTSPKVVDLRESLLSTWKRQLVQAKSGYEVQRSTTVDVNSDVTKAI
+# KDSNYLRADELAKRQRNQEIRMKTLEDAGFKVDRPLLQPSEPLRILKSVDKVKGRH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g7
+###
+# start gene g8
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	gene	10051	10740	0.24	-	.	g8
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	transcript	10051	10740	0.24	-	.	g8.t1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tts	10051	10051	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	exon	10051	10740	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	stop_codon	10109	10111	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	CDS	10109	10591	0.99	-	0	transcript_id "g8.t1"; gene_id "g8";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	start_codon	10589	10591	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tss	10740	10740	.	-	.	transcript_id "g8.t1"; gene_id "g8";
+# protein sequence = [MKEQKSPVNWILESLISNDESLIGLYKYIDSYLEFSQCLRIMKQIGSNQRIAENYDENLYELCQNILFPALEKFSIEK
+# DESQQLSSDLLEQAGWVIEAQEEERVILSKDLLELEEKYNKNIDEQILNKSIWRNKGSILSRSLLASGRKPPLNFCQNDENE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g8
+###
+# start gene g9
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	gene	11491	12370	0.12	-	.	g9
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	transcript	11491	12370	0.12	-	.	g9.t1
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tts	11491	11491	.	-	.	transcript_id "g9.t1"; gene_id "g9";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	exon	11491	12370	.	-	.	transcript_id "g9.t1"; gene_id "g9";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	stop_codon	11532	11534	.	-	0	transcript_id "g9.t1"; gene_id "g9";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	CDS	11532	12257	0.93	-	0	transcript_id "g9.t1"; gene_id "g9";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	start_codon	12255	12257	.	-	0	transcript_id "g9.t1"; gene_id "g9";
+BBS19|A2F554_TRIVA|TVAG_267160|TRIVA	AUGUSTUS	tss	12370	12370	.	-	.	transcript_id "g9.t1"; gene_id "g9";
+# protein sequence = [MILNPEAILKVQVAHKEIFKPLILQLRKVFRLGLLDRHLSDINDRLEKHTYDKLFEFIMYISDFDYEILPDYTEGMTE
+# ISRLARDIDVIFVAITKLGAHFSKALIRTDREPYSPCGYNFIVLLSRFFVHWNDPEVLRARNTKLLPAEAVIDRDGTVRRIVPITPDMELKPGVKMYK
+# KIKRPDNILINDVVKPNDGSPRKGSPRILKKIKNADSEKKPGYVIKVEKSDKKIDTRQRVIATEV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g9
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/A2F554_TRIVA.fasta

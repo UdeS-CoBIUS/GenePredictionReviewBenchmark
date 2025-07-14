@@ -1,0 +1,94 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/F7AHJ9_HORSE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 23089, name = F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	gene	1	2978	1	+	.	g1
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	transcript	1	2978	.	+	.	g1.t1
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	164	2805	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	1	163	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	2806	2978	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	stop_codon	2976	2978	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [VLKSTGDVAGGRALYEGYAAVTDAPPECFLTLRDTVLLRKESRKLIVQPNTRLEGSEVQLLEYEASAAGLIQSFSERF
+# PEDGPELEEVLTQLATADARFWKGPSEAPSGQA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	gene	4001	19089	1	+	.	g2
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	transcript	4001	19089	.	+	.	g2.t1
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	start_codon	4001	4003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	4048	4385	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	4463	4576	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	4612	7042	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	7316	7430	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	7478	7619	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	7659	7779	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	7853	9473	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	9606	10348	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	10456	12088	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	12210	12373	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	12533	13670	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	13741	14208	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	14368	16855	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	16990	17852	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	17988	18673	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	intron	18761	19002	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	4001	4047	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	4386	4462	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	4577	4611	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	7043	7315	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	7431	7477	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	7620	7658	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	7780	7852	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	9474	9605	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	10349	10455	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	12089	12209	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	12374	12532	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	13671	13740	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	14209	14367	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	16856	16989	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	17853	17987	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	18674	18760	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	CDS	19003	19089	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+F7AHJ9_HORSE|ENSECAG00000017091|F7AHJ9	AUGUSTUS	stop_codon	19087	19089	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAAASSSDSEGDRAESSEASSKWLDAHYDPMANIHTFSACLVLADLHGDGEYKLAVGDLGPSGRQPCLKVLKGPTVLA
+# ESALPALPAAAAAFLMGQHEPRTPALALASGPCVYVYKNLRPYFKFSLPQLPPNPLEQDLWNQAKEDQIDHLTLKEMLEGIREKAEVPLSVQSLRFLQ
+# LELSEMEAFVNQHKSKPIKRQAVITTMTTLKKNMADEDAMSCLVLGTENKELLVLDPEAFTILAKMSLPGVPVFLEVSGQFDVAFRLAAACRNGNIYI
+# LRRDCKRPKYCIELSTQPVGLVLAHKVLVVGSTQDNLHGFTHKGKRLWTVHMPAAILTMNLLEQRSRGLQAVMAGLANGEVRIYHDKALLNVIRTPDA
+# VTSLCFGRYGREDNTLIVTTRGGGLIIKILKRTAVFAEGAGEVGPPPAQAMKLNVPRKTRLYVDQTLREREAGTAMHRTFQTDLYLLRLRAARAYVRA
+# LESSLNPVSATAREPLKLHAVVQGLGPTFKLTLHLQNTSTARPILGLLVCFLYNEVLYALPRAFFKVPLLVPGLNYPLETFVESLSDKGISDIIKVLV
+# LREGQSAPLLSAHINMPVSEGLAAA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/17
+# CDS introns: 0/16
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 30
+#     RM:  30 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/F7AHJ9_HORSE.fasta

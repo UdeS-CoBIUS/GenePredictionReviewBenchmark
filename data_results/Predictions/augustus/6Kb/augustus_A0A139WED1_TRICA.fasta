@@ -1,0 +1,85 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# tribolium2012 version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/A0A139WED1_TRICA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 15626, name = A0A139WED1_TRICA|TC033827|A0A139WED1) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	gene	1285	5489	0.91	-	.	g1
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	transcript	1285	5489	0.91	-	.	g1.t1
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	stop_codon	1285	1287	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	1540	1593	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	1896	3997	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	4672	4729	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	4934	4985	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	5276	5429	0.96	-	.	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	1285	1539	0.96	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	1594	1895	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	3998	4671	0.99	-	1	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	4730	4933	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	4986	5275	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	5430	5489	0.96	-	0	transcript_id "g1.t1"; gene_id "g1";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	start_codon	5487	5489	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MEETVAVPATAPQTVENISQEKTRIDAEESHKSPNESEYDSAGSYSDEEEDKARSRNSREHTDSETEGSVGLERESGD
+# GQESLPLRKVDDDEDKKNPQYIPKRGTFYEHDDRTADDEQTADNVELEKEKEQKKKVWQDKKERWSHDRFNDSEQAPKSRAELVAIYGYDIRNEEGPP
+# RARRRRRYGRGPNKYTRNWEDEDAYNKPPPLIRKKKPLRKPNQGEDFPPLNRSSNQEDPQDSRDYEEKTDQYQAETNGNTKNSVCESPQSPPVPPQES
+# NRMQQRVGSGRVVKPKREIKDSDYRGFTTKTRQVRNMKTDQKVVPKSSKKDDFIQSQNFTNKNNNIQELEKDLSKLNVQDGVHKGGKHGGQRQGSVPP
+# RLQSEQKGSKRYSSIRQRSLPESATPPFSQHSNYYSNEFNQAPNQVTIHQNAQIHPSTTQVPQIAPPPLPPIPQVPVTAAPILQAPQFAPPFAQAPPF
+# LQPAPPPFIPQQTPQIINYVPGQPQFSQGYQGYQQQFNPVTQPELYQPQTGITYYSTDQQVTQRAAPLKRPKAAIPIVAPPPIDLKGKVKEEDALATE
+# GYVSTANDGQTSDSGSAQESNLQVQQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	gene	5961	9590	0.05	+	.	g2
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	transcript	5961	9590	0.05	+	.	g2.t1
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	start_codon	5961	5963	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	5964	6010	0.79	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	6473	6574	0.85	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	6771	7323	0.28	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	7402	9063	0.3	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	intron	9145	9198	0.57	+	.	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	5961	5963	0.79	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	6011	6472	0.72	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	6575	6770	0.71	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	7324	7401	0.68	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	9064	9144	0.34	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	CDS	9199	9590	0.63	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A139WED1_TRICA|TC033827|A0A139WED1	AUGUSTUS	stop_codon	9588	9590	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MKSSFQTVLHLILMVAVPFFVVMVALYLAFAFGAFGPASERCDALCCYLANKTLNIYDKRDREYIEYEFELDALNKRS
+# ISSLSQTFTLAKCKESENPAIAALLGKRYIDAKEGFFKCAVGVIARNWALAVDDCVENLGVLRLGSSWWSFGGVTKRSFTWDRRVDLPLAQRQKFNKL
+# LSFDVRVYQHEDCTGFIKQKHVSCYISSRNEFCGKRVNAPMIDQNYPSFLEEIASKDIEDMERRKRDAATFVNHFKNEEERVTEIVPTVGFSVEKFQN
+# QNLAFTAFDMSGHGRYRDLWEHYYKDCHGIIFVVDSSDRLRLVVVKEELDLLLQHPDICNRKIPVLFFANKMDCKDALSSVKIAAGLGLDKIMDKPWH
+# IAASNALTGEGLQEGVEWLTQQIRDVVLNKS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=tribolium2012 --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/A0A139WED1_TRICA.fasta

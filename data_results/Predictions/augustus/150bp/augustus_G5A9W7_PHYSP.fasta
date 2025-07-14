@@ -1,0 +1,52 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G5A9W7_PHYSP.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 1254, name = G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	gene	42	1194	0.04	+	.	g1
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	transcript	42	1194	0.04	+	.	g1.t1
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	tss	42	42	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	exon	42	297	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	start_codon	151	153	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	intron	298	363	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	intron	525	598	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	intron	665	733	0.58	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	intron	794	848	0.58	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	CDS	151	297	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	CDS	364	524	0.98	+	0	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	exon	364	524	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	CDS	599	664	0.97	+	1	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	exon	599	664	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	CDS	734	793	0.58	+	1	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	exon	734	793	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	CDS	849	1104	0.7	+	1	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	exon	849	1194	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	stop_codon	1102	1104	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G5A9W7_PHYSP|PHYSODRAFT_529107|G5A9W7	AUGUSTUS	tts	1194	1194	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MNFQDLLDEVEDAMKSPRSGGSGSQSGGAKYANDVETPSRITKPVSQGRGQNELDDLLDMLGDEDSKPAAVHPRPMST
+# TRAGAYNSSETKTTRTEFQAGGTKKCPQALMDGGRATRGLSTAFSRNVCSNLRCNECDFTVVQFPGKKWDASADYMFFRENVPSEVKLRAKMEIAPGK
+# YNRCLAARVHAYLTCVLLGRAEFAAYACQCKWLSISSQTRVDHCQVKWSCAGH]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G5A9W7_PHYSP.fasta

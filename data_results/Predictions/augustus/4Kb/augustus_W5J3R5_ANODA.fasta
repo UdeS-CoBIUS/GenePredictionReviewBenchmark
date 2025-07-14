@@ -1,0 +1,166 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# aedes version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/W5J3R5_ANODA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 9104, name = W5J3R5_ANODA|ADAC009413|W5J3R5) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	gene	474	937	0.98	+	.	g1
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	transcript	474	937	0.98	+	.	g1.t1
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	start_codon	474	476	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	592	651	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	812	867	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	474	591	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	652	811	0.99	+	2	transcript_id "g1.t1"; gene_id "g1";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	868	937	0.99	+	1	transcript_id "g1.t1"; gene_id "g1";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	stop_codon	935	937	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGKVFLDHIGGQKLYNCAACETNLTNKRELISTRFTGATGRAYLFKRVVNLTYSQVQDRVMLTGRHMVRDVMCKNCKA
+# KLGWMYEYATEETQKYKEGRVILEHALITESEGFPDA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	gene	1072	1492	0.87	-	.	g2
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	transcript	1072	1492	0.87	-	.	g2.t1
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	stop_codon	1072	1074	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	1204	1283	0.88	-	.	transcript_id "g2.t1"; gene_id "g2";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	1380	1441	0.87	-	.	transcript_id "g2.t1"; gene_id "g2";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	1072	1203	1	-	0	transcript_id "g2.t1"; gene_id "g2";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	1284	1379	0.87	-	0	transcript_id "g2.t1"; gene_id "g2";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	1442	1492	0.99	-	0	transcript_id "g2.t1"; gene_id "g2";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	start_codon	1490	1492	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MATQISIDQLDKDQIKSFSDFLLSYNKLSELCFIDCVSEFTGRTVSDKEDKCALNCMEKFLKMNQRISQRFQEFQMLA
+# NENAIAAAQKLGVK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	gene	1974	5104	0.11	+	.	g3
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	transcript	1974	5104	0.11	+	.	g3.t1
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	start_codon	1974	1976	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	2042	2117	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	3335	3423	0.29	+	.	transcript_id "g3.t1"; gene_id "g3";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	3771	3988	0.55	+	.	transcript_id "g3.t1"; gene_id "g3";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	4057	4119	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	1974	2041	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	2118	3334	0.29	+	1	transcript_id "g3.t1"; gene_id "g3";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	3424	3770	0.25	+	2	transcript_id "g3.t1"; gene_id "g3";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	3989	4056	0.65	+	0	transcript_id "g3.t1"; gene_id "g3";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	4120	5104	0.61	+	1	transcript_id "g3.t1"; gene_id "g3";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	stop_codon	5102	5104	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MAPTVQNGANGADKRPVRQQERRSELISRVKYCNTLPDIPFDLKFITYPFENDRFIQYNPTSLERNYRYEVLTEHDLG
+# VTIDLINRDLYQIDHTAQLDPADEKLLEEDIHTPQDSMRSSRHAKSVSWLRKSEYISTEQTRFNPQTMEKVEAKVGFNVKKSLREETLYMDREAQIKA
+# IEKTFDDNTKTITTHYSKPGVTPVEVLPLFPDFVNWKYPCAQVIFDSDPAPSGKNVPAQIEEMSQAMIRGVMDESGEQFVAYFLPTEDTLEKRRRDLV
+# NETLYEDEEEYEYKMAREYNWNVKSKASKGYEENYYLVLRQDGIYYNELETRVRLSKRRQKNAQQQSNTKLVVKHRSLNASEHRMQRYRERQLEPPGE
+# EDDEDIEEEEEEEEEEEESIQQTEATKADDGGKQEKRAERSSRSRSRSGSAASARSHRVQDHSRDPFREAARNRPAVVGLAREVAAARKAVLLPAAAA
+# AVALVHDPVLVRSVAQHRAHAPDHVHVPVPDLGRALGLAPAPGRALGRALVLAVARELRSIAVDLAVVQPAARENLSKMNQKPVWEDREVKFDIPSIY
+# KTLRSGERILDVLDSVEDTKGNSGDTGRILATNLRIVWYSVTSYRFSLSIGYACILTMNTKTVVSKLRGTTQALHILGVGANSRFEFIFTNLLANTKH
+# FASIFDIYRLYQASTVYRELKLRSSVVTAGQLQVLPQEQLFNTISGVWNLSSDQGNLGILIVSNVRLVWYAEMNNSFNISLPYMQIATVRIRESKYGP
+# ALVIQTLETGGSYVLGFRIDPPDRLGEVYKELLSLHSVYTETPVFGVFYEAPADKERPPSQTFDDIEELEQGAGTEINSKFTAYLADGTGQEGATARG
+# RKPFYCKELGFAMESLKEGYTVKDLWDVLPSQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g3
+###
+# start gene g4
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	gene	5278	5955	0.16	+	.	g4
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	transcript	5278	5955	0.16	+	.	g4.t1
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	start_codon	5278	5280	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	5371	5440	0.22	+	.	transcript_id "g4.t1"; gene_id "g4";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	5738	5811	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	5278	5370	0.2	+	0	transcript_id "g4.t1"; gene_id "g4";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	5441	5737	0.55	+	0	transcript_id "g4.t1"; gene_id "g4";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	5812	5955	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	stop_codon	5953	5955	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MGLNDAFNYVLFNNPVSSTMWGIAANGAKAVGLKPKAVAQTAAAHTTTTVAQQALPPLWKMLGCNRQILRLAGVSGAT
+# AVMIGAYGAHYHFVTNDDEDRDPRQIFDMTNRYHFLHSLALLAAPLARRPYLTAVLMTAGMSMFCGTCYYIAFTNDRRFAKFTPFGGFLLIFGWLSFA
+# I]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g4
+###
+# start gene g5
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	gene	6073	7269	1	-	.	g5
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	transcript	6073	7269	1	-	.	g5.t1
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	stop_codon	6073	6075	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	6604	6672	1	-	.	transcript_id "g5.t1"; gene_id "g5";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	7033	7090	1	-	.	transcript_id "g5.t1"; gene_id "g5";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	intron	7199	7266	1	-	.	transcript_id "g5.t1"; gene_id "g5";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	6073	6603	1	-	0	transcript_id "g5.t1"; gene_id "g5";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	6673	7032	1	-	0	transcript_id "g5.t1"; gene_id "g5";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	7091	7198	1	-	0	transcript_id "g5.t1"; gene_id "g5";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	7267	7269	1	-	0	transcript_id "g5.t1"; gene_id "g5";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	start_codon	7267	7269	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MAFTSNDVTISDDSRRELFFNKHVDYIANHGNDKNDYEYCMTEFLRMSGIYWGVTGLDLMDKLDRLEKQSIIEFIKKC
+# QCPVTGGIAACEGHDPHILYTLSAIQILVIYDSLGEIDTELIAKYVESLQQLDGSFFGDRWGEVDTRFSFCAVAILSLINRMEVIDLEKAVNFVMSCC
+# NADGGFGSKPHAESHAGLIYCCVGFLSITDQLHRLDCERLAWWLCERQLPSGGLNGRPEKLPDVCYSWWVLASLTIIGRLHWISSEKLEKFILSCQDA
+# ETGGFADRTGNMPDIFHTLFGLGALSLLGDKRLKSVNPTYCMPEYVIERCKLKPKVIVL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	gene	8033	9104	0.98	+	.	g6
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	transcript	8033	9104	0.98	+	.	g6.t1
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	start_codon	8033	8035	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+W5J3R5_ANODA|ADAC009413|W5J3R5	AUGUSTUS	CDS	8033	9104	0.98	+	0	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MGVVGKSNGMRALILVGGYGTRLRPLTLSTPKPLVEFANKPILLHQIEALVEAGVTQVILAVSYRAEQMEAELKLQVE
+# RLGVKLIFSHETEPLGTAGPLALAKSILAESTEPFFVLNSDIICDFPFKELEQFHRRHGREGTIVVTRVEEPSKYGVVLYADDGCIKSFIEKPQEFVS
+# NKINAGMYVLNPSVLRRIELKPTSIEKEIFPAMSHEKDLYAFELNGFWMDIGQPRDFLTGMCLYLTSLRQRKPELLYSGPAGFVGNVLVDPTAKIGAG
+# CRIGPNVTIGPNVVIEDGVCIKRCTILKDAIIKSHSWLDSCIIGWRCVVGRWVRLEGTTVLGEDVIVQDEIYINGGQVLPHKS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g6
+###
+# command line:
+# /usr/bin/augustus --species=aedes --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/W5J3R5_ANODA.fasta

@@ -1,0 +1,71 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/IFT74_HUMAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 135892, name = IFT74_HUMAN|ENSG00000096872|Q96LB3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	gene	1	10007	1	-	.	g1
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	transcript	1	10007	.	-	.	g1.t1
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	9859	10007	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	start_codon	10005	10007	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MTSGATRYRLSCSLRGHELDVRGLVCCAYPPGAFVSVSRDRTTRLWAPD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 16
+#     RM:  16 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	gene	47274	125698	1	+	.	g2
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	transcript	47274	125698	.	+	.	g2.t1
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	start_codon	47274	47276	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	47274	47317	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	47461	47521	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	51631	51690	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	53096	53157	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	71982	72120	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	74868	74930	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	79869	80012	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	81609	81649	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	91987	92066	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	107704	107757	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	110236	110333	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	111110	111236	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	118571	118734	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	123553	123613	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	CDS	125580	125698	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+IFT74_HUMAN|ENSG00000096872|Q96LB3	AUGUSTUS	stop_codon	125696	125698	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MYNQENSVYLSYEKRAETLAVEIKELQGQLADYNMLVDKLNTNTEMEEVMNDYNMLKAQNDRETQSLDVIFTERQAKE
+# KQIRSVEEEIEQEKQATDDIIKNMSFENQVKYLEMKTTNEKLLQELDTLQQQLDSQNMKKESLEAEIAHSQVKQEAVLLHEKLYELESHRDQMIAEDK
+# SIGSPMEEREKLLKQIKDDNQEIASMERQLTDTKEKINQFIEEIRQLDMDLEEHQGEMNQKYKELKKREEHMDTFIETFEETKNQELKRKAQIEANIV
+# ALLEHCSRNINRIEQISSITNQELKMMQDDLNFKSTEVQKSQSTAQNLTSDIQRLQLDLQKMELLESKMTEEQHSLKSKIKQMTTDLEIYNDLPALKS
+# SGEEKIKLTNLERKWQHLEQNNFAMKEFIATKSQESDYQPIKKNVTKQIAEYNKTIVDALHSTSGN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/15
+# CDS introns: 0/14
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 160
+#     RM: 160 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/IFT74_HUMAN.fasta

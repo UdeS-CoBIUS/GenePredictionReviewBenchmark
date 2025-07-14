@@ -1,0 +1,67 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/J3QMK2_MOUSE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 34767, name = J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	gene	22453	23283	1	+	.	g1
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	transcript	22453	23283	.	+	.	g1.t1
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	start_codon	22453	22455	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	intron	22499	23125	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	CDS	22453	22498	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	CDS	23126	23283	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	stop_codon	23281	23283	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAEVKSMFREVLPKQGQLSVEDVTTMVLCKPKLLPLKSLTLEKLEKMQQAAQDTVRQQEMAEKATSK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	gene	25485	34767	1	-	.	g2
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	transcript	25485	34767	.	-	.	g2.t1
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	stop_codon	25485	25487	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	intron	25546	27294	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	intron	27435	27982	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	intron	28094	28314	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	intron	28423	32496	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	intron	32612	33312	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	intron	33411	34767	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	CDS	25485	25545	.	-	1	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	CDS	27295	27434	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	CDS	27983	28093	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	CDS	28315	28422	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	CDS	32497	32611	.	-	1	transcript_id "g2.t1"; gene_id "g2";
+J3QMK2_MOUSE|ENSMUSG00000084957|J3QMK2	AUGUSTUS	CDS	33313	33410	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [LVGQFIARAVGDGILCNTYIDSYKGTVDCVQARAALDKATVLLSMSKGGKRKDSVWGSGGGQQPVNHLVKEIDMLLKE
+# YLLSGDISEAEHCLKELEVPHFHHELVYEAIVMVLESTGESAFKMILDLLKSLWKSSTITIDQMKRGYERIYNEIPDINLDVPHSYSVLERFVEECFQ
+# AGIISKQLRDLCPSRGRKRFVSEGDGGRLKPESY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/6
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 24
+#     RM:  24 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/J3QMK2_MOUSE.fasta

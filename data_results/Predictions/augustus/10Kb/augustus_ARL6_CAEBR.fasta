@@ -1,0 +1,283 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# caenorhabditis version. Using species specific transition matrix: /usr/share/augustus/config/species/caenorhabditis/caenorhabditis_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/ARL6_CAEBR.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 20970, name = ARL6_CAEBR|WBGene00037478|Q60Z38) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	gene	3656	5219	0.66	+	.	g1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	transcript	3656	5219	0.66	+	.	g1.t1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tss	3656	3656	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	5'-UTR	3656	3696	0.71	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	start_codon	3697	3699	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	initial	3697	3805	0.95	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	3850	3977	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	4027	4876	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	terminal	4932	5059	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	3806	3849	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	3978	4026	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	4877	4931	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	3697	3805	0.95	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	3850	3977	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	4027	4876	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	4932	5059	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	stop_codon	5057	5059	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	3'-UTR	5060	5219	0.94	+	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tts	5219	5219	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MTSIRPMELEKTPYTHEEPLTCGGKVKRWCKKYLLEGQHLDEDQAYKLTNLPENPTFGDFIFIKYRKFVAMLIPFLLI
+# HTVWWSAAIRHNLFQYYHDYWHMPVTMALGSFVGGMTSEGSGAVAFPVMTLALHIKPEIARDFSLMIQSIGMTSALVCVLFMRVKFEHRAVIIGCLGA
+# VPGFIVGVHWIDPLFSGPQKKMLFVSIWTAFAFALGILNAQKKRSTFREIPEFCAWKGWVLFFTGIIGGIFDAFAGSGIDICIFSVITLLFRVTEKTA
+# TPTTVVLKGTIAVFGFYYRAVMMGDIDIMAWRYFAVSVPVSAATGPIGSFLGSHLHRQVVAGFVYVLEAIALVGFLFTRPAWQLIAVGGCIILGGFVF
+# FSALSKAGSILMNRIEARQQKEAQKNGITSAY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g1
+###
+# start gene g2
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	gene	6546	8708	0.23	+	.	g2
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	transcript	6546	8708	0.23	+	.	g2.t1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tss	6546	6546	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	5'-UTR	6546	6594	0.49	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	start_codon	6595	6597	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	initial	6595	6712	0.67	+	0	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	6755	6882	0.97	+	2	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	7066	7273	0.59	+	0	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	7318	7959	0.95	+	2	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	terminal	8524	8669	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	6713	6754	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	6883	7065	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	7274	7317	0.59	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	7960	8523	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	6595	6712	0.67	+	0	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	6755	6882	0.97	+	2	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	7066	7273	0.59	+	0	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	7318	7959	0.95	+	2	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	8524	8669	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	stop_codon	8667	8669	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	3'-UTR	8670	8708	0.8	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tts	8708	8708	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MVQLYSENVKSTVMNQKPTDSKMPAGQTIKIWCKKYLLEGQSLDAEQAEKVEQLPENPTINDLVFIKYRKWIAMLLPM
+# TFIHIIWWSIAIRYDLFQYYLEYWHMPVVMILGSIIGGMTSEGAGAVAFPVMTLALHIDPTIARDFALMMQSIGMTSALVCVLFMRVKFETRAVILGC
+# LGAVPGFVIGVHWIDPIFNGPQKKMLFVSIWTAFALSLGILNAQKKRPTFREIPEFCAWKGWVLFFTGIIGGIFDAFAGSGIDICIFSVITLLFRVTE
+# KTATPTTVVLKGTIAVFGFYYRAVMMGDIDIMAWRYFSVTVPISACGGPIGSFLGSHLHRQLIASFVYILEAIALLGFLFTKPGWQLMTVGAVIIIGC
+# FVFFSIVSKFGSILLERLDPQEAKEKELRKLEEQKTETGQQ]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 6
+#     RM:   6 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	gene	9856	10965	0.84	+	.	g3
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	transcript	9856	10965	0.84	+	.	g3.t1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tss	9856	9856	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	5'-UTR	9856	10006	0.9	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	start_codon	10007	10009	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	initial	10007	10096	0.98	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	10145	10274	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	10320	10465	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	10630	10705	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	terminal	10748	10878	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	10097	10144	0.99	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	10275	10319	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	10466	10629	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	10706	10747	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	10007	10096	0.98	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	10145	10274	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	10320	10465	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	10630	10705	1	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	10748	10878	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	stop_codon	10876	10878	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	3'-UTR	10879	10965	0.95	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tts	10965	10965	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MGFLSSLSNLFGMGKKDVNIVVVGLDNSGKTTILNQLKTPETRSQQIVPTVGHVVTNFSTQNLSFHAFDMAGQMKYRS
+# TWESYFHSSQGVIFVLDSSDRVRMELLKDELWLVLDHKDVASRGIPVVILANKMDIPGAMTCADITAALGLNLHRSGTWSIHSTCALTGDGLDKAMQQ
+# LSSEIQKYLETRKS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	gene	11456	12738	0.85	+	.	g4
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	transcript	11456	12738	0.85	+	.	g4.t1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tss	11456	11456	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	5'-UTR	11456	11504	0.88	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	start_codon	11505	11507	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	initial	11505	11555	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	11601	11801	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	11853	12334	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	12381	12435	0.99	+	1	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	terminal	12481	12633	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	11556	11600	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	11802	11852	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	12335	12380	0.99	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	12436	12480	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	11505	11555	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	11601	11801	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	11853	12334	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	12381	12435	0.99	+	1	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	12481	12633	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	stop_codon	12631	12633	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	3'-UTR	12634	12738	0.98	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tts	12738	12738	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MEKAKIPKLSQRTNAPLTHENGPPANLQVSLPPTMYPGQQMTHPGMSRNFSTCYNPRPHPTIPSYPPPPNHLLVTQPA
+# LSFEQALIKSMDVISAQATYFAPLAQSAMTMSSALIKLQEENIAERKRKEDEHKKERMRAEEKHSETLSMFLDKIAMMFDSAARKVDVSLPDPISVNT
+# GPSTSDCSNASEILNPQEVQSGPPSMQTRSKKLTIEKSQVIKRASSSMGQPVMNPKESDENHVAIKRPRKHVYIDQTLVEKGHSYDKTLNKFSNYKCD
+# NCETSFNSEKKLIYHFHTFHDECLPEHQENQRKKSKSKK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g4
+###
+# start gene g5
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	gene	14126	17552	0.1	+	.	g5
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	transcript	14126	17552	0.1	+	.	g5.t1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tss	14126	14126	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	5'-UTR	14126	14190	0.23	+	.	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	start_codon	14191	14193	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	initial	14191	14321	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	14775	14850	1	+	1	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	14901	15200	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	15252	15345	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	15570	15741	1	+	2	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	terminal	17211	17253	1	+	1	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	14322	14774	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	14851	14900	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	15201	15251	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	15346	15569	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	15742	17210	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	14191	14321	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	14775	14850	1	+	1	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	14901	15200	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	15252	15345	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	15570	15741	1	+	2	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	17211	17253	1	+	1	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	stop_codon	17251	17253	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	3'-UTR	17254	17552	0.41	+	.	transcript_id "g5.t1"; gene_id "g5";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tts	17552	17552	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MSVDVKSEFSENDSSSSSSSPTNVNNVAWPNYQMMPFMNAQPLRDKMLQPSFDPQLYGRWPQMGEAGFYGHSDIYSTF
+# ALPQLSTNGQILPTAEVVEVKPPLSNGSSSSDSGMYPSPNDLTPFPSTSSGIGASSSSSDLQAAAAAAANYQMRAATCYQQSVWPFMDYQQPFPWKMP
+# LGSAGKERRASSDTKSLPTGPGTNNVRVRTADKYRMVYSDYQRLELEKEFHTSAFITSDRKSQLSTMLSLTERQIKIWFQNRRAKDRRDKQKIRL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 3
+#     RM:   3 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g5
+###
+# start gene g6
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	gene	17598	19055	0.06	-	.	g6
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	transcript	17598	19055	0.06	-	.	g6.t1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tts	17598	17598	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	3'-UTR	17598	17654	0.3	-	.	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	stop_codon	17655	17657	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	terminal	17655	17795	0.32	-	0	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	17840	18017	0.2	-	1	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	18171	18366	0.4	-	2	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	initial	18906	19005	0.97	-	0	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	17796	17839	0.24	-	.	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	18018	18170	0.25	-	.	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	18367	18905	0.97	-	.	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	17655	17795	0.32	-	0	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	17840	18017	0.2	-	1	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	18171	18366	0.4	-	2	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	18906	19005	0.97	-	0	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	start_codon	19003	19005	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	5'-UTR	19006	19055	0.47	-	.	transcript_id "g6.t1"; gene_id "g6";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tss	19055	19055	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [MPDKKVLWMLDELEGFEKPKIKLEQYATSSELAVSMMEMIDETVGLDGVKLVDIGCGCGMLMTTAATLYDLKSVVGID
+# IDEDALKICAKNLETADIQEKLVVISVFVILIWKVLGIDMKFVKIGIELVRPGGSVFSLHKSSTRNYILKTANKWEDLEDVEACAQMRWKLSATYKFH
+# KEKSVDIDVDLIHFKKTNPDKKEEKRSE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 0
+# end gene g6
+###
+# start gene g7
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	gene	19106	20755	0.36	-	.	g7
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	transcript	19106	20755	0.36	-	.	g7.t1
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tts	19106	19106	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	3'-UTR	19106	19450	0.7	-	.	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	stop_codon	19451	19453	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	terminal	19451	19591	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	19677	19930	1	-	2	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	19979	20160	1	-	1	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	20207	20333	1	-	2	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	internal	20380	20558	1	-	1	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	initial	20644	20726	0.47	-	0	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	19592	19676	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	19931	19978	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	20161	20206	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	20334	20379	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	intron	20559	20643	1	-	.	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	19451	19591	1	-	0	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	19677	19930	1	-	2	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	19979	20160	1	-	1	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	20207	20333	1	-	2	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	20380	20558	1	-	1	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	CDS	20644	20726	0.47	-	0	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	start_codon	20724	20726	.	-	0	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	5'-UTR	20727	20755	0.47	-	.	transcript_id "g7.t1"; gene_id "g7";
+ARL6_CAEBR|WBGene00037478|Q60Z38	AUGUSTUS	tss	20755	20755	.	-	.	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MIDVTNSVARNPSYIGSTRPLSHALIPISRSMRRRDHPMSQSAIESMSTSAAVDESRPSKETILEKLRRFFRTRPTVE
+# SLKEKGIYKPEPVFGSTLFAICQHENSLVPKFIRVITEVIESKGLETDGIYRVSGNLSAVQKIRCQADQDNYRALVAEEDIHVLTGALKLFFRELSEP
+# LFPISLHKEYTAAMQMPNATSRFKKFEELLNRLPNENRETLKMLLRHLNRVASHSSQNRMQQHNLAIVFGPTLFHNGDGAVNSASKNKKAGKKTKSSK
+# KDEPQPTPIQSNSHLAFSMIMQSQIVQYLLESANKFDILKAPVNIGR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g7
+###
+# command line:
+# /usr/bin/augustus --species=caenorhabditis --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/ARL6_CAEBR.fasta

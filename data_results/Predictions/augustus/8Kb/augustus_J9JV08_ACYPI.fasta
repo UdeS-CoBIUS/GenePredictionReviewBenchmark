@@ -1,0 +1,146 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/J9JV08_ACYPI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 26234, name = J9JV08_ACYPI|ACYPI004186|J9JV08) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	gene	4882	6550	0.11	-	.	g1
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	transcript	4882	6550	0.11	-	.	g1.t1
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	tts	4882	4882	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	4882	5179	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	stop_codon	4928	4930	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	5180	5278	0.79	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	5495	5991	0.57	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	4928	5179	0.48	-	0	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	5279	5494	0.58	-	0	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	5279	5494	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	5992	6456	0.57	-	0	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	5992	6550	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	start_codon	6454	6456	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	tss	6550	6550	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSGSWTYCTKDDEKTYSCGGLSDQGTGRPPSHPREGSRRALTTARGALQQAADPSRQYSWRSERRMLWCSTAVTVAYS
+# GDSSLHGISIRQVEDESRNPPFPEDHHHHGNAARVRENRPASVRSGGRQAVGRAVRTRKLLAADRGVRAVRAGPAEMSCSPGRSPAPTAAERTPSSFT
+# GMPVSRTWAEFPWHYDFGGPPAVADLQTRPRRSPSSSAAAPKCHHCTPYFFPLSPPNENVAGSPQGDRPRPLGIGPVASRSDSPPVVLSLSSVQYVSL
+# LYYRRHSSSWTFPDDILLYSFNQRFTPSSSGILLCE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	gene	7966	18238	0.02	+	.	g2
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	transcript	7966	18238	0.02	+	.	g2.t1
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	tss	7966	7966	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	7966	8329	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	start_codon	8144	8146	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	8330	8733	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	8882	9738	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	9887	9953	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	10057	10152	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	10257	10343	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	10496	11353	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	11420	11825	0.93	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	11929	12229	0.18	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	12324	12385	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	12510	12577	0.8	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	12693	12884	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	13015	13090	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	13288	13370	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	13549	13619	0.9	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	13705	13764	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	13874	15843	0.82	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	15959	16039	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	16196	16898	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	17096	17332	0.84	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	17504	17578	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	17689	17753	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	intron	17985	18060	1	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	8144	8329	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	8734	8881	0.97	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	8734	8881	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	9739	9886	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	9739	9886	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	9954	10056	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	9954	10056	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	10153	10256	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	10153	10256	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	10344	10495	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	10344	10495	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	11354	11419	0.95	+	2	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	11354	11419	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	11826	11928	0.18	+	2	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	11826	11928	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	12230	12323	0.18	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	12230	12323	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	12386	12509	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	12386	12509	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	12578	12692	0.8	+	2	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	12578	12692	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	12885	13014	0.98	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	12885	13014	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	13091	13287	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	13091	13287	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	13371	13548	0.9	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	13371	13548	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	13620	13704	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	13620	13704	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	13765	13873	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	13765	13873	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	15844	15958	0.82	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	15844	15958	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	16040	16195	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	16040	16195	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	16899	17095	0.85	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	16899	17095	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	17333	17503	0.84	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	17333	17503	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	17579	17688	1	+	1	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	17579	17688	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	17754	17984	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	17754	17984	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	CDS	18061	18197	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	exon	18061	18238	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	stop_codon	18195	18197	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+J9JV08_ACYPI|ACYPI004186|J9JV08	AUGUSTUS	tts	18238	18238	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MFYYDDNDLIFTTSWKSLSVNSKFDESLKSLWREKEDEGLFRYKYKEENVIMLPGKYGFLAVLNIDRGTKRRKPNIFA
+# SVLEPFNDDLFNFTKVNAGEYLFKFSYASSISSNTDDTLAINTSPLGDFHSLILPKINSKLPQVIDEYSLNIAIQLLLLSASPAIRVGFNSLCAFASV
+# NHLHLHLYYLQYKMYLEYCDIEQFSGPCHKIIDYPSKGFVFVLKSSDLLSNFVKTVYIMINYLQQKNIPHNIFITRALVKDLNVNDFNNSRNCVRVFI
+# WARISSGDKRMDKFAPATCELFGHLVFKDKSEFSEVTESSVAKILTDVTESSFLLIENDIKNLVDYTLLGMVSSNCMKVLPISQSDEAEKKTQKIIVG
+# DQEGIVQMFQIRKGKINMLFKTLPLEKITEVCLGGALGTVQDKIFLSMGTSVRGYTKKGRMFLSFDTGLLESIKCMYVTGNELLVSGKHIFSHFNDCK
+# DISTYLCPELINSIITLDVIKMQGIMPILACADLCIRILEGSTVKETFYLSSEPTSLHLMKNNGGSYGNEVLVGLQNGHIVLLKIEKNASTSILWELV
+# TQSKQGAITCIDCYEFNGEDHLLIGRQSGSVEVYSLESHSVPIEKYKYSCSESITSIQGGAIRSFGIPEIVVTTFTGWLFGLTFVDQHIDKEIVLESS
+# NIILNDEKQKILDIRTEVSDLERQVAIERNKYLEFTQKSSRPSVLPYLAIKNSMFLDSENLIYHLIIELEATIDNILLQCNCLINLIDVENNNNAVVS
+# KSKCKEEDNNKLLITYRCQLNTTKLELKMWSHEGDHGMLTLYITPLLQPKCCQVCKFPIKPLLYHQRTKKNIVYQPQSFMTLSGGFSLSEAHLWISNC
+# LPGFPEKPASQENLEYSFESIILDTVLLCAYSRGSINIKTDNITAISILKDNFSRDATRKNIKLDMTYEISEGSLMLMIDAIVSKLKTDIKNDKTLKL
+# INAIKQLSVNPNTNGESLTKEYLLMISNEDKLKQEVFHRPSRMQRLQAIMLALFDDWHKLKGLNVKPNSREDLQEALQTSNTLDSLISMFEL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/23
+# CDS introns: 0/22
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 21
+#     RM:  21 
+# incompatible hint groups: 4
+#     RM:   4 
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/8Kb/J9JV08_ACYPI.fasta

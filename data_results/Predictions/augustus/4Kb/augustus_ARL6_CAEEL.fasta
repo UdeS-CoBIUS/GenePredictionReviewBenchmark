@@ -1,0 +1,156 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# caenorhabditis version. Using species specific transition matrix: /usr/share/augustus/config/species/caenorhabditis/caenorhabditis_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/ARL6_CAEEL.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 9506, name = ARL6_CAEEL|WBGene00000193|Q18510) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	gene	1	1255	0.47	-	.	g1
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	transcript	1	1255	0.47	-	.	g1.t1
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	internal	1	178	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	internal	225	379	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	internal	524	747	0.58	-	1	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	initial	968	1221	0.81	-	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	179	224	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	380	523	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	748	967	0.59	-	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	1	178	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	225	379	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	524	747	0.58	-	1	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	968	1221	0.81	-	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	start_codon	1219	1221	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	5'-UTR	1222	1255	0.69	-	.	transcript_id "g1.t1"; gene_id "g1";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	tss	1255	1255	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MSCERKDVEKKEKEEKKADESKKKDEKKEEKSKGKEDEKKENQKIAGAVHNQMKNINYMAEGSVISGRFEVEGIIGGG
+# GFAQIYRRLRRQSGTRITRTRDVRRALPHKRITDRTLYRAMAQVLKALALVHRAEFLHRDIKPPNCCIGATDCTRIYLIDYVLTRQYLDKCGTVRNPR
+# PGLGLRGTMRYMSLDAHARQDLGPKNDLVSFLYTTIECGDGCLPWSYEKSEENCIKLKQAHIGEKLCIKKPLMTKAAEYIESLNYHSIPDYEKL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	gene	1546	2998	0.2	+	.	g2
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	transcript	1546	2998	0.2	+	.	g2.t1
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	tss	1546	1546	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	5'-UTR	1546	1574	0.58	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	start_codon	1575	1577	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	initial	1575	1587	0.61	+	0	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	internal	1735	2376	0.51	+	2	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	terminal	2657	2775	0.95	+	2	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	1588	1734	0.61	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	2377	2656	0.85	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	1575	1587	0.61	+	0	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	1735	2376	0.51	+	2	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	2657	2775	0.95	+	2	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	stop_codon	2773	2775	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	3'-UTR	2776	2998	0.37	+	.	transcript_id "g2.t1"; gene_id "g2";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	tts	2998	2998	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MRQARMTSALVCVLFMKVKFEHRAVIIGCLGAVPGFIIGVHYIDPLFSGAQKKMLFVSIWTAFAFALGILNAQKKRST
+# FREIPEFCAWKGWVLFFTGIIGGIFDAFAGSGIDICIFSVITLLFRVTEKTATPTTVVLKGVIAVFGFYYRAVMMGDIDIMAWRYFSVTVPISACGGP
+# IGSFIGSNLHRQLVASFVYILETFALVGFLLTNPGLDLIVVGALIIIGGFVFFFFVSKAGASLMQTVIENEKQKQLEKAQI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	gene	3946	5529	0.11	+	.	g3
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	transcript	3946	5529	0.11	+	.	g3.t1
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	tss	3946	3946	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	5'-UTR	3946	4000	0.29	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	start_codon	4001	4003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	initial	4001	4220	0.98	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	internal	4637	4782	0.88	+	2	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	internal	5250	5325	0.85	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	terminal	5376	5506	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	4221	4636	0.98	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	4783	5249	0.85	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	5326	5375	1	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	4001	4220	0.98	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	4637	4782	0.88	+	2	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	5250	5325	0.85	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	5376	5506	1	+	2	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	stop_codon	5504	5506	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	3'-UTR	5507	5529	0.57	+	.	transcript_id "g3.t1"; gene_id "g3";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	tts	5529	5529	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MGFFSSLSSLFGLGKKDVNIVVVGLDNSGKTTILNQLKTPETRSQQIVPTVGHVVTNFSTQNLSFHAFDMAGQMKYRS
+# TWESYFHSSQGVIFVLDSSDRLRMELLKDELMMVMEHKDVVSRGIPIVILANKMDIPGAMTASDITVALGLNLYRSGTWSIHSTCALTGDGLDKAMQQ
+# LSAEITKYMESRRT]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 1
+#     RM:   1 
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	gene	6356	8785	0.08	+	.	g4
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	transcript	6356	8785	0.08	+	.	g4.t1
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	tss	6356	6356	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	5'-UTR	6356	6410	0.32	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	start_codon	6411	6413	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	initial	6411	6538	0.4	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	internal	7664	7706	1	+	1	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	internal	7751	7936	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	internal	7992	8401	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	internal	8448	8502	1	+	1	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	terminal	8547	8693	0.73	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	6539	7663	0.6	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	7707	7750	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	7937	7991	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	8402	8447	1	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	intron	8503	8546	0.99	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	6411	6538	0.4	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	7664	7706	1	+	1	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	7751	7936	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	7992	8401	1	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	8448	8502	1	+	1	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	CDS	8547	8693	0.73	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	stop_codon	8691	8693	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	3'-UTR	8694	8785	0.35	+	.	transcript_id "g4.t1"; gene_id "g4";
+ARL6_CAEEL|WBGene00000193|Q18510	AUGUSTUS	tts	8785	8785	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MREKKCDTSSSNWVGVRLFLYSFRITLVNRGIKLRRAVFLWLRMSKPSTPAPASADQNGDSATRQTAQTTETPASLLS
+# AVGNGAPNMAGFTLNRDMVPFFPYQLQNPMLQPPQNSLENAIVHSLGTLAAQSSMFGQLCEKMLKAQEEARADQRSIREEHRAEREKADERSQQNMDK
+# MMALVHSLVERVDRSHASSYDVVGQKNPSSSSLKPAKRVKSAVVRQSNLAKRTGAPVDAAKELKKIRDEENRNHGRSAERDNVFIGAVLVGKGSQYDK
+# DLEKFKSFRCRTCNEVSQTKEQLVDHFSNNHAGELGARRSLRIKQTSC]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 8
+#     RM:   8 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=caenorhabditis --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/ARL6_CAEEL.fasta

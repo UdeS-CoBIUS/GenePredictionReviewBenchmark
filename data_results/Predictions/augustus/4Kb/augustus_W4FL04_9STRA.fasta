@@ -1,0 +1,134 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/W4FL04_9STRA.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 8922, name = W4FL04_9STRA|H257_15885|W4FL04) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	gene	1	2340	0.12	-	.	g1
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	transcript	1	2340	0.12	-	.	g1.t1
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	intron	519	761	0.86	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	intron	953	1027	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	intron	1590	1645	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	intron	1794	1850	0.97	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	1	518	0.55	-	2	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	1	518	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	762	952	0.86	-	1	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	762	952	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	1028	1589	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	1028	1589	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	1646	1793	0.99	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	1646	1793	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	1851	2294	0.72	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	1851	2340	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	start_codon	2292	2294	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	tss	2340	2340	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPSKVDASLPGRVVCFGSGRVAYPLVELLTRNPTTHMTLVSDDAFQLATFADRIGQLHRTNLTTEVMSAVDTTASLAL
+# ITDFLKRNYFACVVALVPEDAQYTLARACIATSTPLVTASYVSPRLRHLHQAAVDANIPLLCECGLDPGLDHMGAVSMIASIQASGRGVISKFTSVCG
+# GLPAPESADNPLGYKFSWSPLGALKALQRPAQFKELGRVVSIAGPDMLSHATPVRTVPALALEQLPNGNALPYADLYGIPDVPTIFRGTYRYRGFSAI
+# MQDCVALGLLSTASLPPNVDIKQWSHLLEIVLHDNNPTDKQLGQHTTAFFAWIGDQVPTQDATTYLQAFANVLEQRLSMDAEDRDMVVLTHAVEVDIG
+# DGAVEVHSASLMGYGDREGTFMARSVGVTAGVVTQLVVNGKVLQKGILAPTTPDIYEPALEALAKEGITFVEKVTCRSSRVSSVTGQHNRNQRVANVS
+# SDTPMMQQRAVKVVPVPTVVVPSRRKSSQGSYKGRNLIGSDLSSRSFTVKTSWGLEARAKSIDPSFKAGDSLRKRVAKLESELVGQKGPVSNDTEPPS
+# RAASAVGKLKKLASRRNSMTRRTEEAHHEMVTSRCSTCASGGGRLCPGRTRPP]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	gene	2466	5090	0.09	+	.	g2
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	transcript	2466	5090	0.09	+	.	g2.t1
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	tss	2466	2466	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	2466	3816	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	start_codon	2492	2494	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	intron	3817	3879	0.91	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	intron	4387	4694	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	2492	3816	0.96	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	3880	4386	0.87	+	1	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	3880	4386	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	4695	4824	0.52	+	1	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	4695	5090	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	stop_codon	4822	4824	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	tts	5090	5090	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSSKHEDDAHVEEVELEVKDGDKSSVELVTVEEQEEFLRVLKQLNLVSAPPAPKKAESEYKFWKTQPVPSITENPVDH
+# APIDSIKTVDDVRATPFKLPAGFGWYDLDLTDGTETKEVYDLLCQNYVEDDDNMFRFDYSIEFLQWVLTSPGYHKSWHVGVRNDKTGKLMAFISGIPT
+# KIKVYENLMPMAEINYLCVHKKLRSKRLAPVLIKEITRRVNLLDVWQAVYTAGVVLPMPVSTCRYYHRNLNPKKLIDVGFSQLPPNMSMTRTIKMFKL
+# PDEHDLANFGPMQPKHVSCVTGLLRRFQKKFDLKADMNESEVAHWLLPRAGVVNTYVVEDPLSHKVTDFCSFYHLPSTIIGNTTHKTLFAAYSFYNVA
+# TTVPLTRLMHNCLIMAKAANLDVFNALNLMENSEFLDELKFGMGSGELQYYLYNWRCPRMPHNKVGLVLHSNTIRATIRFAVAKYSHETWPCGCVCTN
+# CYHRKYIHSTTSMDFEELMQEVESAVQDTPPATKAHHRHTIMSYERLAYFDDVAPSVSCHPITSRHVDKQPSSYSAKTTPLPVNSKSDLDDLLDIVDG
+# PDTISGSKRSSNHPTTSATSTSHIKQPTSSTSNNMAFSASSKRKWADSADYMFFRENAPNEAKLRRKMESAQGKLRSQTTFLDAD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	gene	5266	6260	0.05	-	.	g3
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	transcript	5266	6260	0.05	-	.	g3.t1
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	tts	5266	5266	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	5266	5634	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	stop_codon	5468	5470	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	intron	5635	5923	0.54	-	.	transcript_id "g3.t1"; gene_id "g3";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	5468	5634	0.55	-	2	transcript_id "g3.t1"; gene_id "g3";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	5924	6140	0.58	-	0	transcript_id "g3.t1"; gene_id "g3";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	5924	6260	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	start_codon	6138	6140	.	-	0	transcript_id "g3.t1"; gene_id "g3";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	tss	6260	6260	.	-	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MREVISIHLGQGGIQVGNACWELYCLEHGIQPDGQMPSDKTIGGGDDAFNTFFSETGAGKHVPRAVLVDLEPRCCGTT
+# CQFYWPQGQMDGHIALSNERQANNVEKSPKSIEKRCTSSTFGLADDYRI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/2
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	gene	7073	8750	0.14	-	.	g4
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	transcript	7073	8750	0.14	-	.	g4.t1
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	tts	7073	7073	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	exon	7073	8750	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	stop_codon	7273	7275	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	CDS	7273	8634	1	-	0	transcript_id "g4.t1"; gene_id "g4";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	start_codon	8632	8634	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+W4FL04_9STRA|H257_15885|W4FL04	AUGUSTUS	tss	8750	8750	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MREVISIHLGQGGIQTGNACWELYCLEHGIQPDGQMPSDKTIGGGDDAFNTFFSETGAGKHVPRAVLVDLEPSVCDEV
+# RTGTYRQLYHPEQIISGKEDAANNYARGHYTIGKEIVDLVLDRIRKLADNCTGLQGFLVFNAVGGGTGSGLGALLLERLSVDYGRKSKLGFTIYPSPQ
+# VSTAVVEPYNSVLSTHSLLEHTDVAVMLDNEAIYDICRRSLDIERPTYTNLNRLIAQVISSLTASLRFDGALNVDVTEFQTNLVPYPRIHFMLSSYAP
+# VISAEKAYHEQLSVAEITNSAFEPASMMAKCDPRHGKYMAACLMYRGDVVPKDVNAAVATIKTKRTIQFVDWCPTGFKCGINYQPPTVVPGGDLARVQ
+# RAVCMISNTSAIAEVFSRIDHKFDLMYAKRAFVHWYVGEGMEEGEFSEAREDLAALEKDYEEVSAETAEGEGEEEDAGEEY]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g4
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/W4FL04_9STRA.fasta

@@ -1,0 +1,52 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/F6TJD2_ORNAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 30033, name = F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	gene	10927	30033	1	+	.	g1
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	transcript	10927	30033	.	+	.	g1.t1
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	start_codon	10927	10929	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	11050	13265	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	13328	14808	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	14878	16453	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	16549	17920	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	18051	19290	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	19347	27808	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	27880	28485	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	intron	28560	30033	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	10927	11049	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	13266	13327	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	14809	14877	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	16454	16548	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	17921	18050	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	19291	19346	.	+	1	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	27809	27879	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+F6TJD2_ORNAN|ENSOANG00000007539|F6TJD2	AUGUSTUS	CDS	28486	28559	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MGLLDKLSSLLGLKKKEVHVLCLGLDNSGKTTIINKLKPSHAQTQDIVPTIGFSIEKFKTSSLSFTVFDMSGQGRYRN
+# LWEHYYKEGQAIIFVIDSSDKLRMVVAREELETLLNHPDIKHRRIPILFFANKMDLRDAVTSVKVSQLLCLESIKDKPWHICASDAIKGEGLQEGVDW
+# LQDALETSQQSSNDTLIPVAQQTFLLGTDGFILNKTEVPESGMPSNKLID]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/8
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 36
+#     RM:  36 
+# incompatible hint groups: 0
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/F6TJD2_ORNAN.fasta

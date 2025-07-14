@@ -1,0 +1,85 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G4ZRE7_PHYSP.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 4641, name = G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	gene	18	1803	0.24	+	.	g1
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	transcript	18	1803	0.24	+	.	g1.t1
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	start_codon	18	20	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	intron	201	276	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	intron	349	411	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	CDS	18	200	0.4	+	0	transcript_id "g1.t1"; gene_id "g1";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	exon	18	200	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	CDS	277	348	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	exon	277	348	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	CDS	412	1761	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	exon	412	1803	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	stop_codon	1759	1761	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	tts	1803	1803	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MNMKFLFTVATARLLVKMATSLHHKLRIARGLAPLSGPPGVWLLGNMPAYIKNRDRMYHFLEDLLKQHGGRMKMPWHL
+# FFDGAIYITDPKDVQHILSTNFDNYVKPQGFLDAFQEIFENSFFAVNHHAQAPDGGAGWRLQRKVAAKVFTTANFRIFTEQVFARHAEETLLAAQAEA
+# TESRAREDPDERFCCDMQEISAKYTLNSIFDVAFGLPLSEIEGTENFAEHMGFVNTHCAQRLFVKQYYKLLRWVMPSERELRRRTREIRAVADTVLLR
+# RLQESQEKINARSDLLSLFIRKARELAFESTKDQKVDAASLLGPKTLRSILLTFVFAGRDTTAECLTYSFYAIARHPRVQKQIVEELESTKENTGSTH
+# ATFTFDQVKEMKYLEAVVYEAVRLYPALPFNVKNAVKDDYLPDGTFVPAGVDVVYSPWFMGRNGELWGNDPLEFRPERWLEMPKRPSAYEFPAFQAGP
+# RVCLGMGMAVLEAKLFLATTLSRFHVAIAPGEKQERGYVLKSGLFMDGGLPLQMTPRPQSAASA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	gene	1866	4641	0.12	+	.	g2
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	transcript	1866	4641	0.12	+	.	g2.t1
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	tss	1866	1866	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	exon	1866	2479	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	start_codon	2001	2003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	intron	2480	2553	0.95	+	.	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	intron	2638	2867	0.7	+	.	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	intron	3567	3628	0.97	+	.	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	intron	3726	3790	0.91	+	.	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	CDS	2001	2479	0.95	+	0	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	CDS	2554	2637	0.95	+	1	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	exon	2554	2637	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	CDS	2868	3566	0.68	+	1	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	exon	2868	3566	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	CDS	3629	3725	0.91	+	1	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	exon	3629	3725	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	CDS	3791	4641	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+G4ZRE7_PHYSP|PHYSODRAFT_256755|G4ZRE7	AUGUSTUS	exon	3791	4641	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGLFKLLASALGIKKTQVRILVVGLDNSGKTTLVNHLKPKKSQAREVVPTIGFQVEEFTKSNLNFTVFDMSGQSRYRS
+# LWENYYSDVQAIIYVLDSTDTIRMCVAKDELEQLVEHKELASKKVPILFFANKMDLPNALTPVECMQLLELDNLGSKSWHITASNAVTGRGVEEGIEW
+# LADQFAKGKSRNRRRGRPLLLVGRGIVGLGHGQEELELGRQLLLRVEAVGEVDAADAAVGVDLHAQRLDVVGAVSAPREVREVELDLVPAFVEPHGHG
+# ADEGLDPRGALVVARAEAAAHVLVVQHLHLEGEVLLEVLDDHDEERQLDAQRLGRLRRARDEVGADVRAHDLQHRRLDVLVRDALDVAIAHLLVPDLQ
+# RLAPAASVDTRRALSQLLPPYTALTHIGGRGRQRLTRCCRGWKGSPTGSLGALERDAADSSDGYRFVRRFKVALVWTTTYTSKPHCGTTTGGHRHPMA
+# SAVRVLLSSEHAPSPVAAARPPKRRRLNEAASRLLHVAKAPTGNAAAPDTEMASDDDDESPGCVCAECGDAFSCAAELVAHSQETRHRPFACRREGCS
+# KRYSKREHLTRHFEAVHVRGSTQTLEERKPFKCELCEARFTYNHGLTRHTKRSHRNVNRPFECSECLKVFKKKSELQAHSYAHTGVLPFECKDCGERF
+# LKRFLLNRHQRTHAANREADTQILVCECGEICFDEDELKIHKEAEHGSEKEPSAADSDAAATKQPSTPSS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/5
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G4ZRE7_PHYSP.fasta

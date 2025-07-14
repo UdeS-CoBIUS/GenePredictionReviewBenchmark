@@ -1,0 +1,95 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/M3YWX4_MUSPF.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 113357, name = M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	gene	1	7743	1	-	.	g1
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	transcript	1	7743	.	-	.	g1.t1
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	1	7594	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	7595	7743	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	start_codon	7741	7743	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MASGAARYRLSCSLPGHELDVRGLVCSLYPPGAFVSVSRDRTTRLWVPD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 14
+#     RM:  14 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	gene	10191	101071	1	+	.	g2
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	transcript	10191	101071	.	+	.	g2.t1
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	start_codon	10191	10193	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	10196	12810	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	12947	16467	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	16604	18256	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	18306	20017	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	20117	20271	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	20333	29060	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	29121	30469	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	30532	41480	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	41620	42821	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	42885	47864	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	48009	49372	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	49414	56619	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	56700	80911	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	80966	82284	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	82383	83191	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	83319	92991	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	93156	99200	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	intron	99262	100952	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	10191	10195	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	12811	12946	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	16468	16603	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	18257	18305	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	20018	20116	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	20272	20332	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	29061	29120	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	30470	30531	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	41481	41619	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	42822	42884	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	47865	48008	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	49373	49413	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	56620	56699	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	80912	80965	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	82285	82382	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	83192	83318	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	92992	93155	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	99201	99261	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	CDS	100953	101071	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+M3YWX4_MUSPF|ENSMPUG00000015939|M3YWX4	AUGUSTUS	stop_codon	101069	101071	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MSGQSEQMASNHKPSAARPVSRGGIGLPGRPPSGIRPPSGNIRVATGMPPGTARPASRGGPIATGGVLSSQIKVADRP
+# VTQQGLSGMKTGMKGPQRQILDKSYYLGLLRSKISELTTEINKLQKEIEMYNQENSVYLSYEKRAETLAVEIKEFQGQLADYNMLVDKLNTNTEMEEV
+# MNDYNMLKAQNDRETQSMDIIFTERQAKEKQIRSVEEEVEQEKQAADGIIRNMSPEKQVKYIEMKTTNEKLLQELDTLQQQLDSLNMKKESLEAEIAH
+# SQVKQEAVLLHEKLYELESHRDQMIAEDKNMGSPMEERERLLKQVKEDNQEIASMERQLTEIKEKINQFNEEIRQLDMDLEEHQGEMNQKYKELKKRE
+# ENMDTFIETFDETKNQELERKAQIEANIVALLEHCSRNLNRMKQISSITSQELKMMQDDLNFKSTEMQKSQSTARNLTSDSQRLQLDLQKMELLESKM
+# TEEQHSLKSKIKQMTTDLETYNDLPALKSSGEEKKKLTNLERKWQHHEQNNFVMKEFIATKSQESDYQSIMKNVTKQIAEYNKNIVEALHNMSRN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/19
+# CDS introns: 0/18
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 164
+#     RM: 164 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/10Kb/M3YWX4_MUSPF.fasta

@@ -1,0 +1,79 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G1RZS0_NOMLE.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 483401, name = G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	gene	29428	29925	1	-	.	g1
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	transcript	29428	29925	.	-	.	g1.t1
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	stop_codon	29428	29430	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	29428	29925	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	start_codon	29923	29925	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MLPKFDPNEIKVVYLRCTGGEISATSALAPKIGPLGLSPKKVGDDIAKATGDWKGLRITVKLTIQNRQAQIEVVPSAS
+# ALIIKALKEPPRDRKKQKNIKHSGNITFDEIVNIARQMRHRSLARELSGTIKEILGTAQSVGCNVDGRHPHDIIYDINSGAVECPAS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	gene	49652	413421	1	+	.	g2
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	transcript	49652	413421	.	+	.	g2.t1
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	start_codon	49652	49654	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	49652	49698	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	53306	53395	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	58981	59050	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	103305	103323	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	118407	118581	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	125457	125541	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	142710	142783	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	210545	210726	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	214988	215064	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	223268	223370	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	225338	225442	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	242409	242504	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	259346	259415	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	260769	260872	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	264475	264647	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	269203	269355	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	387936	388118	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	409974	410196	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	CDS	413378	413421	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1RZS0_NOMLE|ENSNLEG00000015425|G1RZS0	AUGUSTUS	stop_codon	413419	413421	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MFIMSSLVLYNGMQASQMEVQKSRIFTKENLRSESRYNIGMVYIIRSYVIPLSVVPSAFTSRDFSEFCGHIDVLKSRD
+# LICIQSMDGMLMVFEQESYAFGRFLPGFLLPGPLAYSSRTDSFLTVSSCRQVESYKYQVLAFATDADKRQETEQQKLGSGKRLVVRLWEIEINTQVTE
+# SEEPSILLLLCDLKGVIVTLSDDGHLQCSYLGTDPSLFQAPNVESRELNYDELDVEMKELQKIIKDVNKSQGVWPMTEREDDLNVSVVVSPNFDSVSV
+# TLQNRVILQKAKLSVYVQPPLELTCDQFTFEFMTPDLTRTVSFSVYLQRSYTPSELEGNAVVSYSRPTGFASQSDDDQVNVMGFHFLGGARVTLLASK
+# TSQREVFAQYGGLRWAFRRADRPLLRYSYRISIGIHKKGSELLKEKLHKAHKELQLKDEDXRYRIQSEQFEDIWLITDELILRLQEYFEKQGVKDFAC
+# SFSGSIPLQEYFELIDHHFELRINGEKLEELLSERAVQFRAIQRRLLARFKDKTPAPLQHLDTLLDGTYKQVIALADAVEENQGNLFQAFTRLKSATH
+# LVILLIGLWQKLSADQVAILEAVFLPLQEDTQELGWEETVDAAISHLLKTCLSKSSKEQALNLNSQLNIPKDTSQLKKHITLLCDRLAKGGRLCLSTD
+# AAAPQTMVMPEKAMVTTSFLVSRV]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/19
+# CDS introns: 0/18
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 744
+#     RM: 744 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/2Kb/G1RZS0_NOMLE.fasta

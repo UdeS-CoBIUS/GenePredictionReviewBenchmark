@@ -1,0 +1,209 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/H3G905_PHYRM.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 13616, name = H3G905_PHYRM|Phyra71427|H3G905) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	gene	45	1133	0.03	+	.	g1
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	transcript	45	1133	0.03	+	.	g1.t1
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tss	45	45	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	45	1133	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	start_codon	307	309	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	307	1104	0.96	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	stop_codon	1102	1104	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tts	1133	1133	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MPGITPRNSYYSVQGTPRQPPSEVLLPANHQLETWETWLEISRVAVYFLGSLLFLLGSIYFFPKYSVMWNGKAGLFGS
+# WDFVVGCIMFFTGANLDFIQTIRYNHGTQLRQVLRALNALCNYLATSIFLLGGLYFLPSWYPKAPELGCWAFIIGCILFCIAAVVELFFICMTHENPR
+# VTGFRIRNLVCWGTVAALGTLIGAVCFIVGSWYYLPKYINLVDEGTHYMNKAITYYVLGSVFFLINSAALVPDAYKTIKVRKISRDDKL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	gene	1384	5880	0.05	-	.	g2
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	transcript	1384	5880	0.05	-	.	g2.t1
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tts	1384	1384	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	1384	3083	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	stop_codon	1448	1450	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	3084	3239	0.13	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	3493	3968	0.59	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	4359	4424	0.97	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	4619	4759	0.95	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	5305	5366	1	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	1448	3083	0.14	-	1	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	3240	3492	0.13	-	2	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	3240	3492	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	3969	4358	0.59	-	2	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	3969	4358	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	4425	4618	0.95	-	1	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	4425	4618	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	4760	5304	0.97	-	0	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	4760	5304	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	5367	5855	0.99	-	0	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	5367	5880	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	start_codon	5853	5855	.	-	0	transcript_id "g2.t1"; gene_id "g2";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tss	5880	5880	.	-	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MPATFRSSLSLAHTAAPANVTVDVSCPRMEGTVLPLDSMSGRKKKLGGRRKSHQLRSNNMALLAAAGLDLFREGLMLD
+# GVYPQRHTPRHPAVSPNLKSIPEDDAAVAFHATTDSQVILILGDALDRRGEVTPLGATRISRAADLYWNTMRAYAQHQANAFCYLVPTGGENEREGIV
+# QLETIRNELVEAGISPHHIMMDCSAVSVGMSGLLVCAACAHAFGVFVLVQTSVIDNVIQLIPTLRHLHIERVHVVTSSFQIPRAKLILDSILGAVPDM
+# TFSVAYHAAYDVLSEAERANREAAERLLMESVRQPLEGVLCAMKKQRRSSITSTRSADSWSSRSRSGSPIARFEAKLLKRADVQACPKDIPMIYQANS
+# QIRIETSTLTWKPRYPSTPIRVVANLYWPLVAIAAHTLRRCSFLNRQPSHHLVGRYRSLGVHSAAMPHQYAQVLGQAAQLPAFHHLVARGRTAPSVPE
+# RTHAIPATASTAPGRLRSLIALPSAVLGSTRATSSSPRRYDVEYVWHAEQTAAHQTHHENRLEIVPACPKALKESLSRAPPSGSFSCARSDGGDPRAV
+# PGVAPLAGHLDERRYYPGVVWDSWIRNCGEGDDGDLNQLCSEDQGGLKNFMLLSTLLDGLIFNRPYHLRAALPPDRIPCLTSQSARWGSSESSMKAWQ
+# IQSQGLIVLLCLVNLLNYVDRGIIPGAPQSFRHFITSSLGVAVTGQSVYFGLLSSAFIIGHSVLSIVFGYFALTHRPFRIISLGTSVWIVAIVICAIS
+# EHVDSYALLIVGRVLSGVGEASFQCVAPPFIDRHAPPARRSLYVGIYLASVIVGTAIGFVYGSLFAESALTWAGAFYFEAILMACLVFCCLFCVPDEL
+# NVVPPTDDAVALRKPLASTNEFASEVLSWSRESRETIDKNHAELLSPEEFGEKIGPETFFQTWWGILSDVPFLLVVLAHGAYTFTLGVFNAFGPDVFI
+# GLGLFSDETSASLIFGGIVAVTSLVGTPLGGLVLDRYTKHTTVPGKRCFIAVSSLFVYVTVAEVFALIMCFISDSKGAFLACFTLALFCMCALWGPEM
+# VAVLELFPSSRRSMAISANAVIIHVFGDVPAPIVMGVVRDKWAPNCGTVEDDGDAVLNPLCSQDQDGLKNFMLLSVLWMVWAVILWALAMVAVKRRQK
+# KGGFILTAPAEI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	gene	5976	7793	0.23	+	.	g3
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	transcript	5976	7793	0.23	+	.	g3.t1
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tss	5976	5976	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	5976	7793	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	start_codon	6001	6003	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	6001	7764	0.98	+	0	transcript_id "g3.t1"; gene_id "g3";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	stop_codon	7762	7764	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tts	7793	7793	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MPDFDALDQVDPFYMALLRSRQRRFADCIDICSDILAQNPYDQAAWVTKTKAMTMQNFIDDSELEEDGAADLLMDDNV
+# MASMPRPGTSLNRPNSRAGTGDPSLRPMTATGRPLSGFARPGTSSRPGTGSMSVDRALQGNRPGTSRPATTLGRQVRLGTASMQASDSGVFIDVNRLD
+# FKRYAKRPAIAKALVDYLLYCEHNPRRALELAAEATVAADYKDWWWKARLGKCYYQLGLFRDAEKQFESSLRNQDMVITFLELGKVYLRLDQPNTALD
+# RYEKGKAKFPGDTQLLVSIARVHDMLNDVEKSVSVYKEVLQLDASNVEAIACLASNYFYTDHPEVALRYYRRLLQMDVNTAELWCNIGLCCFYASQYD
+# MTLSCFDRALALASDDCMADVWYNIGQVAIGIGDLGLAYQAFKIAVSVDSNHAESYNNLGVLELRKANLDQARANFQLSESLADFMFEPSYNRGTPWP
+# IPAYAACLASVWSNFSVTCFDTGQRCLPTKLATSTTRSPRSTARSRRTHHTATRWSSKSSYSSSSRCSEQAATRTAVHHNDRTAGHACKSATTQRNNQ
+# LNRAYMKNTVMPHLVSSKA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	gene	7864	9080	0.11	-	.	g4
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	transcript	7864	9080	0.11	-	.	g4.t1
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tts	7864	7864	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	7864	9080	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	stop_codon	7978	7980	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	7978	8937	0.99	-	0	transcript_id "g4.t1"; gene_id "g4";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	start_codon	8935	8937	.	-	0	transcript_id "g4.t1"; gene_id "g4";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tss	9080	9080	.	-	.	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MDSRGEMKALDSQIDRLRRAENLTETEIYELCQKAKEILSGESNVQPVRCPVTVCGDIHGQFYDLLELFRIGGACPDT
+# NYLFMGDYVDRGYYSLESVALLVALKVRHRERITILRGNHESRQITQVYGFYDECLRKYGNANVWKYFTDLFDHLPMTALIENRVFCMHGGLSPSIDT
+# LDHARALDRVQEVPHEGPMCDLVWSDPDDRCGWGISPRGAGYTFGQDITEQFKRSNGLTFIARAHQLVMEGYQWTHNRGVVTIFSAPNYCYRCGNQAA
+# LMEIDEVMADRNGDKVYETCKFIQFDPAPRDSNFNEKKRTPDYFL]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g4
+###
+# start gene g5
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	gene	9176	12690	0.01	+	.	g5
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	transcript	9176	12690	0.01	+	.	g5.t1
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tss	9176	9176	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	9176	9589	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	start_codon	9339	9341	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	9590	9717	0.75	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	9827	9901	0.98	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	9989	10057	0.99	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	10288	10390	0.93	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	10651	10712	0.37	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	10807	11132	0.07	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	11950	11998	1	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	9339	9589	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	9718	9826	0.74	+	1	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	9718	9826	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	9902	9988	0.99	+	0	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	9902	9988	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	10058	10287	0.97	+	0	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	10058	10287	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	10391	10650	0.9	+	1	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	10391	10650	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	10713	10806	0.07	+	2	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	10713	10806	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	11133	11949	0.11	+	1	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	11133	11949	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	11999	12631	1	+	0	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	11999	12690	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	stop_codon	12629	12631	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tts	12690	12690	.	+	.	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MSSSRKHHYVPKREATDSFEELSAKLTADLRNHVRFMADYPVLSDDWIQMAEQIGRIGHITEMERQLPKKHDATLWEC
+# EEIALSFAIESSTDDDVRCRCLRNLVDYNNYLKRMTERGPVKTETMATLEKFEHGMGLTLKNAWLHAEAVQTTDLPLLIEYIHDILIYCIERPDVRTQ
+# LFALLSKLLTLTMIRVQYLPNKKMDNCQEVTVIHFLLGLCRQLDSIDESREAHFRAAGNASEHTHQPFACTCPIALETEARSAGLTLTFRHIVCQSTD
+# VAVGAEVLALICSTEDFDSHDDYYVDSPEAESALQSFYDDYLEEATEDLDTRKRLRPLLDAVRQLNYHRKVPIQSGKIISESTLPTCDRHSSVRSRCT
+# RVMIDSAAENSSSTYEPTVYTLLLTGMCLLLALFLLTRLLVALRNKNKLLAWSTGFYVLCLLWTGVRAAYWILMSTQASMRYLTLYLLYWSPTPIQFA
+# NFSLLILFYIQVLTGPEWRSTWRNVCLPLYLLLTMTMTTFTVVWAFNSSNDISKATRRGDEYDQEFSRVSDVSVQLKYSAFCFFLLSVLFGFFGWKMA
+# NVGETFVGKSRGRRCLMECGCVGWLLAGRKLETKAASDLETTGTQHNMSLAVINSLLCLIFFTRGTRDLATSQSWFLSIWNNLDMNGRVTTVAYFVFF
+# CFWEFLPTILLLCLVSSKAGGVGGKQQNQTGSRMLVINELTGFDVVHAAPKHGPASQKLPDYGIFHIINTGEGKLLAASPLGASTYSYGTRTEGSAGS
+# IEREPERERPRWTHGGDLFQDPLRYDSDDGPVSSPRHFSDSYTSDASNNNFYERVPGYLPGI]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/8
+# CDS introns: 0/7
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g5
+###
+# start gene g6
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	gene	12724	13616	0.45	-	.	g6
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	transcript	12724	13616	0.45	-	.	g6.t1
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	tts	12724	12724	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	exon	12724	13591	.	-	.	transcript_id "g6.t1"; gene_id "g6";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	stop_codon	12749	12751	.	-	0	transcript_id "g6.t1"; gene_id "g6";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	intron	13592	13616	0.62	-	.	transcript_id "g6.t1"; gene_id "g6";
+H3G905_PHYRM|Phyra71427|H3G905	AUGUSTUS	CDS	12749	13591	0.62	-	0	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [TLNMELQLQVQKEAEFAKQAQRHAREITQLRNSLRDSEQKLGAGLAAASWDAHAHATRHEREREELTLDVEGLRKLLR
+# LKNHELRNLRRLAQTILNQRTDVEQFFLDSLEHVKHEIECERKEKREREVEHYHREVNHAHGIKPSLRFPKLTSPTGPAARQAPVPPGLAQHFTEKVD
+# LRQLSWEDRERVLRLVFAKINHSQSFVDMQGDLPPETTETPTKHLRSPNQRDKQRSTAVYFATEPHSGQTGRSTAGMDDSLSMSLSGMPIVPRAPARA
+# STSKGR]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g6
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/H3G905_PHYRM.fasta

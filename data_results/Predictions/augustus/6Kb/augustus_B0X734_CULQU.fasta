@@ -1,0 +1,46 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# culex version. Using species specific transition matrix: /usr/share/augustus/config/species/culex/culex_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/B0X734_CULQU.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 14342, name = B0X734_CULQU|CPIJ014911|B0X734) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+B0X734_CULQU|CPIJ014911|B0X734	AUGUSTUS	gene	6903	14342	1	+	.	g1
+B0X734_CULQU|CPIJ014911|B0X734	AUGUSTUS	transcript	6903	14342	.	+	.	g1.t1
+B0X734_CULQU|CPIJ014911|B0X734	AUGUSTUS	start_codon	6903	6905	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B0X734_CULQU|CPIJ014911|B0X734	AUGUSTUS	intron	7600	7659	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B0X734_CULQU|CPIJ014911|B0X734	AUGUSTUS	intron	8181	10077	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B0X734_CULQU|CPIJ014911|B0X734	AUGUSTUS	intron	10525	14342	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+B0X734_CULQU|CPIJ014911|B0X734	AUGUSTUS	CDS	6903	7599	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+B0X734_CULQU|CPIJ014911|B0X734	AUGUSTUS	CDS	7660	8180	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+B0X734_CULQU|CPIJ014911|B0X734	AUGUSTUS	CDS	10078	10524	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MNIALDNCSSGMSRQQLQNETVALRERNERIQEQLEIVFKQRQIKDTENRELEVETEREKNKINEMIYSLSESDQKKY
+# REFQALSESLKQQNTIFHNQISELEKQKERLNTIIMNSQTRTEAHRLKSKLKELIAKRNQMRDEENNRLSPAQEREKLINEVRSNNQALASIGKQLKI
+# IEDQLNEKKEMLQQIDQDLEEGNSERHIKYKELKKRDEVMSAFMDTFQQSMATEKQNVESLKNQITFAIEQITLQGINMKTLGSDRLESAGFTAKNDL
+# NSHSGLIKEYKKLGIQLKQLQILEKRTIGQLSELRQEETEALGNIQKYSNLEAPRSEAIVKMSELTGTLQELEDKKRVTENVVDEAKKRNQEIKINLK
+# SNETYRQISHLEDKLVDLIKENKSMQDVVEQLQKKQPVEGGAEANKEDISVQVQKQVEAAKTEKKKFRLNGVTTMLEDPTELVLKILRDAAETNKQKS
+# RYIRKPVPIEVVTKANLKDIMGGAGKLFDRYFLKEPKTFAMIFNRRFNNGLERESRINALAEMISAKNRDNKTNLMHSELAVIVD]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/3
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 15
+#     RM:  15 
+# incompatible hint groups: 2
+#     RM:   2 
+# end gene g1
+###
+# command line:
+# /usr/bin/augustus --species=culex --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/6Kb/B0X734_CULQU.fasta

@@ -1,0 +1,74 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# human version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A096MMY7_PAPAN.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 33593, name = A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	gene	1	2310	1	+	.	g1
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	transcript	1	2310	.	+	.	g1.t1
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	2138	2310	.	+	2	transcript_id "g1.t1"; gene_id "g1";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	stop_codon	2308	2310	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [SDVQLLEYEASAAGLIRSFSERFPEDGPELEEILTQLATADARFWKGPSEAPSGQA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 7
+#     RM:   7 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	gene	4001	31725	1	+	.	g2
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	transcript	4001	31725	.	+	.	g2.t1
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	start_codon	4001	4003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	4001	4047	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	4351	4427	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	4544	4578	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	8636	8908	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	9776	9822	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	9930	9968	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	10116	10176	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	15850	15981	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	17789	17895	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	19894	20014	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	20162	20320	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	22585	22654	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	23117	23275	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	26322	26467	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	27385	27519	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	28224	28310	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	CDS	31714	31725	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+A0A096MMY7_PAPAN|ENSPANG00000000275|A0A096MMY7	AUGUSTUS	stop_codon	31723	31725	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAAASSSDYDGCGAESNEANSKWLDAHYDPMANVHTFSACLALADLHGDGEYKLVVGDLGPGGQQPRLKVLKGPLVMT
+# ESPLPALPAAAATFLMEQHEPRTPALALASGPCVYVYKNLRPYFKFSLPQLPPNPLEQDLWNQAKEDRIDPLTLKEMLESIRETAEEPLSVQSLRFLQ
+# LELSEMEAFVNQHKSRQTVITTMTTLKKNLADEDAVSCLVLGTENKELLVLDPEAFTILAKMSLPSVPVFLEVSGQFDVEFRLAAACRNGNIYILRRD
+# SKHPKYCIELSAQPVGLIRVHKVLVVGSTQDSLHGFTHKGKKLWTVQMPAAILTMNLLEQHSRGLQAVMAGLANGEVRIYRDKALLNVIHTPDAVTSL
+# CFGRYGREDNTLIMTTRGGGLIIKILKRTAVFVEGGSEVGPPPAQAMKLNVPRKTRLYVDQTLREREAGTAMHRAFQTDLYLLRLRAARAYLQALESS
+# LSPVSATAREPLKLHAVVSIWVQGLGPTFKLTLHLQNTSTARPVLGLLVCCLYNEALYSLPRAFFKVPLLVPGLNYPLETFVESLSNKGISDIIKNSS]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/17
+# CDS introns: 0/16
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 56
+#     RM:  56 
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=human --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/A0A096MMY7_PAPAN.fasta

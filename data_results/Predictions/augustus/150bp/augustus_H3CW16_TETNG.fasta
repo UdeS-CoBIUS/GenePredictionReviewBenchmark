@@ -1,0 +1,67 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# zebrafish version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(0.999), CTG(0.000667), TTG(0)
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/H3CW16_TETNG.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 6590, name = H3CW16_TETNG|ENSTNIG00000009577|H3CW16) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	gene	1	5977	0.09	+	.	g1
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	transcript	1	5977	0.09	+	.	g1.t1
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	2200	2279	0.99	+	2	transcript_id "g1.t1"; gene_id "g1";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	2860	2923	0.99	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	3140	3251	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	3489	3582	0.5	+	1	transcript_id "g1.t1"; gene_id "g1";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	3893	4020	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	4713	4767	1	+	1	transcript_id "g1.t1"; gene_id "g1";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	4880	4948	0.97	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	5059	5211	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	5370	5586	0.73	+	0	transcript_id "g1.t1"; gene_id "g1";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	5673	5974	0.34	+	2	transcript_id "g1.t1"; gene_id "g1";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	stop_codon	5975	5977	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [PELPIVERRNWLIHQHYVRKDYDTCKVIIKEQLQETGGMCEYAIYVQALILRLEGKIQESLELFQSCAILNPSSSDNL
+# KQVARSLFLLGKHKAAIEFYHEAARVADKDWVKENTPEAEEHLNRALQTHKHDRTFVMLGKVHLLAGDTDKAIEVYKRAVEFSPENTELLTTLGLLYL
+# QLGKYQKAFEHLGNALTFDPSNYKAILAAGSMMQTHGDFDVAMNKYRVAACVVPESPPLWNNIGMCFFGKKKYVARRRPLTPPPSSSIPQAFSCLKRA
+# HYLSPFDWKVLYNLGLVHLTMQQYASAFHFLSAAINLNPRMGELYMLLAVALTNLEDVENATKAYEQAATMDESVLFTSFPRGSLVYSPFLSSSSSNP
+# LVNLNFAIFLYNHGEKKGALAQYQEMERKVNTLRDSNSNVEFDSEVPKLPDN]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/10
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	gene	6036	6491	0.45	+	.	g2
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	transcript	6036	6491	0.45	+	.	g2.t1
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	start_codon	6036	6038	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	CDS	6036	6488	0.45	+	0	transcript_id "g2.t1"; gene_id "g2";
+H3CW16_TETNG|ENSTNIG00000009577|H3CW16	AUGUSTUS	stop_codon	6489	6491	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MAQKMAGALQLADSLVWTKPDKDSKSKSSSSAVSGPGAPLGTNQALGQAMSSAASYNKNIQLPAGKKQEGGVVRPPQP
+# ALTLNVYLAVSIKDGWSQSADGSIFFLGLSEDSCLPLEPEGDVEEAPSPPTEPPGSPEPAKPRSSKKKSKAEA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=zebrafish --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/H3CW16_TETNG.fasta

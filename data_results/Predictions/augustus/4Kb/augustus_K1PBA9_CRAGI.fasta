@@ -1,0 +1,72 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# pea_aphid version. Using species specific transition matrix: /usr/share/augustus/config/species/pea_aphid/pea_aphid_trans_shadow_partial_utr.pbl
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/K1PBA9_CRAGI.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 8567, name = K1PBA9_CRAGI|CGI_10004657|K1PBA9) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	gene	1	2980	0.12	-	.	g1
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	transcript	1	2980	0.12	-	.	g1.t1
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	intron	1	175	0.71	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	intron	298	362	0.65	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	intron	606	2100	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	intron	2267	2736	0.98	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	CDS	176	297	0.46	-	2	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	exon	176	297	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	CDS	363	605	0.99	-	2	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	exon	363	605	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	CDS	2101	2266	1	-	0	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	exon	2101	2266	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	CDS	2737	2883	0.98	-	0	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	exon	2737	2980	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	start_codon	2881	2883	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	tss	2980	2980	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MAFAKVKVWHVRSLSYDWLWKKPGSCRYGCLREKKIKFDDVDVNRIKLEMSEEYCQGILRIALAQLCQSVGWNAAQST
+# PLELLTDVMGRYMLQLAKVTHRYAEQFGRTTPTLDDVGLAFRNMGISLSELEEYVRHVEPLPFAHEIVQFPAPKKSNLQIPKPGHKELLSREEHIEDY
+# MPLLFPTPEDHLFGVLDEVENEADQLQSQGEGPTAMQTDQGQTGVGGQGE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/4
+# CDS introns: 0/4
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 2
+#     RM:   2 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g1
+###
+# start gene g2
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	gene	3766	4923	0.06	+	.	g2
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	transcript	3766	4923	0.06	+	.	g2.t1
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	tss	3766	3766	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	exon	3766	4923	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	start_codon	4001	4003	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	CDS	4001	4567	1	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	stop_codon	4565	4567	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+K1PBA9_CRAGI|CGI_10004657|K1PBA9	AUGUSTUS	tts	4923	4923	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MGIFDSLAKWLGLKKKEANVLVVGLDNSGKTTIINQLKPAESKSHDIVPTIGFTVEKFSGKSLSFTAFDMSGQGRYRN
+# LWEHYYKECQGIIFVIDSSDRLRMVVAQEELEQLLNHPDIVGKRIPILFYANKMDMRDALSAVKVAHLLNLDKISTKPWHICASNALTGEGLSEGVEW
+# ITGQLKEIVNAK]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/0
+# 5'UTR exons and introns: 0/1
+# 3'UTR exons and introns: 0/1
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g2
+###
+# command line:
+# /usr/bin/augustus --species=pea_aphid --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/4Kb/K1PBA9_CRAGI.fasta

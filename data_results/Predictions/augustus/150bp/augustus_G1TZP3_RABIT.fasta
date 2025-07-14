@@ -1,0 +1,151 @@
+# This output was generated with AUGUSTUS (version 3.3.3).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /usr/share/augustus/config/ ...
+# chicken version. Using default transition matrix.
+# Looks like /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G1TZP3_RABIT.fasta is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 437367, name = G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3) -----
+#
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	gene	1	182	1	-	.	g1
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	transcript	1	182	.	-	.	g1.t1
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	1	68	.	-	.	transcript_id "g1.t1"; gene_id "g1";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	69	182	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	start_codon	180	182	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MDRAAVARVCALLAGVVLAQYIVTVKRKTGRKTTIMEM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/1
+# CDS introns: 0/1
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 0
+# incompatible hint groups: 0
+# end gene g1
+###
+# start gene g2
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	gene	3310	29764	1	+	.	g2
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	transcript	3310	29764	.	+	.	g2.t1
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	start_codon	3310	3312	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	3320	5455	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	5552	13731	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	13883	17369	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	17435	25215	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	25330	29723	.	+	.	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	3310	3319	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	5456	5551	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	13732	13882	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	17370	17434	.	+	1	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	25216	25329	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	29724	29764	.	+	2	transcript_id "g2.t1"; gene_id "g2";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	stop_codon	29762	29764	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MLYARDWWSTVLGEKEEFDQGCLCLADVDNSGNGQDKIIVGSFMGYLRIFSPHPVKTGDGSQAEDLLLEVHLRDPILQ
+# VEVGKFVSGTEMLHLAVLHSRKLCVYSVSGTLGNVEHGNQYQIKLMYEHNLQRTACNMTYGSFGGVKERDLGYGFLAVFE]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/6
+# CDS introns: 0/5
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 53
+#     RM:  53 
+# incompatible hint groups: 0
+# end gene g2
+###
+# start gene g3
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	gene	146664	225278	1	+	.	g3
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	transcript	146664	225278	.	+	.	g3.t1
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	start_codon	146664	146666	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	146685	152430	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	152556	172258	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	172441	177549	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	177633	180317	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	180372	188212	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	188316	190516	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	190622	200246	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	200388	212308	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	212405	225066	.	+	.	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	146664	146684	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	152431	152555	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	172259	172440	.	+	1	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	177550	177632	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	180318	180371	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	188213	188315	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	190517	190621	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	200247	200387	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	212309	212404	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	225067	225278	.	+	2	transcript_id "g3.t1"; gene_id "g3";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	stop_codon	225276	225278	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MQARKLECYDKDEPKVDSFGKFHVVKVTVDNADDTNLISHKPSPKSSQSDLKGVIVTLSDDGHLQCSYLGTDPSLFQA
+# PKVESRELNYDELDVELKELQKIIKDVNKSQGTALWPMTEREDDLKVSATVSPSFDSVSQATDAEVGTDLVPSVTVKVTLQNRTVLQKVKLSIYVQPP
+# LVLTRDQFTFEFKTPEMTSTVAFSVYLKRSYMPSTLDGNAVVSYSRPTGIPRVIQCKFRLPLKLICLPGQPSKTASHKLTIDTNKPPVSLLSLFPGFA
+# NQSEDDQVNVMGFRFLGGSRVTLLASKTSQRYRIQSEQFEDLWLITNELILRLQEYFEKQGIKDFACSFSGSMPLQEYFELIDRHFEVCIIITNIIYN
+# P]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/10
+# CDS introns: 0/9
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 157
+#     RM: 157 
+# incompatible hint groups: 0
+# end gene g3
+###
+# start gene g4
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	gene	346266	359835	1	+	.	g4
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	transcript	346266	359835	.	+	.	g4.t1
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	start_codon	346266	346268	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	346290	354348	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	354532	359742	.	+	.	transcript_id "g4.t1"; gene_id "g4";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	346266	346289	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	354349	354531	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	359743	359835	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	stop_codon	359833	359835	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MNIRIASSVTALADAVEENRGDLLQSLSRLQSATRLLILLLGLWQKLSADQLALLEAAFLPLQEDTQELEQQCPDIIP
+# GIGNFSGKIYASIERRDKKLA]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 30
+#     RM:  30 
+# incompatible hint groups: 1
+#     RM:   1 
+# end gene g4
+###
+# start gene g5
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	gene	377101	381872	1	-	.	g5
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	transcript	377101	381872	.	-	.	g5.t1
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	stop_codon	377101	377103	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	377281	379921	.	-	.	transcript_id "g5.t1"; gene_id "g5";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	intron	379977	381741	.	-	.	transcript_id "g5.t1"; gene_id "g5";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	377101	377280	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	379922	379976	.	-	1	transcript_id "g5.t1"; gene_id "g5";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	CDS	381742	381872	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+G1TZP3_RABIT|ENSOCUG00000000102|G1TZP3	AUGUSTUS	start_codon	381870	381872	.	-	0	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MQRKIHQAIPGGKDFQSLDAREDAVIVAFAGAAKGHLQGAGLIRKIILYQWTRPDERRPKEQAGKPYGTTDMAIKEFT
+# RRLMEFILIIKLQEDSKTLKPESRGEGAPGNHHCWDQSISLIM]
+# Evidence for and against this transcript:
+# % of transcript supported by hints (any source): 0
+# CDS exons: 0/3
+# CDS introns: 0/2
+# 5'UTR exons and introns: 0/0
+# 3'UTR exons and introns: 0/0
+# hint groups fully obeyed: 5
+#     RM:   5 
+# incompatible hint groups: 0
+# end gene g5
+###
+# command line:
+# /usr/bin/augustus --species=chicken --softmasking=1 --gff3=off /data/goglu/data/djoa2702/G3PO/g3po-main/src/../References/Fasta_confirmed/150bp/G1TZP3_RABIT.fasta
